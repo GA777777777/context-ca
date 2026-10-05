@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "community_garden",
+  "questions": [
+    {
+      "id": "memhop_s03_k1_001",
+      "question": "How many varieties of heirloom tomatoes does Ruth Okonkwo grow?",
+      "answer": "14",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many varieties of heirloom tomatoes does Ruth Okonkwo grow?",
+          "sub_answer": "14",
+          "evidence_id": "ruth_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_006",
+          "text": "Ruth Okonkwo grows 14 varieties of heirloom tomatoes, including Cherokee Purple and Brandywine.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s03_k1_002",
+      "question": "What subjects does Sam Delgado teach at Travis Early College High School?",
+      "answer": "AP Calculus and Algebra II",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What subjects does Sam Delgado teach?",
+          "sub_answer": "AP Calculus and Algebra II",
+          "evidence_id": "sam_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_001",
+          "text": "Sam Delgado teaches AP Calculus and Algebra II at Travis Early College High School.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k1_003",
+      "question": "What is the name of Jenny Liu's holistic wellness clinic?",
+      "answer": "Jade Wellness",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Jenny Liu's wellness clinic?",
+          "sub_answer": "Jade Wellness",
+          "evidence_id": "jenny_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_001",
+          "text": "Jenny Liu owns a holistic wellness clinic called Jade Wellness on East Cesar Chavez Street in Austin.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s03_k1_004",
+      "question": "What is the title of Hana Petrov's master's thesis?",
+      "answer": "Community-Led Green Spaces as Catalysts for Neighborhood Resilience",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Hana Petrov's thesis title?",
+          "sub_answer": "Community-Led Green Spaces as Neighborhood Resilience Catalysts",
+          "evidence_id": "hana_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_003",
+          "text": "Hana Petrov's thesis is titled 'Community-Led Green Spaces as Catalysts for Neighborhood Resilience in East Austin.'",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s03_k1_005",
+      "question": "What year did Ruth Okonkwo co-found the Eastside Community Garden?",
+      "answer": "2018",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Ruth co-found the community garden?",
+          "sub_answer": "2018",
+          "evidence_id": "ruth_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_001",
+          "text": "Ruth Okonkwo co-founded the Eastside Community Garden on Cesar Chavez Street in 2018 with a $5,000 grant from the Austin Parks Foundation.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s03_k1_006",
+      "question": "What is the name of Sam Delgado's Tejano band?",
+      "answer": "Los Relampagos",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Sam's band?",
+          "sub_answer": "Los Relampagos",
+          "evidence_id": "sam_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_010",
+          "text": "Sam Delgado plays guitar in a Tejano band called Los Relámpagos that performs at Sahara Lounge on East 6th Street.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k1_007",
+      "question": "What type of degree did Jenny Liu earn from the Academy of Oriental Medicine at Austin?",
+      "answer": "Master of Acupuncture",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What degree did Jenny Liu earn?",
+          "sub_answer": "Master of Acupuncture",
+          "evidence_id": "jenny_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Liu earned her Master of Acupuncture degree from the Academy of Oriental Medicine at Austin in 2012.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s03_k1_008",
+      "question": "What kind of bike does Hana Petrov ride to campus?",
+      "answer": "Yellow Cannondale Quick hybrid",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What bike does Hana ride?",
+          "sub_answer": "Yellow Cannondale Quick hybrid",
+          "evidence_id": "hana_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_011",
+          "text": "Hana Petrov rides a yellow Cannondale Quick hybrid bike to campus every day.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s03_k1_009",
+      "question": "What was Ruth Okonkwo's late husband's profession?",
+      "answer": "Civil engineering professor",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What was Ruth's husband's profession?",
+          "sub_answer": "Civil engineering professor at UT Austin",
+          "evidence_id": "ruth_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_007",
+          "text": "Ruth Okonkwo's late husband, Emeka, was a civil engineering professor at UT Austin who passed away in 2019.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k1_010",
+      "question": "How much did Sam Delgado's drip irrigation system for the community garden cost?",
+      "answer": "$120",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much did Sam's irrigation system cost?",
+          "sub_answer": "$120",
+          "evidence_id": "sam_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_012",
+          "text": "Sam Delgado built a drip irrigation system for the community garden using recycled materials that cost only $120.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k1_011",
+      "question": "What year did Jenny Liu complete her yoga teacher training?",
+      "answer": "2024",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Jenny Liu complete yoga teacher training?",
+          "sub_answer": "March 2024",
+          "evidence_id": "jenny_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_009",
+          "text": "Jenny Liu completed a 200-hour yoga teacher training at Black Swan Yoga in March 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s03_k1_012",
+      "question": "How many East Austin residents did Hana Petrov survey for her thesis in March 2024?",
+      "answer": "150",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many residents did Hana survey?",
+          "sub_answer": "150",
+          "evidence_id": "hana_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_009",
+          "text": "Hana Petrov conducted a survey of 150 East Austin residents about green space access for her thesis in March 2024.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s03_k1_013",
+      "question": "What is Ruth Okonkwo writing a memoir about?",
+      "answer": "Growing up in Lagos during the 1970s oil",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Ruth's memoir about?",
+          "sub_answer": "Growing up in Lagos, 1970s oil boom",
+          "evidence_id": "ruth_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_020",
+          "text": "Ruth Okonkwo is writing a memoir about growing up in Lagos during the 1970s oil boom.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s03_k1_014",
+      "question": "What is Sam Delgado's grandmother's name whose recipe he uses for birria tacos?",
+      "answer": "Lupe",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose recipe does Sam use for birria tacos?",
+          "sub_answer": "His grandmother Lupe",
+          "evidence_id": "sam_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_013",
+          "text": "Sam Delgado's favorite dish to cook is birria tacos using his grandmother Lupe's recipe.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k1_015",
+      "question": "What tea does Jenny Liu blend using ingredients sourced from Fujian province?",
+      "answer": "Chrysanthemum and goji berry mix",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Jenny Liu's favorite tea?",
+          "sub_answer": "Chrysanthemum and goji berry mix",
+          "evidence_id": "jenny_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_014",
+          "text": "Jenny Liu's favorite tea is a hand-blended chrysanthemum and goji berry mix that she sources from a farm in Fujian province.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k1_016",
+      "question": "What year did Hana Petrov's parents emigrate from Bulgaria?",
+      "answer": "1995",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Hana's parents emigrate from Bulgaria?",
+          "sub_answer": "1995",
+          "evidence_id": "hana_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_002",
+          "text": "Hana Petrov was born in Austin, Texas; her parents emigrated from Sofia, Bulgaria, in 1995.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k1_017",
+      "question": "How many beehives does Ruth Okonkwo maintain at the community garden?",
+      "answer": "Two",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many beehives does Ruth keep?",
+          "sub_answer": "Two",
+          "evidence_id": "ruth_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_015",
+          "text": "Ruth Okonkwo taught herself beekeeping in 2021 and maintains two hives at the community garden.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k1_018",
+      "question": "When did Sam Delgado complete his master's degree in Education?",
+      "answer": "December 2023",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Sam finish his master's?",
+          "sub_answer": "December 2023",
+          "evidence_id": "sam_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_016",
+          "text": "Sam Delgado completed a master's degree in Education from Texas State University in December 2023.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k1_019",
+      "question": "What time does Jenny Liu run around Lady Bird Lake each morning?",
+      "answer": "6:15 AM",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What time does Jenny run?",
+          "sub_answer": "6:15 AM",
+          "evidence_id": "jenny_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_017",
+          "text": "Jenny Liu runs 3 miles around Lady Bird Lake every morning at 6:15 AM.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s03_k1_020",
+      "question": "At what conference did Hana Petrov present her green space research in October 2024?",
+      "answer": "American Planning Association's Texas Chapter conference",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Hana present her research?",
+          "sub_answer": "American Planning Association's Texas Chapter conference",
+          "evidence_id": "hana_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_019",
+          "text": "Hana Petrov presented her green space research at the American Planning Association's Texas Chapter conference in October 2024.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s03_k1_021",
+      "question": "How many neighbors attended the community garden potluck that Sam Delgado organized in June 2024?",
+      "answer": "45",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many people attended Sam's potluck?",
+          "sub_answer": "45",
+          "evidence_id": "sam_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_019",
+          "text": "Sam Delgado organized a community garden potluck in June 2024 that drew 45 neighbors.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k1_022",
+      "question": "What car does Ruth Okonkwo drive?",
+      "answer": "White 2019 Toyota RAV4",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What car does Ruth drive?",
+          "sub_answer": "White 2019 Toyota RAV4",
+          "evidence_id": "ruth_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_016",
+          "text": "Ruth Okonkwo drives a white 2019 Toyota RAV4.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k1_023",
+      "question": "Where does Jenny Liu donate herbal tea blends during the holiday season?",
+      "answer": "Capital Area Food Bank",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Jenny donate herbal tea blends?",
+          "sub_answer": "Capital Area Food Bank",
+          "evidence_id": "jenny_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_015",
+          "text": "Jenny Liu donated herbal tea blends to the Capital Area Food Bank's holiday gift basket program in December 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k1_024",
+      "question": "What local artist created the mural at the community garden that Hana Petrov organized?",
+      "answer": "Maria Torres",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who created the mural at the community garden?",
+          "sub_answer": "Maria Torres",
+          "evidence_id": "hana_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_020",
+          "text": "Hana Petrov organized a mural-painting day at the community garden in August 2024, with local artist Maria Torres creating a 12-by-8-foot mural.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s03_k1_025",
+      "question": "How many miles does Sam Delgado's Honda Civic have on it?",
+      "answer": "97,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "community_garden",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many miles are on Sam's car?",
+          "sub_answer": "97,000",
+          "evidence_id": "sam_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_014",
+          "text": "Sam Delgado drives a red 2016 Honda Civic with 97,000 miles on it.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s03_k2_001",
+      "question": "What does the daughter of the person who shares a garden plot with Sam Delgado do for a living?",
+      "answer": "Immigration lawyer",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden plot with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Ruth Okonkwo's daughter do for a living?",
+          "sub_answer": "Immigration lawyer",
+          "evidence_id": "ruth_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_008",
+          "text": "Ruth Okonkwo's daughter Adaeze is an immigration lawyer in Houston.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k2_002",
+      "question": "Where does the person who meets Sam at Bennu Coffee every Sunday sell flower bouquets?",
+      "answer": "SFC Farmers Market",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who meets Sam at Bennu Coffee every Sunday?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Hana Petrov sell flower bouquets?",
+          "sub_answer": "SFC Farmers Market",
+          "evidence_id": "hana_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_010",
+          "text": "Hana Petrov grows sunflowers and zinnias in her community garden plot, selling bouquets at the SFC Farmers Market for $8 each.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s03_k2_003",
+      "question": "What is the next-door neighbor of Hana Petrov's husband's occupation?",
+      "answer": "Structural engineer",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Jenny Liu's husband's occupation?",
+          "sub_answer": "Structural engineer",
+          "evidence_id": "jenny_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_007",
+          "text": "Jenny Liu's husband, David Liu, is a structural engineer at Kimley-Horn's Austin office.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k2_004",
+      "question": "What church does the person who hosts the Eastside Book Club attend every Sunday?",
+      "answer": "First United Methodist Church",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hosts the Eastside Book Club?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What church does Ruth Okonkwo attend?",
+          "sub_answer": "First United Methodist Church",
+          "evidence_id": "ruth_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_011",
+          "text": "Ruth Okonkwo hosts the Eastside Book Club at her house on the first Thursday of every month.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s03_k2_005",
+      "question": "What is the occupation of the mother of the person who goes to church with Ruth Okonkwo?",
+      "answer": "Dim sum restaurant owner",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who goes to church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Jenny Liu's mother do?",
+          "sub_answer": "Owns a dim sum restaurant called Lucky Star",
+          "evidence_id": "jenny_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_018",
+          "text": "Jenny Liu's mother, Mei-Ling, owns a dim sum restaurant called Lucky Star in Houston's Chinatown.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k2_006",
+      "question": "What neighborhood did the person who shares a raised bed with Ruth Okonkwo grow up in?",
+      "answer": "Montopolis",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a raised bed with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What neighborhood did Sam Delgado grow up in?",
+          "sub_answer": "Montopolis",
+          "evidence_id": "sam_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_002",
+          "text": "Sam Delgado grew up in the Montopolis neighborhood of East Austin.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k2_007",
+      "question": "What does the father of the person who plans garden activities with Sam Delgado do for a living?",
+      "answer": "Owns an auto repair shop",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plans garden activities with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Hana Petrov's father do?",
+          "sub_answer": "Owns an auto repair shop called Petrov's Garage",
+          "evidence_id": "hana_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_007",
+          "text": "Hana Petrov's father, Dimitar, owns a small auto repair shop called Petrov's Garage on East Riverside Drive.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k2_008",
+      "question": "What award did the person who attends Jenny Liu's book club and rides a bike to campus win from UT Austin?",
+      "answer": "$3,500 research grant",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who attends Jenny Liu's book club and rides a bike to campus?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What grant did Hana Petrov win from UT Austin?",
+          "sub_answer": "$3,500 research grant",
+          "evidence_id": "hana_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_014",
+          "text": "Hana Petrov won a $3,500 research grant from the UT Austin School of Architecture for her thesis fieldwork.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s03_k2_009",
+      "question": "Where does the sister of the person who shares a garden plot with Ruth Okonkwo work?",
+      "answer": "Seton Medical Center",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden plot with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Sam Delgado's sister work?",
+          "sub_answer": "Seton Medical Center",
+          "evidence_id": "sam_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_017",
+          "text": "Sam Delgado has an older sister named Rosa who is a nurse at Seton Medical Center.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k2_010",
+      "question": "What type of pet does the person who is a next-door neighbor of Jenny Liu on East 6th Street own?",
+      "answer": "Gray cat",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's next-door neighbor on East 6th Street?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What pet does Hana Petrov own?",
+          "sub_answer": "A gray cat named Banitsa",
+          "evidence_id": "hana_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_018",
+          "text": "Hana Petrov adopted a gray cat named Banitsa from Austin Animal Center in February 2024.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k2_011",
+      "question": "What workshop did the person who attends church with Ruth Okonkwo teach at the Austin Garden Center?",
+      "answer": "Growing medicinal herbs",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who attends church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What workshop did Jenny Liu teach at the Austin Garden Center?",
+          "sub_answer": "Growing medicinal herbs",
+          "evidence_id": "jenny_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_016",
+          "text": "Jenny Liu taught a workshop on growing medicinal herbs at the Austin Garden Center in May 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k2_012",
+      "question": "What car does the person who meets Hana Petrov at Bennu Coffee every Sunday morning drive?",
+      "answer": "Red 2016 Honda Civic",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who meets Hana Petrov at Bennu Coffee every Sunday?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Sam Delgado drive?",
+          "sub_answer": "Red 2016 Honda Civic",
+          "evidence_id": "sam_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_014",
+          "text": "Sam Delgado drives a red 2016 Honda Civic with 97,000 miles on it.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s03_k2_013",
+      "question": "What award did the person who shares a garden bed with Sam Delgado win at the Travis County Fair?",
+      "answer": "First place for Cherokee Purple tomatoes",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Ruth win at the Travis County Fair?",
+          "sub_answer": "First place for Cherokee Purple tomatoes",
+          "evidence_id": "ruth_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_010",
+          "text": "Ruth Okonkwo won first place at the Travis County Fair for her Cherokee Purple tomatoes in September 2023.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k2_014",
+      "question": "Where did the next-door neighbor of Hana Petrov complete a yoga teacher training in 2024?",
+      "answer": "Black Swan Yoga",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Jenny Liu complete yoga teacher training?",
+          "sub_answer": "Black Swan Yoga",
+          "evidence_id": "jenny_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_009",
+          "text": "Jenny Liu completed a 200-hour yoga teacher training at Black Swan Yoga in March 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s03_k2_015",
+      "question": "What is the son's occupation of the person who hosts the Eastside Book Club?",
+      "answer": "Software engineer at Dell",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hosts the Eastside Book Club?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Ruth Okonkwo's son do?",
+          "sub_answer": "Software engineer at Dell in Round Rock",
+          "evidence_id": "ruth_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_011",
+          "text": "Ruth Okonkwo hosts the Eastside Book Club at her house on the first Thursday of every month.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_009",
+          "text": "Ruth Okonkwo's son Chidi is a software engineer at Dell in Round Rock.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k2_016",
+      "question": "What school did the person who shares a garden plot with Ruth Okonkwo coach to the district semifinals?",
+      "answer": "Travis High",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden plot with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What school's team did Sam Delgado coach to the district semifinals?",
+          "sub_answer": "Travis High",
+          "evidence_id": "sam_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_006",
+          "text": "Sam Delgado coaches the girls' varsity soccer team at Travis High, leading them to the district semifinals in 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k2_017",
+      "question": "What teaching award did the person who meets Hana Petrov at Bennu Coffee receive in May 2024?",
+      "answer": "Teacher of the Year",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who meets Hana Petrov at Bennu Coffee?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did Sam Delgado receive in May 2024?",
+          "sub_answer": "Travis High School's Teacher of the Year",
+          "evidence_id": "sam_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_008",
+          "text": "Sam Delgado was named Travis High School's Teacher of the Year in May 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k2_018",
+      "question": "What car does the next-door neighbor of Hana Petrov drive?",
+      "answer": "Dark blue 2022 Hyundai Tucson",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Jenny Liu drive?",
+          "sub_answer": "Dark blue 2022 Hyundai Tucson",
+          "evidence_id": "jenny_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_013",
+          "text": "Jenny Liu drives a dark blue 2022 Hyundai Tucson.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k2_019",
+      "question": "What does the mother of the person who meets Sam Delgado at Bennu Coffee every Sunday teach?",
+      "answer": "Bulgarian folk dance",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who meets Sam Delgado at Bennu Coffee every Sunday?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Hana Petrov's mother teach?",
+          "sub_answer": "Bulgarian folk dance",
+          "evidence_id": "hana_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_008",
+          "text": "Hana Petrov's mother, Irina, teaches Bulgarian folk dance at the Austin Bulgarian Cultural Center.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k2_020",
+      "question": "Where does the person who goes to church with Ruth Okonkwo volunteer for a literacy program?",
+      "answer": "Austin Public Library",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who goes to church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Ruth Okonkwo volunteer for a literacy program?",
+          "sub_answer": "Austin Public Library",
+          "evidence_id": "ruth_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_013",
+          "text": "Ruth Okonkwo volunteers at the Austin Public Library's literacy program every Wednesday afternoon.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k2_021",
+      "question": "Where does the person who co-founded the community garden where Hana Petrov sells flower bouquets volunteer every Wednesday?",
+      "answer": "Austin Public Library",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-founded the community garden?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Ruth Okonkwo volunteer every Wednesday?",
+          "sub_answer": "Austin Public Library's literacy program",
+          "evidence_id": "ruth_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_001",
+          "text": "Ruth Okonkwo co-founded the Eastside Community Garden on Cesar Chavez Street in 2018 with a $5,000 grant from the Austin Parks Foundation.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_013",
+          "text": "Ruth Okonkwo volunteers at the Austin Public Library's literacy program every Wednesday afternoon.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k2_022",
+      "question": "Where does the mother of the person who shares a garden plot with Sam Delgado work?",
+      "answer": "CommUnityCare Health Center",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden plot with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Sam Delgado's mother work?",
+          "sub_answer": "CommUnityCare Health Center",
+          "evidence_id": "sam_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_009",
+          "text": "Sam Delgado's mother, Elena, works as a medical assistant at CommUnityCare Health Center on East Cesar Chavez.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k2_023",
+      "question": "What languages does the person who attends church with the book club host Ruth Okonkwo speak?",
+      "answer": "English, Mandarin, and Cantonese",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who attends church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Jenny Liu speak?",
+          "sub_answer": "English, Mandarin, and Cantonese",
+          "evidence_id": "jenny_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_012",
+          "text": "Jenny Liu speaks English, Mandarin, and Cantonese fluently.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k2_024",
+      "question": "Where did the person who plans garden activities weekly with the person who sells bouquets at the SFC Farmers Market run a free tutoring program?",
+      "answer": "Terrazas Branch Library",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plans garden activities weekly with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Sam Delgado run a free tutoring program?",
+          "sub_answer": "Terrazas Branch Library",
+          "evidence_id": "sam_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_011",
+          "text": "Sam Delgado runs a free weekend tutoring program at the Terrazas Branch Library for neighborhood kids.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k2_025",
+      "question": "What languages does the person who is Hana Petrov's next-door neighbor on East 6th Street speak?",
+      "answer": "English, Mandarin, and Cantonese",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Jenny Liu speak?",
+          "sub_answer": "English, Mandarin, and Cantonese",
+          "evidence_id": "jenny_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_012",
+          "text": "Jenny Liu speaks English, Mandarin, and Cantonese fluently.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k3_001",
+      "question": "What hot peppers does the person who shares a garden bed with the woman who goes to church with Jenny Liu grow?",
+      "answer": "Carolina Reaper and habanero",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who goes to church with Jenny Liu?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a garden bed with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What hot peppers does Sam Delgado grow?",
+          "sub_answer": "Carolina Reaper and habanero",
+          "evidence_id": "sam_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_018",
+          "text": "Sam Delgado grows Carolina Reaper and habanero peppers in his personal garden plot at the community garden.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s03_k3_002",
+      "question": "What is the name of the dog owned by the person who plans garden activities each week with the neighbor of Jenny Liu?",
+      "answer": "Gol",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who plans garden activities each week with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is the name of Sam Delgado's dog?",
+          "sub_answer": "Gol",
+          "evidence_id": "sam_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Delgado adopted a beagle mix named Gol from Austin Pets Alive! in January 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k3_003",
+      "question": "What tomato variety won a prize at the Travis County Fair for the person who attends church with the neighbor of Hana Petrov?",
+      "answer": "Cherokee Purple",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who attends church with Jenny Liu?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What tomato variety won Ruth Okonkwo a prize at the Travis County Fair?",
+          "sub_answer": "Cherokee Purple",
+          "evidence_id": "ruth_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_010",
+          "text": "Ruth Okonkwo won first place at the Travis County Fair for her Cherokee Purple tomatoes in September 2023.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k3_004",
+      "question": "What is the master's degree subject for the person who meets at Bennu Coffee with the gardening partner of Ruth Okonkwo?",
+      "answer": "Urban Planning",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's gardening partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who meets Sam Delgado at Bennu Coffee?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Hana Petrov's master's degree subject?",
+          "sub_answer": "Urban Planning",
+          "evidence_id": "hana_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_001",
+          "text": "Hana Petrov is a second-year master's student in Urban Planning at the University of Texas at Austin.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s03_k3_005",
+      "question": "What medicinal herbs does the church companion of the woman who hosts the book club attended by Hana Petrov grow at the community garden?",
+      "answer": "Lavender, chamomile, echinacea, and lemon balm",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hosts the book club that Hana Petrov attends?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What medicinal herbs does Jenny Liu grow?",
+          "sub_answer": "Lavender, chamomile, echinacea, and lemon balm",
+          "evidence_id": "jenny_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_006",
+          "text": "Jenny Liu grows medicinal herbs at the community garden including lavender, chamomile, echinacea, and lemon balm.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s03_k3_006",
+      "question": "What did the person who grows tomatoes with the weekly coffee companion of Hana Petrov win at the Travis County Fair?",
+      "answer": "First place",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's weekly coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who grows tomatoes with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Ruth Okonkwo win at the Travis County Fair?",
+          "sub_answer": "First place for Cherokee Purple tomatoes",
+          "evidence_id": "ruth_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_010",
+          "text": "Ruth Okonkwo won first place at the Travis County Fair for her Cherokee Purple tomatoes in September 2023.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k3_007",
+      "question": "Where does the mother of the person who lives next door to the Sunday coffee planner with Sam Delgado own a restaurant?",
+      "answer": "Houston's Chinatown",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Delgado's Sunday coffee planner?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who lives next door to Hana Petrov?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Jenny Liu's mother own a restaurant?",
+          "sub_answer": "Houston's Chinatown",
+          "evidence_id": "jenny_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_018",
+          "text": "Jenny Liu's mother, Mei-Ling, owns a dim sum restaurant called Lucky Star in Houston's Chinatown.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k3_008",
+      "question": "What year did the person who shares a raised bed with the weekly coffee companion of Hana Petrov move to Austin?",
+      "answer": "1985",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's weekly coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a raised bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "When did Ruth Okonkwo move to Austin?",
+          "sub_answer": "1985",
+          "evidence_id": "ruth_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_003",
+          "text": "Ruth Okonkwo was born in Lagos, Nigeria, and moved to Austin in 1985 to attend the University of Texas.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k3_009",
+      "question": "What is the occupation of the husband of the person who attends church with the book club host who mentors younger gardeners?",
+      "answer": "Structural engineer",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the book club host?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who attends church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Jenny Liu's husband's occupation?",
+          "sub_answer": "Structural engineer at Kimley-Horn",
+          "evidence_id": "jenny_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_011",
+          "text": "Ruth Okonkwo hosts the Eastside Book Club at her house on the first Thursday of every month.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_007",
+          "text": "Jenny Liu's husband, David Liu, is a structural engineer at Kimley-Horn's Austin office.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k3_010",
+      "question": "Where did the garden bed partner of the Sunday coffee planner with Hana Petrov retire from after 32 years?",
+      "answer": "Zavala Elementary School",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's Sunday coffee planner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's garden bed partner?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Ruth Okonkwo retire from?",
+          "sub_answer": "Zavala Elementary School",
+          "evidence_id": "ruth_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_002",
+          "text": "Ruth Okonkwo retired from Zavala Elementary School after 32 years as the school librarian.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k3_011",
+      "question": "What degree did the person who meets weekly at Bennu Coffee with the neighbor of the church companion of Ruth Okonkwo earn from UT Austin in 2018?",
+      "answer": "B.S. in Mathematics",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who meets weekly at Bennu Coffee with Hana Petrov? And what degree did he earn from UT Austin?",
+          "sub_answer": "Sam Delgado earned a B.S. in Mathematics",
+          "evidence_id": "sam_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Delgado graduated from UT Austin with a B.S. in Mathematics in 2018, the first in his family to earn a college degree.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k3_012",
+      "question": "What twin daughters' school does the next-door neighbor of the person who attends the book club hosted by Ruth Okonkwo have children at?",
+      "answer": "Kealing Middle School",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who attends the book club hosted by Ruth Okonkwo?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What school do Jenny Liu's twin daughters attend?",
+          "sub_answer": "Kealing Middle School",
+          "evidence_id": "jenny_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_008",
+          "text": "Jenny Liu has twin daughters named Lily and Rose who are in 7th grade at Kealing Middle School.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s03_k3_013",
+      "question": "How many pounds of produce did the person who shares a raised bed with the Sunday coffee companion of the book club member Hana Petrov donate in 2023?",
+      "answer": "200",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's Sunday coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a raised bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many pounds of produce did Ruth Okonkwo donate in 2023?",
+          "sub_answer": "200",
+          "evidence_id": "ruth_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_019",
+          "text": "Ruth Okonkwo donated 200 pounds of produce from the community garden to the Capital Area Food Bank in 2023.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k3_014",
+      "question": "Where did the person who shares a garden plot with the church companion of the neighbor of Hana Petrov intern in the summer of 2023?",
+      "answer": "Austin City Planning Department",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did the person who shares a garden plot with Ruth Okonkwo intern in the summer of 2023?",
+          "sub_answer": "Austin City Planning Department",
+          "evidence_id": "hana_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_015",
+          "text": "Hana Petrov interned at the Austin City Planning Department in the summer of 2023, working on the East Riverside corridor plan.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k3_015",
+      "question": "What food does the person who shares a garden bed with the weekly coffee companion of the neighbor of Jenny Liu make every Saturday?",
+      "answer": "Nigerian pepper soup",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's weekly coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a garden bed with Sam Delgado, and what food do they make every Saturday?",
+          "sub_answer": "Nigerian pepper soup",
+          "evidence_id": "ruth_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_014",
+          "text": "Ruth Okonkwo makes a Nigerian pepper soup every Saturday that she shares with her garden neighbors.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k3_016",
+      "question": "What languages does the person who meets at Bennu Coffee with the garden partner of the church companion of Jenny Liu speak?",
+      "answer": "English and Spanish",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's garden partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who meets at Bennu Coffee with Sam Delgado, and what languages do they speak?",
+          "sub_answer": "English and Spanish",
+          "evidence_id": "sam_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_015",
+          "text": "Sam Delgado speaks English and Spanish fluently.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k3_017",
+      "question": "What languages does the person who attends the book club hosted by the garden partner of the person who coaches girls' soccer speak?",
+      "answer": "English, Bulgarian, and intermediate Spanish",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches girls' soccer?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "sam_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's garden partner who hosts a book club?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who attends Ruth's book club, and what languages do they speak?",
+          "sub_answer": "English, Bulgarian, and intermediate Spanish",
+          "evidence_id": "hana_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_006",
+          "text": "Sam Delgado coaches the girls' varsity soccer team at Travis High, leading them to the district semifinals in 2024.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_013",
+          "text": "Hana Petrov speaks English, Bulgarian, and intermediate Spanish.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s03_k3_018",
+      "question": "What did the next-door neighbor of the person who plans garden activities with the garden bed partner of Ruth Okonkwo plant at the community garden entrance?",
+      "answer": "A 15-foot fig tree",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's garden bed partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who plans garden activities with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's next-door neighbor, and what did they plant at the garden entrance?",
+          "sub_answer": "Jenny Liu planted a 15-foot fig tree",
+          "evidence_id": "jenny_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_020",
+          "text": "Jenny Liu planted a 15-foot fig tree at the community garden entrance in October 2023 that now provides shade for the picnic area.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k3_019",
+      "question": "Where did the person who shares a garden bed with the person who meets Hana Petrov at Bennu Coffee buy a house in 1990?",
+      "answer": "East 7th Street",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who meets Hana Petrov at Bennu Coffee?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a garden bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Ruth Okonkwo buy a house in 1990?",
+          "sub_answer": "East 7th Street",
+          "evidence_id": "ruth_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_012",
+          "text": "Ruth Okonkwo lives in a yellow Craftsman bungalow on East 7th Street that she and Emeka bought in 1990 for $67,000.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s03_k3_020",
+      "question": "What technology stack did the person who sells bouquets at SFC Farmers Market and is the neighbor of Jenny Liu use to build the community garden's website?",
+      "answer": "React and Firebase",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Does Hana Petrov sell bouquets at SFC Farmers Market?",
+          "sub_answer": "Yes",
+          "evidence_id": "hana_010"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What technology did Hana Petrov use for the garden's website?",
+          "sub_answer": "React and Firebase",
+          "evidence_id": "hana_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_010",
+          "text": "Hana Petrov grows sunflowers and zinnias in her community garden plot, selling bouquets at the SFC Farmers Market for $8 each.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_006",
+          "text": "Hana Petrov built the community garden's website and scheduling app using React and Firebase.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k4_001",
+      "question": "What is the name of the dog adopted by the person who plans garden activities weekly with the neighbor of the woman who goes to church with Ruth Okonkwo?",
+      "answer": "Gol",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who goes to church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who plans garden activities weekly with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is the name of Sam Delgado's dog?",
+          "sub_answer": "Gol",
+          "evidence_id": "sam_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Delgado adopted a beagle mix named Gol from Austin Pets Alive! in January 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k4_002",
+      "question": "How many people attended the community acupuncture clinic organized by the church companion of the person who shares a garden bed with the Sunday coffee partner of Hana Petrov?",
+      "answer": "28",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's Sunday coffee partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a garden bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many people attended Jenny Liu's community acupuncture clinic?",
+          "sub_answer": "28",
+          "evidence_id": "jenny_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_010",
+          "text": "Jenny Liu organized a free community acupuncture clinic at the garden pavilion in April 2024, treating 28 people.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s03_k4_003",
+      "question": "What favorite book does the person who co-founded the garden where the weekly coffee companion of the next-door neighbor of Jenny Liu built a drip irrigation system enjoy?",
+      "answer": "Things Fall Apart",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's next-door neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's weekly coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Sam built a drip irrigation system at the garden. Who co-founded that garden?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_001"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Ruth Okonkwo's favorite book?",
+          "sub_answer": "Things Fall Apart",
+          "evidence_id": "ruth_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_001",
+          "text": "Ruth Okonkwo co-founded the Eastside Community Garden on Cesar Chavez Street in 2018 with a $5,000 grant from the Austin Parks Foundation.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_017",
+          "text": "Ruth Okonkwo's favorite book is 'Things Fall Apart' by Chinua Achebe.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s03_k4_004",
+      "question": "What is the favorite restaurant of the person who attends the book club hosted by the garden bed partner of the weekly coffee planner with Hana Petrov?",
+      "answer": "Veracruz All Natural",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Hana Petrov's weekly coffee planner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's garden bed partner?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Ruth Okonkwo hosts the Eastside Book Club. Who else attends it besides Hana?",
+          "sub_answer": "Hana Petrov attends it",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Hana Petrov's favorite restaurant?",
+          "sub_answer": "Veracruz All Natural",
+          "evidence_id": "hana_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_016",
+          "text": "Hana Petrov's favorite restaurant is Veracruz All Natural, where she orders the migas taco every Saturday.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k4_005",
+      "question": "What marathon is being trained for by the next-door neighbor of the person who meets weekly at Bennu Coffee with the gardening partner of the book club host Ruth Okonkwo?",
+      "answer": "Austin Marathon",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Ruth Okonkwo hosts a book club. Who is her gardening partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who meets weekly at Bennu Coffee with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What marathon is Jenny Liu training for?",
+          "sub_answer": "Austin Marathon",
+          "evidence_id": "jenny_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Liu is training for the Austin Marathon in February 2025, her first full marathon.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s03_k4_006",
+      "question": "What languages does the person who shares a raised bed with the weekly coffee planner who is neighbors with the twin daughters' mother Jenny Liu speak?",
+      "answer": "English, Igbo, and Yoruba",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Jenny Liu has twin daughters. Who is her neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the weekly coffee planner with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a raised bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What languages does Ruth Okonkwo speak?",
+          "sub_answer": "English, Igbo, and Yoruba",
+          "evidence_id": "ruth_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_018",
+          "text": "Ruth Okonkwo speaks English, Igbo, and Yoruba fluently.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k4_007",
+      "question": "What is the occupation of the sister of the person who meets at Bennu Coffee with the neighbor of the church companion of the book club host Ruth Okonkwo?",
+      "answer": "Nurse",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who meets at Bennu Coffee with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Sam Delgado's sister's occupation?",
+          "sub_answer": "Nurse at Seton Medical Center",
+          "evidence_id": "sam_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_017",
+          "text": "Sam Delgado has an older sister named Rosa who is a nurse at Seton Medical Center.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k4_008",
+      "question": "Where does the mother of the coffee planner who meets weekly with the garden partner of the church companion of Jenny Liu work?",
+      "answer": "CommUnityCare Health Center",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's garden partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam Delgado's coffee planner?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where does Sam Delgado's mother work?",
+          "sub_answer": "CommUnityCare Health Center",
+          "evidence_id": "sam_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_009",
+          "text": "Sam Delgado's mother, Elena, works as a medical assistant at CommUnityCare Health Center on East Cesar Chavez.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s03_k4_009",
+      "question": "How much did the house cost that the person who shares a garden bed with the Sunday coffee companion of the book club member who is Jenny Liu's neighbor bought in 1990?",
+      "answer": "$67,000",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Hana Petrov is a book club member. Who is her Sunday coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a garden bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How much did Ruth Okonkwo's house cost in 1990?",
+          "sub_answer": "$67,000",
+          "evidence_id": "ruth_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_012",
+          "text": "Ruth Okonkwo lives in a yellow Craftsman bungalow on East 7th Street that she and Emeka bought in 1990 for $67,000.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s03_k4_010",
+      "question": "What year did the person who shares a garden bed with the Sunday coffee partner of the neighbor of the woman who goes to church with Ruth Okonkwo graduate from UT Austin?",
+      "answer": "2018",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who goes to church with Ruth Okonkwo?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's Sunday coffee partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "When did Sam Delgado graduate from UT Austin?",
+          "sub_answer": "2018",
+          "evidence_id": "sam_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Delgado graduated from UT Austin with a B.S. in Mathematics in 2018, the first in his family to earn a college degree.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k4_011",
+      "question": "What duplex street does the person who meets at Bennu Coffee with the neighbor of the church companion of the person who grows 14 tomato varieties live on?",
+      "answer": "East 5th Street",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who grows 14 tomato varieties?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who meets at Bennu Coffee with Hana Petrov, and where does he live?",
+          "sub_answer": "Duplex on East 5th Street",
+          "evidence_id": "sam_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_006",
+          "text": "Ruth Okonkwo grows 14 varieties of heirloom tomatoes, including Cherokee Purple and Brandywine.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_007",
+          "text": "Sam Delgado rents a duplex on East 5th Street, two blocks from the community garden.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k4_012",
+      "question": "What volunteer activity does the next-door neighbor of the Sunday coffee companion of the garden bed partner of Ruth Okonkwo do on the second Saturday of each month?",
+      "answer": "Volunteers at Habitat for Humanity Austin",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's garden bed partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's Sunday coffee companion?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Hana Petrov do on the second Saturday of each month?",
+          "sub_answer": "Volunteers at Habitat for Humanity Austin",
+          "evidence_id": "hana_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_017",
+          "text": "Hana Petrov volunteers at Habitat for Humanity Austin on the second Saturday of every month.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s03_k4_013",
+      "question": "What is the occupation of the daughter of the person who shares a garden bed with the Sunday coffee companion of the person who built the community garden's website?",
+      "answer": "Immigration lawyer",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who built the community garden's website?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's Sunday coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a garden bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Ruth Okonkwo's daughter's occupation?",
+          "sub_answer": "Immigration lawyer",
+          "evidence_id": "ruth_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_006",
+          "text": "Hana Petrov built the community garden's website and scheduling app using React and Firebase.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_008",
+          "text": "Ruth Okonkwo's daughter Adaeze is an immigration lawyer in Houston.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k4_014",
+      "question": "What car does the church companion of the person who shares a raised bed with the weekly coffee planner with the person who interned at Austin City Planning Department drive?",
+      "answer": "Dark blue 2022 Hyundai Tucson",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who interned at Austin City Planning Department?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's weekly coffee planner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a raised bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Ruth Okonkwo's church companion, and what car does she drive?",
+          "sub_answer": "Dark blue 2022 Hyundai Tucson",
+          "evidence_id": "jenny_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_015",
+          "text": "Hana Petrov interned at the Austin City Planning Department in the summer of 2023, working on the East Riverside corridor plan.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_013",
+          "text": "Jenny Liu drives a dark blue 2022 Hyundai Tucson.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k4_015",
+      "question": "What year did the person who attends church with the neighbor of the Sunday coffee companion of the gardening partner of Ruth Okonkwo move to Austin?",
+      "answer": "2010",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Ruth Okonkwo's gardening partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's Sunday coffee companion?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who attends church with Jenny Liu? When did Jenny move to Austin?",
+          "sub_answer": "Jenny Liu moved to Austin in 2010",
+          "evidence_id": "jenny_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_002",
+          "text": "Jenny Liu was born in Houston, Texas, and moved to Austin in 2010.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k4_016",
+      "question": "What peppers does the person who plans garden activities with the neighbor of the woman who attends the book club hosted by the person who keeps beehives grow?",
+      "answer": "Carolina Reaper and habanero",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who keeps beehives and hosts a book club?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who attends the book club hosted by Ruth?",
+          "sub_answer": "Hana Petrov (also Jenny Liu attends)",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who plans garden activities with Hana? And what peppers does Sam grow?",
+          "sub_answer": "Sam Delgado grows Carolina Reaper and habanero",
+          "evidence_id": "sam_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_015",
+          "text": "Ruth Okonkwo taught herself beekeeping in 2021 and maintains two hives at the community garden.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_018",
+          "text": "Sam Delgado grows Carolina Reaper and habanero peppers in his personal garden plot at the community garden.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s03_k4_017",
+      "question": "What Saturday dish does the garden bed partner of the weekly coffee companion of the person who lives next to Jenny Liu's church companion make?",
+      "answer": "Nigerian pepper soup",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Liu's next-door neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's weekly coffee companion?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam's garden bed partner, and what do they make on Saturdays?",
+          "sub_answer": "Nigerian pepper soup",
+          "evidence_id": "ruth_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_014",
+          "text": "Ruth Okonkwo makes a Nigerian pepper soup every Saturday that she shares with her garden neighbors.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k4_018",
+      "question": "What master's degree did the coffee planner who meets with the neighbor of the church companion of the person who grows Cherokee Purple tomatoes complete in December 2023?",
+      "answer": "Master's degree in Education",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who grows Cherokee Purple tomatoes?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Liu's neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is the coffee planner who meets with Hana, and what degree did they complete?",
+          "sub_answer": "Master's in Education, December 2023",
+          "evidence_id": "sam_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_010",
+          "text": "Ruth Okonkwo won first place at the Travis County Fair for her Cherokee Purple tomatoes in September 2023.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_016",
+          "text": "Sam Delgado completed a master's degree in Education from Texas State University in December 2023.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k5_001",
+      "question": "What instrument does the person who shares a garden bed with the woman who goes to church with the next-door neighbor of the Sunday coffee companion of Sam Delgado play?",
+      "answer": "Guitar",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Delgado's Sunday coffee companion?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who goes to church with Jenny Liu?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a garden bed with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What instrument does Sam Delgado play?",
+          "sub_answer": "Guitar",
+          "evidence_id": "sam_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_010",
+          "text": "Sam Delgado plays guitar in a Tejano band called Los Relámpagos that performs at Sahara Lounge on East 6th Street.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k5_002",
+      "question": "How many pounds of produce did the person who attends church with the neighbor of the weekly coffee partner of the person who shares a garden plot with Sam Delgado donate to the food bank in 2023?",
+      "answer": "200",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a garden plot with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who attends Ruth Okonkwo's book club?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who attends church with Jenny Liu?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "How many pounds of produce did Ruth Okonkwo donate in 2023?",
+          "sub_answer": "200",
+          "evidence_id": "ruth_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_019",
+          "text": "Ruth Okonkwo donated 200 pounds of produce from the community garden to the Capital Area Food Bank in 2023.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k5_003",
+      "question": "What did the neighbor of the person who meets at Bennu Coffee with the gardening partner of the church companion of Jenny Liu plant at the community garden entrance?",
+      "answer": "A fig tree",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's gardening partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who meets at Bennu Coffee with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Jenny Liu plant at the community garden entrance?",
+          "sub_answer": "A 15-foot fig tree",
+          "evidence_id": "jenny_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_020",
+          "text": "Jenny Liu planted a 15-foot fig tree at the community garden entrance in October 2023 that now provides shade for the picnic area.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k5_004",
+      "question": "What is the name of the cat owned by the book club member who is the next-door neighbor of the church companion of the person who grows tomatoes with Sam Delgado?",
+      "answer": "Banitsa",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who grows tomatoes with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Liu's next-door neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Is Hana Petrov a book club member?",
+          "sub_answer": "Hana Petrov (Ruth's book club)",
+          "evidence_id": "hana_012"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is the name of Hana Petrov's cat?",
+          "sub_answer": "Banitsa",
+          "evidence_id": "hana_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_012",
+          "text": "Hana Petrov attends Ruth Okonkwo's Eastside Book Club on the first Thursday of every month.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_018",
+          "text": "Hana Petrov adopted a gray cat named Banitsa from Austin Animal Center in February 2024.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k5_005",
+      "question": "What is the memoir topic of the person who goes to church with the neighbor of the coffee companion of the person who shares a garden bed with the woman who volunteers at Austin Public Library?",
+      "answer": "Growing up in Lagos during the 1970s oil",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at Austin Public Library?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_013"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a garden bed with Ruth Okonkwo?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam Delgado's coffee companion?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who goes to church with Jenny Liu, and what is her memoir topic?",
+          "sub_answer": "Growing up in Lagos, 1970s oil boom",
+          "evidence_id": "ruth_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_013",
+          "text": "Ruth Okonkwo volunteers at the Austin Public Library's literacy program every Wednesday afternoon.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_020",
+          "text": "Ruth Okonkwo is writing a memoir about growing up in Lagos during the 1970s oil boom.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s03_k5_006",
+      "question": "How many people attended the potluck organized by the garden partner of the book club host who goes to church with the neighbor of the person who presented at the APA Texas conference?",
+      "answer": "45",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who presented at the APA Texas conference?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who goes to church with Jenny Liu?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Ruth is the book club host. Who is her garden partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "How many people attended Sam Delgado's potluck?",
+          "sub_answer": "45",
+          "evidence_id": "sam_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_019",
+          "text": "Hana Petrov presented her green space research at the American Planning Association's Texas Chapter conference in October 2024.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_019",
+          "text": "Sam Delgado organized a community garden potluck in June 2024 that drew 45 neighbors.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s03_k5_007",
+      "question": "What is the favorite tea of the church companion of the person who grows tomatoes with the Sunday coffee planner of the book club member who rides a yellow Cannondale to campus?",
+      "answer": "Chrysanthemum and goji berry mix",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who rides a yellow Cannondale to campus and is a book club member?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Hana Petrov's Sunday coffee planner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who grows tomatoes with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Jenny Liu's favorite tea?",
+          "sub_answer": "Chrysanthemum and goji berry mix",
+          "evidence_id": "jenny_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_011",
+          "text": "Hana Petrov rides a yellow Cannondale Quick hybrid bike to campus every day.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_014",
+          "text": "Jenny Liu's favorite tea is a hand-blended chrysanthemum and goji berry mix that she sources from a farm in Fujian province.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s03_k5_008",
+      "question": "Where does the person who shares a garden plot with the church companion of the neighbor of the coffee planner who meets with the person who built the garden website work as a school librarian?",
+      "answer": "Zavala Elementary School",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who built the garden website?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the coffee planner who meets with Hana Petrov?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam Delgado's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny Liu's church companion?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Ruth Okonkwo work as a school librarian?",
+          "sub_answer": "Zavala Elementary School",
+          "evidence_id": "ruth_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "hana_006",
+          "text": "Hana Petrov built the community garden's website and scheduling app using React and Firebase.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Liu and Ruth Okonkwo attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "ruth_002",
+          "text": "Ruth Okonkwo retired from Zavala Elementary School after 32 years as the school librarian.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s03_k5_009",
+      "question": "How many beehives does the person who goes to church with the next-door neighbor of the Sunday coffee companion of the person who shares a raised bed with the woman who won Teacher of the Year maintain?",
+      "answer": "Two",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won Teacher of the Year?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "sam_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a raised bed with Sam Delgado?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam Delgado's Sunday coffee companion?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "hana_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Hana Petrov's next-door neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who goes to church with Jenny Liu, and how many beehives do they maintain?",
+          "sub_answer": "Ruth Okonkwo maintains two beehives",
+          "evidence_id": "ruth_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_008",
+          "text": "Sam Delgado was named Travis High School's Teacher of the Year in May 2024.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_004",
+          "text": "Hana Petrov and Sam Delgado meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "ruth_015",
+          "text": "Ruth Okonkwo taught herself beekeeping in 2021 and maintains two hives at the community garden.",
+          "person_id": "ruth"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s03_k5_010",
+      "question": "What twin daughters' names does the neighbor of the book club attendee who meets at Bennu Coffee with the garden partner of the person who speaks Igbo and Yoruba have?",
+      "answer": "Lily and Rose",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who speaks Igbo and Yoruba?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's garden partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who meets at Bennu Coffee with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Hana is a book club attendee. Who is her neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What are Jenny Liu's twin daughters' names?",
+          "sub_answer": "Lily and Rose",
+          "evidence_id": "jenny_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_018",
+          "text": "Ruth Okonkwo speaks English, Igbo, and Yoruba fluently.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_008",
+          "text": "Jenny Liu has twin daughters named Lily and Rose who are in 7th grade at Kealing Middle School.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s03_k5_011",
+      "question": "What award did the person who meets at Bennu Coffee with the next-door neighbor of the church companion of the garden bed partner of the person who runs a tutoring program at Terrazas Branch Library receive?",
+      "answer": "$3,500 research grant",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who runs a tutoring program at Terrazas Branch Library?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "sam_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Delgado's garden bed partner?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ruth Okonkwo's church companion?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "ruth_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny Liu's next-door neighbor?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who meets at Bennu Coffee with Hana, and what award did Hana receive?",
+          "sub_answer": "$3,500 research grant from UT Austin",
+          "evidence_id": "hana_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_011",
+          "text": "Sam Delgado runs a free weekend tutoring program at the Terrazas Branch Library for neighborhood kids.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Delgado and Ruth Okonkwo share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "ruth_005",
+          "text": "Ruth Okonkwo and Jenny Liu attend the First United Methodist Church on East 12th Street every Sunday.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Liu and Hana Petrov are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "hana_014",
+          "text": "Hana Petrov won a $3,500 research grant from the UT Austin School of Architecture for her thesis fieldwork.",
+          "person_id": "hana"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s03_k5_012",
+      "question": "What is the occupation of the mother of the person who attends church with the neighbor of the person who plans garden activities with the garden bed partner of the woman who makes Nigerian pepper soup?",
+      "answer": "Dim sum restaurant owner",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "community_garden",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who makes Nigerian pepper soup?",
+          "sub_answer": "Ruth Okonkwo",
+          "evidence_id": "ruth_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ruth Okonkwo's garden bed partner?",
+          "sub_answer": "Sam Delgado",
+          "evidence_id": "ruth_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who plans garden activities with Sam Delgado?",
+          "sub_answer": "Hana Petrov",
+          "evidence_id": "sam_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Hana Petrov's neighbor?",
+          "sub_answer": "Jenny Liu",
+          "evidence_id": "hana_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who attends church with Jenny Liu, and what is Jenny's mother's occupation?",
+          "sub_answer": "Jenny Liu's mother owns a dim sum restaurant",
+          "evidence_id": "jenny_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ruth_014",
+          "text": "Ruth Okonkwo makes a Nigerian pepper soup every Saturday that she shares with her garden neighbors.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "ruth_004",
+          "text": "Ruth Okonkwo and Sam Delgado share a 20-by-40-foot raised bed at the community garden where they grow heirloom tomatoes.",
+          "person_id": "ruth"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Delgado and Hana Petrov meet every Sunday morning at Bennu Coffee on East 11th Street to plan garden activities for the week.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "hana_005",
+          "text": "Hana Petrov and Jenny Liu are next-door neighbors on East 6th Street and share a fence.",
+          "person_id": "hana"
+        },
+        {
+          "obs_id": "jenny_018",
+          "text": "Jenny Liu's mother, Mei-Ling, owns a dim sum restaurant called Lucky Star in Houston's Chinatown.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    }
+  ]
+}

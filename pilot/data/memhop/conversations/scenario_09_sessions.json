@@ -1,0 +1,428 @@
+{
+  "scenario_id": "adventure_group",
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "date": "2024-03-05 18:45",
+      "participants": ["nora", "sam"],
+      "setting": "Seattle Bouldering Project, after their Tuesday evening climbing session",
+      "observations_covered": ["nora_003", "sam_003", "nora_008", "sam_008"],
+      "turns": [
+        {"speaker": "sam", "text": "That last route was brutal. My shoulders are screaming. Good to be back on the wall though."},
+        {"speaker": "nora", "text": "You looked solid on that overhang. Tuesday-Thursday sessions are paying off for you."},
+        {"speaker": "sam", "text": "Thanks. By the way, I've been meaning to tell you — I just got my Wilderness First Responder certification last month. Finished the course in January."},
+        {"speaker": "nora", "text": "Oh nice, congrats! That's a serious commitment. How long was the training?"},
+        {"speaker": "sam", "text": "About 80 hours over two weeks. Brutal, but worth it. I figured if we're going to keep doing bigger outdoor stuff, someone should know what they're doing if things go sideways."},
+        {"speaker": "nora", "text": "Smart move. Speaking of big outdoor stuff, I just signed up for the Chuckanut Ridge 50K. It's in three weeks."},
+        {"speaker": "sam", "text": "Wait, a 50-kilometer ultramarathon? When did you decide this?"},
+        {"speaker": "nora", "text": "I've been training since November. Mostly trail runs on weekends. I figured if I can summit Rainier, I can survive 50K on a trail."},
+        {"speaker": "sam", "text": "You're out of your mind. I love it. What's your goal time?"},
+        {"speaker": "nora", "text": "Honestly, just to finish. But secretly, I'd love to be under seven hours."},
+        {"speaker": "sam", "text": "You'll crush it. Want me to be at the finish line?"},
+        {"speaker": "nora", "text": "That would actually be great. I'll need someone to carry me to the car afterward."}
+      ]
+    },
+    {
+      "session_id": "session_02",
+      "date": "2024-03-12 12:30",
+      "participants": ["sam", "tomas"],
+      "setting": "Puget Sound Sports Medicine clinic, lunch break in the staff kitchen",
+      "observations_covered": ["sam_001", "tomas_001", "sam_004", "tomas_003"],
+      "turns": [
+        {"speaker": "tomas", "text": "You want the last of this soup? I made too much again."},
+        {"speaker": "sam", "text": "What kind?"},
+        {"speaker": "tomas", "text": "Pozole. Elena's recipe. Well, her mom's recipe that she taught me."},
+        {"speaker": "sam", "text": "Yes please. You know I'll never turn down free food. Clinic's been wild today — three climbing injuries before noon."},
+        {"speaker": "tomas", "text": "Same on my end. I had a trail runner come in with a stress fracture she'd been ignoring for six weeks. I swear, some of these athletes just refuse to stop."},
+        {"speaker": "sam", "text": "Sounds like someone I know. Didn't you run a hundred miles through the Alps last August?"},
+        {"speaker": "tomas", "text": "That was different. That was planned suffering. This woman was just pretending her foot wasn't broken."},
+        {"speaker": "sam", "text": "Sure, sure. It's funny though, when I was in PT school I never imagined I'd end up specializing in climbing and running injuries. Now that's basically all I see."},
+        {"speaker": "tomas", "text": "This clinic attracts a specific type. That's why I like working here with you — we actually understand what these patients are going through."},
+        {"speaker": "sam", "text": "True. Hard to tell someone to rest when you know exactly how good it feels to be on the wall."}
+      ]
+    },
+    {
+      "session_id": "session_03",
+      "date": "2024-03-19 07:15",
+      "participants": ["tomas", "jenny"],
+      "setting": "Tiger Mountain trailhead parking lot, Saturday morning before their run",
+      "observations_covered": ["tomas_006", "jenny_004", "tomas_018", "jenny_007"],
+      "turns": [
+        {"speaker": "jenny", "text": "Morning! You're early. Usually I'm the one waiting in the parking lot."},
+        {"speaker": "tomas", "text": "I've been up since five. Couldn't sleep. Too much on my mind."},
+        {"speaker": "jenny", "text": "Everything okay?"},
+        {"speaker": "tomas", "text": "Yeah, just logistical stuff. I'm heading to Oaxaca next week. Two weeks volunteering at a rural clinic down there."},
+        {"speaker": "jenny", "text": "Oh wow, that's amazing. Where in Oaxaca?"},
+        {"speaker": "tomas", "text": "A small village about three hours outside the city. They have a clinic that serves maybe fifteen surrounding communities but only one full-time doctor. I've been coordinating with them for months."},
+        {"speaker": "jenny", "text": "That's really meaningful work. I know you've wanted to do something like that for a while."},
+        {"speaker": "tomas", "text": "Yeah. It means I'll miss our Saturday runs for two weeks though. Sorry about that."},
+        {"speaker": "jenny", "text": "Don't apologize. I'll survive. I'll just do my runs from the cabin in Ashford. There's some decent trail out by the park entrance."},
+        {"speaker": "tomas", "text": "Right, you're only six miles from Nisqually. That's basically a trailhead for a front door."},
+        {"speaker": "jenny", "text": "It has its perks. Come on, let's do the West Tiger 3 loop before it gets crowded. I want to be done by nine — I've got a ranger orientation to run at Paradise this afternoon."},
+        {"speaker": "tomas", "text": "Lead the way."}
+      ]
+    },
+    {
+      "session_id": "session_04",
+      "date": "2024-03-28 19:00",
+      "participants": ["nora", "sam"],
+      "setting": "Nora's apartment in Ballard, post-ultramarathon celebration dinner",
+      "observations_covered": ["nora_013", "nora_010", "nora_020", "sam_017"],
+      "turns": [
+        {"speaker": "sam", "text": "Wait, so your official time was six hours forty-two minutes? On your first ultra?"},
+        {"speaker": "nora", "text": "I can barely believe it myself. My legs still feel like they don't belong to me."},
+        {"speaker": "sam", "text": "That's incredible. I'm so impressed. Thanks for having me over to celebrate, by the way. I love your Ballard place."},
+        {"speaker": "nora", "text": "It's tiny, but it's three blocks from the Ballard Locks, which is basically why I rented it. Oh — careful, watch the — "},
+        {"speaker": "sam", "text": "Whoa! Who is this?"},
+        {"speaker": "nora", "text": "That's Summit! I just adopted her last month from Seattle Humane. She's a border collie. She has absolutely zero concept of personal space."},
+        {"speaker": "sam", "text": "She's beautiful. Summit. Perfect name for you."},
+        {"speaker": "nora", "text": "She's already my trail buddy. She ran with me on some of my training runs. Okay, dinner's almost ready. I made my dehydrated pad thai, the backpacking version, but fresh this time."},
+        {"speaker": "sam", "text": "The famous trail pad thai! I've only had it once, on that overnight at Colchuck Lake, and I've been thinking about it since."},
+        {"speaker": "nora", "text": "Well, tonight you get the luxury version with actual fresh vegetables. How's your shoulder doing, by the way? Still rehabbing?"},
+        {"speaker": "sam", "text": "Getting there. The rotator cuff tear in November really set me back. Tomás designed my whole rehab protocol, and I'm about three and a half months in now. Climbing is starting to feel normal again."},
+        {"speaker": "nora", "text": "I'm glad. I missed having my climbing partner at full strength."},
+        {"speaker": "sam", "text": "Trust me, I missed it more. Four months of watching other people climb while I did resistance band exercises was torture."}
+      ]
+    },
+    {
+      "session_id": "session_05",
+      "date": "2024-04-07 11:00",
+      "participants": ["nora", "tomas"],
+      "setting": "Elliott Bay Book Company, after their monthly book club meeting",
+      "observations_covered": ["nora_006", "tomas_004", "nora_014", "tomas_014"],
+      "turns": [
+        {"speaker": "nora", "text": "I can't believe nobody else in the group liked that book. I thought the discussion would be more spirited."},
+        {"speaker": "tomas", "text": "To be fair, it was pretty dense. Not everyone wants to read a 600-page history of the Silk Road."},
+        {"speaker": "nora", "text": "I guess. First-Sunday book club meetings are usually livelier than that. Maybe we need better picks next month."},
+        {"speaker": "tomas", "text": "Speaking of picks, what's your all-time favorite? I always wonder what people in the group actually love versus what they pick to seem interesting."},
+        {"speaker": "nora", "text": "Oh, easy. 'The Living Mountain' by Nan Shepherd. It's this slim little book about the Cairngorms in Scotland. She writes about mountains the way I feel about them — like they're alive and you're in a conversation with them."},
+        {"speaker": "tomas", "text": "I've never heard of it. I'll have to check it out."},
+        {"speaker": "nora", "text": "What about you?"},
+        {"speaker": "tomas", "text": "'Born to Run' by Christopher McDougall. I know, I know, it's a cliche for a trail runner. But it changed how I think about running. It's the reason I ended up doing UTMB."},
+        {"speaker": "nora", "text": "No shame in that. A good book is a good book. Want to grab coffee? There's that new place on Pine."},
+        {"speaker": "tomas", "text": "Sure. Elena's at the lab all afternoon anyway. Let me grab my jacket."}
+      ]
+    },
+    {
+      "session_id": "session_06",
+      "date": "2024-04-13 10:00",
+      "participants": ["sam", "jenny"],
+      "setting": "Fremont neighborhood, walking along the Burke-Gilman Trail on a Saturday morning",
+      "observations_covered": ["sam_020", "jenny_003", "sam_009", "jenny_013"],
+      "turns": [
+        {"speaker": "jenny", "text": "I can't believe it's been over twenty years since we lived on the same street in Accra. We were, what, ten and eight?"},
+        {"speaker": "sam", "text": "Something like that. You were the scrappy one who always wanted to climb trees, and I was the kid who was terrified of heights."},
+        {"speaker": "jenny", "text": "And now you scale rock walls for fun. Funny how that works."},
+        {"speaker": "sam", "text": "Life's weird. Thanks for driving all the way up from Ashford, by the way. That's a hike."},
+        {"speaker": "jenny", "text": "The Jeep basically drives itself at this point. I've done that route so many times the mud tires know the way. Besides, I needed to get some supplies from REI, and I wanted to see your new house."},
+        {"speaker": "sam", "text": "Well, it's not exactly mine. I share it with two other renters. But Fremont's a great neighborhood. Very quirky. There's a statue of Lenin two blocks away."},
+        {"speaker": "jenny", "text": "Only in Seattle. Hey, how's your mom doing? My mom was asking about her the other day. You know they still email each other."},
+        {"speaker": "sam", "text": "She's good! Still running the pediatrics practice in Accra. Working way too hard, as always. She sends her love."},
+        {"speaker": "jenny", "text": "Tell her I say hi. And tell her I still make her lentil dal recipe when I'm camping. It's become my go-to trail meal."},
+        {"speaker": "sam", "text": "She'd love hearing that. She still talks about the time your family came over for dinner and you ate three helpings."},
+        {"speaker": "jenny", "text": "I was twelve and growing! Don't judge me."}
+      ]
+    },
+    {
+      "session_id": "session_07",
+      "date": "2024-04-20 14:30",
+      "participants": ["sam", "tomas"],
+      "setting": "Puget Sound Sports Medicine, between afternoon patients",
+      "observations_covered": ["sam_015", "tomas_017", "sam_013", "tomas_013"],
+      "turns": [
+        {"speaker": "sam", "text": "Hey, do you have a sec? I wanted to run something by you."},
+        {"speaker": "tomas", "text": "Sure, my next patient isn't for twenty minutes. What's up?"},
+        {"speaker": "sam", "text": "I'm organizing a paddle-a-thon on Lake Union. Fundraiser for Outdoor Afro Seattle. Trying to raise money for gear scholarships so more people of color can access outdoor recreation."},
+        {"speaker": "tomas", "text": "That's a great cause. When is it?"},
+        {"speaker": "sam", "text": "End of April. I've got about fifteen paddlers committed so far. Was hoping you might want to participate, or at least help spread the word at the clinic."},
+        {"speaker": "tomas", "text": "Absolutely. I can put flyers in the waiting room. And I'll paddle if you let me use one of the clinic kayaks."},
+        {"speaker": "sam", "text": "Deal. I'll have my Tacoma loaded up with extra kayaks for people who need them. The rack on the truck holds three."},
+        {"speaker": "tomas", "text": "Perfect. Speaking of gear and trucks — I just started using the Rivian for gear hauling on group trips. Electric torque is unreal. That thing can tow anything."},
+        {"speaker": "sam", "text": "Is that the black R1T I saw in the lot? That's yours?"},
+        {"speaker": "tomas", "text": "Yeah, picked it up in January. Elena and I figured if we're going to drive into the mountains every weekend, we should at least not burn gas doing it."},
+        {"speaker": "sam", "text": "Smart. Also, I keep meaning to thank you. The rehab protocol you designed for my shoulder — I'm basically back to normal now. Climbing feels right again."},
+        {"speaker": "tomas", "text": "Good. That rotator cuff tear was nasty. I'm glad it healed well. Just don't overdo it, okay? I'm tired of treating my friends."}
+      ]
+    },
+    {
+      "session_id": "session_08",
+      "date": "2024-05-04 15:00",
+      "participants": ["nora", "jenny"],
+      "setting": "Nora's apartment in Ballard, planning a June mountaineering trip over tea",
+      "observations_covered": ["nora_005", "jenny_006", "jenny_019", "nora_016"],
+      "turns": [
+        {"speaker": "jenny", "text": "Okay, so Mount Adams via the South Spur. Two days, one camp. What do you think?"},
+        {"speaker": "nora", "text": "I've been looking at the route. It's straightforward but long. We'd want to camp at Lunch Counter around 9,400 feet and push for the summit early morning."},
+        {"speaker": "jenny", "text": "That's what I was thinking too. I've got my Wilderness First Responder cert, so we're covered on the safety side. Recertified last year."},
+        {"speaker": "nora", "text": "Perfect. And I can handle the rope work. I just renewed my AMGA Single Pitch Instructor certification, and I've been teaching lead climbing courses at Vertical World on weekends, so my skills are sharp."},
+        {"speaker": "jenny", "text": "Sounds like a solid team. What about gear? I can bring the tent, stove, and water filter."},
+        {"speaker": "nora", "text": "I'll handle the climbing hardware. Let me show you something actually — come look at the entryway."},
+        {"speaker": "jenny", "text": "Whoa. Is that a custom gear rack?"},
+        {"speaker": "nora", "text": "Built it myself. Fourteen pairs of climbing shoes, eight helmets, and thirty carabiners, all organized. I got tired of tripping over gear bags."},
+        {"speaker": "jenny", "text": "That's incredibly Type A and I respect it deeply. Okay, so June for Adams. Maybe mid-June? The weather window should be good then."},
+        {"speaker": "nora", "text": "Mid-June works. I'll block it off. This is going to be fun."},
+        {"speaker": "jenny", "text": "Two women, one big mountain, no drama. Just the way I like it."}
+      ]
+    },
+    {
+      "session_id": "session_09",
+      "date": "2024-05-11 17:30",
+      "participants": ["tomas", "jenny"],
+      "setting": "Tiger Mountain trail, cooling down after Saturday morning run",
+      "observations_covered": ["tomas_010", "jenny_011", "tomas_009", "jenny_008"],
+      "turns": [
+        {"speaker": "tomas", "text": "I forgot to tell you — I got my results from the Gorge Waterfalls 100K."},
+        {"speaker": "jenny", "text": "Oh right, that was in Oregon last month! How'd you do?"},
+        {"speaker": "tomas", "text": "Second place. Eleven hours and eight minutes."},
+        {"speaker": "jenny", "text": "Second? Tomás, that's insane. A hundred kilometers and you came in second? Who beat you?"},
+        {"speaker": "tomas", "text": "Some guy from Bend who apparently runs ultras like it's his job. Which it might literally be. Anyway, I'll take it."},
+        {"speaker": "jenny", "text": "You should be thrilled. That's an incredible result. Makes my Wonderland Trail thru-hike look like a casual stroll."},
+        {"speaker": "tomas", "text": "Please. You soloed the entire Wonderland Trail in what, thirty days? Around the entire circumference of Rainier? That's legendary."},
+        {"speaker": "jenny", "text": "August 2023, thirty days, just me and Glacier. It was the most transformative thing I've ever done. Some days I didn't see another human being for twelve hours."},
+        {"speaker": "tomas", "text": "How's Glacier doing, by the way? I saw her chasing squirrels at the trailhead."},
+        {"speaker": "jenny", "text": "She's great. That husky has more energy than I do. She comes on almost every hike I do. The other rangers at Paradise know her by name."},
+        {"speaker": "tomas", "text": "Sounds about right. Hey, are you free after this? Elena and I were going to grab dinner on Capitol Hill. You're welcome to join."},
+        {"speaker": "jenny", "text": "Sure, I don't have to be back in Ashford until tomorrow. Let me just change out of these muddy clothes first."}
+      ]
+    },
+    {
+      "session_id": "session_10",
+      "date": "2024-05-19 11:00",
+      "participants": ["nora", "sam"],
+      "setting": "Index Town Wall, taking a break between climbing routes",
+      "observations_covered": ["nora_009", "nora_017", "sam_002", "sam_010"],
+      "turns": [
+        {"speaker": "nora", "text": "God, I love this place. Index is just... there's nothing like it."},
+        {"speaker": "sam", "text": "It is pretty spectacular. The granite here is incredible. How often do you come out?"},
+        {"speaker": "nora", "text": "Whenever I can. It's my favorite climbing area, hands down. Fifty miles from the city and it feels like a different world."},
+        {"speaker": "sam", "text": "Remember the first time you brought me here? I was so nervous I could barely tie my figure eight."},
+        {"speaker": "nora", "text": "That was right after I taught you to lead belay. October 2023, at the gym. You picked it up fast though."},
+        {"speaker": "sam", "text": "Well, I had a good teacher. You know, it's funny. When I moved to Seattle from Accra in 2017 for PT school at UW, I never imagined I'd be climbing granite walls on weekends."},
+        {"speaker": "nora", "text": "What did you imagine?"},
+        {"speaker": "sam", "text": "Studying. Lots and lots of studying. Which I did. But then someone at the gym heard me speaking Twi on the phone with my mom and started a conversation, and it turned out they were a climber, and... here we are."},
+        {"speaker": "nora", "text": "Wait, you speak Twi? I didn't know that."},
+        {"speaker": "sam", "text": "Twi, English, and basic French. Growing up in Ghana you pick up languages whether you want to or not. My parents made sure I was fluent in Twi though."},
+        {"speaker": "nora", "text": "That's really cool. I can barely manage English some days. Ready for the next route?"},
+        {"speaker": "sam", "text": "Lead the way. You always pick the good lines."}
+      ]
+    },
+    {
+      "session_id": "session_11",
+      "date": "2024-05-25 19:30",
+      "participants": ["nora", "tomas"],
+      "setting": "A coffee shop on Capitol Hill, after a casual evening walk",
+      "observations_covered": ["nora_019", "tomas_008", "nora_002", "tomas_011"],
+      "turns": [
+        {"speaker": "tomas", "text": "You're limping. What happened?"},
+        {"speaker": "nora", "text": "Sprained my ankle on a descent from Colchuck Peak last week. Doctor says I'm stuck with trekking poles for six weeks."},
+        {"speaker": "tomas", "text": "Your right ankle? Let me look at it."},
+        {"speaker": "nora", "text": "Tomás, we're not at the clinic. You're off duty."},
+        {"speaker": "tomas", "text": "I'm never off duty. Once a doctor, always a doctor. My dad's the same way — he's a cardiologist in Guadalajara and he still checks people's pulses at family dinners."},
+        {"speaker": "nora", "text": "That's both endearing and slightly alarming. How was Oaxaca, by the way? You just got back, right?"},
+        {"speaker": "tomas", "text": "It was incredible. Two weeks at the rural clinic, seeing patients who'd never had access to sports medicine before. Mostly I was doing general practice, but it felt good to be useful in a different way."},
+        {"speaker": "nora", "text": "That sounds amazing. Makes my day job feel pretty boring by comparison."},
+        {"speaker": "tomas", "text": "What is it you do again exactly? Something at REI?"},
+        {"speaker": "nora", "text": "I'm a senior software engineer at their headquarters in Kent. Building the e-commerce recommendation engine. It's interesting work, actually — we're using some cool machine learning stuff. But it's not exactly saving lives."},
+        {"speaker": "tomas", "text": "Hey, helping people find the right hiking boots has value too. Don't sell yourself short."},
+        {"speaker": "nora", "text": "Ha. Thanks, Tomás. I needed that today."}
+      ]
+    },
+    {
+      "session_id": "session_12",
+      "date": "2024-06-08 09:00",
+      "participants": ["sam", "jenny"],
+      "setting": "Phone call, Sam at home in Fremont, Jenny at the Paradise Visitor Center",
+      "observations_covered": ["sam_014", "jenny_001", "jenny_016", "sam_006"],
+      "turns": [
+        {"speaker": "jenny", "text": "Sam! I have to tell you something. I found a waterfall."},
+        {"speaker": "sam", "text": "A waterfall? Like, a new one?"},
+        {"speaker": "jenny", "text": "A previously unmapped seasonal waterfall on the north side of Rainier. It's only active during snowmelt, which is why nobody's documented it before. I reported it to the park service this morning."},
+        {"speaker": "sam", "text": "That's incredible! How did you find it?"},
+        {"speaker": "jenny", "text": "I was doing a solo patrol off-trail and heard it. Followed the sound through a boulder field and there it was. Maybe forty feet tall, just pouring off a rock face. The visitor center team is really excited."},
+        {"speaker": "sam", "text": "That's so cool. The ranger life suits you, Jenny."},
+        {"speaker": "jenny", "text": "I love it. Every day at Paradise is different. Anyway, how are you? How was the trip to Accra?"},
+        {"speaker": "sam", "text": "It was amazing. Three weeks with the family in December. Mom cooked enough food to feed a village. Dad's still teaching math at University of Ghana and somehow has more energy than ever."},
+        {"speaker": "jenny", "text": "Did you end up climbing Afadja?"},
+        {"speaker": "sam", "text": "I did! Ghana's highest peak. It was nothing compared to what we climb here, but it felt special doing it back home. I actually kayaked part of the Volta River while I was there too."},
+        {"speaker": "jenny", "text": "In the yellow kayak?"},
+        {"speaker": "sam", "text": "No, no. My seventeen-foot Eddyline stays in the garage in Seattle. I rented a beat-up fiberglass boat. It was terrifying and wonderful."},
+        {"speaker": "jenny", "text": "You're wild. I miss Accra sometimes. We should go back together one of these days."},
+        {"speaker": "sam", "text": "Name the date. Mom would love to see you."}
+      ]
+    },
+    {
+      "session_id": "session_13",
+      "date": "2024-06-15 20:00",
+      "participants": ["nora", "jenny"],
+      "setting": "Campsite at the base of Mount Adams, evening before their summit push",
+      "observations_covered": ["nora_007", "jenny_012", "nora_011", "jenny_009"],
+      "turns": [
+        {"speaker": "nora", "text": "That drive was something else. I had to strap the tent to the roof box because the Crosstrek was already full."},
+        {"speaker": "jenny", "text": "The green Subaru with the 'Climb On' sticker? I followed you the whole way. I kept losing you on the switchbacks."},
+        {"speaker": "nora", "text": "Sorry. I'm used to driving fast on mountain roads. Montana reflexes."},
+        {"speaker": "jenny", "text": "Right, you grew up in Bozeman. Do your parents still live there?"},
+        {"speaker": "nora", "text": "Yeah, they run a fly-fishing guide service on the Gallatin River. My brother Declan is nearby too — he's a wildland firefighter based in Missoula."},
+        {"speaker": "jenny", "text": "Oh wow. That's intense work. Must run in the family, the whole outdoors thing."},
+        {"speaker": "nora", "text": "Definitely. What about your family? You mentioned your mom has a business?"},
+        {"speaker": "jenny", "text": "Yeah, she runs a fabric import company in Portland. Sources textiles from Ghana. She's been doing it since we moved back to the States."},
+        {"speaker": "nora", "text": "That's so cool. You've mentioned you speak Twi — is that from your mom's side?"},
+        {"speaker": "jenny", "text": "Yep. English, Polish from my dad, Twi from growing up in Accra, and basic French from school. Languages come naturally to me for some reason."},
+        {"speaker": "nora", "text": "I'm jealous. Okay, alarm for 3 AM?"},
+        {"speaker": "jenny", "text": "Three AM. Summit by noon. Let's do this."}
+      ]
+    },
+    {
+      "session_id": "session_14",
+      "date": "2024-06-28 17:00",
+      "participants": ["nora", "sam"],
+      "setting": "Nora's apartment in Ballard, Nora packing for a kayak trip",
+      "observations_covered": ["nora_012", "sam_005", "sam_019", "nora_015"],
+      "turns": [
+        {"speaker": "sam", "text": "You're really doing the San Juans? Five days of sea kayaking?"},
+        {"speaker": "nora", "text": "Yep. Camping on Jones Island, paddling around the archipelago. I've been wanting to do this for years."},
+        {"speaker": "sam", "text": "That's awesome. The San Juans are stunning from the water. If you're lucky, you'll see orcas near Lime Kiln Point."},
+        {"speaker": "nora", "text": "That would be a dream. You'd know — you literally kayaked the entire Inside Passage. How far was that?"},
+        {"speaker": "sam", "text": "Twelve hundred miles, Juneau to Seattle, forty-two days. Summer of 2022. Honestly, it was the hardest and most beautiful thing I've ever done."},
+        {"speaker": "nora", "text": "My five-day trip seems a bit modest in comparison."},
+        {"speaker": "sam", "text": "Don't compare. Any time on the water is good time. Actually, speaking of paddling, I've been training for something new. Solo crossing of the Strait of Juan de Fuca."},
+        {"speaker": "nora", "text": "The open water crossing? How far is that?"},
+        {"speaker": "sam", "text": "Seventeen miles of open ocean. Strong currents, ship traffic, fog. It's no joke."},
+        {"speaker": "nora", "text": "You're insane. I love it. We're both training for something crazy right now — I'm starting to prep for a multi-pitch trad climb of the North Ridge of Mount Stuart in September."},
+        {"speaker": "sam", "text": "Stuart? That's a serious alpine route. You'll need a partner."},
+        {"speaker": "nora", "text": "Already working on that. But first — San Juans. Wish me orcas."},
+        {"speaker": "sam", "text": "I wish you orcas and calm seas."}
+      ]
+    },
+    {
+      "session_id": "session_15",
+      "date": "2024-07-13 18:00",
+      "participants": ["nora", "sam", "tomas", "jenny"],
+      "setting": "Campsite at Olympic National Park, evening around the campfire after a group hiking day",
+      "observations_covered": ["tomas_020", "jenny_014", "tomas_016", "jenny_015"],
+      "turns": [
+        {"speaker": "tomas", "text": "Okay everyone, before we eat, I want to do a quick wilderness first aid refresher. I've been wanting to teach the group some basics — how to splint a fracture, how to assess for hypothermia, things like that."},
+        {"speaker": "nora", "text": "We're doing a class right now? I just took my boots off."},
+        {"speaker": "sam", "text": "This is actually useful. I have my WFR certification but a refresher never hurts."},
+        {"speaker": "jenny", "text": "Agreed. And after Tomás finishes, I want to do a quick Leave No Trace workshop. I've noticed some bad habits on this trip — Nora, the apple core — and I'm putting a stop to them."},
+        {"speaker": "nora", "text": "Fine, fine. Lesson learned. No more tossing organic waste."},
+        {"speaker": "tomas", "text": "Alright, first scenario. Sam, you're hiking and you hear a crack. Your ankle looks deformed. Jenny, walk me through what you'd do."},
+        {"speaker": "jenny", "text": "Check for circulation below the injury, immobilize with a SAM splint, elevate, assess for shock, and prepare for evacuation."},
+        {"speaker": "tomas", "text": "Perfect. Okay, for a less clinical moment — who wants kombucha? I brought three bottles. Brewed them myself from the five-gallon jar on my kitchen counter."},
+        {"speaker": "sam", "text": "The home brew? Yes please."},
+        {"speaker": "tomas", "text": "I've got ginger-lemon, blueberry, and plain. I bring bottles on every trip now."},
+        {"speaker": "jenny", "text": "I'll try the ginger-lemon. And for dinner, I'm making my one-pot lentil dal. Sam's mom's recipe from when I visited Accra."},
+        {"speaker": "nora", "text": "I've heard about this dal. Apparently it's legendary."},
+        {"speaker": "jenny", "text": "Learned it straight from Abena herself. The secret is toasting the spices first. Trust me on this."}
+      ]
+    },
+    {
+      "session_id": "session_16",
+      "date": "2024-08-03 09:30",
+      "participants": ["sam", "tomas"],
+      "setting": "Puget Sound Sports Medicine, morning coffee in Tomás's office",
+      "observations_covered": ["sam_011", "tomas_005", "sam_007", "tomas_019"],
+      "turns": [
+        {"speaker": "sam", "text": "Guess what I did last weekend."},
+        {"speaker": "tomas", "text": "Knowing you, something involving water and questionable judgment."},
+        {"speaker": "sam", "text": "Close. I led a group kayak trip around Orcas Island. Three beginners, guided them through Obstruction Pass. Nobody capsized."},
+        {"speaker": "tomas", "text": "That's a win. Obstruction Pass can be tricky with the tidal currents."},
+        {"speaker": "sam", "text": "It was great. One of the beginners was so nervous she almost backed out, but by the end she was grinning the whole way. Reminded me of why I got into this stuff."},
+        {"speaker": "tomas", "text": "That's how I felt at UTMB. Thirty-one hours and fourteen minutes of running through the Alps around Mont Blanc, and at hour twenty-five I wanted to quit. But crossing that finish line in Chamonix... nothing else compares."},
+        {"speaker": "sam", "text": "August 2023, right? That's still one of the most impressive things anyone in our group has done."},
+        {"speaker": "tomas", "text": "Don't tell Jenny that. She'll bring up the Wonderland Trail again. Hey, how are your parents? You mentioned your dad's teaching this semester."},
+        {"speaker": "sam", "text": "Yeah, my dad Kofi is still teaching mathematics at the University of Ghana. My mom Abena's at the pediatrics clinic. They're good. Busy as always."},
+        {"speaker": "tomas", "text": "That's great. I should get back to studying. My Certificate of Added Qualification exam for sports medicine is in February. The material is dense."},
+        {"speaker": "sam", "text": "You'll pass. You're the smartest doctor I know. Well, the second smartest. Don't tell Elena I said that."},
+        {"speaker": "tomas", "text": "Your secret's safe. Now go check on your nine o'clock. She's been in the waiting room for ten minutes."}
+      ]
+    },
+    {
+      "session_id": "session_17",
+      "date": "2024-08-17 16:00",
+      "participants": ["nora", "sam"],
+      "setting": "Seattle Bouldering Project, resting between routes on a Thursday evening",
+      "observations_covered": ["nora_004", "nora_018", "sam_012", "sam_016"],
+      "turns": [
+        {"speaker": "sam", "text": "You're climbing strong tonight. The ankle feels okay?"},
+        {"speaker": "nora", "text": "Fully healed. And I'm fired up — I just got back from my second Rainier summit last week. Emmons Glacier this time. Last year was Disappointment Cleaver."},
+        {"speaker": "sam", "text": "Wait, two Rainier summits now? That's incredible. The closest I've gotten to a big mountain lately is hiking the Enchantments."},
+        {"speaker": "nora", "text": "Oh come on, the Enchantments are world-class. How many times have you done the thru-hike now?"},
+        {"speaker": "sam", "text": "Four times. It's my favorite day hike, if you can call eighteen miles a day hike. The larch trees in October are unreal."},
+        {"speaker": "nora", "text": "We should go this fall. Oh, and I meant to tell you — I've been volunteering for WTA trail maintenance days once a month. Mostly on Mailbox Peak. Clearing blowdowns, rebuilding water bars."},
+        {"speaker": "sam", "text": "That's really cool of you. Keeps the trails we love in good shape."},
+        {"speaker": "nora", "text": "Exactly. What about you? What's been keeping you going lately?"},
+        {"speaker": "sam", "text": "I just finished rereading 'Endurance' by Alfred Lansing. The Shackleton Antarctic book. It's my all-time favorite. Every time I read it I'm amazed those men survived."},
+        {"speaker": "nora", "text": "I need to read that. Okay, one more route before they close?"},
+        {"speaker": "sam", "text": "Let's do it."}
+      ]
+    },
+    {
+      "session_id": "session_18",
+      "date": "2024-09-07 12:00",
+      "participants": ["jenny", "tomas"],
+      "setting": "Trail parking lot at Tiger Mountain after Saturday run, stretching by the cars",
+      "observations_covered": ["jenny_010", "jenny_018", "tomas_007", "tomas_002"],
+      "turns": [
+        {"speaker": "jenny", "text": "Good run today. My legs are going to hate me tomorrow though. I've been running extra this week — I'm organizing a women's backpacking trip in the Enchantments this month. Eight hikers, four days. The logistics are stressing me out."},
+        {"speaker": "tomas", "text": "Eight people in the Enchantments? Permits alone must have been a headache."},
+        {"speaker": "jenny", "text": "You have no idea. But it's going to be worth it. I want to create a space for women to experience big wilderness without feeling like they need to keep up with anyone."},
+        {"speaker": "tomas", "text": "That's a beautiful idea. You'd be a great leader for that. Hey, are those watercolors in your bag?"},
+        {"speaker": "jenny", "text": "Oh — yeah, my sketchbook. I'm working on a field guide to wildflowers of Mount Rainier. Doing my own watercolor illustrations."},
+        {"speaker": "tomas", "text": "Jenny, these are gorgeous. The lupine especially. You have real talent."},
+        {"speaker": "jenny", "text": "Thanks. It's a long-term project. I want it to be something visitors can actually use on the trails. So where exactly do you live again? I always forget which part of Capitol Hill."},
+        {"speaker": "tomas", "text": "Two-bedroom condo on Pine Street. Capitol Hill's great — everything's walkable. Elena and I can get to like six restaurants without moving the car."},
+        {"speaker": "jenny", "text": "That's the opposite of Ashford. My nearest restaurant is a gas station deli twenty minutes away. But my nearest mountain is Rainier, so I win."},
+        {"speaker": "tomas", "text": "Can't argue with that. Fair trade."},
+        {"speaker": "jenny", "text": "Hey, where are you from originally? I know you went to med school in Mexico City, but where did you grow up?"},
+        {"speaker": "tomas", "text": "Guadalajara. Born and raised. I went to UNAM for medical school and then came up here for residency. Been in Seattle about six years now."},
+        {"speaker": "jenny", "text": "Do you miss it?"},
+        {"speaker": "tomas", "text": "Every day. But there's no trail running in Guadalajara like there is here. Different kind of beauty."}
+      ]
+    },
+    {
+      "session_id": "session_19",
+      "date": "2024-09-21 11:00",
+      "participants": ["jenny", "nora"],
+      "setting": "Paradise Visitor Center at Mount Rainier, Jenny on a break between guided hikes",
+      "observations_covered": ["jenny_005", "jenny_020", "jenny_017", "nora_001"],
+      "turns": [
+        {"speaker": "nora", "text": "I brought coffee. Figured you could use it after back-to-back hikes."},
+        {"speaker": "jenny", "text": "You're an angel. I've led so many hikes this year I've lost count."},
+        {"speaker": "nora", "text": "How many, roughly?"},
+        {"speaker": "jenny", "text": "As of yesterday, forty-seven guided hikes in 2024. Apparently that's the most of any ranger at Paradise this year."},
+        {"speaker": "nora", "text": "That's amazing, Jenny. You really are in your element here."},
+        {"speaker": "jenny", "text": "I love it. Every group is different. Some are experienced hikers, some have never been on a trail. It's all worth it. Oh, hey — are you still using that hiking stick I carved you?"},
+        {"speaker": "nora", "text": "The one from Christmas? With the mountain goat on the handle? I use it every single time I hike. It's my favorite piece of gear."},
+        {"speaker": "jenny", "text": "I'm glad. I gave one to everyone in the group. Sam's had a kayak paddle carved into it, and Tomás got a running shoe. Took me about a month to do all four."},
+        {"speaker": "nora", "text": "You're so talented with your hands. The carving, the watercolors... Have you read anything good lately, by the way? I need a recommendation."},
+        {"speaker": "jenny", "text": "I just reread 'A Sand County Almanac' by Aldo Leopold. It's my favorite book — it's this beautiful collection of essays about land ethics and our relationship with the natural world. Written in the 1940s but it feels more relevant every year."},
+        {"speaker": "nora", "text": "I'll pick it up. I work at REI headquarters in Kent doing software stuff, and sometimes I need a book to remind me why I actually care about the outdoors."},
+        {"speaker": "jenny", "text": "You work at REI? How did I not know that?"},
+        {"speaker": "nora", "text": "Senior software engineer, building the recommendation engine. Very behind-the-scenes. Not nearly as glamorous as being a park ranger."},
+        {"speaker": "jenny", "text": "I don't know, making sure people find the right gear is pretty important. Without good gear, my hikers would be miserable."}
+      ]
+    },
+    {
+      "session_id": "session_20",
+      "date": "2024-10-12 08:30",
+      "participants": ["nora", "sam", "tomas", "jenny"],
+      "setting": "Smith Rock State Park, Oregon, first morning of the group camping and climbing trip",
+      "observations_covered": ["tomas_012", "tomas_015", "sam_018", "jenny_002"],
+      "turns": [
+        {"speaker": "tomas", "text": "Alright, everyone's here. Welcome to Smith Rock. I've been planning this trip for months."},
+        {"speaker": "sam", "text": "I brought breakfast. Made a huge batch of jollof rice last night — my Sunday evening tradition. Always make enough for leftovers on Monday, but I brought extra for the trip."},
+        {"speaker": "jenny", "text": "Sam's jollof rice for breakfast? I'm not complaining."},
+        {"speaker": "tomas", "text": "I love that you've been doing that since I've known you. Okay, today's plan: Nora and Sam hit the climbing routes on the east face, Jenny and I do a trail run through the canyon, regroup for lunch."},
+        {"speaker": "jenny", "text": "Sounds good. Oh, Tomás, did you tell them about the marathon?"},
+        {"speaker": "tomas", "text": "Right — I signed up to pace the Seattle Marathon in November. Running the three-fifteen group. Pacing's harder in some ways — you have to hold back and keep a group together."},
+        {"speaker": "nora", "text": "That's a different kind of challenge. Very you though."},
+        {"speaker": "sam", "text": "Always the coach. Hey Jenny, I've been meaning to ask — how's your mom's business going?"},
+        {"speaker": "jenny", "text": "The fabric imports? Going well. She just got a new supplier in Kumasi. You know, being half Polish and half Ghanaian, growing up in Accra and then moving to Portland at twelve — I sometimes feel like I've lived three different lives. Mom's business is the thread that connects them all."},
+        {"speaker": "nora", "text": "That's a beautiful way to put it. Okay, Sam, let's go find our wall. I've been eyeing that red pillar since we drove in."},
+        {"speaker": "sam", "text": "Lead the way, partner."},
+        {"speaker": "tomas", "text": "Be safe out there. Jenny, let's warm up on the River Trail."},
+        {"speaker": "jenny", "text": "Right behind you."}
+      ]
+    }
+  ]
+}

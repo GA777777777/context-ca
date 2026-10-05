@@ -1,0 +1,430 @@
+{
+  "scenario_id": "cooking_club",
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "date": "2024-03-06 18:30",
+      "participants": ["marcus", "priya"],
+      "setting": "Bayou Table restaurant kitchen, after the Wednesday dinner rush",
+      "observations_covered": ["marcus_001", "marcus_004", "priya_001", "priya_003", "marcus_015"],
+      "turns": [
+        {"speaker": "marcus", "text": "That was a crazy service tonight. Forty-two covers on a Wednesday."},
+        {"speaker": "priya", "text": "Tell me about it. I ran out of bread pudding by eight o'clock. The cardamom-praline one."},
+        {"speaker": "marcus", "text": "Priya, that bread pudding is single-handedly keeping Bayou Table on the map. Didn't Eater New Orleans just feature it?"},
+        {"speaker": "priya", "text": "They did, yeah. Which is why everyone's ordering it now. I need to start doubling the batch. How's the cookbook coming along, by the way?"},
+        {"speaker": "marcus", "text": "Slowly. I've been collecting recipes from the club for 'Frenchmen Street Kitchen,' but organizing them into chapters is harder than I thought."},
+        {"speaker": "priya", "text": "You should include the dessert section from me and Rosa. Our pastry collaborations have been some of the best club nights."},
+        {"speaker": "marcus", "text": "Oh, definitely. Your stuff is going in there. I just need to test everything one more time. You know me, head chef brain — everything has to be perfect."},
+        {"speaker": "priya", "text": "Perfectionist. That's why Magazine Street keeps filling up every night."},
+        {"speaker": "marcus", "text": "Speaking of which, I need to finalize the spring menu tomorrow. Want to brainstorm dessert pairings before we leave?"},
+        {"speaker": "priya", "text": "Sure. Let me just finish cleaning my station. Give me ten minutes."}
+      ]
+    },
+    {
+      "session_id": "session_02",
+      "date": "2024-03-13 19:00",
+      "participants": ["marcus", "rosa", "lorraine"],
+      "setting": "Marcus's home kitchen on Frenchmen Street, Wednesday Night Cooking Club",
+      "observations_covered": ["marcus_003", "marcus_007", "rosa_003", "rosa_020", "lorraine_004"],
+      "turns": [
+        {"speaker": "rosa", "text": "Marcus, I brought over a big batch of agua de jamaica. Should I set it up on the counter?"},
+        {"speaker": "marcus", "text": "Absolutely. Ever since you introduced that to the club, it's basically become our official drink. I don't think anyone touches anything else on Wednesdays anymore."},
+        {"speaker": "lorraine", "text": "I'll take a glass right now, baby. Let me just get my grandmother's pot set up first. Can't cook without it."},
+        {"speaker": "rosa", "text": "Lorraine, you bring that cast-iron pot every single week. It must weigh a ton."},
+        {"speaker": "lorraine", "text": "Thirty pounds, but it's seasoned with six generations of love. I'm the oldest one in this club, and this pot's even older than me."},
+        {"speaker": "marcus", "text": "That pot has made some of the best food I've ever tasted. Glad you only have to walk it next door, Rosa. Perks of us being neighbors."},
+        {"speaker": "rosa", "text": "Right? I literally walked over here in my slippers tonight. Living next door to the guy who founded the cooking club has its advantages."},
+        {"speaker": "marcus", "text": "I started this whole thing back in January 2023, and honestly, having you right next door is why you were my first recruit."},
+        {"speaker": "lorraine", "text": "Well, I'm glad you invited me too. Now pour me some of that jamaica, Rosa, and let's get cooking. What are we making tonight?"},
+        {"speaker": "marcus", "text": "I was thinking we do a roux-off. Everyone makes their roux, and we compare."},
+        {"speaker": "rosa", "text": "Oh, this should be fun. Lorraine, your roux is legendary."},
+        {"speaker": "lorraine", "text": "Honey, I've been stirring roux since before you were born. Let's see what you've got."}
+      ]
+    },
+    {
+      "session_id": "session_03",
+      "date": "2024-03-20 07:15",
+      "participants": ["priya", "lorraine"],
+      "setting": "Swan River Yoga studio on Magazine Street, before morning class",
+      "observations_covered": ["priya_018", "lorraine_006", "priya_009", "lorraine_002", "priya_002"],
+      "turns": [
+        {"speaker": "priya", "text": "Good morning, Lorraine! You beat me here again."},
+        {"speaker": "lorraine", "text": "I've been getting here by quarter to seven every morning this week. My body just wakes up early. Seventh Ward habits — my family's been in this city for six generations, and we've always been early risers."},
+        {"speaker": "priya", "text": "Six generations in New Orleans? That's incredible. I've only been here since 2016. I came from Chennai for culinary school — the New Orleans Culinary and Hospitality Institute."},
+        {"speaker": "lorraine", "text": "And look at you now, pastry chef at one of the best restaurants in town. Chennai to New Orleans is quite a journey, baby."},
+        {"speaker": "priya", "text": "It really is. Some mornings when I'm biking from my place on Esplanade Avenue to the studio here, I still pinch myself. Three blocks from the French Quarter and I'm living in a shotgun house. It feels like a dream."},
+        {"speaker": "lorraine", "text": "Esplanade is beautiful. I love that stretch near the Quarter. You settled in nicely."},
+        {"speaker": "priya", "text": "I have. This yoga class helps so much. Every weekday at seven, rain or shine. It keeps me centered before the chaos of the pastry kitchen."},
+        {"speaker": "lorraine", "text": "Same for me, honey. After twenty-five years of nursing, my back needs this. Alright, looks like they're opening the doors. Ready?"},
+        {"speaker": "priya", "text": "Let's do it. Want to grab coffee after?"},
+        {"speaker": "lorraine", "text": "Always."}
+      ]
+    },
+    {
+      "session_id": "session_04",
+      "date": "2024-03-27 18:00",
+      "participants": ["marcus", "hideo"],
+      "setting": "Marcus's backyard on Frenchmen Street, testing fusion recipes",
+      "observations_covered": ["marcus_019", "hideo_003", "hideo_005", "marcus_016", "hideo_016"],
+      "turns": [
+        {"speaker": "marcus", "text": "Alright, Hideo, the smoker's been going for about six hours now. This tasso ham should be ready soon."},
+        {"speaker": "hideo", "text": "You built this smoker yourself, right? It's impressive."},
+        {"speaker": "marcus", "text": "Yeah, custom-built. I smoke all my own tasso back here. It's one of those things where you just can't get the flavor right from a store. So what are you thinking for the fusion dish tonight?"},
+        {"speaker": "hideo", "text": "I brought fresh dashi. I make it from scratch every morning at Kura — dried bonito flakes and kombu seaweed. I was thinking we fold the tasso into a dashi broth base and create something like a Cajun ramen."},
+        {"speaker": "marcus", "text": "Cajun ramen. Man, this is why we're the best cooking partners in the club. Nobody else is doing Cajun-Japanese fusion like us."},
+        {"speaker": "hideo", "text": "That's what drew me to New Orleans in the first place. When I moved here in 2019, I wanted to explore the overlap between Japanese and Creole seafood traditions. And then I met you, and it all came together."},
+        {"speaker": "marcus", "text": "I remember that first club night when you showed up. You brought that miso butter and put it on my crawfish. I was like, this man is a genius."},
+        {"speaker": "hideo", "text": "And you showed me what a real roux tastes like. So, should we try the tasso-dashi broth? I'm thinking we serve it over thick noodles with poached Gulf shrimp."},
+        {"speaker": "marcus", "text": "Let's do it. I'll pull the tasso off the smoker and we can start building the broth."},
+        {"speaker": "hideo", "text": "Perfect. This could be the centerpiece of next week's club night."}
+      ]
+    },
+    {
+      "session_id": "session_05",
+      "date": "2024-04-03 17:30",
+      "participants": ["rosa", "hideo"],
+      "setting": "Rosa's Honda CR-V, driving home from the Seventh Ward",
+      "observations_covered": ["rosa_010", "hideo_004", "rosa_001", "rosa_015", "hideo_019"],
+      "turns": [
+        {"speaker": "rosa", "text": "Thanks for waiting, Hideo. Parent conferences ran long today. Fourth graders — you'd think they'd be easy, but the parents have so many questions."},
+        {"speaker": "hideo", "text": "No problem at all. I really appreciate you driving me. Six months without my car is killing me."},
+        {"speaker": "rosa", "text": "That Subaru of yours has been in the shop forever. What's wrong with it again?"},
+        {"speaker": "hideo", "text": "Engine issue. The silver Outback is basically living at the mechanic's at this point. They keep finding new problems."},
+        {"speaker": "rosa", "text": "That's awful. Well, carpooling works out anyway. William Frantz Elementary isn't far from Kura, so the route makes sense."},
+        {"speaker": "hideo", "text": "It does. And honestly, I enjoy the company. Is that a Virgen de Guadalupe air freshener?"},
+        {"speaker": "rosa", "text": "Yes! My mother gave it to me years ago. This old white CR-V has seen better days, but that air freshener stays."},
+        {"speaker": "hideo", "text": "I like it. It smells nice too. Like lavender."},
+        {"speaker": "rosa", "text": "It is lavender. So how was the lunch rush at Kura today?"},
+        {"speaker": "hideo", "text": "Busy. We had a big group come in for a birthday. I made about forty pieces of nigiri. My hands are tired."},
+        {"speaker": "rosa", "text": "You need a hand massage. I know a good place on Magazine Street."},
+        {"speaker": "hideo", "text": "Maybe after my car's fixed and I can actually drive myself there."}
+      ]
+    },
+    {
+      "session_id": "session_06",
+      "date": "2024-04-10 19:00",
+      "participants": ["priya", "rosa"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club, working on desserts",
+      "observations_covered": ["priya_005", "rosa_004", "priya_006", "priya_016", "rosa_005"],
+      "turns": [
+        {"speaker": "priya", "text": "Rosa, I picked up some jaggery from the Indian grocery on Broad Street. I was thinking we could try it in tonight's dessert."},
+        {"speaker": "rosa", "text": "Jaggery? Is that the unrefined cane sugar you're always talking about?"},
+        {"speaker": "priya", "text": "Yes! It's my favorite ingredient to work with. It has this deep, almost caramelly flavor. I think it would be incredible in a praline."},
+        {"speaker": "rosa", "text": "Oh, interesting. You know, I was going to suggest we do a chocolate component tonight. I have some chocolate from Oaxaca that I use in my mole negro."},
+        {"speaker": "priya", "text": "Your mole negro! That recipe is insane. Seven ingredients, three days of work. That chocolate must be special."},
+        {"speaker": "rosa", "text": "It is. My family's been using it for generations. But we could use it in a pastry context too. You're the expert — you're my cooking partner for a reason."},
+        {"speaker": "priya", "text": "And you're mine. Desserts and pastries are our thing in this club. Remember that masala chai king cake we did for King Cake Festival?"},
+        {"speaker": "rosa", "text": "Second place! That was amazing. I still can't believe we almost won."},
+        {"speaker": "priya", "text": "Almost. Next year, we'll take first. So what do you think — jaggery-Oaxacan chocolate truffles?"},
+        {"speaker": "rosa", "text": "Let's do it. I'll melt the chocolate and you handle the jaggery reduction."},
+        {"speaker": "priya", "text": "Deal. This is why Wednesday nights are the best night of the week."}
+      ]
+    },
+    {
+      "session_id": "session_07",
+      "date": "2024-04-17 20:00",
+      "participants": ["marcus", "lorraine"],
+      "setting": "Marcus's kitchen after cooking club, everyone else has left",
+      "observations_covered": ["lorraine_016", "marcus_002", "lorraine_005", "marcus_005", "lorraine_007"],
+      "turns": [
+        {"speaker": "marcus", "text": "Lorraine, can I ask you something? That roux you made tonight — it was perfect. Every time. How do you do it?"},
+        {"speaker": "lorraine", "text": "Baby, I taught you how to make proper Creole roux when you first moved to New Orleans. You've gotten good, but you still rush it."},
+        {"speaker": "marcus", "text": "I know, I know. CIA trained me to be efficient. When I graduated from the Culinary Institute of America in 2010, everything was about speed and precision."},
+        {"speaker": "lorraine", "text": "Hyde Park teaches you technique. New Orleans teaches you patience. Those are two different things."},
+        {"speaker": "marcus", "text": "That's true. I grew up in Lafayette watching my grandmother at her boudin stand, and even she said I was always in a hurry."},
+        {"speaker": "lorraine", "text": "Your grandmother knew. Good food takes time. My red beans and rice — I use pickled pork from Langenstein's and a secret blend of seven spices. That pot simmers for hours."},
+        {"speaker": "marcus", "text": "Your red beans are the best I've ever had. Bar none."},
+        {"speaker": "lorraine", "text": "Thank you, baby. Jerome always says the same thing. That man eats them every Monday without fail."},
+        {"speaker": "marcus", "text": "How is Jerome doing? Still building furniture?"},
+        {"speaker": "lorraine", "text": "Oh yes. Retired from the fire department, and now he's in the garage every day making custom pieces. He just finished a dining table from reclaimed cypress. Beautiful work."},
+        {"speaker": "marcus", "text": "I need to commission something from him. My kitchen table is falling apart."},
+        {"speaker": "lorraine", "text": "Just call him. He'd love to make something for you."}
+      ]
+    },
+    {
+      "session_id": "session_08",
+      "date": "2024-04-24 13:00",
+      "participants": ["priya", "marcus"],
+      "setting": "Bayou Table restaurant, lunch prep break",
+      "observations_covered": ["priya_020", "marcus_013", "priya_010", "marcus_006", "priya_012"],
+      "turns": [
+        {"speaker": "priya", "text": "Marcus, I just got a call about the food festival. They want us both back for panels this year."},
+        {"speaker": "marcus", "text": "Oh nice! After that crawfish boil masterclass I taught there earlier this month, they want more?"},
+        {"speaker": "priya", "text": "Apparently you were a hit. I still remember catering desserts for that 300-person Mardi Gras ball in February. The Krewe of Muses one. That nearly killed me."},
+        {"speaker": "marcus", "text": "Three hundred people! That's insane. How did you even manage that?"},
+        {"speaker": "priya", "text": "I didn't sleep for two days. But it was worth it. Lots of new connections. Speaking of the festival — remember your gumbo competition win last year?"},
+        {"speaker": "marcus", "text": "The duck and andouille gumbo at the New Orleans Gumbo Festival? Yeah, that was a good day."},
+        {"speaker": "priya", "text": "A good day? You won the whole thing. I was so proud. Hey, completely different topic — I started reading 'Tartine Bread' again. Chad Robertson's approach to fermentation is giving me ideas."},
+        {"speaker": "marcus", "text": "For the restaurant or the club?"},
+        {"speaker": "priya", "text": "Both, honestly. I want to do a naturally leavened dessert bread with South Indian spices. Oh, and I've been meaning to ask — can we do more of the Cajun French lessons? I'm picking it up, but slowly."},
+        {"speaker": "marcus", "text": "Mais oui! You already speak Tamil, Hindi, and English. Adding Cajun French to that is impressive."},
+        {"speaker": "priya", "text": "Three languages makes the fourth easier, or so they say. Alright, break's over. Back to the pastry station."}
+      ]
+    },
+    {
+      "session_id": "session_09",
+      "date": "2024-05-01 18:45",
+      "participants": ["hideo", "lorraine"],
+      "setting": "Lorraine's house on North Claiborne Avenue, dropping off groceries",
+      "observations_covered": ["hideo_007", "lorraine_003", "lorraine_009", "hideo_008", "lorraine_017"],
+      "turns": [
+        {"speaker": "hideo", "text": "Lorraine, I brought the kombu seaweed you asked for. And some extra bonito flakes."},
+        {"speaker": "lorraine", "text": "Thank you, sweetheart. Come in, come in. The grandchildren are here — it's Friday, so I'm babysitting all four of them."},
+        {"speaker": "hideo", "text": "Four grandkids every Friday? That's a workout."},
+        {"speaker": "lorraine", "text": "It is, but I love it. They're in the backyard right now, playing in the garden. Jerome built me these beautiful raised beds, and I grow all my herbs there — basil, thyme, oregano, bay laurel."},
+        {"speaker": "hideo", "text": "That's wonderful. Yuki was just saying we should start an herb garden. She keeps talking about how her cousin Jerome has such a green thumb."},
+        {"speaker": "lorraine", "text": "Well, Jerome and Yuki are first cousins, so the family connection runs deep. Which makes you and me cousins by marriage, Hideo. Family helps family."},
+        {"speaker": "hideo", "text": "Exactly. And Yuki loves visiting you. She says your house always smells incredible."},
+        {"speaker": "lorraine", "text": "That's the herbs and the roux, baby. Now, tell me about this wife of yours. How's her teaching going at Tulane?"},
+        {"speaker": "hideo", "text": "She's doing well. The Japanese language classes are popular this semester. Full enrollment."},
+        {"speaker": "lorraine", "text": "Good for her. Now, do you want to stay for dinner? I'm making gumbo with the grandkids tonight."},
+        {"speaker": "hideo", "text": "I'd love to, but I promised Rosa I'd be ready for our carpool at seven tomorrow morning. Rain check?"},
+        {"speaker": "lorraine", "text": "Anytime, baby. You're family."}
+      ]
+    },
+    {
+      "session_id": "session_10",
+      "date": "2024-05-08 19:30",
+      "participants": ["marcus", "rosa", "priya"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club",
+      "observations_covered": ["rosa_011", "marcus_008", "rosa_008", "priya_013", "marcus_014"],
+      "turns": [
+        {"speaker": "rosa", "text": "Marcus, I brought a bag of habaneros from my garden. Fresh off the plant this morning."},
+        {"speaker": "marcus", "text": "Habaneros! Rosa, your backyard pepper garden is out of control. What else are you growing this year?"},
+        {"speaker": "rosa", "text": "Habaneros, serranos, and guajillos. Same as always. They love the Frenchmen Street soil."},
+        {"speaker": "priya", "text": "Can I take some serranos? I want to try them in a praline recipe I'm developing. I'm working on a South Indian-inspired praline line to sell at the French Market."},
+        {"speaker": "rosa", "text": "Take as many as you want! That sounds amazing. Oh, and Sofia sends her love, Priya. She loved those cardamom cookies you sent home last week."},
+        {"speaker": "priya", "text": "Aw, how old is Sofia now? Sixteen?"},
+        {"speaker": "rosa", "text": "Sixteen, yes. Miguel is thirteen and Luna is nine. They're growing up too fast."},
+        {"speaker": "marcus", "text": "I know the feeling. Celine is twelve now, and she's already telling me my cooking is 'mid.' Can you believe that? My own daughter."},
+        {"speaker": "priya", "text": "Kids these days. What school is she at?"},
+        {"speaker": "marcus", "text": "Lusher Charter School. She loves it. Hey, we should talk about tonight's main — I'm doing my 48-hour slow-cooked pork shoulder with cane syrup glaze. It's been going since Monday."},
+        {"speaker": "rosa", "text": "Oh, that's your specialty! The one that takes two full days?"},
+        {"speaker": "marcus", "text": "Two days of low and slow. Trust me, it's worth the wait. Grab a plate."}
+      ]
+    },
+    {
+      "session_id": "session_11",
+      "date": "2024-05-15 10:00",
+      "participants": ["priya", "lorraine"],
+      "setting": "Coffee shop near Swan River Yoga after morning class",
+      "observations_covered": ["priya_008", "lorraine_014", "priya_019", "lorraine_001", "priya_015"],
+      "turns": [
+        {"speaker": "lorraine", "text": "That was a tough class today. My shoulders are going to be sore tomorrow."},
+        {"speaker": "priya", "text": "Mine too. But worth it. Hey, I wanted to show you something. Look at this little face."},
+        {"speaker": "lorraine", "text": "Oh! Is that the cat you adopted?"},
+        {"speaker": "priya", "text": "Yes! Masala. I adopted her from the Louisiana SPCA back in March. She's a tabby and she's already the queen of my shotgun house."},
+        {"speaker": "lorraine", "text": "Masala! What a perfect name for a chef's cat. She's beautiful."},
+        {"speaker": "priya", "text": "She sits on the counter while I test recipes. Which reminds me — Lorraine, you know how I've been talking about opening my own bakery?"},
+        {"speaker": "lorraine", "text": "In Bywater, right? The Indo-Creole pastry place? Baby, I think about that all the time. You'd be amazing."},
+        {"speaker": "priya", "text": "That's the dream. Indo-Creole pastries. I just need to save up more. The praline line at the French Market is supposed to help with that."},
+        {"speaker": "lorraine", "text": "You know who you should read? Leah Chase. Her cookbook — 'Leah Chase: The Queen of Creole Cuisine' — that's my bible. That woman built an empire from a kitchen."},
+        {"speaker": "priya", "text": "I'll pick it up. You've mentioned her before. You were a nurse for how long before you retired?"},
+        {"speaker": "lorraine", "text": "Twenty-five years at Ochsner Medical Center. Cardiac unit, registered nurse. I retired in 2022, and I haven't looked back. Cooking full-time is what I was always meant to do."},
+        {"speaker": "priya", "text": "That's inspiring, honestly. From nursing to the kitchen. Alright, I need to get going. I'm parked on Magazine — the red Kia Soul with the bumper sticker."},
+        {"speaker": "lorraine", "text": "'Bakers Gonna Bake'! I love that thing. Drive safe, honey."}
+      ]
+    },
+    {
+      "session_id": "session_12",
+      "date": "2024-05-22 19:00",
+      "participants": ["hideo", "marcus", "lorraine"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club",
+      "observations_covered": ["hideo_010", "hideo_002", "marcus_012", "lorraine_013", "hideo_006"],
+      "turns": [
+        {"speaker": "marcus", "text": "Hideo, what's in that case you brought tonight?"},
+        {"speaker": "hideo", "text": "My good knives. I import them directly from a bladesmith in Sakai, Japan. This set is worth over five thousand dollars."},
+        {"speaker": "lorraine", "text": "Lord have mercy. Five thousand dollars for knives?"},
+        {"speaker": "hideo", "text": "They're hand-forged. Each one takes weeks to make. I've been collecting them since my training days. I spent seven years at a sushi restaurant in Tsukiji, Tokyo, after growing up in Osaka. Knives are everything in Japanese cuisine."},
+        {"speaker": "marcus", "text": "I respect that. I've got my own kind of collection — over 200 hot sauce bottles in the garage. Organized by Scoville rating."},
+        {"speaker": "lorraine", "text": "Marcus, that is the most you thing I've ever heard. Two hundred hot sauces!"},
+        {"speaker": "marcus", "text": "What? I need options. Different sauces for different dishes."},
+        {"speaker": "hideo", "text": "You should try Japanese yuzu kosho. It would fit right in your collection. Speaking of fusion, I wanted to tell you both — the miso-crawfish roll I created became the best-selling item at Kura this year."},
+        {"speaker": "lorraine", "text": "The miso-crawfish roll! I had that last month. Hideo, it was magnifique. See, I'm practicing my French."},
+        {"speaker": "hideo", "text": "Lorraine, you speak Louisiana Creole French, right? That's the real deal."},
+        {"speaker": "lorraine", "text": "Creole French and English, baby. And I can read standard French too. My family kept the language alive all these generations."},
+        {"speaker": "marcus", "text": "Alright, enough talking. Hideo, let's see what those five-thousand-dollar knives can do. We're breaking down a whole redfish tonight."}
+      ]
+    },
+    {
+      "session_id": "session_13",
+      "date": "2024-06-05 19:00",
+      "participants": ["rosa", "priya", "lorraine"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club ladies' night theme",
+      "observations_covered": ["rosa_006", "rosa_013", "priya_007", "lorraine_015", "rosa_014"],
+      "turns": [
+        {"speaker": "lorraine", "text": "Ladies, it's just us three tonight. Marcus and Hideo are doing some fishing thing."},
+        {"speaker": "rosa", "text": "Perfect. We can actually cook without Marcus hovering over everyone's pot. So, what are we making?"},
+        {"speaker": "priya", "text": "My mom just sent me a fresh batch of homemade curry powder from Chennai. She ships it every three months by international post. I was thinking we try it in something."},
+        {"speaker": "lorraine", "text": "Your mother sends you curry powder from India? That's love right there."},
+        {"speaker": "priya", "text": "Lakshmi doesn't mess around. She packs it in triple-sealed bags. It's incredible stuff."},
+        {"speaker": "rosa", "text": "Let's use it! I can translate the recipe card if it's in English. I only speak Spanish and English, but I'm good at figuring out recipes."},
+        {"speaker": "lorraine", "text": "Rosa, speaking of your talents — didn't you win Teacher of the Year last year?"},
+        {"speaker": "rosa", "text": "I did! At William Frantz Elementary, 2023. It was such an honor. Being able to translate for Spanish-speaking parents at the school was a big part of why they nominated me."},
+        {"speaker": "priya", "text": "You deserve it. You do so much for that community."},
+        {"speaker": "lorraine", "text": "She really does. Now, I made seafood gumbo with okra this Monday, like I always do, and I delivered portions to three elderly neighbors on my street. But I saved some for tonight."},
+        {"speaker": "rosa", "text": "Lorraine, you are the sweetest person alive. My daughter Sofia keeps saying she wants to be like you when she grows up. Actually, no — Sofia's current obsession is 'My Mexico City Kitchen' by Gabriela Camara. She wants to go to culinary school."},
+        {"speaker": "priya", "text": "Like mother, like daughter. Alright, let's get cooking. Curry gumbo fusion, anyone?"},
+        {"speaker": "lorraine", "text": "Now you're speaking my language."}
+      ]
+    },
+    {
+      "session_id": "session_14",
+      "date": "2024-06-19 18:00",
+      "participants": ["lorraine", "marcus", "priya", "hideo", "rosa"],
+      "setting": "Marcus's home kitchen and backyard, Wednesday Night Cooking Club — Juneteenth celebration",
+      "observations_covered": ["lorraine_012", "marcus_009", "hideo_011", "rosa_017", "priya_004"],
+      "turns": [
+        {"speaker": "lorraine", "text": "Alright, everybody listen up! Tonight is special. I've organized a Juneteenth celebration, and we're doing a traditional Creole feast. I've got forty people coming."},
+        {"speaker": "marcus", "text": "Forty people? Lorraine, my kitchen is big, but not that big. Good thing I set up tables in the backyard. I had to move my truck to make room. That F-150 is huge."},
+        {"speaker": "hideo", "text": "The black one with the ROUX-BOY license plate? I saw it parked down the street."},
+        {"speaker": "marcus", "text": "That's the one. Custom plate. I'm proud of it."},
+        {"speaker": "rosa", "text": "I came straight from Zumba at the YMCA on St. Charles. My legs are jelly, but I'm here to help."},
+        {"speaker": "lorraine", "text": "Rosa, thank you, baby. Everyone's pitching in. Hideo, did you bring the fish?"},
+        {"speaker": "hideo", "text": "I brought redfish and speckled trout. Caught them myself in the Bienvenue Triangle marsh on Sunday. I go fishing there every other Sunday morning."},
+        {"speaker": "lorraine", "text": "Fresh Gulf fish for a Juneteenth feast. Perfect."},
+        {"speaker": "priya", "text": "I brought desserts from my Saturday baking class at the Treme Community Center. The students helped me make pralines and bread pudding."},
+        {"speaker": "lorraine", "text": "Priya, you teach those baking classes every Saturday? That's wonderful."},
+        {"speaker": "priya", "text": "Every Saturday morning. The kids are getting really good."},
+        {"speaker": "marcus", "text": "Alright, team. Let's make this the best Juneteenth celebration this club has ever seen. Lorraine, you're in charge. What do you need from us?"},
+        {"speaker": "lorraine", "text": "I need Marcus on the grill, Hideo on the fish, Priya on desserts, and Rosa, help me with the sides. Let's feed forty people tonight."}
+      ]
+    },
+    {
+      "session_id": "session_15",
+      "date": "2024-07-10 19:00",
+      "participants": ["rosa", "marcus"],
+      "setting": "Marcus's home kitchen, after cooking club, everyone else has left",
+      "observations_covered": ["rosa_012", "rosa_007", "marcus_010", "rosa_018", "marcus_018"],
+      "turns": [
+        {"speaker": "rosa", "text": "Marcus, I wanted to tell you — I'm going to Oaxaca next week. My mother and I are visiting my aunt Elena to learn traditional mole recipes."},
+        {"speaker": "marcus", "text": "Oaxaca! That's incredible, Rosa. How long will you be gone?"},
+        {"speaker": "rosa", "text": "About two weeks in July. Carlos is going to hold down the fort with the kids. He's got a tough schedule at Avondale Shipyard, but he'll manage."},
+        {"speaker": "marcus", "text": "Carlos is a welder there, right? That's hard work."},
+        {"speaker": "rosa", "text": "He is. Forty hours a week minimum, often more. But he wants me to go. He knows how important this is. My aunt Elena's mole recipes go back generations."},
+        {"speaker": "marcus", "text": "Bring back recipes for the club. And for the cookbook."},
+        {"speaker": "rosa", "text": "I will. Oh, and Sofia wants me to find a culinary school program in Oaxaca for her to look at. My sixteen-year-old is dead set on being a chef. She already helps me prep tamale filling on weekends."},
+        {"speaker": "marcus", "text": "That's amazing. She could be the next great Mexican-American chef. Speaking of family, I need to call my dad this weekend. Jean-Pierre still makes boudin at the family stand in Lafayette every Saturday."},
+        {"speaker": "rosa", "text": "Your father is still running the stand? That's dedication."},
+        {"speaker": "marcus", "text": "Every single Saturday. Rain or shine. Same spot my grandmother had. It's a family thing. Hey, do you want a ride in the morning? I'm heading out for my run early."},
+        {"speaker": "rosa", "text": "Your morning run? What time?"},
+        {"speaker": "marcus", "text": "Five-thirty AM. Three miles along the Mississippi River levee. Every morning."},
+        {"speaker": "rosa", "text": "You're insane. No, I do not want a ride at five-thirty in the morning. I'll see you next Wednesday, neighbor."}
+      ]
+    },
+    {
+      "session_id": "session_16",
+      "date": "2024-08-07 19:00",
+      "participants": ["hideo", "marcus", "priya", "rosa", "lorraine"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club — Hideo's sashimi workshop",
+      "observations_covered": ["hideo_013", "hideo_020", "hideo_014", "lorraine_008", "priya_011"],
+      "turns": [
+        {"speaker": "hideo", "text": "Okay, everyone, tonight I'm teaching sashimi knife skills. I brought yellowfin tuna straight from the Gulf."},
+        {"speaker": "marcus", "text": "This is going to be good. Show us what you've got."},
+        {"speaker": "hideo", "text": "First rule — the knife does the work, not your arm. You guide it. I also brought my homemade rice vinegar. I ferment it in ceramic crocks that I brought from Osaka. It takes months."},
+        {"speaker": "rosa", "text": "You ferment your own vinegar? Hideo, that's impressive. Gracias for teaching us."},
+        {"speaker": "hideo", "text": "De nada, Rosa. See, I've been picking up conversational Spanish from you during our carpool rides."},
+        {"speaker": "rosa", "text": "You're getting good! We'll have you fluent by December."},
+        {"speaker": "lorraine", "text": "Hideo, before we start, I have news. I won the praline category at the Creole Tomato Festival!"},
+        {"speaker": "priya", "text": "Lorraine! Congratulations! Which praline was it?"},
+        {"speaker": "lorraine", "text": "My bourbon-pecan pralines. The judges said they were the best they'd ever tasted."},
+        {"speaker": "marcus", "text": "That's amazing, Lorraine. We need to celebrate. Priya, didn't you have good news too?"},
+        {"speaker": "priya", "text": "Oh, yeah! I ran my first 10K — the Crescent City Classic back in April. Finished in 58 minutes."},
+        {"speaker": "lorraine", "text": "Fifty-eight minutes! Baby, that's fast."},
+        {"speaker": "priya", "text": "I was shocked, honestly. All that yoga is paying off."},
+        {"speaker": "hideo", "text": "Congratulations to both of you. Now, let's focus. Everyone pick up a knife, and I'll show you the first cut. This is called the hirazukuri — a flat slice for sashimi."}
+      ]
+    },
+    {
+      "session_id": "session_17",
+      "date": "2024-08-21 14:00",
+      "participants": ["lorraine", "hideo"],
+      "setting": "Lorraine's house on North Claiborne Avenue, afternoon visit",
+      "observations_covered": ["lorraine_020", "lorraine_019", "hideo_017", "hideo_015", "lorraine_011"],
+      "turns": [
+        {"speaker": "lorraine", "text": "Hideo, come sit down. I just got back from WWNO. They interviewed me about Creole food traditions for public radio!"},
+        {"speaker": "hideo", "text": "Public radio! Lorraine, that's amazing. When does it air?"},
+        {"speaker": "lorraine", "text": "Next month sometime. They want to do a whole segment on generational Creole cooking. I talked about my grandmother's recipes, the cooking club, everything."},
+        {"speaker": "hideo", "text": "You represent this city's food culture so well. Everyone at the club looks up to you."},
+        {"speaker": "lorraine", "text": "Oh, stop. Now, speaking of the club — my granddaughter Amara has been asking to join. She's eight, and she's already learning to make biscuits."},
+        {"speaker": "hideo", "text": "That's wonderful! Kenji would love that. My son is only three, but he's already fascinated by food. He goes to the same preschool as Marcus's niece, you know."},
+        {"speaker": "lorraine", "text": "Small world. New Orleans is like that — everyone's connected. How's the commute from Bywater with your car situation?"},
+        {"speaker": "hideo", "text": "It's not bad. I live on Chartres Street in a duplex. Rosa's been driving me, which is great, but I miss having my own car."},
+        {"speaker": "lorraine", "text": "Well, you're welcome to borrow Big Mama anytime."},
+        {"speaker": "hideo", "text": "Big Mama?"},
+        {"speaker": "lorraine", "text": "My gold Cadillac Escalade. 2017. I call her Big Mama. She rides smooth."},
+        {"speaker": "hideo", "text": "A gold Escalade named Big Mama. Lorraine, you are one of a kind."},
+        {"speaker": "lorraine", "text": "I know, baby. Now sit down and have some gumbo. I made a fresh batch this morning."}
+      ]
+    },
+    {
+      "session_id": "session_18",
+      "date": "2024-09-04 19:00",
+      "participants": ["marcus", "priya", "rosa", "hideo", "lorraine"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club, post-hurricane gathering",
+      "observations_covered": ["marcus_020", "marcus_017", "hideo_009", "hideo_018", "priya_014"],
+      "turns": [
+        {"speaker": "marcus", "text": "I'm glad everyone's safe after Hurricane Francine. That was scary."},
+        {"speaker": "rosa", "text": "Is everyone's house okay?"},
+        {"speaker": "lorraine", "text": "We lost some shingles, but Jerome patched it up. How about you, Marcus?"},
+        {"speaker": "marcus", "text": "My house is fine, but I've been busy. I donated 500 meals to the St. Bernard Project this week for hurricane relief."},
+        {"speaker": "priya", "text": "Five hundred meals? Marcus, that's incredible."},
+        {"speaker": "marcus", "text": "It's the least I could do. A lot of people lost everything. My left thumb is still bothering me, though — remember when I broke it shucking oysters at that charity event last September? It took four weeks in a splint, and it still aches when I cook for too long."},
+        {"speaker": "hideo", "text": "You need to take it easy. I know the feeling — I've been going nonstop too. On a happier note, I got some good news. I won Best Fusion Dish at the New Orleans Wine and Food Experience."},
+        {"speaker": "rosa", "text": "Hideo! Which dish?"},
+        {"speaker": "hideo", "text": "The shiso-debris po'boy. And I also placed third at the Louisiana Seafood Cook-Off with my Japanese-style grilled oysters."},
+        {"speaker": "lorraine", "text": "Two awards! We need to throw you a party."},
+        {"speaker": "priya", "text": "Seriously. That's amazing. Oh, I wanted to mention — I'm going to Chennai for Diwali in November. Well, last time I went was in 2023, and I brought back 10 kilograms of spices. This time I'm planning to bring even more."},
+        {"speaker": "marcus", "text": "Ten kilos of spices? How did you even get that through customs?"},
+        {"speaker": "priya", "text": "Very carefully. It's worth it, though. Those spices lasted almost the whole year."},
+        {"speaker": "hideo", "text": "Bring some back for the club. We can do another fusion night."}
+      ]
+    },
+    {
+      "session_id": "session_19",
+      "date": "2024-09-18 19:00",
+      "participants": ["lorraine", "rosa", "priya"],
+      "setting": "Tremé Community Center, after Priya's baking class",
+      "observations_covered": ["lorraine_018", "rosa_019", "rosa_009", "lorraine_010", "hideo_012"],
+      "turns": [
+        {"speaker": "priya", "text": "Thank you both for coming to help at the bake sale today. We raised $1,800!"},
+        {"speaker": "lorraine", "text": "And I donated 200 pralines. But it was worth it. The Tremé Community Center does so much for this neighborhood."},
+        {"speaker": "rosa", "text": "I baked 150 conchas for the fundraiser at my school last month. That one raised $2,400 for new playground equipment at William Frantz. It feels good to give back."},
+        {"speaker": "lorraine", "text": "That's what cooking is for, baby. Feeding people. Rosa, aren't you the one who makes all those tamales for the holiday sale too?"},
+        {"speaker": "rosa", "text": "Three hundred tamales every December! All the proceeds from the cooking club's holiday sale go to Second Harvest Food Bank. It's a lot of work, but Carlos and the kids help."},
+        {"speaker": "priya", "text": "Three hundred tamales. I don't know how you do it."},
+        {"speaker": "rosa", "text": "Sofia does most of the filling now. She's getting really fast. Oh, Lorraine — I heard you're planning something big?"},
+        {"speaker": "lorraine", "text": "I am! I'm going to Paris in October. Two weeks at Le Cordon Bleu for a French pastry course."},
+        {"speaker": "priya", "text": "Le Cordon Bleu! Lorraine, that's a dream. I'm so jealous."},
+        {"speaker": "lorraine", "text": "It's something I've wanted to do my whole life. Jerome surprised me with the trip for our anniversary."},
+        {"speaker": "rosa", "text": "That man is a treasure. Oh, by the way — Hideo was telling me during our carpool that he visited his parents in Osaka during Golden Week in May. He said the food there is on another level."},
+        {"speaker": "priya", "text": "I believe it. I always come back from Chennai inspired too. Travel changes everything."},
+        {"speaker": "lorraine", "text": "That's exactly why I'm going. You're never too old to learn."}
+      ]
+    },
+    {
+      "session_id": "session_20",
+      "date": "2024-10-16 19:00",
+      "participants": ["marcus", "priya", "rosa", "hideo", "lorraine"],
+      "setting": "Marcus's home kitchen, Wednesday Night Cooking Club, planning holiday events",
+      "observations_covered": ["priya_017", "rosa_016", "marcus_011", "rosa_002", "hideo_001"],
+      "turns": [
+        {"speaker": "marcus", "text": "Alright, let's plan our fall events. We've got a lot coming up."},
+        {"speaker": "rosa", "text": "I want to do a Dia de los Muertos celebration in November. I'll build an ofrenda with photos and marigolds. It's the one tradition I brought with me when I moved from Veracruz twenty years ago, and I want to share it with the club."},
+        {"speaker": "priya", "text": "Twenty years ago? That's when you came to New Orleans?"},
+        {"speaker": "rosa", "text": "2004, right after Carlos and I got married. He was already working here, so Veracruz to New Orleans was the move. Best decision of my life."},
+        {"speaker": "priya", "text": "I love that. And speaking of November — I want to organize a Diwali potluck for the club! I'll teach everyone to make murukku, a crunchy South Indian snack."},
+        {"speaker": "lorraine", "text": "Two November celebrations? I'm in for both."},
+        {"speaker": "hideo", "text": "Me too. Things have been going great at Kura lately. Being the head sushi chef at a restaurant in the Warehouse District keeps me busy, but I always make time for Wednesdays."},
+        {"speaker": "marcus", "text": "That's what this club is about. Speaking of big news — I've been meaning to tell everyone about my trip to Lyon last February. Three weeks training under Chef Michel Girard at a Michelin-starred restaurant."},
+        {"speaker": "lorraine", "text": "Three weeks in France? Baby, why didn't you tell us sooner?"},
+        {"speaker": "marcus", "text": "I was waiting for the right time. He taught me things about sauce-making that I've been incorporating into the Bayou Table menu."},
+        {"speaker": "rosa", "text": "So it's settled? Dia de los Muertos and Diwali in November, holiday sale in December?"},
+        {"speaker": "priya", "text": "And the three-hundred-tamale marathon for Second Harvest."},
+        {"speaker": "rosa", "text": "Don't remind me. My hands are already hurting thinking about it."},
+        {"speaker": "hideo", "text": "I'll help with the rolling this year. My sushi-rolling skills should transfer."},
+        {"speaker": "marcus", "text": "That's the spirit. This club is the best thing I've ever created."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "university_friends",
+  "questions": [
+    {
+      "id": "memhop_s01_k1_001",
+      "question": "What is the name of Alice Chen's cat?",
+      "answer": "Mochi",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Alice Chen's cat?",
+          "sub_answer": "Mochi",
+          "evidence_id": "alice_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_001",
+          "text": "Alice Chen adopted a cat named Mochi from a local shelter last spring.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s01_k1_002",
+      "question": "Where does Bob Martinez work part-time?",
+      "answer": "Crema Coffee",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Bob Martinez work part-time?",
+          "sub_answer": "Crema Coffee",
+          "evidence_id": "bob_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_002",
+          "text": "Bob Martinez works part-time as a barista at Crema Coffee on campus.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s01_k1_003",
+      "question": "What country did Carol Kim visit for a medical volunteer program?",
+      "answer": "Ghana",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What country did Carol Kim visit for a medical volunteer program?",
+          "sub_answer": "Ghana",
+          "evidence_id": "carol_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_005",
+          "text": "Carol Kim traveled to Ghana last summer for a medical volunteer program.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s01_k1_004",
+      "question": "What was David Okafor's Chicago Marathon time?",
+      "answer": "3 hours 15 minutes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What was David Okafor's Chicago Marathon time?",
+          "sub_answer": "3 hours 15 minutes",
+          "evidence_id": "david_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_001",
+          "text": "David Okafor ran the Chicago Marathon last October with a time of 3 hours 15 minutes.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s01_k1_005",
+      "question": "What is the name of Eve Park's rescue dog?",
+      "answer": "Maple",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Eve Park's rescue dog?",
+          "sub_answer": "Maple",
+          "evidence_id": "eve_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_005",
+          "text": "Eve Park has a rescue dog named Maple who she adopted during sophomore year.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s01_k1_006",
+      "question": "What programming language is Alice Chen's favorite?",
+      "answer": "Rust",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What programming language is Alice Chen's favorite?",
+          "sub_answer": "Rust",
+          "evidence_id": "alice_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_005",
+          "text": "Alice Chen's favorite programming language is Rust.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s01_k1_007",
+      "question": "What band does Bob Martinez play drums in?",
+      "answer": "The Wavelengths",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What band does Bob Martinez play drums in?",
+          "sub_answer": "The Wavelengths",
+          "evidence_id": "bob_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_001",
+          "text": "Bob Martinez plays drums in a campus band called The Wavelengths.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s01_k1_008",
+      "question": "What is the name of Carol Kim's hamster?",
+      "answer": "Tofu",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Carol Kim's hamster?",
+          "sub_answer": "Tofu",
+          "evidence_id": "carol_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_013",
+          "text": "Carol Kim adopted a hamster named Tofu from the biology department.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s01_k1_009",
+      "question": "What topic is Eve Park writing her senior thesis on?",
+      "answer": "urban composting systems",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What topic is Eve Park writing her senior thesis on?",
+          "sub_answer": "urban composting systems",
+          "evidence_id": "eve_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_011",
+          "text": "Eve Park is writing her senior thesis on urban composting systems.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k1_010",
+      "question": "What is the name of the restaurant Alice Chen's parents run?",
+      "answer": "Golden Dragon",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of the restaurant Alice Chen's parents run?",
+          "sub_answer": "Golden Dragon",
+          "evidence_id": "alice_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_007",
+          "text": "Alice Chen's parents run a Chinese restaurant called Golden Dragon in Portland.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s01_k2_001",
+      "question": "What instrument does Alice Chen's roommate play in a campus band?",
+      "answer": "drums",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What instrument does Bob Martinez play in a campus band?",
+          "sub_answer": "drums",
+          "evidence_id": "bob_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_001",
+          "text": "Bob Martinez plays drums in a campus band called The Wavelengths.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s01_k2_002",
+      "question": "Where did Carol Kim's boyfriend grow up?",
+      "answer": "San Diego",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Bob Martinez grow up?",
+          "sub_answer": "San Diego",
+          "evidence_id": "bob_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_003",
+          "text": "Bob Martinez grew up in San Diego, California.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k2_003",
+      "question": "What pet does David Okafor's lab partner own?",
+      "answer": "Tofu (a hamster)",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What pet does Carol Kim own?",
+          "sub_answer": "Tofu (a hamster)",
+          "evidence_id": "carol_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_013",
+          "text": "Carol Kim adopted a hamster named Tofu from the biology department.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s01_k2_004",
+      "question": "What is Eve Park's tutoring center coworker's pet turtle named?",
+      "answer": "Newton",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Eve Park work with at the campus tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is David Okafor's pet turtle named?",
+          "sub_answer": "Newton",
+          "evidence_id": "david_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_008",
+          "text": "David Okafor has a pet turtle named Newton.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k2_005",
+      "question": "What is the favorite book of Alice Chen's childhood friend?",
+      "answer": "Braiding Sweetgrass",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Eve Park's favorite book?",
+          "sub_answer": "Braiding Sweetgrass",
+          "evidence_id": "eve_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_015",
+          "text": "Eve Park's favorite book is 'Braiding Sweetgrass' by Robin Wall Kimmerer.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k2_006",
+      "question": "What city is Carol Kim's boyfriend's mother a music teacher in?",
+      "answer": "San Diego",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where is Bob Martinez's mother a music teacher?",
+          "sub_answer": "San Diego",
+          "evidence_id": "bob_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_017",
+          "text": "Bob Martinez's mother is a high school music teacher in San Diego.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k2_007",
+      "question": "What is Alice Chen's roommate's goldfish named?",
+      "answer": "Beethoven",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Bob Martinez's goldfish named?",
+          "sub_answer": "Beethoven",
+          "evidence_id": "bob_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_013",
+          "text": "Bob Martinez adopted a goldfish named Beethoven.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s01_k2_008",
+      "question": "What research did the person who works at the same coffee shop as Bob win an award for?",
+      "answer": "protein folding",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at the same coffee shop as Bob Martinez?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What research did David Okafor win an award for?",
+          "sub_answer": "protein folding",
+          "evidence_id": "david_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_010",
+          "text": "David Okafor won a biochemistry research award for his work on protein folding.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k2_009",
+      "question": "What bakery do Eve Park's pottery classmate's parents own?",
+      "answer": "Kim's Pastries",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who took a pottery class with Eve Park?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "eve_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What bakery do Carol Kim's parents own?",
+          "sub_answer": "Kim's Pastries",
+          "evidence_id": "carol_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_019",
+          "text": "Eve Park took a pottery class with Carol Kim last semester.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "carol_019",
+          "text": "Carol Kim's parents own a small bakery called Kim's Pastries in Seattle.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s01_k2_010",
+      "question": "What bookstore does Alice Chen's childhood friend's father own?",
+      "answer": "Park's Pages",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What bookstore does Eve Park's father own?",
+          "sub_answer": "Park's Pages",
+          "evidence_id": "eve_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_020",
+          "text": "Eve Park's father owns a small bookstore called Park's Pages in Portland.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k3_001",
+      "question": "What instrument does the roommate of Carol's boyfriend play?",
+      "answer": "acoustic guitar",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What instrument does Alice Chen play?",
+          "sub_answer": "acoustic guitar",
+          "evidence_id": "alice_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_008",
+          "text": "Alice Chen plays acoustic guitar and learned from her grandfather.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k3_002",
+      "question": "What organization does the lab partner of Eve's tutoring center coworker dream of joining?",
+      "answer": "Doctors Without Borders",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve Park at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What organization does Carol Kim dream of joining?",
+          "sub_answer": "Doctors Without Borders",
+          "evidence_id": "carol_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_012",
+          "text": "Carol Kim's dream is to work with Doctors Without Borders after medical school.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k3_003",
+      "question": "What car does the childhood friend of Bob's roommate drive?",
+      "answer": "white 2019 Prius",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Eve Park drive?",
+          "sub_answer": "white 2019 Prius",
+          "evidence_id": "eve_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_016",
+          "text": "Eve Park drives a white 2019 Prius that she calls 'Cloud'.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k3_004",
+      "question": "What was the marathon time of the coworker at the coffee shop of Carol's boyfriend?",
+      "answer": "3 hours 15 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim dating?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the same coffee shop as Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What was David Okafor's Chicago Marathon time?",
+          "sub_answer": "3 hours 15 minutes",
+          "evidence_id": "david_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_001",
+          "text": "David Okafor ran the Chicago Marathon last October with a time of 3 hours 15 minutes.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k3_005",
+      "question": "What hackathon project did the roommate of Carol's boyfriend win first place with?",
+      "answer": "sign-language recognition app",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What hackathon project did Alice Chen win first place with?",
+          "sub_answer": "sign-language recognition app",
+          "evidence_id": "alice_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_009",
+          "text": "Alice Chen won first place in a campus hackathon last November with a sign-language recognition app.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s01_k3_006",
+      "question": "What does the mother of the coffee shop coworker of Eve's tutoring center colleague do for work?",
+      "answer": "high school music teacher",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Eve Park work with at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the same coffee shop as David Okafor?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Bob Martinez's mother do?",
+          "sub_answer": "high school music teacher",
+          "evidence_id": "bob_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "bob_017",
+          "text": "Bob Martinez's mother is a high school music teacher in San Diego.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k3_007",
+      "question": "What favorite book does the girlfriend of Alice's roommate have?",
+      "answer": "Mountains Beyond Mountains",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's girlfriend?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Carol Kim's favorite book?",
+          "sub_answer": "Mountains Beyond Mountains",
+          "evidence_id": "carol_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_016",
+          "text": "Carol Kim's favorite book is 'Mountains Beyond Mountains' by Tracy Kidder.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s01_k3_008",
+      "question": "What languages does the lab partner of the coffee shop coworker of Alice's roommate speak?",
+      "answer": "Korean, English, and Spanish",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob Martinez?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does David Okafor's lab partner speak?",
+          "sub_answer": "Korean, English, and learning Spanish",
+          "evidence_id": "carol_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_014",
+          "text": "Carol Kim speaks Korean and English fluently, and is learning Spanish.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k4_001",
+      "question": "What is the favorite climbing route of the roommate of the boyfriend of David's lab partner?",
+      "answer": "Smith Rock",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Alice Chen's favorite climbing route?",
+          "sub_answer": "Smith Rock",
+          "evidence_id": "alice_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_019",
+          "text": "Alice Chen's favorite climbing route is at Smith Rock in central Oregon.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s01_k4_002",
+      "question": "Where did the childhood friend of the roommate of Carol's boyfriend spend a semester abroad?",
+      "answer": "Costa Rica",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Eve Park spend a semester abroad?",
+          "sub_answer": "Costa Rica",
+          "evidence_id": "eve_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_007",
+          "text": "Eve Park spent a semester abroad in Costa Rica studying tropical ecology.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k4_003",
+      "question": "What is the mother's profession of the coworker at the tutoring center of Carol's boyfriend's coffee shop colleague?",
+      "answer": "landscape architect",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the tutoring center with David?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Eve Park's mother do?",
+          "sub_answer": "landscape architect",
+          "evidence_id": "eve_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_012",
+          "text": "Eve Park's mother is a landscape architect.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k4_004",
+      "question": "What hiking trail does the childhood friend of the roommate of the drummer in The Wavelengths like most?",
+      "answer": "Eagle Creek Trail",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays drums in The Wavelengths?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "bob_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Eve Park's favorite hiking trail?",
+          "sub_answer": "Eagle Creek Trail",
+          "evidence_id": "eve_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_001",
+          "text": "Bob Martinez plays drums in a campus band called The Wavelengths.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_009",
+          "text": "Eve Park's favorite hiking trail is Eagle Creek Trail near Portland.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k4_005",
+      "question": "What grant did the coworker at the tutoring center of the coffee shop colleague of Alice's roommate win?",
+      "answer": "EPA grant",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the tutoring center with David?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What grant did Eve Park win?",
+          "sub_answer": "EPA grant",
+          "evidence_id": "eve_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_013",
+          "text": "Eve Park won a grant from the EPA for a campus garden project.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k4_006",
+      "question": "What kind of food does the tutoring center coworker of the lab partner of the person Bob Martinez is dating love to cook?",
+      "answer": "Thai food",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez dating?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the tutoring center with David?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What kind of food does Eve Park love to cook?",
+          "sub_answer": "Thai food",
+          "evidence_id": "eve_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_008",
+          "text": "Eve Park is vegetarian and loves cooking Thai food.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s01_k5_001",
+      "question": "What is the internship company of the childhood friend of the coworker at the tutoring center of the lab partner of the person Bob is dating?",
+      "answer": "AutoMind",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez dating?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works with David at the tutoring center?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where is Alice Chen interning this summer?",
+          "sub_answer": "AutoMind",
+          "evidence_id": "alice_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_004",
+          "text": "Alice Chen is interning at a robotics startup called AutoMind this summer.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s01_k5_002",
+      "question": "What film scoring award did the roommate of the childhood friend of the tutoring center coworker of Carol's lab partner win?",
+      "answer": "regional award for student short film soundtrack",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works with David at the tutoring center?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What film-related award did Bob Martinez win?",
+          "sub_answer": "regional award for student short film soundtrack",
+          "evidence_id": "bob_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_010",
+          "text": "Bob Martinez composed the soundtrack for a student short film that won a regional award.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k5_003",
+      "question": "What is the favorite book of the lab partner of the coffee shop coworker of the roommate of the childhood friend of Eve Park?",
+      "answer": "Mountains Beyond Mountains",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Carol Kim's favorite book?",
+          "sub_answer": "Mountains Beyond Mountains",
+          "evidence_id": "carol_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_016",
+          "text": "Carol Kim's favorite book is 'Mountains Beyond Mountains' by Tracy Kidder.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k5_004",
+      "question": "What pet does the girlfriend of the roommate of the childhood friend of the tutoring center coworker of David Okafor own?",
+      "answer": "Tofu (a hamster)",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with David Okafor at the tutoring center?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Bob Martinez's girlfriend?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What pet does Carol Kim own?",
+          "sub_answer": "Tofu (a hamster)",
+          "evidence_id": "carol_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_013",
+          "text": "Carol Kim adopted a hamster named Tofu from the biology department.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k1_011",
+      "question": "Since what age has Alice Chen been rock climbing?",
+      "answer": "14",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Since what age has Alice Chen been rock climbing?",
+          "sub_answer": "14",
+          "evidence_id": "alice_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_002",
+          "text": "Alice Chen has been rock climbing since age 14.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s01_k1_012",
+      "question": "What city did Alice Chen visit with her family during winter break 2023?",
+      "answer": "Tokyo",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What city did Alice Chen visit with her family during winter break 2023?",
+          "sub_answer": "Tokyo",
+          "evidence_id": "alice_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_011",
+          "text": "Alice Chen visited Tokyo with her family during winter break 2023.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k1_013",
+      "question": "What is Alice Chen's favorite book?",
+      "answer": "The Design of Everyday Things",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Alice Chen's favorite book?",
+          "sub_answer": "The Design of Everyday Things",
+          "evidence_id": "alice_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_012",
+          "text": "Alice Chen's favorite book is 'The Design of Everyday Things' by Don Norman.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k1_014",
+      "question": "What is Bob Martinez studying with a focus on film scoring?",
+      "answer": "music composition",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Bob Martinez studying?",
+          "sub_answer": "music composition with a focus on film scoring",
+          "evidence_id": "bob_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_004",
+          "text": "Bob Martinez is studying music composition with a focus on film scoring.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s01_k1_015",
+      "question": "Where did Bob Martinez travel to attend a film music workshop?",
+      "answer": "Vienna",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Bob Martinez travel to attend a film music workshop?",
+          "sub_answer": "Vienna",
+          "evidence_id": "bob_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_007",
+          "text": "Bob Martinez traveled to Vienna last summer to attend a film music workshop.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s01_k1_016",
+      "question": "Who is Bob Martinez's favorite film composer?",
+      "answer": "Hans Zimmer",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez's favorite film composer?",
+          "sub_answer": "Hans Zimmer",
+          "evidence_id": "bob_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_008",
+          "text": "Bob Martinez's favorite film composer is Hans Zimmer.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s01_k1_017",
+      "question": "What exam is Carol Kim studying for?",
+      "answer": "MCAT",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What exam is Carol Kim studying for?",
+          "sub_answer": "MCAT",
+          "evidence_id": "carol_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_010",
+          "text": "Carol Kim is studying for the MCAT exam scheduled for September.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s01_k1_018",
+      "question": "How many donations did Carol Kim's campus blood drive collect?",
+      "answer": "200",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many donations did Carol Kim's campus blood drive collect?",
+          "sub_answer": "200",
+          "evidence_id": "carol_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_011",
+          "text": "Carol Kim organized a campus blood drive that collected 200 donations.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s01_k1_019",
+      "question": "What is David Okafor's father's profession?",
+      "answer": "professor of pharmacology at the University of Chicago",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is David Okafor's father's profession?",
+          "sub_answer": "professor of pharmacology at the University of Chicago",
+          "evidence_id": "david_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_007",
+          "text": "David Okafor's father is a professor of pharmacology at the University of Chicago.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s01_k1_020",
+      "question": "What is David Okafor's favorite food?",
+      "answer": "his grandmother's jollof rice",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is David Okafor's favorite food?",
+          "sub_answer": "his grandmother's jollof rice",
+          "evidence_id": "david_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_009",
+          "text": "David Okafor's favorite food is his grandmother's jollof rice.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s01_k1_021",
+      "question": "What did Eve Park organize as campus sustainability coordinator?",
+      "answer": "a zero-waste week",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Eve Park organize as campus sustainability coordinator?",
+          "sub_answer": "a zero-waste week",
+          "evidence_id": "eve_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_001",
+          "text": "Eve Park is the campus sustainability coordinator and organized a zero-waste week.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k1_022",
+      "question": "What does Eve Park paint and sell at the campus art fair?",
+      "answer": "watercolor landscapes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Eve Park paint and sell at the campus art fair?",
+          "sub_answer": "watercolor landscapes",
+          "evidence_id": "eve_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_006",
+          "text": "Eve Park paints watercolor landscapes and sells them at the campus art fair.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s01_k1_023",
+      "question": "What instrument does Eve Park play at open mic nights?",
+      "answer": "ukulele",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What instrument does Eve Park play at open mic nights?",
+          "sub_answer": "ukulele",
+          "evidence_id": "eve_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_010",
+          "text": "Eve Park plays the ukulele and performs at open mic nights.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s01_k1_024",
+      "question": "What is Alice Chen training for in October?",
+      "answer": "a half-marathon",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Alice Chen training for in October?",
+          "sub_answer": "a half-marathon",
+          "evidence_id": "alice_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_010",
+          "text": "Alice Chen is training for a half-marathon in October.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s01_k1_025",
+      "question": "What car does Alice Chen drive?",
+      "answer": "blue 2018 Honda Civic",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "university_friends",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What car does Alice Chen drive?",
+          "sub_answer": "blue 2018 Honda Civic",
+          "evidence_id": "alice_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_016",
+          "text": "Alice Chen drives a blue 2018 Honda Civic.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s01_k2_011",
+      "question": "What is the favorite film composer of Alice Chen's roommate?",
+      "answer": "Hans Zimmer",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's favorite film composer?",
+          "sub_answer": "Hans Zimmer",
+          "evidence_id": "bob_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_008",
+          "text": "Bob Martinez's favorite film composer is Hans Zimmer.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s01_k2_012",
+      "question": "What volunteer work does Alice Chen's roommate do on weekends?",
+      "answer": "music tutor for underprivileged kids",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What volunteer work does Bob Martinez do on weekends?",
+          "sub_answer": "music tutor for underprivileged kids",
+          "evidence_id": "bob_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_014",
+          "text": "Bob Martinez volunteers as a music tutor for underprivileged kids on weekends.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s01_k2_013",
+      "question": "What award did David Okafor's lab partner win last spring?",
+      "answer": "community service award",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did Carol Kim win last spring?",
+          "sub_answer": "community service award",
+          "evidence_id": "carol_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_015",
+          "text": "Carol Kim won the university's community service award last spring.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s01_k2_014",
+      "question": "What class does Eve Park's pottery classmate take on Wednesday evenings?",
+      "answer": "ballet",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who took a pottery class with Eve Park?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "eve_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What class does Carol Kim take on Wednesday evenings?",
+          "sub_answer": "ballet",
+          "evidence_id": "carol_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_019",
+          "text": "Eve Park took a pottery class with Carol Kim last semester.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "carol_018",
+          "text": "Carol Kim takes a ballet class on Wednesday evenings for stress relief.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k2_015",
+      "question": "What is Carol Kim's boyfriend saving up to buy?",
+      "answer": "a vintage Fender Rhodes keyboard",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Bob Martinez saving up to buy?",
+          "sub_answer": "a vintage Fender Rhodes keyboard",
+          "evidence_id": "bob_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_015",
+          "text": "Bob Martinez is saving up to buy a vintage Fender Rhodes keyboard.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k2_016",
+      "question": "Where did Bob's coffee shop coworker visit his extended family?",
+      "answer": "Lagos, Nigeria",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at the same coffee shop as Bob Martinez?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did David Okafor visit his extended family?",
+          "sub_answer": "Lagos, Nigeria",
+          "evidence_id": "david_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_013",
+          "text": "David Okafor visited Lagos, Nigeria last summer to see his extended family.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k2_017",
+      "question": "What is the favorite book of Bob's coffee shop coworker?",
+      "answer": "The Emperor of All Maladies",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at the same coffee shop as Bob Martinez?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is David Okafor's favorite book?",
+          "sub_answer": "The Emperor of All Maladies",
+          "evidence_id": "david_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_014",
+          "text": "David Okafor's favorite book is 'The Emperor of All Maladies' by Siddhartha Mukherjee.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k2_018",
+      "question": "What did Alice Chen's childhood friend teach a workshop on last month?",
+      "answer": "making beeswax food wraps",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Eve Park teach a workshop on last month?",
+          "sub_answer": "making beeswax food wraps",
+          "evidence_id": "eve_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_014",
+          "text": "Eve Park taught a workshop on making beeswax food wraps last month.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k2_019",
+      "question": "What is the name of Alice Chen's roommate's younger sister?",
+      "answer": "Sofia",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Bob Martinez's younger sister named?",
+          "sub_answer": "Sofia",
+          "evidence_id": "bob_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_009",
+          "text": "Bob Martinez has a younger sister named Sofia who is in high school.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s01_k2_020",
+      "question": "What event was the band of Alice's roommate invited to play at?",
+      "answer": "Spring Music Festival",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What event was Bob Martinez's band invited to play at?",
+          "sub_answer": "Spring Music Festival",
+          "evidence_id": "bob_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_019",
+          "text": "Bob Martinez's band The Wavelengths just got invited to play at the Spring Music Festival.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s01_k2_021",
+      "question": "What fundraiser did Eve Park's tutoring center coworker organize on campus?",
+      "answer": "5K fundraiser for sickle cell research",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve Park at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What fundraiser did David Okafor organize on campus?",
+          "sub_answer": "5K fundraiser for sickle cell research",
+          "evidence_id": "david_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_018",
+          "text": "David Okafor organized a campus 5K fundraiser for sickle cell research.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s01_k2_022",
+      "question": "What car does Eve Park's tutoring center coworker drive?",
+      "answer": "red 2020 Toyota Corolla",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve Park at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does David Okafor drive?",
+          "sub_answer": "red 2020 Toyota Corolla",
+          "evidence_id": "david_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_019",
+          "text": "David Okafor drives a red 2020 Toyota Corolla.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k2_023",
+      "question": "What does Alice Chen's childhood friend volunteer for every Sunday?",
+      "answer": "a community garden near campus",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Eve Park volunteer for every Sunday?",
+          "sub_answer": "a community garden near campus",
+          "evidence_id": "eve_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_017",
+          "text": "Eve Park volunteers at a community garden near campus every Sunday.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k2_024",
+      "question": "What trip is Eve Park's pottery classmate planning for next winter break?",
+      "answer": "a study group trip to South Korea",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who took a pottery class with Eve Park?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "eve_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What trip is Carol Kim planning for next winter break?",
+          "sub_answer": "a study group trip to South Korea",
+          "evidence_id": "carol_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_019",
+          "text": "Eve Park took a pottery class with Carol Kim last semester.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "carol_020",
+          "text": "Carol Kim is planning a study group trip to South Korea next winter break.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s01_k2_025",
+      "question": "What did Eve Park's tutoring center coworker build for his dorm room?",
+      "answer": "a standing desk from reclaimed wood",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve Park at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did David Okafor build for his dorm room?",
+          "sub_answer": "a standing desk from reclaimed wood",
+          "evidence_id": "david_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_016",
+          "text": "David Okafor built a standing desk from reclaimed wood for his dorm room.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s01_k3_009",
+      "question": "What is the favorite cuisine of the lab partner of Eve's tutoring center coworker?",
+      "answer": "Korean food, especially her mom's kimchi jjigae",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Carol Kim's favorite cuisine?",
+          "sub_answer": "Korean food, especially her mom's kimchi jjigae",
+          "evidence_id": "carol_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_008",
+          "text": "Carol Kim's favorite cuisine is Korean food, especially her mom's kimchi jjigae.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k3_010",
+      "question": "What does the roommate of Carol's boyfriend volunteer for every Saturday?",
+      "answer": "a coding workshop for high school students",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Alice Chen volunteer for every Saturday?",
+          "sub_answer": "a coding workshop for high school students",
+          "evidence_id": "alice_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_013",
+          "text": "Alice Chen volunteers at a coding workshop for high school students every Saturday.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s01_k3_011",
+      "question": "What graduate programs is the roommate of Carol's boyfriend applying to?",
+      "answer": "human-computer interaction",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What graduate programs is Alice Chen applying to?",
+          "sub_answer": "human-computer interaction",
+          "evidence_id": "alice_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_017",
+          "text": "Alice Chen is applying to graduate programs in human-computer interaction.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k3_012",
+      "question": "What did the childhood friend of Bob's roommate teach a workshop on?",
+      "answer": "making beeswax food wraps",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Eve Park teach a workshop on?",
+          "sub_answer": "making beeswax food wraps",
+          "evidence_id": "eve_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_014",
+          "text": "Eve Park taught a workshop on making beeswax food wraps last month.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k3_013",
+      "question": "What craft did the lab partner of Eve's tutoring center coworker learn during the pandemic?",
+      "answer": "knit (knitting)",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What craft did Carol Kim learn during the pandemic?",
+          "sub_answer": "knitting",
+          "evidence_id": "carol_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_017",
+          "text": "Carol Kim taught herself to knit during the pandemic and made scarves for the homeless shelter.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k3_014",
+      "question": "What is the coffee shop coworker of Alice's roommate training for?",
+      "answer": "Boston Marathon qualifying time",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is David Okafor training for?",
+          "sub_answer": "Boston Marathon qualifying time",
+          "evidence_id": "david_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_005",
+          "text": "David Okafor is training for the Boston Marathon qualifying time.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k3_015",
+      "question": "Where did the pottery classmate of the childhood friend of Alice Chen grow up?",
+      "answer": "Seattle, Washington",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who took a pottery class with Eve Park?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "eve_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Carol Kim grow up?",
+          "sub_answer": "Seattle, Washington",
+          "evidence_id": "carol_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_019",
+          "text": "Eve Park took a pottery class with Carol Kim last semester.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "carol_003",
+          "text": "Carol Kim grew up in Seattle, Washington.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s01_k3_016",
+      "question": "What languages does the coffee shop coworker of Alice's roommate speak?",
+      "answer": "English, Igbo, and basic French",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does David Okafor speak?",
+          "sub_answer": "English, Igbo, and basic French",
+          "evidence_id": "david_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_011",
+          "text": "David Okafor speaks English, Igbo, and basic French.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k3_017",
+      "question": "What is the younger brother's name of the lab partner of Bob's coffee shop coworker?",
+      "answer": "Daniel",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Carol Kim's younger brother named?",
+          "sub_answer": "Daniel",
+          "evidence_id": "carol_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_009",
+          "text": "Carol Kim has a younger brother named Daniel who just started college.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k3_018",
+      "question": "What did the childhood friend of Bob's roommate win from the EPA?",
+      "answer": "a grant for a campus garden project",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Eve Park win from the EPA?",
+          "sub_answer": "a grant for a campus garden project",
+          "evidence_id": "eve_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_013",
+          "text": "Eve Park won a grant from the EPA for a campus garden project.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k3_019",
+      "question": "What morning routine does the coffee shop coworker of Alice's roommate follow?",
+      "answer": "a 10K run at 5:30 AM",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is David Okafor's morning routine?",
+          "sub_answer": "a 10K run at 5:30 AM",
+          "evidence_id": "david_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_017",
+          "text": "David Okafor's morning routine includes a 10K run at 5:30 AM.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k3_020",
+      "question": "What programs is the coffee shop coworker of Alice's roommate applying to?",
+      "answer": "MD-PhD programs",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What programs is David Okafor applying to?",
+          "sub_answer": "MD-PhD programs",
+          "evidence_id": "david_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_015",
+          "text": "David Okafor is applying to MD-PhD programs for next year.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k4_007",
+      "question": "What languages does the lab partner of the girlfriend of Alice's roommate speak?",
+      "answer": "English, Igbo, and basic French",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's girlfriend?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What languages does David Okafor speak?",
+          "sub_answer": "English, Igbo, and basic French",
+          "evidence_id": "david_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_011",
+          "text": "David Okafor speaks English, Igbo, and basic French.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s01_k4_008",
+      "question": "What does the childhood friend of the roommate of Carol's boyfriend sell at the campus art fair?",
+      "answer": "watercolor landscapes",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Eve Park sell at the campus art fair?",
+          "sub_answer": "watercolor landscapes",
+          "evidence_id": "eve_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_006",
+          "text": "Eve Park paints watercolor landscapes and sells them at the campus art fair.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k4_009",
+      "question": "What tattoo does the boyfriend of the lab partner of Eve's tutoring center coworker have?",
+      "answer": "a treble clef on his left wrist",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What tattoo does Bob Martinez have?",
+          "sub_answer": "a treble clef on his left wrist",
+          "evidence_id": "bob_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_018",
+          "text": "Bob Martinez has a tattoo of a treble clef on his left wrist.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k4_010",
+      "question": "What is the favorite book of the tutoring center coworker of Bob's roommate's childhood friend?",
+      "answer": "The Emperor of All Maladies",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is David Okafor's favorite book?",
+          "sub_answer": "The Emperor of All Maladies",
+          "evidence_id": "david_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_014",
+          "text": "David Okafor's favorite book is 'The Emperor of All Maladies' by Siddhartha Mukherjee.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k4_011",
+      "question": "What does the tutoring center coworker of Alice's roommate's coffee shop colleague plan to apply for after graduation?",
+      "answer": "a Peace Corps position",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the tutoring center with David?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Eve Park plan to apply for after graduation?",
+          "sub_answer": "a Peace Corps position",
+          "evidence_id": "eve_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_018",
+          "text": "Eve Park is planning to apply for a Peace Corps position after graduation.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k4_012",
+      "question": "What did the roommate of the boyfriend of David's lab partner break while bouldering?",
+      "answer": "her wrist",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Alice Chen break while bouldering?",
+          "sub_answer": "her wrist",
+          "evidence_id": "alice_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_014",
+          "text": "Alice Chen broke her wrist while bouldering last March and had to wear a cast for six weeks.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s01_k4_013",
+      "question": "What dish can the roommate of the boyfriend of Eve's pottery classmate make from scratch?",
+      "answer": "xiaolongbao",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who took pottery with Eve Park?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "eve_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What dish can Alice Chen make from scratch?",
+          "sub_answer": "xiaolongbao",
+          "evidence_id": "alice_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_019",
+          "text": "Eve Park took a pottery class with Carol Kim last semester.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_015",
+          "text": "Alice Chen's grandmother taught her to make xiaolongbao from scratch.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k4_014",
+      "question": "What does the tutoring center coworker of the lab partner of the person Bob is dating volunteer for every Sunday?",
+      "answer": "a community garden near campus",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Bob Martinez dating?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the tutoring center with David?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Eve Park volunteer for every Sunday?",
+          "sub_answer": "a community garden near campus",
+          "evidence_id": "eve_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_017",
+          "text": "Eve Park volunteers at a community garden near campus every Sunday.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k4_015",
+      "question": "What class does the lab partner of the tutoring center coworker of Alice's childhood friend take on Wednesday evenings?",
+      "answer": "ballet",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice Chen's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What class does Carol Kim take on Wednesday evenings?",
+          "sub_answer": "ballet",
+          "evidence_id": "carol_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_018",
+          "text": "Carol Kim takes a ballet class on Wednesday evenings for stress relief.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s01_k4_016",
+      "question": "What instruments can the roommate of the childhood friend of David's tutoring center coworker play?",
+      "answer": "piano, drums, and bass guitar",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with David at the tutoring center?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "david_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What instruments can Bob Martinez play?",
+          "sub_answer": "piano, drums, and bass guitar",
+          "evidence_id": "bob_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_006",
+          "text": "David Okafor and Eve Park work together at the campus tutoring center.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_011",
+          "text": "Bob Martinez can play piano, drums, and bass guitar.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k4_017",
+      "question": "Where did the lab partner of Alice's roommate's girlfriend visit his extended family?",
+      "answer": "Lagos, Nigeria",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's girlfriend?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did David Okafor visit his extended family?",
+          "sub_answer": "Lagos, Nigeria",
+          "evidence_id": "david_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_013",
+          "text": "David Okafor visited Lagos, Nigeria last summer to see his extended family.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s01_k4_018",
+      "question": "What running coach work does the lab partner of the girlfriend of Alice's roommate do on Saturdays?",
+      "answer": "running coach for a youth track program",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob Martinez's girlfriend?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "bob_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's lab partner?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "carol_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does David Okafor volunteer as on Saturdays?",
+          "sub_answer": "running coach for a youth track program",
+          "evidence_id": "david_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "bob_006",
+          "text": "Bob Martinez started dating Carol Kim after they met at a jazz festival last June.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "carol_004",
+          "text": "Carol Kim and David Okafor are lab partners in their organic chemistry class.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "david_012",
+          "text": "David Okafor volunteers as a running coach for a youth track program on Saturdays.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k5_005",
+      "question": "What is the favorite book of the roommate of the boyfriend of the lab partner of Eve's tutoring center coworker?",
+      "answer": "The Design of Everyday Things",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Alice Chen's favorite book?",
+          "sub_answer": "The Design of Everyday Things",
+          "evidence_id": "alice_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_012",
+          "text": "Alice Chen's favorite book is 'The Design of Everyday Things' by Don Norman.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s01_k5_006",
+      "question": "What does the childhood friend of the roommate of the boyfriend of David's lab partner volunteer for every Sunday?",
+      "answer": "a community garden near campus",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is David's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Bob's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Alice's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What does Eve volunteer for every Sunday?",
+          "sub_answer": "a community garden near campus",
+          "evidence_id": "eve_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_017",
+          "text": "Eve Park volunteers at a community garden near campus every Sunday.",
+          "person_id": "eve"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s01_k5_007",
+      "question": "What exam is the lab partner of the coffee shop coworker of the roommate of the childhood friend of Eve Park studying for?",
+      "answer": "MCAT",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What exam is Carol Kim studying for?",
+          "sub_answer": "MCAT",
+          "evidence_id": "carol_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_010",
+          "text": "Carol Kim is studying for the MCAT exam scheduled for September.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k5_008",
+      "question": "How many donations did the blood drive organized by the lab partner of the coffee shop coworker of the roommate of the childhood friend of Eve Park collect?",
+      "answer": "200",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Eve Park's childhood friend?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "eve_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Alice Chen's roommate?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "alice_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who works at the coffee shop with Bob?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "david_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "How many donations did Carol Kim's blood drive collect?",
+          "sub_answer": "200",
+          "evidence_id": "carol_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_003",
+          "text": "Eve Park and Alice Chen met at a summer coding camp when they were both 15.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "alice_003",
+          "text": "Alice Chen and Bob Martinez have been roommates since freshman year.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "david_002",
+          "text": "David Okafor works part-time as a barista at the same coffee shop as Bob Martinez.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_011",
+          "text": "Carol Kim organized a campus blood drive that collected 200 donations.",
+          "person_id": "carol"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s01_k5_009",
+      "question": "Where did the boyfriend of the lab partner of the tutoring center coworker of Alice's childhood friend travel for a film music workshop?",
+      "answer": "Vienna",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Alice's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Bob travel for a film music workshop?",
+          "sub_answer": "Vienna",
+          "evidence_id": "bob_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_007",
+          "text": "Bob Martinez traveled to Vienna last summer to attend a film music workshop.",
+          "person_id": "bob"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k5_010",
+      "question": "What is the favorite food of the tutoring center coworker of the childhood friend of the roommate of Carol's boyfriend?",
+      "answer": "his grandmother's jollof rice",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Bob's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Alice's childhood friend?",
+          "sub_answer": "Eve Park",
+          "evidence_id": "alice_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is David Okafor's favorite food?",
+          "sub_answer": "his grandmother's jollof rice",
+          "evidence_id": "david_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_018",
+          "text": "Alice Chen met Eve Park at a summer coding camp when they were both 15.",
+          "person_id": "alice"
+        },
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_009",
+          "text": "David Okafor's favorite food is his grandmother's jollof rice.",
+          "person_id": "david"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s01_k5_011",
+      "question": "What volunteer activity does the roommate of the boyfriend of the lab partner of Eve's tutoring center coworker do every Saturday?",
+      "answer": "coding workshop for high school students",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What does Alice Chen volunteer for every Saturday?",
+          "sub_answer": "coding workshop for high school students",
+          "evidence_id": "alice_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_013",
+          "text": "Alice Chen volunteers at a coding workshop for high school students every Saturday.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s01_k5_012",
+      "question": "Where did the roommate of the boyfriend of the lab partner of Eve's tutoring center coworker grow up?",
+      "answer": "Portland, Oregon",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "university_friends",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Eve at the tutoring center?",
+          "sub_answer": "David Okafor",
+          "evidence_id": "eve_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is David Okafor's lab partner?",
+          "sub_answer": "Carol Kim",
+          "evidence_id": "david_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Carol Kim's boyfriend?",
+          "sub_answer": "Bob Martinez",
+          "evidence_id": "carol_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Bob Martinez's roommate?",
+          "sub_answer": "Alice Chen",
+          "evidence_id": "bob_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Alice Chen grow up?",
+          "sub_answer": "Portland, Oregon",
+          "evidence_id": "alice_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "eve_004",
+          "text": "Eve Park and David Okafor work together at the campus tutoring center.",
+          "person_id": "eve"
+        },
+        {
+          "obs_id": "david_004",
+          "text": "David Okafor and Carol Kim are lab partners in organic chemistry.",
+          "person_id": "david"
+        },
+        {
+          "obs_id": "carol_006",
+          "text": "Carol Kim started dating Bob Martinez after they met at a jazz festival last June.",
+          "person_id": "carol"
+        },
+        {
+          "obs_id": "bob_005",
+          "text": "Bob Martinez and Alice Chen have been roommates since freshman year.",
+          "person_id": "bob"
+        },
+        {
+          "obs_id": "alice_006",
+          "text": "Alice Chen grew up in Portland, Oregon.",
+          "person_id": "alice"
+        }
+      ],
+      "answerable_after_session": 11
+    }
+  ]
+}

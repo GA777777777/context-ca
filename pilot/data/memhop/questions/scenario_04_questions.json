@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "sports_league",
+  "questions": [
+    {
+      "id": "memhop_s04_k1_001",
+      "question": "What position does Omar Hadid play on the Mile High Mavericks?",
+      "answer": "Coach",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Omar Hadid's role on the Mile High Mavericks?",
+          "sub_answer": "Coach",
+          "evidence_id": "omar_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_001",
+          "text": "Omar Hadid coaches the Mile High Mavericks, a recreational basketball team in the Denver Parks & Rec league.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s04_k1_002",
+      "question": "What is the name of Tessa Brandt's craft brewery?",
+      "answer": "Summit Line Brewing",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Tessa's brewery?",
+          "sub_answer": "Summit Line Brewing",
+          "evidence_id": "tessa_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_001",
+          "text": "Tessa Brandt owns and operates Summit Line Brewing in Denver's RiNo Art District, which she opened in October 2021.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s04_k1_003",
+      "question": "What camera body does Kenji Watanabe use for landscape photography?",
+      "answer": "Sony A7R V",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What camera does Kenji use?",
+          "sub_answer": "Sony A7R V",
+          "evidence_id": "kenji_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_014",
+          "text": "Kenji Watanabe uses a Sony A7R V camera body with a 24-70mm f/2.8 GM lens for his landscape photography.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s04_k1_004",
+      "question": "What is the name of Darius Coleman's home recording studio?",
+      "answer": "Black Anvil Studios",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Darius's studio?",
+          "sub_answer": "Black Anvil Studios",
+          "evidence_id": "darius_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_001",
+          "text": "Darius Coleman runs a home recording studio called Black Anvil Studios out of his apartment in the Five Points neighborhood.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s04_k1_005",
+      "question": "Where did Lucia Vega earn her law degree?",
+      "answer": "University of New Mexico",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Lucia earn her J.D.?",
+          "sub_answer": "University of New Mexico School of Law",
+          "evidence_id": "lucia_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_003",
+          "text": "Lucia Vega earned her J.D. from the University of New Mexico School of Law in 2020, graduating summa cum laude.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k1_006",
+      "question": "How many of Colorado's fourteeners has Tessa Brandt hiked?",
+      "answer": "58",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many fourteeners has Tessa hiked?",
+          "sub_answer": "All 58",
+          "evidence_id": "tessa_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_010",
+          "text": "Tessa Brandt hiked all 58 of Colorado's fourteeners, completing the last one, Little Bear Peak, in September 2023.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s04_k1_007",
+      "question": "What award did Darius Coleman win at the Denver Hip Hop Awards?",
+      "answer": "Best Producer",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What award did Darius win?",
+          "sub_answer": "Best Producer",
+          "evidence_id": "darius_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_014",
+          "text": "Darius Coleman won Best Producer at the Denver Hip Hop Awards in November 2023.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k1_008",
+      "question": "What is the name of Lucia Vega's rescue dog?",
+      "answer": "Justice",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Lucia's dog's name?",
+          "sub_answer": "Justice",
+          "evidence_id": "lucia_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_015",
+          "text": "Lucia Vega hikes with her rescue dog, a husky named Justice, at Waterton Canyon every Sunday.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s04_k1_009",
+      "question": "What time does Kenji Watanabe's trail running group meet at Red Rocks Park?",
+      "answer": "7 AM",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What time does the trail running group meet?",
+          "sub_answer": "7 AM",
+          "evidence_id": "kenji_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_005",
+          "text": "Kenji Watanabe and Tessa Brandt are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s04_k1_010",
+      "question": "How much money did Omar Hadid's charity basketball tournament raise?",
+      "answer": "$8,200",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much did the charity tournament raise?",
+          "sub_answer": "$8,200",
+          "evidence_id": "omar_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_009",
+          "text": "Omar Hadid organized a charity basketball tournament in July 2024 at the Stapleton Recreation Center that raised $8,200 for the Denver Rescue Mission.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k1_011",
+      "question": "What is Omar Hadid's wife Layla's profession?",
+      "answer": "Pediatric dentist",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Omar's wife Layla do?",
+          "sub_answer": "Pediatric dentist",
+          "evidence_id": "omar_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_006",
+          "text": "Omar Hadid's wife, Layla, is a pediatric dentist with her own practice on Colorado Boulevard.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k1_012",
+      "question": "What degree did Tessa Brandt earn from Colorado State University?",
+      "answer": "Food Science",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What degree did Tessa earn from CSU?",
+          "sub_answer": "Food Science",
+          "evidence_id": "tessa_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_006",
+          "text": "Tessa Brandt earned a degree in Food Science from Colorado State University in 2013.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s04_k1_013",
+      "question": "What is the occupation of Kenji Watanabe's father Hiroshi?",
+      "answer": "Retired Boeing aerospace engineer",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Kenji's father do?",
+          "sub_answer": "Retired Boeing aerospace engineer",
+          "evidence_id": "kenji_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_010",
+          "text": "Kenji Watanabe's father, Hiroshi, is a retired Boeing aerospace engineer in Seattle.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k1_014",
+      "question": "What age did Darius Coleman teach himself piano?",
+      "answer": "9",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "At what age did Darius learn piano?",
+          "sub_answer": "9",
+          "evidence_id": "darius_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_013",
+          "text": "Darius Coleman taught himself to play piano at age 9 on a secondhand Yamaha upright his grandmother gave him.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s04_k1_015",
+      "question": "How many attendees came to Lucia Vega's know-your-rights workshop at the Denver Central Library?",
+      "answer": "120",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many people attended Lucia's workshop?",
+          "sub_answer": "120",
+          "evidence_id": "lucia_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_013",
+          "text": "Lucia Vega organized a know-your-rights workshop for the Latino community at the Denver Central Library in September 2024 that drew 120 attendees.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k1_016",
+      "question": "What journal did Omar Hadid publish a case study in during March 2024?",
+      "answer": "Journal of Emergency Medicine",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "In what journal did Omar publish?",
+          "sub_answer": "Journal of Emergency Medicine",
+          "evidence_id": "omar_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_017",
+          "text": "Omar Hadid published a case study on sports-related concussion protocols in the Journal of Emergency Medicine in March 2024.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s04_k1_017",
+      "question": "What is the name of Tessa Brandt's border collie?",
+      "answer": "Barley",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Tessa's dog's name?",
+          "sub_answer": "Barley",
+          "evidence_id": "tessa_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_012",
+          "text": "Tessa Brandt has a border collie named Barley who comes to the brewery every day.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s04_k1_018",
+      "question": "What is the name of the gray tabby cat Kenji Watanabe adopted?",
+      "answer": "Pixel",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Kenji's cat?",
+          "sub_answer": "Pixel",
+          "evidence_id": "kenji_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_017",
+          "text": "Kenji Watanabe adopted a gray tabby cat named Pixel from the Denver Dumb Friends League in April 2024.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s04_k1_019",
+      "question": "How much did Darius Coleman spend building his recording studio?",
+      "answer": "$15,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much did Darius spend on his studio?",
+          "sub_answer": "$15,000",
+          "evidence_id": "darius_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_018",
+          "text": "Darius Coleman built his recording studio using $15,000 in savings and soundproofed it with acoustic foam panels he installed himself.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s04_k1_020",
+      "question": "What yoga teacher training did Lucia Vega complete in February 2024?",
+      "answer": "200-hour yoga teacher training at Kindness Yoga",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Lucia complete yoga teacher training?",
+          "sub_answer": "Kindness Yoga in Denver",
+          "evidence_id": "lucia_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_017",
+          "text": "Lucia Vega completed a 200-hour yoga teacher training at Kindness Yoga in Denver in February 2024.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s04_k1_021",
+      "question": "What ski resort does Omar Hadid visit every other weekend during winter?",
+      "answer": "Breckenridge",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Omar ski?",
+          "sub_answer": "Breckenridge",
+          "evidence_id": "omar_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_014",
+          "text": "Omar Hadid skis at Breckenridge every other weekend during winter, usually on the blue runs with his daughter Noor.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k1_022",
+      "question": "Where is Tessa Brandt's younger sister Maren a ski instructor?",
+      "answer": "Vail Resort",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Tessa's sister work?",
+          "sub_answer": "Vail Resort",
+          "evidence_id": "tessa_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_016",
+          "text": "Tessa Brandt's younger sister Maren is a ski instructor at Vail Resort.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k1_023",
+      "question": "What is the name of Darius Coleman's older brother and where is he stationed?",
+      "answer": "Marcus Coleman, Fort Carson",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Darius's older brother and where is he?",
+          "sub_answer": "Marcus Coleman, staff sergeant at Fort Carson",
+          "evidence_id": "darius_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_019",
+          "text": "Darius Coleman's older brother, Marcus Coleman, is a staff sergeant in the U.S. Army stationed at Fort Carson.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k1_024",
+      "question": "What is Omar Hadid's favorite Denver restaurant?",
+      "answer": "Safta",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Omar's favorite restaurant?",
+          "sub_answer": "Safta",
+          "evidence_id": "omar_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_020",
+          "text": "Omar Hadid's favorite Denver restaurant is Safta, a modern Israeli restaurant at the Source Market Hall.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k1_025",
+      "question": "What is the name of the Denver rapper whose album Darius Coleman produced that reached 500,000 Spotify streams?",
+      "answer": "Kaia Monroe",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "sports_league",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose album did Darius produce?",
+          "sub_answer": "Kaia Monroe",
+          "evidence_id": "darius_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_007",
+          "text": "Darius Coleman produced a 12-track album for Denver rapper Kaia Monroe that reached 500,000 streams on Spotify by March 2024.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k2_001",
+      "question": "What is the three-point shooting percentage of the person who works with Omar Hadid at Denver Health?",
+      "answer": "42%",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Omar Hadid at Denver Health?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Kenji Watanabe's three-point shooting percentage?",
+          "sub_answer": "42%",
+          "evidence_id": "kenji_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_008",
+          "text": "Kenji Watanabe has the best three-point shooting percentage on the Mile High Mavericks at 42%.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k2_002",
+      "question": "What is the name of the border collie belonging to the person who lives three houses from Omar Hadid on Dahlia Street?",
+      "answer": "Barley",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives three houses from Omar Hadid on Dahlia Street?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the name of Tessa Brandt's border collie?",
+          "sub_answer": "Barley",
+          "evidence_id": "tessa_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_012",
+          "text": "Tessa Brandt has a border collie named Barley who comes to the brewery every day.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s04_k2_003",
+      "question": "What DJ name does the person who plays poker with Kenji Watanabe use?",
+      "answer": "DJ Anvil",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Darius Coleman's DJ name?",
+          "sub_answer": "DJ Anvil",
+          "evidence_id": "darius_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_012",
+          "text": "Darius Coleman DJs at the Meadowlark Bar on East Colfax every other Saturday night under the name 'DJ Anvil'.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s04_k2_004",
+      "question": "How tall is the person who takes a hip-hop dance class with Darius Coleman?",
+      "answer": "6 feet 1 inch",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes a hip-hop dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How tall is Lucia Vega?",
+          "sub_answer": "6 feet 1 inch",
+          "evidence_id": "lucia_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_006",
+          "text": "Lucia Vega plays center for the Mile High Mavericks at 6 feet 1 inch tall, the tallest player on the team.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k2_005",
+      "question": "What is the occupation of the wife of the person who volunteers at the Denver Free Clinic with Lucia Vega?",
+      "answer": "Pediatric dentist",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the Denver Free Clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Omar Hadid's wife's occupation?",
+          "sub_answer": "Pediatric dentist",
+          "evidence_id": "omar_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_006",
+          "text": "Omar Hadid's wife, Layla, is a pediatric dentist with her own practice on Colorado Boulevard.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k2_006",
+      "question": "What medal did the flagship beer of the person who runs trails with Kenji Watanabe win at the Great American Beer Festival?",
+      "answer": "Silver medal",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who runs trails with Kenji Watanabe?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "kenji_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What medal did Tessa Brandt's flagship beer win?",
+          "sub_answer": "Silver medal",
+          "evidence_id": "tessa_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_005",
+          "text": "Kenji Watanabe and Tessa Brandt are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "tessa_007",
+          "text": "Tessa Brandt's flagship beer, 'Fourteener Fog', a hazy IPA, won a silver medal at the Great American Beer Festival in 2023.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s04_k2_007",
+      "question": "What is the occupation of the father of the person who is Omar Hadid's wife's younger cousin?",
+      "answer": "Retired Denver firefighter",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's wife's younger cousin?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "darius_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Darius Coleman's father's occupation?",
+          "sub_answer": "Retired Denver firefighter",
+          "evidence_id": "darius_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_005",
+          "text": "Darius Coleman is Omar Hadid's wife Layla's younger cousin, which is how he joined the Mile High Mavericks.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "darius_010",
+          "text": "Darius Coleman's father, Jerome, is a retired Denver firefighter who served for 28 years at Station 3.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k2_008",
+      "question": "What award did the person who volunteers at the Denver Free Clinic with Omar Hadid win in April 2024?",
+      "answer": "Colorado Lawyers Committee Pro Bono Award",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the Denver Free Clinic with Omar Hadid?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "omar_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did Lucia Vega win in April 2024?",
+          "sub_answer": "Colorado Lawyers Committee Pro Bono Award",
+          "evidence_id": "lucia_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_019",
+          "text": "Omar Hadid volunteers at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "lucia_008",
+          "text": "Lucia Vega won the Colorado Lawyers Committee Pro Bono Award in April 2024 for handling 47 asylum cases.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s04_k2_009",
+      "question": "Where did the trail running partner of Tessa Brandt have a photography gallery show in June 2024?",
+      "answer": "Denver Art Society's Globeville space",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Kenji Watanabe have a gallery show?",
+          "sub_answer": "Denver Art Society's Globeville space",
+          "evidence_id": "kenji_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_007",
+          "text": "Kenji Watanabe shoots landscape photography and had a gallery show at the Denver Art Society's Globeville space in June 2024.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s04_k2_010",
+      "question": "What is the Duolingo streak of the person who takes dance class with Darius Coleman?",
+      "answer": "487 days",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Lucia Vega's Duolingo streak?",
+          "sub_answer": "487 days",
+          "evidence_id": "lucia_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_012",
+          "text": "Lucia Vega speaks English and Spanish fluently, and is learning Portuguese through a Duolingo streak of 487 days.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s04_k2_011",
+      "question": "What neighborhood did the person who is the Park Hill neighbor of Omar Hadid grow up in?",
+      "answer": "Highlands",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's Park Hill neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What neighborhood did Tessa Brandt grow up in?",
+          "sub_answer": "Highlands",
+          "evidence_id": "tessa_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_002",
+          "text": "Tessa Brandt was born and raised in Denver, Colorado, and grew up in the Highlands neighborhood.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s04_k2_012",
+      "question": "What is the occupation of the mother of the person who plays poker with Kenji Watanabe?",
+      "answer": "High school principal",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Darius Coleman's mother's occupation?",
+          "sub_answer": "High school principal at Manual High School",
+          "evidence_id": "darius_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_009",
+          "text": "Darius Coleman's mother, Patricia, is a high school principal at Manual High School in Five Points.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k2_013",
+      "question": "What car does the person who takes hip-hop dance class with Lucia Vega drive?",
+      "answer": "Midnight blue 2020 Dodge Charger",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes hip-hop dance class with Lucia Vega?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "lucia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Darius Coleman drive?",
+          "sub_answer": "Midnight blue 2020 Dodge Charger",
+          "evidence_id": "darius_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_004",
+          "text": "Lucia Vega and Darius Coleman take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "darius_011",
+          "text": "Darius Coleman drives a midnight blue 2020 Dodge Charger.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k2_014",
+      "question": "What neighborhood does the hospital colleague of Omar Hadid who works in radiology live in?",
+      "answer": "LoHi",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's hospital colleague in radiology?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What neighborhood does Kenji Watanabe live in?",
+          "sub_answer": "LoHi",
+          "evidence_id": "kenji_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_009",
+          "text": "Kenji Watanabe lives in a loft apartment in the LoHi neighborhood on Platte Street.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s04_k2_015",
+      "question": "What is the favorite book of the person who is Omar Hadid's neighbor on Dahlia Street?",
+      "answer": "The Overstory",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar's neighbor on Dahlia Street?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Tessa Brandt's favorite book?",
+          "sub_answer": "The Overstory",
+          "evidence_id": "tessa_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_019",
+          "text": "Tessa Brandt's favorite book is 'The Overstory' by Richard Powers.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k2_016",
+      "question": "What is the favorite restaurant of the person who volunteers at the Denver Free Clinic with Omar Hadid?",
+      "answer": "Los Chingones",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the Denver Free Clinic with Omar?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "omar_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Lucia Vega's favorite restaurant?",
+          "sub_answer": "Los Chingones",
+          "evidence_id": "lucia_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_019",
+          "text": "Omar Hadid volunteers at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "lucia_016",
+          "text": "Lucia Vega's favorite Denver restaurant is Los Chingones on East Colfax, where she orders the street tacos al pastor.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k2_017",
+      "question": "What car does the trail running partner of Kenji Watanabe drive?",
+      "answer": "White 2021 Ford Bronco",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kenji Watanabe's trail running partner?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "kenji_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Tessa Brandt drive?",
+          "sub_answer": "White 2021 Ford Bronco",
+          "evidence_id": "tessa_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_005",
+          "text": "Kenji Watanabe and Tessa Brandt are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "tessa_008",
+          "text": "Tessa Brandt drives a white 2021 Ford Bronco.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s04_k2_018",
+      "question": "What is the occupation of the brother of the person who takes dance class with Darius Coleman?",
+      "answer": "Firefighter",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Lucia Vega's brother's occupation?",
+          "sub_answer": "Firefighter with the El Paso Fire Department",
+          "evidence_id": "lucia_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_014",
+          "text": "Lucia Vega's older brother, Mateo, is a firefighter with the El Paso Fire Department.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k2_019",
+      "question": "Where does the person who volunteers at the health screening with the Asian Pacific Development Center work as a doctor?",
+      "answer": "Denver Health Medical Center",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the Asian Pacific Development Center for health screenings?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "kenji_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Kenji Watanabe work?",
+          "sub_answer": "Denver Health Medical Center",
+          "evidence_id": "kenji_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_018",
+          "text": "Kenji Watanabe volunteers as a health screener at the Asian Pacific Development Center in Aurora on the third Saturday of each month.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_001",
+          "text": "Kenji Watanabe works as a radiologist at Denver Health Medical Center in the diagnostic imaging department.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k2_020",
+      "question": "How many assists per game did the person who is the younger cousin of Omar Hadid's wife average in the 2024 summer season?",
+      "answer": "8.3",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the younger cousin of Omar Hadid's wife?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "darius_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many assists per game did Darius Coleman average?",
+          "sub_answer": "8.3",
+          "evidence_id": "darius_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_005",
+          "text": "Darius Coleman is Omar Hadid's wife Layla's younger cousin, which is how he joined the Mile High Mavericks.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "darius_008",
+          "text": "Darius Coleman plays point guard for the Mile High Mavericks and led the league in assists with 8.3 per game in the 2024 summer season.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k2_021",
+      "question": "What Saturday volunteer program does the person who is neighbors with Omar Hadid on Dahlia Street coach for?",
+      "answer": "Girls Inc. of Metro Denver",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's neighbor on Dahlia Street?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What Saturday volunteer program does Tessa coach for?",
+          "sub_answer": "Girls Inc. of Metro Denver",
+          "evidence_id": "tessa_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_017",
+          "text": "Tessa Brandt volunteers as a basketball coach for the Girls Inc. of Metro Denver program on Saturday afternoons.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k2_022",
+      "question": "What is the favorite ramen spot of the person who runs trails with the neighbor of Omar Hadid?",
+      "answer": "Uncle",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who runs trails with Tessa Brandt (Omar's neighbor)?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Kenji Watanabe's favorite ramen spot?",
+          "sub_answer": "Uncle on Larimer Street",
+          "evidence_id": "kenji_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_019",
+          "text": "Kenji Watanabe's favorite ramen spot in Denver is Uncle, a ramen shop on Larimer Street.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k2_023",
+      "question": "What is the mother's business name of the person who volunteers at the free clinic with Lucia Vega?",
+      "answer": "Cedar House Bakery",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the free clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the name of Omar Hadid's mother's bakery?",
+          "sub_answer": "Cedar House Bakery",
+          "evidence_id": "omar_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_011",
+          "text": "Omar Hadid's mother, Fatima, runs a Lebanese bakery called Cedar House Bakery in Dearborn.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k2_024",
+      "question": "Where did the person who volunteers as a music mentor at Youth on Record go to college?",
+      "answer": "University of Colorado Denver",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers as a music mentor at Youth on Record?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "darius_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Darius Coleman go to college?",
+          "sub_answer": "University of Colorado Denver",
+          "evidence_id": "darius_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_015",
+          "text": "Darius Coleman volunteers as a music mentor at the Youth on Record program in Denver, teaching beat production to teenagers.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "darius_003",
+          "text": "Darius Coleman graduated from the University of Colorado Denver with a B.A. in Music Industry Studies in 2019.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s04_k2_025",
+      "question": "What is the mother's business of the person who takes dance class with the person who is Layla's younger cousin?",
+      "answer": "Tamale catering business called Carmen's Cocina",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes dance class with Darius Coleman (Layla's younger cousin)?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Lucia Vega's mother do?",
+          "sub_answer": "Runs a tamale catering business called Carmen's Cocina",
+          "evidence_id": "lucia_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_009",
+          "text": "Lucia Vega's mother, Carmen, is a retired schoolteacher in El Paso who now runs a small tamale catering business called Carmen's Cocina.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k3_001",
+      "question": "What is the name of the pit bull owned by the person who plays poker with the hospital colleague of Omar Hadid?",
+      "answer": "Sub Bass",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is the name of Darius Coleman's pit bull?",
+          "sub_answer": "Sub Bass",
+          "evidence_id": "darius_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_017",
+          "text": "Darius Coleman adopted a pit bull mix named Sub Bass from the Denver Animal Shelter in June 2024.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s04_k3_002",
+      "question": "What ultramarathon did the trail running partner of the person who works at Denver Health with Omar Hadid complete in August 2024?",
+      "answer": "Leadville Trail 100",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at Denver Health with Omar Hadid?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's trail running partner?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "kenji_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What ultramarathon did Tessa Brandt complete?",
+          "sub_answer": "Leadville Trail 100",
+          "evidence_id": "tessa_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_005",
+          "text": "Kenji Watanabe and Tessa Brandt are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "tessa_018",
+          "text": "Tessa Brandt ran the Leadville Trail 100 ultramarathon in August 2024, finishing in 27 hours 14 minutes.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k3_003",
+      "question": "How many asylum cases were handled by the person who takes dance class with the poker buddy of Kenji Watanabe?",
+      "answer": "47",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many asylum cases did Lucia Vega handle?",
+          "sub_answer": "47",
+          "evidence_id": "lucia_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_008",
+          "text": "Lucia Vega won the Colorado Lawyers Committee Pro Bono Award in April 2024 for handling 47 asylum cases.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s04_k3_004",
+      "question": "What medical school did the person who volunteers at the free clinic with the dance class partner of Darius Coleman attend?",
+      "answer": "University of Michigan Medical School",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Darius Coleman's dance class partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who volunteers at the free clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What medical school did Omar Hadid attend?",
+          "sub_answer": "University of Michigan Medical School",
+          "evidence_id": "omar_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_005",
+          "text": "Omar Hadid earned his M.D. from the University of Michigan Medical School in 2013.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s04_k3_005",
+      "question": "What is the favorite book of the person who is a neighbor of the coach of the team that Kenji Watanabe plays for?",
+      "answer": "The Overstory",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches the team Kenji Watanabe plays for?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Tessa Brandt's favorite book?",
+          "sub_answer": "The Overstory",
+          "evidence_id": "tessa_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_001",
+          "text": "Omar Hadid coaches the Mile High Mavericks, a recreational basketball team in the Denver Parks & Rec league.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_019",
+          "text": "Tessa Brandt's favorite book is 'The Overstory' by Richard Powers.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k3_006",
+      "question": "Where does the sister of the person who runs trails with the neighbor of Omar Hadid work?",
+      "answer": "Monterey Bay Aquarium",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who runs trails with Tessa Brandt?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Kenji Watanabe's sister work?",
+          "sub_answer": "Monterey Bay Aquarium",
+          "evidence_id": "kenji_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_013",
+          "text": "Kenji Watanabe's older sister Yoko is a marine biologist at the Monterey Bay Aquarium in California.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s04_k3_007",
+      "question": "What neighborhood does the person who plays poker with the trail running partner of Tessa Brandt live in?",
+      "answer": "Five Points",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What neighborhood does Darius Coleman live in?",
+          "sub_answer": "Five Points",
+          "evidence_id": "darius_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_002",
+          "text": "Darius Coleman was born and raised in Denver's Five Points neighborhood.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k3_008",
+      "question": "What car does the person who volunteers at the free clinic with the dance class partner of Darius Coleman drive?",
+      "answer": "Black 2023 Audi Q7",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Darius Coleman's dance class partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who volunteers at the free clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Omar Hadid drive?",
+          "sub_answer": "Black 2023 Audi Q7",
+          "evidence_id": "omar_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_010",
+          "text": "Omar Hadid drives a black 2023 Audi Q7.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k3_009",
+      "question": "What is the favorite legal thriller of the person who takes dance class with the poker buddy of the trail running partner of Tessa Brandt?",
+      "answer": "The Lincoln Lawyer",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes dance class with Darius Coleman, and what is their favorite legal thriller?",
+          "sub_answer": "Lucia Vega's favorite is The Lincoln Lawyer",
+          "evidence_id": "lucia_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_019",
+          "text": "Lucia Vega reads legal thrillers and her favorite is 'The Lincoln Lawyer' by Michael Connelly.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k3_010",
+      "question": "How many children does the person who volunteers at the clinic with the dance partner of the person who plays poker with Kenji Watanabe have?",
+      "answer": "Two",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius Coleman's dance partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who volunteers at the clinic with Lucia Vega, and how many children do they have?",
+          "sub_answer": "Omar Hadid has two children",
+          "evidence_id": "omar_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "omar_007",
+          "text": "Omar Hadid has two children: a 7-year-old daughter named Noor and a 4-year-old son named Zain.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k3_011",
+      "question": "What artist created the mural on the brewery owned by the neighbor of the clinic volunteer partner of Lucia Vega?",
+      "answer": "Diego Solis",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Lucia Vega's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What artist created the mural on Tessa's brewery?",
+          "sub_answer": "Diego Solis",
+          "evidence_id": "tessa_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_020",
+          "text": "Tessa Brandt partnered with local artist Diego Solis to create a 30-foot mural on the brewery's north wall.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s04_k3_012",
+      "question": "How long did it take the trail running partner of the hospital colleague of the person who coaches the Mile High Mavericks to complete the Rim-to-Rim hike of the Grand Canyon?",
+      "answer": "14 hours 20 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches the Mile High Mavericks?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How long did Kenji Watanabe's Rim-to-Rim Grand Canyon hike take?",
+          "sub_answer": "14 hours 20 minutes",
+          "evidence_id": "kenji_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_001",
+          "text": "Omar Hadid coaches the Mile High Mavericks, a recreational basketball team in the Denver Parks & Rec league.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_012",
+          "text": "Kenji Watanabe completed the Rim-to-Rim hike of the Grand Canyon in 14 hours 20 minutes in October 2023.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s04_k3_013",
+      "question": "What food does the coach of the team that Lucia Vega plays center for cook for post-game dinners?",
+      "answer": "Kibbeh",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What team does Lucia Vega play center for?",
+          "sub_answer": "Mile High Mavericks",
+          "evidence_id": "lucia_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who coaches the Mile High Mavericks?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_001"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Omar Hadid cook for post-game dinners?",
+          "sub_answer": "Kibbeh",
+          "evidence_id": "omar_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_006",
+          "text": "Lucia Vega plays center for the Mile High Mavericks at 6 feet 1 inch tall, the tallest player on the team.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_001",
+          "text": "Omar Hadid coaches the Mile High Mavericks, a recreational basketball team in the Denver Parks & Rec league.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_016",
+          "text": "Omar Hadid cooks his mother's kibbeh recipe for the team's post-game dinners at his house.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s04_k3_014",
+      "question": "What is the father's profession of the person who runs trails with the neighbor of the clinic volunteer partner of Lucia Vega?",
+      "answer": "Retired mechanical engineer",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Lucia Vega's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Tessa Brandt's father's profession?",
+          "sub_answer": "Retired mechanical engineer",
+          "evidence_id": "tessa_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_009",
+          "text": "Tessa Brandt's father, Klaus, is a retired mechanical engineer who helped her build the brewery's custom fermentation tanks.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s04_k3_015",
+      "question": "What languages does the person who works at Denver Health with the trail running partner of the neighbor of Omar Hadid speak?",
+      "answer": "English and Japanese",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does Kenji Watanabe speak?",
+          "sub_answer": "English and Japanese",
+          "evidence_id": "kenji_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_015",
+          "text": "Kenji Watanabe speaks English and Japanese fluently.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k3_016",
+      "question": "What car does the poker buddy of the trail running partner of the person who owns Summit Line Brewing drive?",
+      "answer": "Midnight blue 2020 Dodge Charger",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who owns Summit Line Brewing?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "tessa_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji's poker buddy, and what car does he drive?",
+          "sub_answer": "Midnight blue 2020 Dodge Charger",
+          "evidence_id": "darius_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_001",
+          "text": "Tessa Brandt owns and operates Summit Line Brewing in Denver's RiNo Art District, which she opened in October 2021.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "darius_011",
+          "text": "Darius Coleman drives a midnight blue 2020 Dodge Charger.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k3_017",
+      "question": "Where was the person who takes dance class with the poker partner of the hospital colleague of Omar Hadid born?",
+      "answer": "El Paso, Texas",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's poker partner?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes dance class with Darius, and where were they born?",
+          "sub_answer": "Lucia Vega was born in El Paso, Texas",
+          "evidence_id": "lucia_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_002",
+          "text": "Lucia Vega was born in El Paso, Texas, and moved to Denver in 2020 after law school.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s04_k3_018",
+      "question": "What photograph sold for $1,200 at the Cherry Creek Arts Festival by the trail running partner of the neighbor of the person who cooks kibbeh for post-game dinners?",
+      "answer": "Maroon Bells at Dawn",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who cooks kibbeh for post-game dinners?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner, and what photograph did they sell?",
+          "sub_answer": "Kenji Watanabe sold Maroon Bells at Dawn",
+          "evidence_id": "kenji_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_016",
+          "text": "Omar Hadid cooks his mother's kibbeh recipe for the team's post-game dinners at his house.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_020",
+          "text": "Kenji Watanabe sold a print of his photograph 'Maroon Bells at Dawn' for $1,200 at the Cherry Creek Arts Festival.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s04_k3_019",
+      "question": "What is the favorite restaurant of the person who volunteers at the clinic with the dance partner of the poker buddy of the person who had a gallery show in Globeville?",
+      "answer": "Welton Street Cafe",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who had a gallery show in Globeville?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "kenji_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Darius Coleman's favorite restaurant?",
+          "sub_answer": "Welton Street Cafe",
+          "evidence_id": "darius_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_007",
+          "text": "Kenji Watanabe shoots landscape photography and had a gallery show at the Denver Art Society's Globeville space in June 2024.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_016",
+          "text": "Darius Coleman's favorite restaurant is Welton Street Cafe, where he orders the chicken and waffles every Sunday morning.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k3_020",
+      "question": "What double-double stats did the person who takes dance class with the poker buddy of the person who works at Denver Health with Omar Hadid score in the championship?",
+      "answer": "14 points and 12 rebounds",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at Denver Health with Omar Hadid?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes dance class with Darius, and what were their championship stats?",
+          "sub_answer": "Lucia Vega scored 14 points and 12 rebounds",
+          "evidence_id": "lucia_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_018",
+          "text": "Lucia Vega scored a double-double with 14 points and 12 rebounds in the summer league championship game.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s04_k4_001",
+      "question": "How many Spotify streams did the album produced by the poker buddy of the trail running partner of the neighbor of Omar Hadid reach?",
+      "answer": "500,000",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many Spotify streams did Darius Coleman's produced album reach?",
+          "sub_answer": "500,000",
+          "evidence_id": "darius_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_007",
+          "text": "Darius Coleman produced a 12-track album for Denver rapper Kaia Monroe that reached 500,000 streams on Spotify by March 2024.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k4_002",
+      "question": "What is the name of the rescue dog owned by the person who takes dance class with the poker partner of the colleague of Omar Hadid at Denver Health?",
+      "answer": "Justice",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's colleague at Denver Health?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's poker partner?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is the name of Lucia Vega's rescue dog?",
+          "sub_answer": "Justice",
+          "evidence_id": "lucia_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_015",
+          "text": "Lucia Vega hikes with her rescue dog, a husky named Justice, at Waterton Canyon every Sunday.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s04_k4_003",
+      "question": "How many points did the neighbor of the person who volunteers at the free clinic with the hip-hop dance partner of Darius Coleman score in the championship game?",
+      "answer": "22",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Darius Coleman's hip-hop dance partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who volunteers at the free clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many points did Tessa Brandt score in the championship game?",
+          "sub_answer": "22",
+          "evidence_id": "tessa_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_013",
+          "text": "Tessa Brandt scored 22 points in the summer league championship game in August 2024, including three consecutive three-pointers.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s04_k4_004",
+      "question": "What photograph sold for $1,200 by the trail running partner of the neighbor of the person who volunteers at the clinic with Lucia Vega?",
+      "answer": "Maroon Bells at Dawn",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What photograph did Kenji Watanabe sell for $1,200?",
+          "sub_answer": "Maroon Bells at Dawn",
+          "evidence_id": "kenji_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_020",
+          "text": "Kenji Watanabe sold a print of his photograph 'Maroon Bells at Dawn' for $1,200 at the Cherry Creek Arts Festival.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s04_k4_005",
+      "question": "What does the mother of the person who volunteers at the clinic with the dance partner of the poker buddy of Kenji Watanabe do for a living?",
+      "answer": "Runs a Lebanese bakery",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius Coleman's dance partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who volunteers at the clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Omar Hadid's mother do?",
+          "sub_answer": "Runs a Lebanese bakery called Cedar House Bakery",
+          "evidence_id": "omar_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_011",
+          "text": "Omar Hadid's mother, Fatima, runs a Lebanese bakery called Cedar House Bakery in Dearborn.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k4_006",
+      "question": "What marathon time did the person who runs trails with the Park Hill neighbor of the volunteer clinic partner of Lucia Vega achieve at the Denver Colfax Marathon?",
+      "answer": "3 hours 28 minutes",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Lucia Vega's volunteer clinic partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's Park Hill neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who runs trails with Tessa Brandt?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What was Kenji Watanabe's Denver Colfax Marathon time?",
+          "sub_answer": "3 hours 28 minutes",
+          "evidence_id": "kenji_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_016",
+          "text": "Kenji Watanabe ran the Denver Colfax Marathon in May 2024 with a time of 3 hours 28 minutes.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s04_k4_007",
+      "question": "What game-winning shot did the dance partner of the person who takes dance class with the trail running buddy of the hospital colleague of Omar Hadid make in the semifinal?",
+      "answer": "Three-pointer with 4 seconds left",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's trail running buddy?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "kenji_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What game-winning shot did Darius make?",
+          "sub_answer": "Three-pointer with 4 seconds left in the semifinal",
+          "evidence_id": "darius_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_005",
+          "text": "Kenji Watanabe and Tessa Brandt are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_020",
+          "text": "Darius Coleman scored the game-winning three-pointer with 4 seconds left in the summer league semifinal game against the Cherry Creek Coyotes.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s04_k4_008",
+      "question": "How much did the person who volunteers at the clinic with the dance partner of the poker buddy of the trail running companion of Tessa Brandt pay for his house?",
+      "answer": "$485,000",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tessa Brandt's trail running companion?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius Coleman's dance partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who volunteers at the clinic with Lucia, and how much did they pay for their house?",
+          "sub_answer": "Omar Hadid paid $485,000",
+          "evidence_id": "omar_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "omar_012",
+          "text": "Omar Hadid lives in a four-bedroom house in the Park Hill neighborhood that he bought in 2018 for $485,000.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s04_k4_009",
+      "question": "What languages does the person who volunteers at the clinic with the dance class partner of the poker buddy of the person who had a gallery show at Globeville speak?",
+      "answer": "English, Arabic, and basic Spanish",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who had a gallery show at Globeville?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "kenji_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius's dance class partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who volunteers at the clinic with Lucia, and what languages do they speak?",
+          "sub_answer": "Omar Hadid speaks English, Arabic, and basic Spanish",
+          "evidence_id": "omar_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_007",
+          "text": "Kenji Watanabe shoots landscape photography and had a gallery show at the Denver Art Society's Globeville space in June 2024.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "omar_013",
+          "text": "Omar Hadid speaks English, Arabic, and basic Spanish that he learned for patient communication.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s04_k4_010",
+      "question": "What is the occupation of the sister of the trail running partner of the neighbor of the person who volunteers at the free clinic with Lucia Vega?",
+      "answer": "Ski instructor",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the free clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Tessa Brandt's sister's occupation?",
+          "sub_answer": "Ski instructor",
+          "evidence_id": "tessa_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "tessa_016",
+          "text": "Tessa Brandt's younger sister Maren is a ski instructor at Vail Resort.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k4_011",
+      "question": "What is the occupation of the mother of the dance partner of the poker buddy of the trail running companion of the person who lives on Dahlia Street with Omar Hadid?",
+      "answer": "Retired schoolteacher who runs a tamale catering business",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives on Dahlia Street with Omar Hadid?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "tessa_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa's trail running companion?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Darius's dance partner, and what does her mother do?",
+          "sub_answer": "Tamale catering business",
+          "evidence_id": "lucia_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_004",
+          "text": "Tessa Brandt and Omar Hadid are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_009",
+          "text": "Lucia Vega's mother, Carmen, is a retired schoolteacher in El Paso who now runs a small tamale catering business called Carmen's Cocina.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s04_k4_012",
+      "question": "What award did the dance partner of the poker buddy of the hospital colleague of the person who led the Mavericks to the championship win at the Denver Hip Hop Awards?",
+      "answer": "Best Producer",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who led the Mavericks to the championship?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What award did Darius win at the Denver Hip Hop Awards?",
+          "sub_answer": "Best Producer",
+          "evidence_id": "darius_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_015",
+          "text": "Omar Hadid led the Mile High Mavericks to win the Denver Parks & Rec summer league championship in August 2024.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_014",
+          "text": "Darius Coleman won Best Producer at the Denver Hip Hop Awards in November 2023.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s04_k4_013",
+      "question": "What car does the trail running partner of the neighbor of the volunteer clinic partner of the dance companion of Darius Coleman drive?",
+      "answer": "Gray 2022 Subaru Crosstrek",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Darius Coleman's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Lucia's volunteer clinic partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tessa's trail running partner, and what car do they drive?",
+          "sub_answer": "Kenji Watanabe drives a gray 2022 Subaru Crosstrek",
+          "evidence_id": "kenji_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_011",
+          "text": "Kenji Watanabe drives a gray 2022 Subaru Crosstrek.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k4_014",
+      "question": "What is the occupation of the brother of the poker buddy of the trail running partner of the neighbor of the person who coaches the Mile High Mavericks?",
+      "answer": "Staff sergeant in the U.S. Army",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches the Mile High Mavericks?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is the poker buddy of Tessa Brandt's trail running partner?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Darius Coleman's brother's occupation?",
+          "sub_answer": "Staff sergeant in the U.S. Army",
+          "evidence_id": "darius_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_001",
+          "text": "Omar Hadid coaches the Mile High Mavericks, a recreational basketball team in the Denver Parks & Rec league.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_019",
+          "text": "Darius Coleman's older brother, Marcus Coleman, is a staff sergeant in the U.S. Army stationed at Fort Carson.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s04_k4_015",
+      "question": "What Denver Post feature was the dance class partner of the poker buddy of the trail running companion of the person who hosts post-game happy hours the subject of?",
+      "answer": "Article about young immigration lawyers making a difference",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hosts post-game happy hours?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "tessa_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa's trail running companion?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Darius's dance class partner, and what Denver Post feature were they in?",
+          "sub_answer": "Article about young immigration lawyers",
+          "evidence_id": "lucia_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_011",
+          "text": "Tessa Brandt hosts the Mile High Mavericks' post-game happy hours at Summit Line Brewing every Tuesday after practice.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_020",
+          "text": "Lucia Vega was featured in a Denver Post article about young immigration lawyers making a difference, published in June 2024.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k4_016",
+      "question": "What is the favorite restaurant of the person who plays poker with the trail running partner of the neighbor of the person who volunteers at the clinic with Lucia Vega?",
+      "answer": "Welton Street Cafe",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the clinic with Lucia Vega?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who plays poker with Kenji, and what is their favorite restaurant?",
+          "sub_answer": "Darius Coleman's favorite is Welton Street Cafe",
+          "evidence_id": "darius_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "darius_016",
+          "text": "Darius Coleman's favorite restaurant is Welton Street Cafe, where he orders the chicken and waffles every Sunday morning.",
+          "person_id": "darius"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k4_017",
+      "question": "What is the medical specialty of the trail running partner of the neighbor of the clinic volunteer companion of the person who takes dance class with Darius Coleman?",
+      "answer": "radiologist",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Lucia's clinic volunteer companion?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tessa's trail running partner, and what is their medical specialty?",
+          "sub_answer": "Kenji Watanabe is a radiologist",
+          "evidence_id": "kenji_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_001",
+          "text": "Kenji Watanabe works as a radiologist at Denver Health Medical Center in the diagnostic imaging department.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s04_k4_018",
+      "question": "What position did the neighbor of the clinic volunteer partner of the dance companion of the person who plays poker with Kenji Watanabe play in college basketball?",
+      "answer": "Power forward",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Lucia's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Omar's neighbor, and what position did they play in college?",
+          "sub_answer": "Tessa Brandt played power forward",
+          "evidence_id": "tessa_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "tessa_003",
+          "text": "Tessa Brandt played power forward on the Colorado State University women's basketball team from 2009 to 2013.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s04_k5_001",
+      "question": "What is the favorite restaurant of the person who takes dance class with the poker partner of the trail running buddy of the neighbor of Omar Hadid?",
+      "answer": "Los Chingones",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa Brandt's trail running buddy?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji Watanabe's poker partner?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who takes dance class with Darius Coleman?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Lucia Vega's favorite restaurant?",
+          "sub_answer": "Los Chingones",
+          "evidence_id": "lucia_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_016",
+          "text": "Lucia Vega's favorite Denver restaurant is Los Chingones on East Colfax, where she orders the street tacos al pastor.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s04_k5_002",
+      "question": "Where did the hospital colleague of the volunteer clinic partner of the dance class companion of the poker buddy of Kenji Watanabe grow up?",
+      "answer": "Seattle, Washington",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius Coleman's dance class companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Lucia Vega's volunteer clinic partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Omar Hadid's hospital colleague?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Kenji Watanabe grow up?",
+          "sub_answer": "Seattle, Washington",
+          "evidence_id": "kenji_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_002",
+          "text": "Kenji Watanabe grew up in Seattle, Washington, and moved to Denver in 2019.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s04_k5_003",
+      "question": "What street does the neighbor of the clinic volunteer partner of the dance companion of the poker buddy of the trail running partner of Tessa Brandt live on?",
+      "answer": "Dahlia Street",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tessa Brandt's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji Watanabe's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius Coleman's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Lucia Vega's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What street does Omar Hadid's neighbor live on?",
+          "sub_answer": "Dahlia Street",
+          "evidence_id": "omar_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s04_k5_004",
+      "question": "What size outdoor patio was added to the brewery owned by the neighbor of the clinic volunteer partner of the dance class companion of the person who plays poker with Kenji Watanabe?",
+      "answer": "40-seat",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays poker with Kenji Watanabe?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius Coleman's dance class companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Lucia Vega's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Omar Hadid's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What size patio was added to Tessa Brandt's brewery?",
+          "sub_answer": "40-seat outdoor patio",
+          "evidence_id": "tessa_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_015",
+          "text": "Tessa Brandt expanded Summit Line Brewing's taproom in January 2024, adding a 40-seat outdoor patio with mountain views.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s04_k5_005",
+      "question": "What is the name of the children of the person who volunteers at the clinic with the dance partner of the poker buddy of the trail running companion of the person who owns Summit Line Brewing?",
+      "answer": "Noor and Zain",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who owns Summit Line Brewing?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "tessa_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tessa's trail running companion?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Darius's dance partner?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who volunteers at the clinic with Lucia, and what are their children's names?",
+          "sub_answer": "Omar Hadid's children are Noor and Zain",
+          "evidence_id": "omar_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tessa_001",
+          "text": "Tessa Brandt owns and operates Summit Line Brewing in Denver's RiNo Art District, which she opened in October 2021.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "omar_007",
+          "text": "Omar Hadid has two children: a 7-year-old daughter named Noor and a 4-year-old son named Zain.",
+          "person_id": "omar"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s04_k5_006",
+      "question": "How many points did the neighbor of the clinic volunteer partner of the dance companion of the poker buddy of the person who works at Denver Health with Omar Hadid score in the championship?",
+      "answer": "22",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works at Denver Health with Omar Hadid?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "omar_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Lucia's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Omar's neighbor, and how many points did they score in the championship?",
+          "sub_answer": "Tessa Brandt scored 22 points",
+          "evidence_id": "tessa_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_004",
+          "text": "Omar Hadid and Kenji Watanabe work together at Denver Health, with Kenji in the radiology department.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "tessa_013",
+          "text": "Tessa Brandt scored 22 points in the summer league championship game in August 2024, including three consecutive three-pointers.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s04_k5_007",
+      "question": "What is the occupation of the father of the trail running partner of the neighbor of the clinic volunteer partner of the dance companion of the person who DJs as DJ Anvil?",
+      "answer": "Retired Boeing aerospace engineer",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who DJs as DJ Anvil?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "darius_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Darius's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Lucia's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Tessa's trail running partner, and what does their father do?",
+          "sub_answer": "Retired Boeing aerospace engineer",
+          "evidence_id": "kenji_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "darius_012",
+          "text": "Darius Coleman DJs at the Meadowlark Bar on East Colfax every other Saturday night under the name 'DJ Anvil'.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "kenji_010",
+          "text": "Kenji Watanabe's father, Hiroshi, is a retired Boeing aerospace engineer in Seattle.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k5_008",
+      "question": "What is the Duolingo streak of the dance companion of the poker buddy of the trail running partner of the neighbor of the person who publishes concussion research in the Journal of Emergency Medicine?",
+      "answer": "487 days",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who publishes concussion research in the Journal of Emergency Medicine?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Darius's dance companion, and what is their Duolingo streak?",
+          "sub_answer": "Lucia Vega has a 487-day streak",
+          "evidence_id": "lucia_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_017",
+          "text": "Omar Hadid published a case study on sports-related concussion protocols in the Journal of Emergency Medicine in March 2024.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_012",
+          "text": "Lucia Vega speaks English and Spanish fluently, and is learning Portuguese through a Duolingo streak of 487 days.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s04_k5_009",
+      "question": "What medical school did the hospital colleague of the volunteer clinic partner of the dance companion of the poker buddy of the person who photographed Maroon Bells at Dawn attend?",
+      "answer": "University of Washington School of Medicine",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who photographed Maroon Bells at Dawn?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "kenji_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius's dance companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Lucia's volunteer clinic partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Omar's hospital colleague, and what medical school did they attend?",
+          "sub_answer": "University of Washington School of Medicine",
+          "evidence_id": "kenji_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_020",
+          "text": "Kenji Watanabe sold a print of his photograph 'Maroon Bells at Dawn' for $1,200 at the Cherry Creek Arts Festival.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "kenji_003",
+          "text": "Kenji Watanabe earned his M.D. from the University of Washington School of Medicine in 2016.",
+          "person_id": "kenji"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s04_k5_010",
+      "question": "What German language skill does the neighbor of the clinic volunteer partner of the dance class companion of the poker buddy of the person who completed the Grand Canyon Rim-to-Rim hike have?",
+      "answer": "Conversational German",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed the Grand Canyon Rim-to-Rim hike?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "kenji_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Darius's dance class companion?",
+          "sub_answer": "Lucia Vega",
+          "evidence_id": "darius_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Lucia's clinic volunteer partner?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "lucia_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Omar's neighbor, and what is their German language skill?",
+          "sub_answer": "Tessa Brandt speaks conversational German",
+          "evidence_id": "tessa_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kenji_012",
+          "text": "Kenji Watanabe completed the Rim-to-Rim hike of the Grand Canyon in 14 hours 20 minutes in October 2023.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "darius_006",
+          "text": "Darius Coleman and Lucia Vega take a hip-hop dance class at the Cleo Parker Robinson Dance Ensemble studio every Thursday evening.",
+          "person_id": "darius"
+        },
+        {
+          "obs_id": "lucia_005",
+          "text": "Lucia Vega and Omar Hadid volunteer together at the Denver Free Clinic on the first Saturday of every month.",
+          "person_id": "lucia"
+        },
+        {
+          "obs_id": "tessa_014",
+          "text": "Tessa Brandt speaks English and conversational German, which she learned from her grandparents.",
+          "person_id": "tessa"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s04_k5_011",
+      "question": "What is the high school basketball achievement of the dance partner of the poker buddy of the trail running partner of the neighbor of the person who skis at Breckenridge with his daughter?",
+      "answer": "Named All-District in 2011 and 2012",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who skis at Breckenridge with his daughter?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Darius's dance partner, and what was their high school basketball achievement?",
+          "sub_answer": "All-District in 2011 and 2012",
+          "evidence_id": "lucia_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_014",
+          "text": "Omar Hadid skis at Breckenridge every other weekend during winter, usually on the blue runs with his daughter Noor.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_007",
+          "text": "Lucia Vega played basketball at El Paso High School, where she was named All-District in 2011 and 2012.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s04_k5_012",
+      "question": "What is the apartment neighborhood of the dance companion of the poker buddy of the trail running partner of the neighbor of the person who played point guard at the University of Michigan?",
+      "answer": "Baker",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "sports_league",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who played point guard at the University of Michigan?",
+          "sub_answer": "Omar Hadid",
+          "evidence_id": "omar_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Omar's neighbor?",
+          "sub_answer": "Tessa Brandt",
+          "evidence_id": "omar_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tessa's trail running partner?",
+          "sub_answer": "Kenji Watanabe",
+          "evidence_id": "tessa_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Kenji's poker buddy?",
+          "sub_answer": "Darius Coleman",
+          "evidence_id": "kenji_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Darius's dance companion, and what neighborhood do they live in?",
+          "sub_answer": "Lucia Vega lives in the Baker neighborhood",
+          "evidence_id": "lucia_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "omar_008",
+          "text": "Omar Hadid played point guard on the University of Michigan club basketball team from 2007 to 2011.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "omar_018",
+          "text": "Omar Hadid and Tessa Brandt are neighbors in the Park Hill neighborhood, living three houses apart on Dahlia Street.",
+          "person_id": "omar"
+        },
+        {
+          "obs_id": "tessa_005",
+          "text": "Tessa Brandt and Kenji Watanabe are in the same Saturday morning trail running group that meets at Red Rocks Park at 7 AM.",
+          "person_id": "tessa"
+        },
+        {
+          "obs_id": "kenji_006",
+          "text": "Kenji Watanabe and Darius Coleman play in a weekly poker game every Wednesday night at Darius's apartment.",
+          "person_id": "kenji"
+        },
+        {
+          "obs_id": "lucia_010",
+          "text": "Lucia Vega lives in a one-bedroom apartment in the Baker neighborhood on South Broadway.",
+          "person_id": "lucia"
+        }
+      ],
+      "answerable_after_session": 14
+    }
+  ]
+}

@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "adventure_group",
+  "questions": [
+    {
+      "id": "memhop_s09_k1_001",
+      "question": "Where does Nora Fitzgerald work?",
+      "answer": "REI's headquarters in Kent, Washington",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Nora Fitzgerald work?",
+          "sub_answer": "REI's headquarters in Kent, Washington",
+          "evidence_id": "nora_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_001",
+          "text": "Nora Fitzgerald works as a senior software engineer at REI's headquarters in Kent, Washington, building their e-commerce recommendation engine.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k1_002",
+      "question": "How many days did Sam Osei's Inside Passage kayak trip take?",
+      "answer": "42 days",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many days did Sam Osei's Inside Passage kayak trip take?",
+          "sub_answer": "42 days",
+          "evidence_id": "sam_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Osei kayaked the 1,200-mile Inside Passage from Juneau, Alaska, to Seattle over 42 days in the summer of 2022.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k1_003",
+      "question": "What is Tomás Rivera's wife Elena's profession?",
+      "answer": "marine biologist",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Tomás Rivera's wife Elena's profession?",
+          "sub_answer": "marine biologist",
+          "evidence_id": "tomas_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_008",
+          "text": "Tomás Rivera's wife, Elena, is a marine biologist at NOAA's Northwest Fisheries Science Center in Montlake.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k1_004",
+      "question": "What is the name of Jenny Kowalski's rescue husky?",
+      "answer": "Glacier",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Jenny Kowalski's rescue husky?",
+          "sub_answer": "Glacier",
+          "evidence_id": "jenny_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_008",
+          "text": "Jenny Kowalski has a rescue husky named Glacier who accompanies her on most hikes.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k1_005",
+      "question": "What time did Nora Fitzgerald finish the Chuckanut Ridge 50-kilometer ultramarathon?",
+      "answer": "6 hours 42 minutes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What time did Nora Fitzgerald finish the Chuckanut Ridge 50-kilometer ultramarathon?",
+          "sub_answer": "6 hours 42 minutes",
+          "evidence_id": "nora_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_008",
+          "text": "Nora Fitzgerald completed her first 50-kilometer ultramarathon on the Chuckanut Ridge trail in March 2024 with a time of 6 hours 42 minutes.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s09_k1_006",
+      "question": "What subject does Sam Osei's father Kofi teach at the University of Ghana?",
+      "answer": "mathematics",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What subject does Sam Osei's father Kofi teach at the University of Ghana?",
+          "sub_answer": "mathematics",
+          "evidence_id": "sam_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_007",
+          "text": "Sam Osei's mother, Abena, is a pediatrician in Accra, and his father, Kofi, teaches mathematics at the University of Ghana.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k1_007",
+      "question": "What time did Tomás Rivera finish the Ultra-Trail du Mont-Blanc?",
+      "answer": "31 hours 14 minutes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What time did Tomás Rivera finish the Ultra-Trail du Mont-Blanc?",
+          "sub_answer": "31 hours 14 minutes",
+          "evidence_id": "tomas_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_005",
+          "text": "Tomás Rivera completed the Ultra-Trail du Mont-Blanc (UTMB) in Chamonix, France, in August 2023 with a time of 31 hours 14 minutes.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k1_008",
+      "question": "What is Jenny Kowalski writing a field guide about?",
+      "answer": "wildflowers of Mount Rainier National Park",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Jenny Kowalski writing a field guide about?",
+          "sub_answer": "wildflowers of Mount Rainier National Park",
+          "evidence_id": "jenny_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_018",
+          "text": "Jenny Kowalski is writing a field guide to wildflowers of Mount Rainier National Park, with her own watercolor illustrations.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k1_009",
+      "question": "What is the name of Nora Fitzgerald's border collie?",
+      "answer": "Summit",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Nora Fitzgerald's border collie?",
+          "sub_answer": "Summit",
+          "evidence_id": "nora_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_010",
+          "text": "Nora Fitzgerald adopted a border collie named Summit from the Seattle Humane Society in February 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s09_k1_010",
+      "question": "How much money did Sam Osei raise at the paddle-a-thon on Lake Union?",
+      "answer": "$4,200",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much money did Sam Osei raise at the paddle-a-thon on Lake Union?",
+          "sub_answer": "$4,200",
+          "evidence_id": "sam_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_015",
+          "text": "Sam Osei organized a fundraiser paddle-a-thon on Lake Union in April 2024, raising $4,200 for Outdoor Afro Seattle.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s09_k2_001",
+      "question": "What is the favorite book of Nora Fitzgerald's climbing partner?",
+      "answer": "Endurance",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Sam Osei's favorite book?",
+          "sub_answer": "Endurance",
+          "evidence_id": "sam_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_016",
+          "text": "Sam Osei's favorite book is 'Endurance' by Alfred Lansing, about Shackleton's Antarctic expedition.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k2_002",
+      "question": "What car does Sam Osei's work colleague drive?",
+      "answer": "black 2022 Rivian R1T electric truck",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Tomás Rivera drive?",
+          "sub_answer": "black 2022 Rivian R1T electric truck",
+          "evidence_id": "tomas_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_013",
+          "text": "Tomás Rivera drives a black 2022 Rivian R1T electric truck, which the group uses for gear hauling on adventure trips.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s09_k2_003",
+      "question": "What languages does Tomás Rivera's trail running partner speak?",
+      "answer": "English, Polish, Twi, and basic French",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Jenny Kowalski speak?",
+          "sub_answer": "English, Polish, Twi, and basic French",
+          "evidence_id": "jenny_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_009",
+          "text": "Jenny Kowalski speaks English, Polish, Twi, and basic French.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s09_k2_004",
+      "question": "Where does Sam Osei's childhood friend live?",
+      "answer": "Ashford, Washington",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Jenny Kowalski live?",
+          "sub_answer": "Ashford, Washington",
+          "evidence_id": "jenny_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_007",
+          "text": "Jenny Kowalski lives in a cabin in Ashford, Washington, 6 miles from the Nisqually entrance to Mount Rainier.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s09_k2_005",
+      "question": "What is Nora Fitzgerald's book club co-member's favorite book?",
+      "answer": "Born to Run",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is in Nora Fitzgerald's book club?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Tomás Rivera's favorite book?",
+          "sub_answer": "Born to Run",
+          "evidence_id": "tomas_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Rivera's favorite book is 'Born to Run' by Christopher McDougall.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s09_k2_006",
+      "question": "What is the profession of Jenny Kowalski's mountaineering partner's older brother Declan?",
+      "answer": "wildland firefighter",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Nora Fitzgerald's older brother Declan do?",
+          "sub_answer": "wildland firefighter",
+          "evidence_id": "nora_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_011",
+          "text": "Nora Fitzgerald's older brother Declan is a wildland firefighter based in Missoula, Montana.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s09_k2_007",
+      "question": "What mountain did Nora Fitzgerald's climbing partner climb when he visited his family in Accra?",
+      "answer": "Mount Afadja",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What mountain did Sam Osei climb when visiting Accra?",
+          "sub_answer": "Mount Afadja",
+          "evidence_id": "sam_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_014",
+          "text": "Sam Osei visited his family in Accra for three weeks in December 2023 and climbed Mount Afadja, Ghana's highest peak.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s09_k2_008",
+      "question": "What exam is Jenny Kowalski's Saturday trail running partner studying for?",
+      "answer": "Certificate of Added Qualification in sports medicine",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Kowalski's Saturday trail running partner?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What exam is Tomás Rivera studying for?",
+          "sub_answer": "Certificate of Added Qualification in sports medicine",
+          "evidence_id": "tomas_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Kowalski and Tomás Rivera are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "tomas_019",
+          "text": "Tomás Rivera is studying for his Certificate of Added Qualification in sports medicine, with the exam scheduled for February 2025.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k2_009",
+      "question": "What business do the parents of Sam Osei's climbing partner own?",
+      "answer": "fly-fishing guide service on the Gallatin River",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What business do Nora Fitzgerald's parents own?",
+          "sub_answer": "fly-fishing guide service on the Gallatin River",
+          "evidence_id": "nora_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_002",
+          "text": "Nora Fitzgerald grew up in Bozeman, Montana, where her parents own a fly-fishing guide service on the Gallatin River.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k2_010",
+      "question": "What did Tomás Rivera's trail running partner's mother's business import from Ghana?",
+      "answer": "textiles",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Jenny Kowalski's mother's business import?",
+          "sub_answer": "textiles from Ghana",
+          "evidence_id": "jenny_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_012",
+          "text": "Jenny Kowalski's mother, Akosua, runs a fabric import business in Portland that sources textiles from Ghana.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s09_k3_001",
+      "question": "What neighborhood does the work colleague of Nora's climbing partner live in?",
+      "answer": "Capitol Hill",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Tomás Rivera live?",
+          "sub_answer": "Capitol Hill neighborhood of Seattle",
+          "evidence_id": "tomas_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_007",
+          "text": "Tomás Rivera lives in the Capitol Hill neighborhood of Seattle in a two-bedroom condo on Pine Street.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k3_002",
+      "question": "What is the name of the rescue husky owned by the trail running partner of Sam Osei's colleague?",
+      "answer": "Glacier",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is the name of Jenny Kowalski's rescue husky?",
+          "sub_answer": "Glacier",
+          "evidence_id": "jenny_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_008",
+          "text": "Jenny Kowalski has a rescue husky named Glacier who accompanies her on most hikes.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k3_003",
+      "question": "Where did the childhood friend of Nora's climbing partner complete a solo thru-hike?",
+      "answer": "Wonderland Trail around Mount Rainier",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Osei's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Jenny Kowalski complete a solo thru-hike?",
+          "sub_answer": "Wonderland Trail around Mount Rainier",
+          "evidence_id": "jenny_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_011",
+          "text": "Jenny Kowalski completed a 30-day solo thru-hike of the Wonderland Trail around Mount Rainier in August 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k3_004",
+      "question": "What car does the mountaineering partner of Tomás Rivera's trail running partner drive?",
+      "answer": "green 2020 Subaru Crosstrek",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Nora Fitzgerald drive?",
+          "sub_answer": "green 2020 Subaru Crosstrek",
+          "evidence_id": "nora_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_007",
+          "text": "Nora Fitzgerald drives a green 2020 Subaru Crosstrek with a rooftop cargo box and a 'Climb On' bumper sticker.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s09_k3_005",
+      "question": "What did the book club co-member of the person who climbed Mount Adams with Jenny teach the adventure group?",
+      "answer": "basic wilderness first aid techniques",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who climbed Mount Adams with Jenny Kowalski?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in Nora Fitzgerald's book club?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Tomás Rivera teach the adventure group?",
+          "sub_answer": "basic wilderness first aid techniques",
+          "evidence_id": "tomas_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_020",
+          "text": "Tomás Rivera taught the adventure group basic wilderness first aid techniques during a camping trip at Olympic National Park in July 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k3_006",
+      "question": "What is the mother's profession of the person who grew up on the same street as Jenny Kowalski in Accra?",
+      "answer": "pediatrician",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who grew up on the same street as Jenny Kowalski in Accra?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where was Sam Osei born and what is his background?",
+          "sub_answer": "Born in Accra, Ghana",
+          "evidence_id": "sam_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Sam Osei's mother's profession?",
+          "sub_answer": "pediatrician",
+          "evidence_id": "sam_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_002",
+          "text": "Sam Osei was born in Accra, Ghana, and moved to Seattle in 2017 to attend the University of Washington's Doctor of Physical Therapy program.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_007",
+          "text": "Sam Osei's mother, Abena, is a pediatrician in Accra, and his father, Kofi, teaches mathematics at the University of Ghana.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k3_007",
+      "question": "What does the book club co-member of the person who teaches lead climbing at Vertical World brew at home?",
+      "answer": "kombucha",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who teaches lead climbing courses at Vertical World?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in Nora Fitzgerald's book club?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Tomás Rivera brew at home?",
+          "sub_answer": "kombucha",
+          "evidence_id": "tomas_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_005",
+          "text": "Nora Fitzgerald is a certified AMGA Single Pitch Instructor and teaches lead climbing courses on weekends at Vertical World.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_016",
+          "text": "Tomás Rivera brews his own kombucha in a 5-gallon glass jar on his kitchen counter and brings bottles to every group trip.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k3_008",
+      "question": "Where does the climbing partner of the person who led 47 guided hikes at Mount Rainier live?",
+      "answer": "Ballard neighborhood of Seattle",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who led 47 guided hikes at Mount Rainier National Park?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Nora Fitzgerald live?",
+          "sub_answer": "Ballard neighborhood of Seattle",
+          "evidence_id": "nora_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_005",
+          "text": "Jenny Kowalski led 47 guided hikes at Mount Rainier National Park in 2024, the most of any ranger at Paradise.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_013",
+          "text": "Nora Fitzgerald lives in a one-bedroom apartment in the Ballard neighborhood of Seattle, three blocks from the Ballard Locks.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k4_001",
+      "question": "What is the father's profession of the book club co-member of the climbing partner of Jenny's childhood friend?",
+      "answer": "cardiologist",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny Kowalski's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Osei's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is in Nora Fitzgerald's book club?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Tomás Rivera's father do?",
+          "sub_answer": "cardiologist",
+          "evidence_id": "tomas_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_011",
+          "text": "Tomás Rivera's father, Ernesto, is a cardiologist in Guadalajara who inspired Tomás to pursue medicine.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k4_002",
+      "question": "What is the favorite climbing area of the mountaineering partner of the trail running partner of Sam Osei's colleague?",
+      "answer": "Index Town Wall",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Nora Fitzgerald's favorite climbing area?",
+          "sub_answer": "Index Town Wall",
+          "evidence_id": "nora_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_009",
+          "text": "Nora Fitzgerald's favorite climbing area is Index Town Wall, a granite crag 50 miles east of Seattle.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s09_k4_003",
+      "question": "What did the trail running partner of the colleague of Nora's climbing partner find on Mount Rainier?",
+      "answer": "previously unmapped seasonal waterfall",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Jenny Kowalski find on Mount Rainier?",
+          "sub_answer": "previously unmapped seasonal waterfall",
+          "evidence_id": "jenny_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_016",
+          "text": "Jenny Kowalski found and reported a previously unmapped seasonal waterfall on the north side of Mount Rainier in June 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s09_k4_004",
+      "question": "What favorite camping meal does the childhood friend of the colleague of Nora's book club co-member have?",
+      "answer": "one-pot lentil dal",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's colleague at the clinic?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "tomas_001"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam Osei's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Jenny Kowalski's favorite camping meal?",
+          "sub_answer": "one-pot lentil dal",
+          "evidence_id": "jenny_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_001",
+          "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_015",
+          "text": "Jenny Kowalski's favorite camping meal is a one-pot lentil dal that she learned from Sam's mother during a visit to Accra.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k4_005",
+      "question": "What is the favorite book of the mountaineering partner of the trail running partner of the person who treated Sam's rotator cuff?",
+      "answer": "The Living Mountain",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who treated Sam Osei's rotator cuff tear?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Nora Fitzgerald's favorite book?",
+          "sub_answer": "The Living Mountain",
+          "evidence_id": "nora_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_017",
+          "text": "Tomás Rivera treated Sam Osei's rotator cuff tear in November 2023 and designed the four-month rehab protocol.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_014",
+          "text": "Nora Fitzgerald's favorite book is 'The Living Mountain' by Nan Shepherd.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s09_k4_006",
+      "question": "What trail does the mountaineering partner of the trail running partner of the person who treated Sam's rotator cuff volunteer on?",
+      "answer": "Mailbox Peak trail",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who treated Sam Osei's rotator cuff tear?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What trail does Nora Fitzgerald volunteer on?",
+          "sub_answer": "Mailbox Peak trail",
+          "evidence_id": "nora_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_017",
+          "text": "Tomás Rivera treated Sam Osei's rotator cuff tear in November 2023 and designed the four-month rehab protocol.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_018",
+          "text": "Nora Fitzgerald volunteers for Washington Trails Association trail maintenance days once a month, usually on the Mailbox Peak trail.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k5_001",
+      "question": "What kayak does the climbing partner of the mountaineering partner of the trail running partner of Nora's book club co-member own?",
+      "answer": "17-foot fiberglass sea kayak made by Eddyline Kayaks",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora Fitzgerald's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What kayak does Sam Osei own?",
+          "sub_answer": "17-foot fiberglass sea kayak made by Eddyline Kayaks",
+          "evidence_id": "sam_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_006",
+          "text": "Sam Osei owns a 17-foot fiberglass sea kayak made by Eddyline Kayaks, painted bright yellow, which he stores in his garage.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s09_k5_002",
+      "question": "Where was the colleague of the childhood friend of the mountaineering partner of Sam's climbing partner born?",
+      "answer": "Guadalajara, Mexico",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora Fitzgerald's mountaineering partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny Kowalski's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where was Tomás Rivera born?",
+          "sub_answer": "Guadalajara, Mexico",
+          "evidence_id": "tomas_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_002",
+          "text": "Tomás Rivera was born in Guadalajara, Mexico, and attended medical school at UNAM in Mexico City.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k5_003",
+      "question": "What is the favorite book of the trail running partner of the colleague of the climbing partner of the mountaineering partner of the person who completed the Wonderland Trail?",
+      "answer": "A Sand County Almanac",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed a solo thru-hike of the Wonderland Trail?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny Kowalski's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Nora Fitzgerald's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam Osei's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is the favorite book of Tomás Rivera's trail running partner Jenny Kowalski?",
+          "sub_answer": "A Sand County Almanac",
+          "evidence_id": "jenny_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_011",
+          "text": "Jenny Kowalski completed a 30-day solo thru-hike of the Wonderland Trail around Mount Rainier in August 2023.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_020",
+          "text": "Jenny Kowalski's favorite book is 'A Sand County Almanac' by Aldo Leopold.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k5_004",
+      "question": "What weekly food tradition does the childhood friend of the trail running partner of the book club co-member of the person who kayaked the San Juan Islands have?",
+      "answer": "Ghanaian jollof rice every Sunday evening",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who kayaked the San Juan Islands?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora Fitzgerald's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás Rivera's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny Kowalski's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Sam Osei's weekly food tradition?",
+          "sub_answer": "Ghanaian jollof rice every Sunday evening",
+          "evidence_id": "sam_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_012",
+          "text": "Nora Fitzgerald kayaked the San Juan Islands for five days in June 2024, camping on Jones Island and spotting a pod of orcas near Lime Kiln Point.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_018",
+          "text": "Sam Osei cooks Ghanaian jollof rice every Sunday evening and always makes enough for leftovers on Monday.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k1_011",
+      "question": "Where does Jenny Kowalski work?",
+      "answer": "Mount Rainier National Park, stationed at the Paradise",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Jenny Kowalski work?",
+          "sub_answer": "Mount Rainier National Park, Paradise Visitor Center",
+          "evidence_id": "jenny_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_001",
+          "text": "Jenny Kowalski works as a park ranger at Mount Rainier National Park, stationed at the Paradise Visitor Center.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s09_k1_012",
+      "question": "Via which route did Nora Fitzgerald first summit Mount Rainier in July 2023?",
+      "answer": "Disappointment Cleaver route",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Via which route did Nora first summit Rainier?",
+          "sub_answer": "Disappointment Cleaver route",
+          "evidence_id": "nora_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_004",
+          "text": "Nora Fitzgerald summited Mount Rainier via the Disappointment Cleaver route in July 2023 and again via the Emmons Glacier in August 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k1_013",
+      "question": "What multi-pitch climb is Nora Fitzgerald training for in September 2024?",
+      "answer": "North Ridge of Mount Stuart",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What climb is Nora training for?",
+          "sub_answer": "North Ridge of Mount Stuart",
+          "evidence_id": "nora_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_015",
+          "text": "Nora Fitzgerald is training for a multi-pitch trad climb of the North Ridge of Mount Stuart, scheduled for September 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k1_014",
+      "question": "How many pairs of climbing shoes does Nora Fitzgerald's custom gear rack hold?",
+      "answer": "14 pairs",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many shoes does Nora's gear rack hold?",
+          "sub_answer": "14 pairs",
+          "evidence_id": "nora_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_016",
+          "text": "Nora Fitzgerald built a custom gear rack in her apartment entryway that holds 14 pairs of climbing shoes, 8 helmets, and 30 carabiners.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s09_k1_015",
+      "question": "What injury did Nora Fitzgerald sustain on Colchuck Peak in May 2024?",
+      "answer": "sprained her right ankle",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What injury on Colchuck Peak?",
+          "sub_answer": "sprained her right ankle",
+          "evidence_id": "nora_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_019",
+          "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k1_016",
+      "question": "What is Nora Fitzgerald's famous backpacking recipe that the group loves?",
+      "answer": "pad thai",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Nora's famous trail meal?",
+          "sub_answer": "pad thai",
+          "evidence_id": "nora_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_020",
+          "text": "Nora Fitzgerald makes her own dehydrated trail meals and her backpacking pad thai is a group favorite.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s09_k1_017",
+      "question": "What certification did Sam Osei complete in January 2024?",
+      "answer": "Wilderness First Responder certification",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What certification did Sam complete?",
+          "sub_answer": "Wilderness First Responder",
+          "evidence_id": "sam_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_008",
+          "text": "Sam Osei completed the Wilderness First Responder certification course in January 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s09_k1_018",
+      "question": "What is Sam Osei's favorite trail for day hikes?",
+      "answer": "Enchantments Thru-Hike in the Alpine Lakes Wilderness",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Sam's favorite day hike?",
+          "sub_answer": "Enchantments Thru-Hike",
+          "evidence_id": "sam_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_012",
+          "text": "Sam Osei's favorite trail for day hikes is the Enchantments Thru-Hike in the Alpine Lakes Wilderness, which he has completed four times.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k1_019",
+      "question": "What open-water crossing is Sam Osei training for?",
+      "answer": "solo kayak crossing of the Strait of Juan",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What crossing is Sam training for?",
+          "sub_answer": "Strait of Juan de Fuca",
+          "evidence_id": "sam_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_019",
+          "text": "Sam Osei is training for a solo kayak crossing of the Strait of Juan de Fuca, a 17-mile open-water paddle.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k1_020",
+      "question": "What time did Tomás Rivera finish the Gorge Waterfalls 100K in April 2024?",
+      "answer": "11 hours 8 minutes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What was Tomás's 100K time?",
+          "sub_answer": "11 hours 8 minutes",
+          "evidence_id": "tomas_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Rivera finished second in the Gorge Waterfalls 100K ultramarathon in Oregon in April 2024 with a time of 11 hours 8 minutes.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k1_021",
+      "question": "Where did Tomás Rivera volunteer at a rural medical clinic in March 2024?",
+      "answer": "Oaxaca, Mexico",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Tomás volunteer?",
+          "sub_answer": "Oaxaca, Mexico",
+          "evidence_id": "tomas_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_018",
+          "text": "Tomás Rivera spent two weeks volunteering at a rural medical clinic in Oaxaca, Mexico, in March 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s09_k1_022",
+      "question": "What did Tomás Rivera organize at Smith Rock, Oregon, in October 2024?",
+      "answer": "group camping and climbing trip for the adventure",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Tomás organize at Smith Rock?",
+          "sub_answer": "group camping and climbing trip",
+          "evidence_id": "tomas_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Rivera organized a group camping and climbing trip to Smith Rock, Oregon, in October 2024 for the adventure group.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k1_023",
+      "question": "When did Jenny Kowalski recertify her Wilderness First Responder certification?",
+      "answer": "2023",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Jenny recertify WFR?",
+          "sub_answer": "2023",
+          "evidence_id": "jenny_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_006",
+          "text": "Jenny Kowalski earned her Wilderness First Responder certification in 2020 and recertified in 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s09_k1_024",
+      "question": "What did Jenny Kowalski give each adventure group member for Christmas 2023?",
+      "answer": "carved wooden hiking stick handles",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Jenny give for Christmas?",
+          "sub_answer": "carved wooden hiking stick handles",
+          "evidence_id": "jenny_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_017",
+          "text": "Jenny Kowalski carves wooden hiking stick handles and gave one to each member of the adventure group for Christmas 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k1_025",
+      "question": "What did Jenny Kowalski teach the adventure group at Olympic National Park in July 2024?",
+      "answer": "Leave No Trace workshop",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "adventure_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Jenny teach at Olympic NP?",
+          "sub_answer": "Leave No Trace workshop",
+          "evidence_id": "jenny_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_014",
+          "text": "Jenny Kowalski taught a Leave No Trace workshop for the adventure group at their campsite in Olympic National Park in July 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k2_011",
+      "question": "What does Nora Fitzgerald's climbing partner specialize in at his clinic?",
+      "answer": "climbing and running injuries",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Sam specialize in?",
+          "sub_answer": "climbing and running injuries",
+          "evidence_id": "sam_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_001",
+          "text": "Sam Osei works as a physical therapist at Puget Sound Sports Medicine, specializing in climbing and running injuries.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s09_k2_012",
+      "question": "How many times has Nora Fitzgerald's climbing partner completed the Enchantments Thru-Hike?",
+      "answer": "four times",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many times has Sam done the Enchantments?",
+          "sub_answer": "four times",
+          "evidence_id": "sam_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_012",
+          "text": "Sam Osei's favorite trail for day hikes is the Enchantments Thru-Hike in the Alpine Lakes Wilderness, which he has completed four times.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k2_013",
+      "question": "What injury did Sam Osei's work colleague treat in November 2023?",
+      "answer": "Sam Osei's rotator cuff tear",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What injury did Tomás treat in Nov 2023?",
+          "sub_answer": "Sam's rotator cuff tear",
+          "evidence_id": "tomas_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_017",
+          "text": "Tomás Rivera treated Sam Osei's rotator cuff tear in November 2023 and designed the four-month rehab protocol.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s09_k2_014",
+      "question": "What car does the childhood friend of the person who kayaked the Inside Passage drive?",
+      "answer": "tan 2018 Jeep Wrangler",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam Osei's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Jenny drive?",
+          "sub_answer": "tan 2018 Jeep Wrangler",
+          "evidence_id": "jenny_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_013",
+          "text": "Jenny Kowalski drives a tan 2018 Jeep Wrangler with mud tires and a first-aid kit permanently mounted in the back.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s09_k2_015",
+      "question": "Where did Nora Fitzgerald's book club co-member finish second in an ultramarathon in April 2024?",
+      "answer": "Gorge Waterfalls 100K in Oregon",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Tomás finish second?",
+          "sub_answer": "Gorge Waterfalls 100K in Oregon",
+          "evidence_id": "tomas_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Rivera finished second in the Gorge Waterfalls 100K ultramarathon in Oregon in April 2024 with a time of 11 hours 8 minutes.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k2_016",
+      "question": "What did Sam Osei's colleague organize at Smith Rock in October 2024?",
+      "answer": "group camping and climbing trip for the adventure",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Tomás organize at Smith Rock?",
+          "sub_answer": "group camping and climbing trip",
+          "evidence_id": "tomas_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Rivera organized a group camping and climbing trip to Smith Rock, Oregon, in October 2024 for the adventure group.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k2_017",
+      "question": "What languages does Nora Fitzgerald's climbing partner speak?",
+      "answer": "English, Twi, and basic French",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Sam speak?",
+          "sub_answer": "English, Twi, and basic French",
+          "evidence_id": "sam_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_010",
+          "text": "Sam Osei speaks English, Twi, and basic French.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s09_k2_018",
+      "question": "Where did Tomás Rivera's trail running partner organize a women's backpacking trip in September 2024?",
+      "answer": "the Enchantments",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Jenny organize a women's trip?",
+          "sub_answer": "the Enchantments",
+          "evidence_id": "jenny_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_010",
+          "text": "Jenny Kowalski organized a women's backpacking trip in the Enchantments in September 2024, with a group of 8 hikers over 4 days.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k2_019",
+      "question": "What open-water crossing is Nora Fitzgerald's climbing partner training for?",
+      "answer": "solo kayak crossing of the Strait of Juan",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What crossing is Sam training for?",
+          "sub_answer": "solo kayak crossing of the Strait of Juan de Fuca",
+          "evidence_id": "sam_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_019",
+          "text": "Sam Osei is training for a solo kayak crossing of the Strait of Juan de Fuca, a 17-mile open-water paddle.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k2_020",
+      "question": "What pace group did Sam Osei's work colleague run the Seattle Marathon in?",
+      "answer": "3:15 group",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What pace group did Tomás run?",
+          "sub_answer": "3:15 group",
+          "evidence_id": "tomas_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k2_021",
+      "question": "What background does the person who climbed Mount Adams with Nora Fitzgerald's father have?",
+      "answer": "Polish-American",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who climbed Mount Adams with Nora?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Jenny's father's background?",
+          "sub_answer": "Polish-American",
+          "evidence_id": "jenny_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_002",
+          "text": "Jenny Kowalski's father is Polish-American and her mother is Ghanaian; she grew up in Accra before her family moved to Portland, Oregon, when she was 12.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k2_022",
+      "question": "What languages does Nora Fitzgerald's book club co-member speak?",
+      "answer": "Spanish, English, and conversational Portuguese",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Tomás speak?",
+          "sub_answer": "Spanish, English, and conversational Portuguese",
+          "evidence_id": "tomas_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_009",
+          "text": "Tomás Rivera speaks Spanish, English, and conversational Portuguese.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k2_023",
+      "question": "What did Tomás Rivera's trail running partner carve for the adventure group for Christmas 2023?",
+      "answer": "wooden hiking stick handles",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Jenny carve for Christmas?",
+          "sub_answer": "wooden hiking stick handles",
+          "evidence_id": "jenny_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_017",
+          "text": "Jenny Kowalski carves wooden hiking stick handles and gave one to each member of the adventure group for Christmas 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k2_024",
+      "question": "What waterfall did Sam Osei's childhood friend discover on Mount Rainier?",
+      "answer": "previously unmapped seasonal waterfall on the north side",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What waterfall did Jenny discover?",
+          "sub_answer": "previously unmapped seasonal waterfall on the north side of Mount Rainier",
+          "evidence_id": "jenny_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_016",
+          "text": "Jenny Kowalski found and reported a previously unmapped seasonal waterfall on the north side of Mount Rainier in June 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s09_k2_025",
+      "question": "Where did the colleague of the person who organized the Smith Rock trip treat rotator cuff injuries?",
+      "answer": "Puget Sound Sports Medicine",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized the Smith Rock trip?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Tomás's colleague Sam work?",
+          "sub_answer": "Puget Sound Sports Medicine",
+          "evidence_id": "tomas_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Rivera organized a group camping and climbing trip to Smith Rock, Oregon, in October 2024 for the adventure group.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Rivera and Sam Osei work together at Puget Sound Sports Medicine.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k3_009",
+      "question": "What languages does the work colleague of Nora Fitzgerald's climbing partner speak?",
+      "answer": "Spanish, English, and conversational Portuguese",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam's work colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does Tomás speak?",
+          "sub_answer": "Spanish, English, and conversational Portuguese",
+          "evidence_id": "tomas_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_009",
+          "text": "Tomás Rivera speaks Spanish, English, and conversational Portuguese.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s09_k3_010",
+      "question": "What multi-pitch climb is the mountaineering partner of Sam Osei's childhood friend training for?",
+      "answer": "North Ridge of Mount Stuart",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What climb is Nora training for?",
+          "sub_answer": "North Ridge of Mount Stuart",
+          "evidence_id": "nora_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_015",
+          "text": "Nora Fitzgerald is training for a multi-pitch trad climb of the North Ridge of Mount Stuart, scheduled for September 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k3_011",
+      "question": "What pace group did the colleague of Nora Fitzgerald's climbing partner run the Seattle Marathon in?",
+      "answer": "3:15 group",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What pace group did Tomás run?",
+          "sub_answer": "3:15 group",
+          "evidence_id": "tomas_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k3_012",
+      "question": "What women's backpacking trip did the trail running partner of the person who works alongside Sam Osei organize?",
+      "answer": "women's backpacking trip in the Enchantments in September",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works alongside Sam?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What trip did Jenny organize?",
+          "sub_answer": "women's backpacking trip in the Enchantments",
+          "evidence_id": "jenny_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_001",
+          "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_010",
+          "text": "Jenny Kowalski organized a women's backpacking trip in the Enchantments in September 2024, with a group of 8 hikers over 4 days.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k3_013",
+      "question": "What injury did the colleague of the book club co-member of the person who organized the Smith Rock trip sustain on Colchuck Peak?",
+      "answer": "sprained her right ankle",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized the Smith Rock trip?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What injury did Nora sustain on Colchuck Peak?",
+          "sub_answer": "sprained her right ankle",
+          "evidence_id": "nora_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Rivera organized a group camping and climbing trip to Smith Rock, Oregon, in October 2024 for the adventure group.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_019",
+          "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k3_014",
+      "question": "What time did the colleague of the person who led a group kayak trip around Orcas Island finish the Gorge Waterfalls 100K?",
+      "answer": "11 hours 8 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who led the Orcas Island kayak trip?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "sam_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What time did Tomás finish the 100K?",
+          "sub_answer": "11 hours 8 minutes",
+          "evidence_id": "tomas_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_011",
+          "text": "Sam Osei led a group kayak trip around Orcas Island in August 2024, guiding three beginners through Obstruction Pass.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Rivera finished second in the Gorge Waterfalls 100K ultramarathon in Oregon in April 2024 with a time of 11 hours 8 minutes.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k3_015",
+      "question": "What famous trail meal does the book club co-member of the person who volunteered in Oaxaca make?",
+      "answer": "dehydrated pad thai",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteered in Oaxaca?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What trail meal does Nora make?",
+          "sub_answer": "dehydrated pad thai",
+          "evidence_id": "nora_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_018",
+          "text": "Tomás Rivera spent two weeks volunteering at a rural medical clinic in Oaxaca, Mexico, in March 2024.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_020",
+          "text": "Nora Fitzgerald makes her own dehydrated trail meals and her backpacking pad thai is a group favorite.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s09_k3_016",
+      "question": "What did the trail running partner of the person who treated Sam Osei's rotator cuff teach the group at Olympic National Park?",
+      "answer": "Leave No Trace workshop",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who treated Sam's rotator cuff?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Jenny teach at Olympic NP?",
+          "sub_answer": "Leave No Trace workshop",
+          "evidence_id": "jenny_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_017",
+          "text": "Tomás Rivera treated Sam Osei's rotator cuff tear in November 2023 and designed the four-month rehab protocol.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_014",
+          "text": "Jenny Kowalski taught a Leave No Trace workshop for the adventure group at their campsite in Olympic National Park in July 2024.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k3_017",
+      "question": "What group kayak trip did the climbing partner of the person who sprained her ankle on Colchuck Peak lead in August 2024?",
+      "answer": "group kayak trip around Orcas Island guiding three",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who sprained her ankle on Colchuck Peak?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What kayak trip did Sam lead?",
+          "sub_answer": "group kayak trip around Orcas Island",
+          "evidence_id": "sam_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_019",
+          "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_011",
+          "text": "Sam Osei led a group kayak trip around Orcas Island in August 2024, guiding three beginners through Obstruction Pass.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k3_018",
+      "question": "What does the wife of the book club co-member of Sam Osei's climbing partner do for work?",
+      "answer": "marine biologist at NOAA's Northwest Fisheries Science Center",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Tomás's wife Elena do?",
+          "sub_answer": "marine biologist at NOAA",
+          "evidence_id": "tomas_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_008",
+          "text": "Tomás Rivera's wife, Elena, is a marine biologist at NOAA's Northwest Fisheries Science Center in Montlake.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k3_019",
+      "question": "What route did the book club co-member of the person who ran the Seattle Marathon use to summit Rainier in August 2024?",
+      "answer": "Emmons Glacier",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who ran the Seattle Marathon?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What route did Nora use in August 2024?",
+          "sub_answer": "Emmons Glacier",
+          "evidence_id": "nora_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_004",
+          "text": "Nora Fitzgerald summited Mount Rainier via the Disappointment Cleaver route in July 2023 and again via the Emmons Glacier in August 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k3_020",
+      "question": "What did the childhood friend of the mountaineering partner of the person who teaches at Vertical World carve for the group?",
+      "answer": "wooden hiking stick handles for Christmas 2023",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who teaches at Vertical World?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's mountaineering partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Jenny carve for the group?",
+          "sub_answer": "wooden hiking stick handles",
+          "evidence_id": "jenny_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_005",
+          "text": "Nora Fitzgerald is a certified AMGA Single Pitch Instructor and teaches lead climbing courses on weekends at Vertical World.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_017",
+          "text": "Jenny Kowalski carves wooden hiking stick handles and gave one to each member of the adventure group for Christmas 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k4_007",
+      "question": "What certification did the childhood friend of the trail running partner of Nora Fitzgerald's book club co-member complete in January 2024?",
+      "answer": "Wilderness First Responder certification",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What certification did Sam complete?",
+          "sub_answer": "Wilderness First Responder",
+          "evidence_id": "sam_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_008",
+          "text": "Sam Osei completed the Wilderness First Responder certification course in January 2024.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s09_k4_008",
+      "question": "What women's trip did the trail running partner of the colleague of Nora Fitzgerald's climbing partner organize in September 2024?",
+      "answer": "women's backpacking trip in the Enchantments with a",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What trip did Jenny organize?",
+          "sub_answer": "women's backpacking trip in the Enchantments",
+          "evidence_id": "jenny_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_010",
+          "text": "Jenny Kowalski organized a women's backpacking trip in the Enchantments in September 2024, with a group of 8 hikers over 4 days.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k4_009",
+      "question": "What car does the climbing partner of the book club co-member of Jenny Kowalski's trail running partner drive?",
+      "answer": "blue 2019 Toyota Tacoma",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny's trail running partner?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What car does Sam drive?",
+          "sub_answer": "blue 2019 Toyota Tacoma",
+          "evidence_id": "sam_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Kowalski and Tomás Rivera are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_013",
+          "text": "Sam Osei drives a blue 2019 Toyota Tacoma with a kayak rack and a Ghana flag sticker on the tailgate.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s09_k4_010",
+      "question": "How many days did the childhood friend of the trail running partner of Nora Fitzgerald's book club co-member spend kayaking the Inside Passage?",
+      "answer": "42 days",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many days on the Inside Passage?",
+          "sub_answer": "42 days",
+          "evidence_id": "sam_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_005",
+          "text": "Sam Osei kayaked the 1,200-mile Inside Passage from Juneau, Alaska, to Seattle over 42 days in the summer of 2022.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k4_011",
+      "question": "Where did the climbing partner of the book club co-member of the colleague of Jenny Kowalski's childhood friend grow up?",
+      "answer": "Bozeman, Montana",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Nora grow up?",
+          "sub_answer": "Bozeman, Montana",
+          "evidence_id": "nora_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_002",
+          "text": "Nora Fitzgerald grew up in Bozeman, Montana, where her parents own a fly-fishing guide service on the Gallatin River.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s09_k4_012",
+      "question": "What is the favorite trail of the colleague of the trail running partner of the person who completed the Wonderland Trail?",
+      "answer": "Enchantments Thru-Hike in the Alpine Lakes Wilderness",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed the Wonderland Trail?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny's trail running partner?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's colleague?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "tomas_001"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Sam's favorite trail?",
+          "sub_answer": "Enchantments Thru-Hike",
+          "evidence_id": "sam_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_011",
+          "text": "Jenny Kowalski completed a 30-day solo thru-hike of the Wonderland Trail around Mount Rainier in August 2023.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Kowalski and Tomás Rivera are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "tomas_001",
+          "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "sam_012",
+          "text": "Sam Osei's favorite trail for day hikes is the Enchantments Thru-Hike in the Alpine Lakes Wilderness, which he has completed four times.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k4_013",
+      "question": "What is the mother's business of the childhood friend of the colleague of the person who brews kombucha?",
+      "answer": "fabric import business in Portland that sources textiles",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who brews kombucha?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's colleague?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "tomas_001"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam's childhood friend?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "sam_020"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Jenny's mother's business?",
+          "sub_answer": "fabric import business in Portland",
+          "evidence_id": "jenny_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_016",
+          "text": "Tomás Rivera brews his own kombucha in a 5-gallon glass jar on his kitchen counter and brings bottles to every group trip.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_001",
+          "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "sam_020",
+          "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "jenny_012",
+          "text": "Jenny Kowalski's mother, Akosua, runs a fabric import business in Portland that sources textiles from Ghana.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k4_014",
+      "question": "What route did the mountaineering partner of the trail running partner of the person who volunteered in Oaxaca use to summit Rainier in August 2024?",
+      "answer": "Emmons Glacier",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteered in Oaxaca?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's mountaineering partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "jenny_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What route did Nora use in Aug 2024?",
+          "sub_answer": "Emmons Glacier",
+          "evidence_id": "nora_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_018",
+          "text": "Tomás Rivera spent two weeks volunteering at a rural medical clinic in Oaxaca, Mexico, in March 2024.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_019",
+          "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "nora_004",
+          "text": "Nora Fitzgerald summited Mount Rainier via the Disappointment Cleaver route in July 2023 and again via the Emmons Glacier in August 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k4_015",
+      "question": "What injury did the book club co-member of the trail running partner of the person who taught a Leave No Trace workshop sustain on Colchuck Peak?",
+      "answer": "sprained her right ankle",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who taught Leave No Trace?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny's trail running partner?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "jenny_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's book club co-member?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What injury did Nora sustain?",
+          "sub_answer": "sprained her right ankle",
+          "evidence_id": "nora_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_014",
+          "text": "Jenny Kowalski taught a Leave No Trace workshop for the adventure group at their campsite in Olympic National Park in July 2024.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_004",
+          "text": "Jenny Kowalski and Tomás Rivera are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nora_019",
+          "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s09_k4_016",
+      "question": "What exam is the colleague of the childhood friend of the person who completed the Wonderland Trail studying for?",
+      "answer": "Certificate of Added Qualification in sports medicine",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed the Wonderland Trail?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "jenny_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What exam is Tomás studying for?",
+          "sub_answer": "CAQ in sports medicine",
+          "evidence_id": "tomas_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jenny_011",
+          "text": "Jenny Kowalski completed a 30-day solo thru-hike of the Wonderland Trail around Mount Rainier in August 2023.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_019",
+          "text": "Tomás Rivera is studying for his Certificate of Added Qualification in sports medicine, with the exam scheduled for February 2025.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s09_k4_017",
+      "question": "What did the trail running partner of the book club co-member of the person who adopted a dog named Summit give the group for Christmas 2023?",
+      "answer": "carved wooden hiking stick handles",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who adopted Summit?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Jenny give for Christmas?",
+          "sub_answer": "carved wooden hiking stick handles",
+          "evidence_id": "jenny_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_010",
+          "text": "Nora Fitzgerald adopted a border collie named Summit from the Seattle Humane Society in February 2024.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_017",
+          "text": "Jenny Kowalski carves wooden hiking stick handles and gave one to each member of the adventure group for Christmas 2023.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s09_k4_018",
+      "question": "What gear rack did the climbing partner of the colleague of the person who ran the Seattle Marathon build in her apartment?",
+      "answer": "custom gear rack holding 14 pairs of climbing",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who ran the Seattle Marathon?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's colleague?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "tomas_001"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What gear rack did Nora build?",
+          "sub_answer": "custom gear rack holding 14 pairs of climbing shoes, 8 helmets, and 30 carabiners",
+          "evidence_id": "nora_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_001",
+          "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_016",
+          "text": "Nora Fitzgerald built a custom gear rack in her apartment entryway that holds 14 pairs of climbing shoes, 8 helmets, and 30 carabiners.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s09_k5_005",
+      "question": "What is the favorite trail of the childhood friend of the trail running partner of the book club co-member of the person who sprained her ankle on Colchuck Peak?",
+      "answer": "Enchantments Thru-Hike in the Alpine Lakes Wilderness",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who sprained her ankle on Colchuck Peak?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Sam's favorite trail?",
+          "sub_answer": "Enchantments Thru-Hike",
+          "evidence_id": "sam_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_019",
+          "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_012",
+          "text": "Sam Osei's favorite trail for day hikes is the Enchantments Thru-Hike in the Alpine Lakes Wilderness, which he has completed four times.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k5_006",
+      "question": "What multi-pitch climb is the climbing partner of the childhood friend of the trail running partner of the person who finished second in the Gorge Waterfalls 100K training for?",
+      "answer": "North Ridge of Mount Stuart",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who finished second in the 100K?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What climb is Nora training for?",
+          "sub_answer": "North Ridge of Mount Stuart",
+          "evidence_id": "nora_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Rivera finished second in the Gorge Waterfalls 100K ultramarathon in Oregon in April 2024 with a time of 11 hours 8 minutes.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_015",
+          "text": "Nora Fitzgerald is training for a multi-pitch trad climb of the North Ridge of Mount Stuart, scheduled for September 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k5_007",
+      "question": "What open-water crossing is the childhood friend of the trail running partner of the book club co-member of the person who adopted a dog named Summit training for?",
+      "answer": "solo kayak crossing of the Strait of Juan",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who adopted Summit?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Sam training for?",
+          "sub_answer": "Strait of Juan de Fuca crossing",
+          "evidence_id": "sam_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_010",
+          "text": "Nora Fitzgerald adopted a border collie named Summit from the Seattle Humane Society in February 2024.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_019",
+          "text": "Sam Osei is training for a solo kayak crossing of the Strait of Juan de Fuca, a 17-mile open-water paddle.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s09_k5_008",
+      "question": "Via what route did the climbing partner of the childhood friend of the trail running partner of the person who brews kombucha summit Mount Rainier in August 2024?",
+      "answer": "Emmons Glacier",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who brews kombucha?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What route did Nora use in Aug 2024?",
+          "sub_answer": "Emmons Glacier",
+          "evidence_id": "nora_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_016",
+          "text": "Tomás Rivera brews his own kombucha in a 5-gallon glass jar on his kitchen counter and brings bottles to every group trip.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_004",
+          "text": "Nora Fitzgerald summited Mount Rainier via the Disappointment Cleaver route in July 2023 and again via the Emmons Glacier in August 2024.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s09_k5_009",
+      "question": "What famous trail meal does the climbing partner of the childhood friend of the trail running partner of the person who volunteered in Oaxaca make for the group?",
+      "answer": "dehydrated pad thai",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteered in Oaxaca?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What trail meal does Nora make?",
+          "sub_answer": "dehydrated pad thai",
+          "evidence_id": "nora_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_018",
+          "text": "Tomás Rivera spent two weeks volunteering at a rural medical clinic in Oaxaca, Mexico, in March 2024.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_020",
+          "text": "Nora Fitzgerald makes her own dehydrated trail meals and her backpacking pad thai is a group favorite.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s09_k5_010",
+      "question": "What car does the childhood friend of the trail running partner of the book club co-member of the person who built a custom gear rack drive?",
+      "answer": "blue 2019 Toyota Tacoma",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who built a custom gear rack?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's book club co-member?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "nora_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What car does Sam drive?",
+          "sub_answer": "blue 2019 Toyota Tacoma",
+          "evidence_id": "sam_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_016",
+          "text": "Nora Fitzgerald built a custom gear rack in her apartment entryway that holds 14 pairs of climbing shoes, 8 helmets, and 30 carabiners.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_006",
+          "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_013",
+          "text": "Sam Osei drives a blue 2019 Toyota Tacoma with a kayak rack and a Ghana flag sticker on the tailgate.",
+          "person_id": "sam"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s09_k5_011",
+      "question": "What women's backpacking trip did the trail running partner of the colleague of the climbing partner of the person who makes backpacking pad thai organize?",
+      "answer": "women's backpacking trip in the Enchantments in September",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who makes pad thai?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "nora_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nora's climbing partner?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "nora_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sam's colleague?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "sam_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What trip did Jenny organize?",
+          "sub_answer": "Enchantments women's backpacking trip",
+          "evidence_id": "jenny_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nora_020",
+          "text": "Nora Fitzgerald makes her own dehydrated trail meals and her backpacking pad thai is a group favorite.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "nora_003",
+          "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "nora"
+        },
+        {
+          "obs_id": "sam_004",
+          "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_010",
+          "text": "Jenny Kowalski organized a women's backpacking trip in the Enchantments in September 2024, with a group of 8 hikers over 4 days.",
+          "person_id": "jenny"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s09_k5_012",
+      "question": "What gear rack did the climbing partner of the childhood friend of the trail running partner of the person who ran the Seattle Marathon as pacer build?",
+      "answer": "custom gear rack holding 14 pairs of climbing",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "adventure_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who ran the Seattle Marathon?",
+          "sub_answer": "Tomás Rivera",
+          "evidence_id": "tomas_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomás's trail running partner?",
+          "sub_answer": "Jenny Kowalski",
+          "evidence_id": "tomas_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jenny's childhood friend?",
+          "sub_answer": "Sam Osei",
+          "evidence_id": "jenny_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sam's climbing partner?",
+          "sub_answer": "Nora Fitzgerald",
+          "evidence_id": "sam_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What gear rack did Nora build?",
+          "sub_answer": "custom gear rack with 14 shoes, 8 helmets, 30 carabiners",
+          "evidence_id": "nora_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "jenny_003",
+          "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.",
+          "person_id": "jenny"
+        },
+        {
+          "obs_id": "sam_003",
+          "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.",
+          "person_id": "sam"
+        },
+        {
+          "obs_id": "nora_016",
+          "text": "Nora Fitzgerald built a custom gear rack in her apartment entryway that holds 14 pairs of climbing shoes, 8 helmets, and 30 carabiners.",
+          "person_id": "nora"
+        }
+      ],
+      "answerable_after_session": 20
+    }
+  ]
+}

@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "tech_startup",
+  "questions": [
+    {
+      "id": "memhop_s02_k1_001",
+      "question": "What is the name of Nadia Reyes's corgi?",
+      "answer": "Churro",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Nadia Reyes's corgi?",
+          "sub_answer": "Churro",
+          "evidence_id": "nadia_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_009",
+          "text": "Nadia Reyes adopted a corgi named Churro from a rescue shelter in Daly City last October.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s02_k1_002",
+      "question": "What programming language does Leo Tanaka prefer for backend services?",
+      "answer": "Go",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What programming language does Leo Tanaka prefer for backend services?",
+          "sub_answer": "Go",
+          "evidence_id": "leo_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_011",
+          "text": "Leo Tanaka's favorite programming language is Go, which he uses for all of Caspian Labs' backend services.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k1_003",
+      "question": "What design award did Maya Johansson win in 2020?",
+      "answer": "Red Dot Design Award",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What design award did Maya Johansson win in 2020?",
+          "sub_answer": "Red Dot Design Award",
+          "evidence_id": "maya_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_012",
+          "text": "Maya Johansson won a Red Dot Design Award in 2020 for a modular standing desk concept.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k1_004",
+      "question": "What is the name of Marcus Bell's golden retriever?",
+      "answer": "Walter",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Marcus Bell's golden retriever?",
+          "sub_answer": "Walter",
+          "evidence_id": "marcus_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_010",
+          "text": "Marcus Bell has a golden retriever named Walter who goes to the office with him every day.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k1_005",
+      "question": "What conference did Priya Sharma publish a paper at in 2023?",
+      "answer": "ACL 2023",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What conference did Priya Sharma publish a paper at in 2023?",
+          "sub_answer": "ACL 2023",
+          "evidence_id": "priya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_007",
+          "text": "Priya Sharma published a paper on few-shot learning for dialogue systems at ACL 2023.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s02_k1_006",
+      "question": "What is the name of Leo Tanaka's Shiba Inu?",
+      "answer": "Pixel",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Leo Tanaka's Shiba Inu?",
+          "sub_answer": "Pixel",
+          "evidence_id": "leo_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_010",
+          "text": "Leo Tanaka has a black Shiba Inu named Pixel that he walks in Dolores Park every evening.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s02_k1_007",
+      "question": "What homebrew beer did Marcus Bell win a silver medal for?",
+      "answer": "Foghorn (West Coast IPA)",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What homebrew beer did Marcus Bell win a silver medal for?",
+          "sub_answer": "Foghorn (West Coast IPA)",
+          "evidence_id": "marcus_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_008",
+          "text": "Marcus Bell's best homebrew is a West Coast IPA called 'Foghorn' that won a silver medal at the Oakland Homebrew Festival.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k1_008",
+      "question": "What university did Maya Johansson study industrial design at?",
+      "answer": "Konstfack University",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What university did Maya Johansson study industrial design at?",
+          "sub_answer": "Konstfack University",
+          "evidence_id": "maya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_002",
+          "text": "Maya Johansson studied industrial design at Konstfack University in Stockholm, graduating in 2019.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k1_009",
+      "question": "What is the name of Priya Sharma's sourdough starter?",
+      "answer": "Naan",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Priya Sharma's sourdough starter?",
+          "sub_answer": "Naan",
+          "evidence_id": "priya_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_008",
+          "text": "Priya Sharma bakes sourdough bread every weekend using a 3-year-old starter she named 'Naan'.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s02_k1_010",
+      "question": "What is the name of the AI startup Nadia Reyes co-founded?",
+      "answer": "Caspian Labs",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of the AI startup Nadia Reyes co-founded?",
+          "sub_answer": "Caspian Labs",
+          "evidence_id": "nadia_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_001",
+          "text": "Nadia Reyes co-founded the AI startup Caspian Labs in January 2022 with seed funding of $2.1 million.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s02_k2_001",
+      "question": "What is the favorite ramen spot of Nadia Reyes's co-founder and neighbor?",
+      "answer": "Mensho Tokyo",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's co-founder and neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Leo Tanaka's favorite ramen spot?",
+          "sub_answer": "Mensho Tokyo",
+          "evidence_id": "leo_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_016",
+          "text": "Leo Tanaka's favorite ramen spot is Mensho Tokyo on Geary Boulevard.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k2_002",
+      "question": "What car does Leo Tanaka's gym buddy drive?",
+      "answer": "green 2022 Rivian R1T",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Marcus Bell drive?",
+          "sub_answer": "green 2022 Rivian R1T",
+          "evidence_id": "marcus_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_009",
+          "text": "Marcus Bell drives a green 2022 Rivian R1T pickup truck.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s02_k2_003",
+      "question": "What cycling event is Marcus Bell's carpool partner training for?",
+      "answer": "San Francisco Century Ride",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Marcus Bell's carpool partner?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What cycling event is Maya Johansson training for?",
+          "sub_answer": "San Francisco Century Ride",
+          "evidence_id": "maya_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_014",
+          "text": "Maya Johansson is training for the San Francisco Century Ride, a 100-mile cycling event in September 2024.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k2_004",
+      "question": "What is the favorite book of Maya Johansson's yoga classmate?",
+      "answer": "Godel, Escher, Bach",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Priya Sharma's favorite book?",
+          "sub_answer": "Godel, Escher, Bach",
+          "evidence_id": "priya_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_011",
+          "text": "Priya Sharma's favorite book is 'Godel, Escher, Bach' by Douglas Hofstadter.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s02_k2_005",
+      "question": "What pet did the data scientist Nadia hired at a conference adopt?",
+      "answer": "Bayes (a rabbit)",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who did Nadia Reyes hire at a Women in AI conference?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What pet did Priya Sharma adopt?",
+          "sub_answer": "Bayes (a rabbit)",
+          "evidence_id": "priya_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_020",
+          "text": "Priya Sharma adopted a rabbit named Bayes from the House Rabbit Society in August 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k2_006",
+      "question": "What open-source project does Nadia's neighbor contribute to on weekends?",
+      "answer": "MilvusLite",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What open-source project does Leo Tanaka contribute to?",
+          "sub_answer": "MilvusLite",
+          "evidence_id": "leo_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_012",
+          "text": "Leo Tanaka contributes to an open-source vector database project called MilvusLite every weekend.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k2_007",
+      "question": "What is the name of Priya Sharma's pair-programming partner's dog?",
+      "answer": "Pixel",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Priya Sharma pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the name of Leo Tanaka's dog?",
+          "sub_answer": "Pixel",
+          "evidence_id": "leo_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_010",
+          "text": "Leo Tanaka has a black Shiba Inu named Pixel that he walks in Dolores Park every evening.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k2_008",
+      "question": "What is the profession of Marcus Bell's gym buddy's older sister?",
+      "answer": "product manager at Apple",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Marcus Bell's gym buddy?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Leo Tanaka's older sister do?",
+          "sub_answer": "product manager at Apple",
+          "evidence_id": "leo_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Bell and Leo Tanaka go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "leo_019",
+          "text": "Leo Tanaka's older sister Yumi is a product manager at Apple in Cupertino.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k2_009",
+      "question": "What ceramics studio does Marcus's carpool partner attend classes at?",
+      "answer": "Clayroom Studio",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What ceramics studio does Maya Johansson attend?",
+          "sub_answer": "Clayroom Studio",
+          "evidence_id": "maya_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_006",
+          "text": "Maya Johansson takes a ceramics class at the Clayroom Studio on Valencia Street every Wednesday evening.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k2_010",
+      "question": "What Kaggle competition did the yoga classmate of Marcus's carpool partner win?",
+      "answer": "Kaggle Days championship",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What Kaggle competition did Priya Sharma win?",
+          "sub_answer": "Kaggle Days championship in San Francisco",
+          "evidence_id": "priya_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Sharma won the Kaggle Days championship in San Francisco in February 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k3_001",
+      "question": "What is the favorite podcast of the gym buddy of Nadia's co-founder?",
+      "answer": "How I Built This",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Marcus Bell's favorite podcast?",
+          "sub_answer": "How I Built This",
+          "evidence_id": "marcus_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_015",
+          "text": "Marcus Bell's favorite podcast is 'How I Built This' by Guy Raz.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k3_002",
+      "question": "What cat did the carpool partner of Leo's gym buddy adopt?",
+      "answer": "Fika",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Marcus Bell's carpool partner?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What cat did Maya Johansson adopt?",
+          "sub_answer": "Fika",
+          "evidence_id": "maya_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_010",
+          "text": "Maya Johansson adopted a tabby cat named Fika from the SF SPCA last March.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s02_k3_003",
+      "question": "What side project is the yoga classmate of the carpool partner of Marcus Bell working on?",
+      "answer": "training a personal GPT model on journal entries",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What side project is Priya Sharma working on?",
+          "sub_answer": "training a personal GPT model on journal entries",
+          "evidence_id": "priya_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_017",
+          "text": "Priya Sharma is training a personal GPT model on her own journal entries as a side project.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s02_k3_004",
+      "question": "Where did the neighbor and co-founder of the person who hired Priya Sharma visit his grandparents?",
+      "answer": "Kyoto",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nadia Reyes's neighbor and co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Leo Tanaka visit his grandparents?",
+          "sub_answer": "Kyoto",
+          "evidence_id": "leo_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_014",
+          "text": "Leo Tanaka took a two-week trip to Kyoto in March 2024 to visit his grandparents.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k3_005",
+      "question": "What marathon time did the gym buddy of the co-founder of Caspian Labs' CEO achieve at Big Sur?",
+      "answer": "4 hours 11 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the co-founder that serves as lead engineer at Caspian Labs?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What was Marcus Bell's Big Sur Marathon time?",
+          "sub_answer": "4 hours 11 minutes",
+          "evidence_id": "marcus_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_011",
+          "text": "Marcus Bell ran the Big Sur Marathon in April 2024 in 4 hours 11 minutes.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k3_006",
+      "question": "What F1 score did the pair-programming partner of Nadia's neighbor achieve on the citation extraction model?",
+      "answer": "91%",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who pair-programs with Leo Tanaka?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "leo_020"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What F1 score did Priya Sharma's citation extraction model achieve?",
+          "sub_answer": "91%",
+          "evidence_id": "priya_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_020",
+          "text": "Leo Tanaka and Priya Sharma pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "priya_009",
+          "text": "Priya Sharma built Caspian Labs' citation extraction model that achieved 91% F1 score on internal benchmarks.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k3_007",
+      "question": "What book is the carpool partner of the gym buddy of Nadia's neighbor writing?",
+      "answer": "nonfiction book about the Oakland tech scene",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What book is Marcus Bell writing?",
+          "sub_answer": "nonfiction book about the Oakland tech scene",
+          "evidence_id": "marcus_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Bell is writing a nonfiction book about the Oakland tech scene, with 40,000 words drafted so far.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k3_008",
+      "question": "What is the brother's profession of the yoga classmate of the carpool partner of Leo's gym buddy?",
+      "answer": "cardiologist",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does the brother of Maya's yoga classmate do?",
+          "sub_answer": "cardiologist",
+          "evidence_id": "priya_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "priya_016",
+          "text": "Priya Sharma's older brother Ravi is a cardiologist at Massachusetts General Hospital in Boston.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k4_001",
+      "question": "What design tool does the carpool partner of the gym buddy of Nadia's co-founder prefer?",
+      "answer": "Figma",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Maya Johansson's favorite design tool?",
+          "sub_answer": "Figma",
+          "evidence_id": "maya_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_008",
+          "text": "Maya Johansson's favorite design tool is Figma, and she has published 12 community templates.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k4_002",
+      "question": "What languages does the yoga classmate of the carpool partner of the gym buddy of Nadia's neighbor speak?",
+      "answer": "English, Hindi, and Tamil",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia Reyes's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What languages does Maya Johansson's yoga classmate speak?",
+          "sub_answer": "English, Hindi, and Tamil",
+          "evidence_id": "priya_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "priya_015",
+          "text": "Priya Sharma speaks English, Hindi, and Tamil fluently.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k4_003",
+      "question": "What did the neighbor of the CEO who hired the yoga classmate of Marcus's carpool partner cook from her grandmother's recipe?",
+      "answer": "mole poblano",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What dish does Nadia Reyes cook from her grandmother's recipe?",
+          "sub_answer": "mole poblano",
+          "evidence_id": "nadia_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_020",
+          "text": "Nadia Reyes cooks mole poblano from her grandmother's recipe every Sunday evening.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s02_k4_004",
+      "question": "What hackathon did the pair-programming partner of the person hired by the gym buddy's co-founder win second place at?",
+      "answer": "PennApps",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Marcus Bell's gym buddy's co-founder?",
+          "sub_answer": "Nadia Reyes (Leo's co-founder)",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who did Nadia hire?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who pair-programs with Priya Sharma?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What hackathon did Leo Tanaka win second place at?",
+          "sub_answer": "PennApps",
+          "evidence_id": "leo_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_013",
+          "text": "Leo Tanaka won second place at the PennApps hackathon in 2016 with a real-time speech translation app.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k4_005",
+      "question": "What is the father's profession of the carpool partner of the gym buddy of the co-founder of the startup Nadia Reyes leads?",
+      "answer": "furniture maker",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-founded the startup with Nadia Reyes?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Maya Johansson's father do?",
+          "sub_answer": "furniture maker",
+          "evidence_id": "maya_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_009",
+          "text": "Maya Johansson's father is a furniture maker in Gothenburg who trained her in woodworking.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k4_006",
+      "question": "What grocery store do the parents of the yoga classmate of the carpool partner of Leo's gym buddy run?",
+      "answer": "Sharma's Spice Market",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What store do Priya Sharma's parents run?",
+          "sub_answer": "Sharma's Spice Market",
+          "evidence_id": "priya_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Sharma grew up in Boston, Massachusetts, where her parents run an Indian grocery store called Sharma's Spice Market in Cambridge.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k5_001",
+      "question": "What marathon time did the neighbor of the CEO who hired the yoga classmate of the carpool partner of Leo's gym buddy achieve at Napa Valley?",
+      "answer": "3 hours 42 minutes",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Tanaka's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What was Nadia Reyes's Napa Valley Marathon time?",
+          "sub_answer": "3 hours 42 minutes",
+          "evidence_id": "nadia_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_018",
+          "text": "Nadia Reyes completed the Napa Valley Marathon in April 2024 with a time of 3 hours 42 minutes.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s02_k5_002",
+      "question": "What mechanical keyboard switches does the co-founder who lives next to the CEO who hired the yoga classmate of Marcus's carpool partner use?",
+      "answer": "Cherry MX Brown",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Nadia Reyes's neighbor and co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What keyboard switches does Leo Tanaka use?",
+          "sub_answer": "Cherry MX Brown",
+          "evidence_id": "leo_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_006",
+          "text": "Leo Tanaka built a custom mechanical keyboard with Cherry MX Brown switches and a walnut case.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k5_003",
+      "question": "What is the older sister's role of the gym buddy's co-founder's neighbor who hired the yoga classmate of Marcus's carpool partner?",
+      "answer": "civil rights attorney",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Nadia Reyes's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Leo Tanaka's gym buddy's older sister?",
+          "sub_answer": "Denise Bell, a civil rights attorney",
+          "evidence_id": "marcus_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "marcus_020",
+          "text": "Marcus Bell's older sister Denise is a civil rights attorney in Washington, D.C.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k5_004",
+      "question": "What bonsai nursery do the parents of the pair-programming partner of the person hired by the carpool partner's yoga classmate's employer run?",
+      "answer": "Tanaka Gardens",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Bell?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya Johansson's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya Sharma?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who pair-programs with Priya?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What bonsai nursery do Leo Tanaka's parents run?",
+          "sub_answer": "Tanaka Gardens",
+          "evidence_id": "leo_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Tanaka grew up in San Jose, California, where his parents run a bonsai nursery called Tanaka Gardens.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k1_011",
+      "question": "Where did Nadia Reyes earn her MBA?",
+      "answer": "Stanford Graduate School of Business",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Nadia Reyes earn her MBA?",
+          "sub_answer": "Stanford Graduate School of Business",
+          "evidence_id": "nadia_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_002",
+          "text": "Nadia Reyes earned her MBA from Stanford Graduate School of Business in 2017.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k1_012",
+      "question": "What distance does Nadia Reyes run every morning along the Embarcadero?",
+      "answer": "8 kilometers",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What distance does Nadia Reyes run every morning?",
+          "sub_answer": "8 kilometers",
+          "evidence_id": "nadia_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_006",
+          "text": "Nadia Reyes runs every morning along the Embarcadero, covering exactly 8 kilometers.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s02_k1_013",
+      "question": "What languages does Nadia Reyes speak?",
+      "answer": "Spanish, English, and conversational Portuguese",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What languages does Nadia Reyes speak?",
+          "sub_answer": "Spanish, English, and conversational Portuguese",
+          "evidence_id": "nadia_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_008",
+          "text": "Nadia Reyes speaks Spanish, English, and conversational Portuguese.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k1_014",
+      "question": "Where did Leo Tanaka graduate from?",
+      "answer": "UC Berkeley with a B.S. in Computer Science",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Leo Tanaka graduate from?",
+          "sub_answer": "UC Berkeley",
+          "evidence_id": "leo_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Tanaka graduated from UC Berkeley with a B.S. in Computer Science in 2017.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k1_015",
+      "question": "What latency improvement did Leo Tanaka achieve on Caspian Labs' inference pipeline?",
+      "answer": "from 340ms to 87ms",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What latency improvement did Leo achieve?",
+          "sub_answer": "from 340ms to 87ms",
+          "evidence_id": "leo_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_009",
+          "text": "Leo Tanaka deployed Caspian Labs' inference pipeline to AWS and reduced latency from 340ms to 87ms in February 2024.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k1_016",
+      "question": "When did Maya Johansson join Caspian Labs?",
+      "answer": "June 2023",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Maya Johansson join Caspian Labs?",
+          "sub_answer": "June 2023",
+          "evidence_id": "maya_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_001",
+          "text": "Maya Johansson joined Caspian Labs as UX/UI designer in June 2023.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k1_017",
+      "question": "By how much did Maya Johansson's dashboard redesign increase user engagement?",
+      "answer": "35%",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "By how much did the redesign increase engagement?",
+          "sub_answer": "35%",
+          "evidence_id": "maya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_007",
+          "text": "Maya Johansson redesigned Caspian Labs' dashboard interface in January 2024, increasing user engagement by 35%.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k1_018",
+      "question": "Where does Marcus Bell play pickup basketball every Sunday?",
+      "answer": "Lake Merritt",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Marcus Bell play basketball?",
+          "sub_answer": "Lake Merritt",
+          "evidence_id": "marcus_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_017",
+          "text": "Marcus Bell plays pickup basketball at Lake Merritt every Sunday morning.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k1_019",
+      "question": "How many monthly readers did Caspian Labs' blog reach by August 2024?",
+      "answer": "50,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many readers did the blog reach?",
+          "sub_answer": "50,000",
+          "evidence_id": "marcus_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_006",
+          "text": "Marcus Bell launched Caspian Labs' blog, which reached 50,000 monthly readers by August 2024.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s02_k1_020",
+      "question": "Where does Priya Sharma volunteer as a teaching assistant on Saturday mornings?",
+      "answer": "SF Public Library",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Priya volunteer?",
+          "sub_answer": "SF Public Library",
+          "evidence_id": "priya_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_013",
+          "text": "Priya Sharma volunteers as a teaching assistant for an intro to Python course at the SF Public Library on Saturday mornings.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s02_k1_021",
+      "question": "How many books has Priya Sharma tracked in her Notion database?",
+      "answer": "247",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many books has Priya tracked?",
+          "sub_answer": "247",
+          "evidence_id": "priya_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_010",
+          "text": "Priya Sharma reads two books per week and tracks them on a Notion database with 247 entries so far.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s02_k1_022",
+      "question": "What car does Nadia Reyes drive?",
+      "answer": "black 2023 Tesla Model Y",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What car does Nadia drive?",
+          "sub_answer": "black 2023 Tesla Model Y",
+          "evidence_id": "nadia_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_012",
+          "text": "Nadia Reyes drives a black 2023 Tesla Model Y.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s02_k1_023",
+      "question": "What sport does Leo Tanaka play on Thursday evenings?",
+      "answer": "volleyball",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What sport does Leo play on Thursday evenings?",
+          "sub_answer": "volleyball",
+          "evidence_id": "leo_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_017",
+          "text": "Leo Tanaka plays on a recreational volleyball team at Mission Playground on Thursday evenings.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k1_024",
+      "question": "Where did Nadia Reyes grow up before moving to San Francisco?",
+      "answer": "Mexico City",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Nadia grow up?",
+          "sub_answer": "Mexico City",
+          "evidence_id": "nadia_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_003",
+          "text": "Nadia Reyes grew up in Mexico City and moved to San Francisco in August 2018.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k1_025",
+      "question": "What is Nadia Reyes's favorite book?",
+      "answer": "The Hard Thing About Hard Things",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "tech_startup",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Nadia's favorite book?",
+          "sub_answer": "The Hard Thing About Hard Things",
+          "evidence_id": "nadia_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_015",
+          "text": "Nadia Reyes's favorite book is 'The Hard Thing About Hard Things' by Ben Horowitz.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k2_011",
+      "question": "Where did Nadia Reyes's co-founder previously work?",
+      "answer": "Google on the TensorFlow team",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder and neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Leo previously work?",
+          "sub_answer": "Google on the TensorFlow team",
+          "evidence_id": "leo_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_007",
+          "text": "Leo Tanaka previously worked at Google on the TensorFlow team for two years.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s02_k2_012",
+      "question": "What does Nadia Reyes's neighbor read every morning before work?",
+      "answer": "a research paper",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Leo read every morning?",
+          "sub_answer": "a research paper",
+          "evidence_id": "leo_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_018",
+          "text": "Leo Tanaka reads a research paper every morning before work and annotates it in Notion.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k2_013",
+      "question": "How many high school students does Leo Tanaka's gym buddy mentor?",
+      "answer": "two",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many students does Marcus mentor?",
+          "sub_answer": "two, through Year Up",
+          "evidence_id": "marcus_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_014",
+          "text": "Marcus Bell mentors two high school students through the Year Up program in Oakland.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s02_k2_014",
+      "question": "What did Marcus Bell's carpool partner sell at the Renegade Craft Fair?",
+      "answer": "three ceramic bowls for $85 each",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Maya sell at the Renegade Craft Fair?",
+          "sub_answer": "three ceramic bowls for $85 each",
+          "evidence_id": "maya_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_017",
+          "text": "Maya Johansson sold three ceramic bowls at the Renegade Craft Fair in July 2024 for $85 each.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k2_015",
+      "question": "What is the favorite coffee shop of Marcus Bell's carpool partner?",
+      "answer": "Sightglass Coffee on 7th Street",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Maya's favorite coffee shop?",
+          "sub_answer": "Sightglass Coffee on 7th Street",
+          "evidence_id": "maya_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_015",
+          "text": "Maya Johansson's favorite coffee shop for remote work is Sightglass Coffee on 7th Street.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s02_k2_016",
+      "question": "What road bike does Maya Johansson's yoga classmate ride?",
+      "answer": "red Specialized Allez",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What road bike does Priya ride?",
+          "sub_answer": "red Specialized Allez",
+          "evidence_id": "priya_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_019",
+          "text": "Priya Sharma rides a red Specialized Allez road bike to commute when the weather is clear.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k2_017",
+      "question": "What did Maya Johansson's yoga classmate bring to the Caspian Labs holiday party?",
+      "answer": "homemade chai masala cookies",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Priya bring to the holiday party?",
+          "sub_answer": "homemade chai masala cookies",
+          "evidence_id": "priya_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_018",
+          "text": "Priya Sharma brought her homemade chai masala cookies to the Caspian Labs holiday party and they sold out in 15 minutes.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k2_018",
+      "question": "What did Nadia's neighbor deploy to AWS in February 2024?",
+      "answer": "Caspian Labs' inference pipeline",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Leo deploy to AWS?",
+          "sub_answer": "Caspian Labs' inference pipeline",
+          "evidence_id": "leo_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_009",
+          "text": "Leo Tanaka deployed Caspian Labs' inference pipeline to AWS and reduced latency from 340ms to 87ms in February 2024.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k2_019",
+      "question": "What car does Priya Sharma's pair-programming partner drive?",
+      "answer": "silver 2021 Subaru Outback",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Leo drive?",
+          "sub_answer": "silver 2021 Subaru Outback",
+          "evidence_id": "leo_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_015",
+          "text": "Leo Tanaka drives a silver 2021 Subaru Outback.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s02_k2_020",
+      "question": "What does Leo Tanaka's gym buddy brew in his garage?",
+      "answer": "beer",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Marcus brew in his garage?",
+          "sub_answer": "beer using a Grainfather G40 system",
+          "evidence_id": "marcus_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_007",
+          "text": "Marcus Bell brews beer in his garage in the Temescal neighborhood using a Grainfather G40 system.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s02_k2_021",
+      "question": "Where did the person Nadia Reyes hired at a conference earn her M.S.?",
+      "answer": "MIT",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who did Nadia hire at a conference?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Priya earn her M.S.?",
+          "sub_answer": "MIT",
+          "evidence_id": "priya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_002",
+          "text": "Priya Sharma earned her M.S. in Computer Science from MIT in 2023, specializing in natural language processing.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s02_k2_022",
+      "question": "Where does Marcus Bell's carpool partner live?",
+      "answer": "a studio apartment on Folsom Street in the",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Maya live?",
+          "sub_answer": "studio apartment on Folsom Street in the Mission District",
+          "evidence_id": "maya_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_013",
+          "text": "Maya Johansson lives in a studio apartment on Folsom Street in the Mission District.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k2_023",
+      "question": "What sport does Nadia's co-founder play on Thursday evenings?",
+      "answer": "volleyball",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What sport does Leo play on Thursday evenings?",
+          "sub_answer": "volleyball",
+          "evidence_id": "leo_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_017",
+          "text": "Leo Tanaka plays on a recreational volleyball team at Mission Playground on Thursday evenings.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k2_024",
+      "question": "What user conference did the head of marketing at Caspian Labs organize?",
+      "answer": "first user conference at Bespoke Events with 300",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the head of marketing at Caspian Labs?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "marcus_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What user conference did Marcus organize?",
+          "sub_answer": "first user conference at Bespoke Events with 300 attendees",
+          "evidence_id": "marcus_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_001",
+          "text": "Marcus Bell joined Caspian Labs as head of marketing in March 2023.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_013",
+          "text": "Marcus Bell organized Caspian Labs' first user conference at the Bespoke Events space in October 2024 with 300 attendees.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k2_025",
+      "question": "What did the person Nadia Reyes hired at a conference win in February 2024?",
+      "answer": "Kaggle Days championship in San Francisco",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who did Nadia hire?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Priya win in February 2024?",
+          "sub_answer": "Kaggle Days championship",
+          "evidence_id": "priya_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Sharma won the Kaggle Days championship in San Francisco in February 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k3_009",
+      "question": "Where did the carpool partner of Leo's gym buddy study industrial design?",
+      "answer": "Konstfack University in Stockholm",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Maya study?",
+          "sub_answer": "Konstfack University in Stockholm",
+          "evidence_id": "maya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_002",
+          "text": "Maya Johansson studied industrial design at Konstfack University in Stockholm, graduating in 2019.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k3_010",
+      "question": "What road bike does the yoga classmate of Marcus's carpool partner ride?",
+      "answer": "red Specialized Allez",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What road bike does Priya ride?",
+          "sub_answer": "red Specialized Allez",
+          "evidence_id": "priya_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_019",
+          "text": "Priya Sharma rides a red Specialized Allez road bike to commute when the weather is clear.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s02_k3_011",
+      "question": "What Forbes recognition did the co-founder who lives next to Priya's pair-programming partner receive?",
+      "answer": "Forbes 30 Under 30 in enterprise technology",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's neighbor?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What Forbes recognition did Nadia receive?",
+          "sub_answer": "Forbes 30 Under 30 in enterprise technology",
+          "evidence_id": "nadia_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Tanaka and Nadia Reyes are neighbors in the same apartment building on Valencia Street in the Mission District.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "nadia_013",
+          "text": "Nadia Reyes won the Forbes 30 Under 30 list in the enterprise technology category in 2020.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k3_012",
+      "question": "What mentoring does the neighbor of Priya's pair-programming partner do through Techstars?",
+      "answer": "mentors two women founders every quarter",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's neighbor?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What mentoring does Nadia do through Techstars?",
+          "sub_answer": "mentors two women founders every quarter",
+          "evidence_id": "nadia_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Tanaka and Nadia Reyes are neighbors in the same apartment building on Valencia Street in the Mission District.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "nadia_010",
+          "text": "Nadia Reyes mentors two women founders through the Techstars program every quarter.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s02_k3_013",
+      "question": "How many Moleskine notebooks does the carpool partner of Leo's gym buddy fill every two months?",
+      "answer": "one",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How often does Maya fill a Moleskine?",
+          "sub_answer": "one every two months",
+          "evidence_id": "maya_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_020",
+          "text": "Maya Johansson keeps a physical sketchbook and fills one Moleskine notebook every two months.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s02_k3_014",
+      "question": "What did the yoga classmate of Marcus's carpool partner bring to the Caspian Labs holiday party?",
+      "answer": "homemade chai masala cookies",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Priya bring to the holiday party?",
+          "sub_answer": "homemade chai masala cookies",
+          "evidence_id": "priya_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_018",
+          "text": "Priya Sharma brought her homemade chai masala cookies to the Caspian Labs holiday party and they sold out in 15 minutes.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k3_015",
+      "question": "Where does the pair-programming partner of the person Nadia hired play volleyball?",
+      "answer": "Mission Playground",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who did Nadia hire?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Leo play volleyball?",
+          "sub_answer": "Mission Playground",
+          "evidence_id": "leo_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_017",
+          "text": "Leo Tanaka plays on a recreational volleyball team at Mission Playground on Thursday evenings.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k3_016",
+      "question": "What car does the co-founder and neighbor of the person who hired Priya drive?",
+      "answer": "silver 2021 Subaru Outback",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nadia's co-founder neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Leo drive?",
+          "sub_answer": "silver 2021 Subaru Outback",
+          "evidence_id": "leo_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_015",
+          "text": "Leo Tanaka drives a silver 2021 Subaru Outback.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s02_k3_017",
+      "question": "What is the older brother's profession of the carpool partner of Leo's gym buddy?",
+      "answer": "marine biologist at Uppsala University",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Maya's older brother do?",
+          "sub_answer": "marine biologist at Uppsala University",
+          "evidence_id": "maya_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_019",
+          "text": "Maya Johansson's older brother Erik is a marine biologist at Uppsala University in Sweden.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k3_018",
+      "question": "What did Leo's gym buddy cook for the Caspian Labs July 4th barbecue?",
+      "answer": "smoked brisket",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-founded Caspian Labs?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "leo_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Marcus cook for the barbecue?",
+          "sub_answer": "smoked brisket",
+          "evidence_id": "marcus_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Tanaka co-founded Caspian Labs with Nadia Reyes and serves as the lead engineer.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_019",
+          "text": "Marcus Bell cooked his signature smoked brisket for Caspian Labs' July 4th barbecue at Golden Gate Park.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s02_k3_019",
+      "question": "Where does the yoga classmate of Marcus's carpool partner live?",
+      "answer": "Inner Sunset",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Priya live?",
+          "sub_answer": "Inner Sunset",
+          "evidence_id": "priya_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_012",
+          "text": "Priya Sharma lives in a one-bedroom apartment in the Inner Sunset and walks to Caspian Labs via Golden Gate Park.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k3_020",
+      "question": "What coffee roaster does the gym buddy of the head of marketing use?",
+      "answer": "Behmor 2000AB Plus",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the head of marketing?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "marcus_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Marcus's gym buddy?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What coffee roaster does Leo use?",
+          "sub_answer": "Behmor 2000AB Plus",
+          "evidence_id": "leo_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_001",
+          "text": "Marcus Bell joined Caspian Labs as head of marketing in March 2023.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Bell and Leo Tanaka go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "leo_008",
+          "text": "Leo Tanaka roasts his own coffee beans using a Behmor 2000AB Plus roaster.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s02_k4_007",
+      "question": "Where did the carpool partner of the gym buddy of Nadia's co-founder study?",
+      "answer": "Konstfack University in Stockholm",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Maya study?",
+          "sub_answer": "Konstfack University in Stockholm",
+          "evidence_id": "maya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_002",
+          "text": "Maya Johansson studied industrial design at Konstfack University in Stockholm, graduating in 2019.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k4_008",
+      "question": "What did the yoga classmate of the carpool partner of Leo's gym buddy win at Kaggle?",
+      "answer": "Kaggle Days championship in San Francisco",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Priya win at Kaggle?",
+          "sub_answer": "Kaggle Days championship",
+          "evidence_id": "priya_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Sharma won the Kaggle Days championship in San Francisco in February 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s02_k4_009",
+      "question": "What partnership is the person who hired the yoga classmate of Marcus's carpool partner negotiating?",
+      "answer": "a partnership deal with Salesforce",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What partnership is Nadia negotiating?",
+          "sub_answer": "a partnership deal with Salesforce",
+          "evidence_id": "nadia_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_019",
+          "text": "Nadia Reyes is negotiating a partnership deal with Salesforce for Caspian Labs' AI assistant product.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k4_010",
+      "question": "What coffee roaster does the neighbor of the person who hired Maya's yoga classmate use?",
+      "answer": "Behmor 2000AB Plus",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Nadia's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What coffee roaster does Leo use?",
+          "sub_answer": "Behmor 2000AB Plus",
+          "evidence_id": "leo_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_008",
+          "text": "Leo Tanaka roasts his own coffee beans using a Behmor 2000AB Plus roaster.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s02_k4_011",
+      "question": "What book is the gym buddy of the co-founder neighbor of the person who hired Priya writing?",
+      "answer": "nonfiction book about the Oakland tech scene",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nadia's co-founder neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What book is Marcus writing?",
+          "sub_answer": "nonfiction book about the Oakland tech scene",
+          "evidence_id": "marcus_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Bell is writing a nonfiction book about the Oakland tech scene, with 40,000 words drafted so far.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k4_012",
+      "question": "What did the carpool partner of the gym buddy of Nadia's co-founder sell at the Renegade Craft Fair?",
+      "answer": "three ceramic bowls for $85 each",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Maya sell at the Renegade Craft Fair?",
+          "sub_answer": "three ceramic bowls for $85 each",
+          "evidence_id": "maya_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_017",
+          "text": "Maya Johansson sold three ceramic bowls at the Renegade Craft Fair in July 2024 for $85 each.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s02_k4_013",
+      "question": "What Mandarin learning has the carpool partner of the gym buddy of Nadia's neighbor done?",
+      "answer": "basic Mandarin at a night school in the",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What Mandarin has Maya learned?",
+          "sub_answer": "basic Mandarin at a night school in the Richmond District",
+          "evidence_id": "maya_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_011",
+          "text": "Maya Johansson speaks Swedish, English, and basic Mandarin that she learned at a night school in the Richmond District.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k4_014",
+      "question": "Where does the carpool partner of the gym buddy of Nadia's co-founder cycle to every Saturday?",
+      "answer": "Ferry Building Farmers Market",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where does Maya cycle to every Saturday?",
+          "sub_answer": "Ferry Building Farmers Market",
+          "evidence_id": "maya_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_005",
+          "text": "Maya Johansson cycles to the Ferry Building Farmers Market every Saturday morning on her blue Bianchi road bike.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k4_015",
+      "question": "What did the yoga classmate of the carpool partner of Leo's gym buddy publish at ACL 2023?",
+      "answer": "a paper on few-shot learning for dialogue systems",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Priya publish at ACL 2023?",
+          "sub_answer": "a paper on few-shot learning for dialogue systems",
+          "evidence_id": "priya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_007",
+          "text": "Priya Sharma published a paper on few-shot learning for dialogue systems at ACL 2023.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k4_016",
+      "question": "What is the mother's profession of the person who hired the yoga classmate of Marcus's carpool partner?",
+      "answer": "pediatrician in Mexico City",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Nadia's mother's profession?",
+          "sub_answer": "pediatrician in Mexico City",
+          "evidence_id": "nadia_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_011",
+          "text": "Nadia Reyes's mother is a pediatrician in Mexico City at Hospital Infantil de Mexico.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k4_017",
+      "question": "Where did the gym buddy of the pair-programming partner of the person Nadia hired grow up?",
+      "answer": "Oakland, California",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who did Nadia hire?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "nadia_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Marcus grow up?",
+          "sub_answer": "Oakland, California",
+          "evidence_id": "marcus_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_016",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Bell grew up in Oakland, California, and graduated from Howard University with a journalism degree in 2015.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s02_k4_018",
+      "question": "What karaoke venue does the person who hired the yoga classmate of Marcus's carpool partner visit?",
+      "answer": "Pandora Karaoke on Post Street",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What karaoke venue does Nadia visit?",
+          "sub_answer": "Pandora Karaoke on Post Street",
+          "evidence_id": "nadia_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_014",
+          "text": "Nadia Reyes goes to karaoke at Pandora Karaoke on Post Street every other Friday with the team.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s02_k5_005",
+      "question": "Where does the yoga classmate of the carpool partner of the gym buddy of Nadia's co-founder volunteer on Saturday mornings?",
+      "answer": "SF Public Library",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where does Priya volunteer on Saturdays?",
+          "sub_answer": "SF Public Library",
+          "evidence_id": "priya_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_013",
+          "text": "Priya Sharma volunteers as a teaching assistant for an intro to Python course at the SF Public Library on Saturday mornings.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s02_k5_006",
+      "question": "How many books has the yoga classmate of the carpool partner of the gym buddy of Nadia's neighbor tracked?",
+      "answer": "247",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "How many books has Priya tracked?",
+          "sub_answer": "247",
+          "evidence_id": "priya_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_010",
+          "text": "Priya Sharma reads two books per week and tracks them on a Notion database with 247 entries so far.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s02_k5_007",
+      "question": "What distance does the person who hired the yoga classmate of the carpool partner of Leo's gym buddy run every morning?",
+      "answer": "8 kilometers",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What distance does Nadia run every morning?",
+          "sub_answer": "8 kilometers",
+          "evidence_id": "nadia_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_006",
+          "text": "Nadia Reyes runs every morning along the Embarcadero, covering exactly 8 kilometers.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s02_k5_008",
+      "question": "What languages does the person who hired the yoga classmate of the carpool partner of Leo's gym buddy speak?",
+      "answer": "Spanish, English, and conversational Portuguese",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What languages does Nadia speak?",
+          "sub_answer": "Spanish, English, and conversational Portuguese",
+          "evidence_id": "nadia_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_008",
+          "text": "Nadia Reyes speaks Spanish, English, and conversational Portuguese.",
+          "person_id": "nadia"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s02_k5_009",
+      "question": "What did the carpool partner of the gym buddy of the co-founder neighbor of the person who hired Priya redesign in January 2024?",
+      "answer": "Caspian Labs' dashboard interface",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nadia's co-founder neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Maya redesign in January 2024?",
+          "sub_answer": "Caspian Labs' dashboard interface",
+          "evidence_id": "maya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_007",
+          "text": "Maya Johansson redesigned Caspian Labs' dashboard interface in January 2024, increasing user engagement by 35%.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s02_k5_010",
+      "question": "Where did the carpool partner of the gym buddy of the co-founder neighbor of the person who hired Priya move from?",
+      "answer": "Stockholm",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who hired Priya?",
+          "sub_answer": "Nadia Reyes",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Nadia's co-founder neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Maya move from?",
+          "sub_answer": "Stockholm",
+          "evidence_id": "maya_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Nadia Reyes hired Priya Sharma after meeting her at a Women in AI conference in Seattle in November 2023.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_003",
+          "text": "Maya Johansson moved from Stockholm to San Francisco in September 2021.",
+          "person_id": "maya"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s02_k5_011",
+      "question": "Where does the gym buddy of the pair-programming partner of the yoga classmate of Marcus's carpool partner play basketball?",
+      "answer": "Lake Merritt",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "marcus_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maya's yoga classmate?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "maya_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who does Priya pair-program with?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "priya_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Leo's gym buddy?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "leo_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where does Marcus play basketball?",
+          "sub_answer": "Lake Merritt",
+          "evidence_id": "marcus_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Bell and Maya Johansson carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "maya_018",
+          "text": "Maya Johansson and Priya Sharma attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Sharma and Leo Tanaka pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Tanaka and Marcus Bell go to Equinox gym on Market Street together every Monday, Wednesday, and Friday at 7 AM.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "marcus_017",
+          "text": "Marcus Bell plays pickup basketball at Lake Merritt every Sunday morning.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s02_k5_012",
+      "question": "What previous job did the carpool partner of the gym buddy of the pair-programming partner of Nadia's co-founder's neighbor's recruit have?",
+      "answer": "tech reporter at Wired magazine",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "tech_startup",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Nadia's co-founder neighbor?",
+          "sub_answer": "Leo Tanaka",
+          "evidence_id": "nadia_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Leo pair-program with?",
+          "sub_answer": "Priya Sharma",
+          "evidence_id": "leo_020"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who does Priya do yoga with?",
+          "sub_answer": "Maya Johansson",
+          "evidence_id": "priya_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who carpools with Maya?",
+          "sub_answer": "Marcus Bell",
+          "evidence_id": "maya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What was Marcus's previous job?",
+          "sub_answer": "tech reporter at Wired magazine",
+          "evidence_id": "marcus_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nadia_004",
+          "text": "Nadia Reyes and Leo Tanaka are neighbors in the same apartment building on Valencia Street.",
+          "person_id": "nadia"
+        },
+        {
+          "obs_id": "leo_020",
+          "text": "Leo Tanaka and Priya Sharma pair-program every Tuesday afternoon on the recommendation engine.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "priya_006",
+          "text": "Priya Sharma and Maya Johansson attend a weekend yoga class at Yoga Tree on Hayes Street.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "maya_004",
+          "text": "Maya Johansson and Marcus Bell carpool to the Caspian Labs office in SoMa every weekday.",
+          "person_id": "maya"
+        },
+        {
+          "obs_id": "marcus_002",
+          "text": "Marcus Bell previously worked as a tech reporter at Wired magazine for four years.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 7
+    }
+  ]
+}

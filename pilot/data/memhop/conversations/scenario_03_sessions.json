@@ -1,0 +1,432 @@
+{
+  "scenario_id": "community_garden",
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "date": "2024-03-02",
+      "participants": ["Ruth Okonkwo", "Sam Delgado"],
+      "setting": "At their shared raised bed in the Eastside Community Garden on a Saturday morning",
+      "observations_covered": ["ruth_001", "ruth_004", "ruth_006", "sam_004", "sam_018"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Morning, Sam! The Cherokee Purples are looking strong this year. I think the compost we added in February really made a difference."},
+        {"speaker": "Sam Delgado", "text": "Morning, Ruth. Yeah, they're way ahead of last year. How many tomato varieties do we have going in this bed now?"},
+        {"speaker": "Ruth Okonkwo", "text": "Fourteen, if you count the ones I started from seed in January. Cherokee Purple, Brandywine, a few others. This twenty-by-forty bed gives us just enough room."},
+        {"speaker": "Sam Delgado", "text": "It's wild that we share this whole raised bed and still find room for everything. Speaking of room, my Carolina Reapers are coming in hot over in my personal plot. Literally."},
+        {"speaker": "Ruth Okonkwo", "text": "I saw those! And the habaneros too. Sam, you're going to burn a hole through the earth with those peppers."},
+        {"speaker": "Sam Delgado", "text": "Ha! My grandmother Lupe would be proud. Hey, I was thinking about the garden's history the other day. How long has this place been going now?"},
+        {"speaker": "Ruth Okonkwo", "text": "We started it in 2018. Got a five-thousand-dollar grant from the Austin Parks Foundation to get the Cesar Chavez Street lot set up. Feels like yesterday, honestly."},
+        {"speaker": "Sam Delgado", "text": "Six years already. You co-founded this whole thing and now look at it — must be thirty plots going."},
+        {"speaker": "Ruth Okonkwo", "text": "Thirty-two! And every single one is spoken for. That's the best part — people actually want to be here."},
+        {"speaker": "Sam Delgado", "text": "For sure. Oh, before I forget, do you need me to check on the drip lines this week? I noticed one of the emitters near the Brandywines was clogged."},
+        {"speaker": "Ruth Okonkwo", "text": "That would be wonderful. I'm going to be out here anyway checking on the bees later this afternoon. I'll save you some of my pepper soup from today if you come by."},
+        {"speaker": "Sam Delgado", "text": "You don't even have to ask twice. Your Saturday pepper soup is the highlight of my week."}
+      ]
+    },
+    {
+      "session_id": "session_02",
+      "date": "2024-03-09",
+      "participants": ["Sam Delgado", "Hana Petrov"],
+      "setting": "Sunday morning at Bennu Coffee on East 11th Street",
+      "observations_covered": ["sam_005", "hana_004", "hana_009", "hana_001", "hana_003"],
+      "turns": [
+        {"speaker": "Sam Delgado", "text": "Hey Hana! Grabbed you an oat milk latte — our usual Sunday planning session fuel."},
+        {"speaker": "Hana Petrov", "text": "You're the best, Sam. I really needed this. I've been running on fumes this week with my thesis."},
+        {"speaker": "Sam Delgado", "text": "How's it going? You're in your second year of the urban planning master's at UT, right? Getting close to the finish line?"},
+        {"speaker": "Hana Petrov", "text": "Getting there. I just wrapped up a survey of a hundred and fifty East Austin residents about green space access. The data is incredible — our garden keeps coming up as a positive example."},
+        {"speaker": "Sam Delgado", "text": "No kidding! That's awesome. What's the thesis title again? Something about neighborhood resilience?"},
+        {"speaker": "Hana Petrov", "text": "Yeah — 'Community-Led Green Spaces as Catalysts for Neighborhood Resilience in East Austin.' It's a mouthful, but my advisor loves it."},
+        {"speaker": "Sam Delgado", "text": "It's perfect. So what's on the garden agenda for this week?"},
+        {"speaker": "Hana Petrov", "text": "We need to get the spring planting schedule finalized. I updated the garden app with everyone's plot assignments. Also, the herb section needs weeding badly."},
+        {"speaker": "Sam Delgado", "text": "I can handle the weeding on Tuesday after school. What about the composting station?"},
+        {"speaker": "Hana Petrov", "text": "Jenny said she'd turn the pile on Wednesday. And Ruth wants to start her second wave of tomato seedlings. Can you coordinate with her on the shared bed?"},
+        {"speaker": "Sam Delgado", "text": "Already texted her about it. We're planning to put in the second round next Saturday."},
+        {"speaker": "Hana Petrov", "text": "Perfect. I love these Sunday planning sessions — keeps everything from falling through the cracks."},
+        {"speaker": "Sam Delgado", "text": "Same. Bennu Coffee and garden logistics — name a better combo."}
+      ]
+    },
+    {
+      "session_id": "session_03",
+      "date": "2024-03-14",
+      "participants": ["Jenny Liu", "Hana Petrov"],
+      "setting": "Chatting over the shared fence between their houses on East 6th Street",
+      "observations_covered": ["jenny_005", "hana_005", "jenny_017", "jenny_019", "hana_011"],
+      "turns": [
+        {"speaker": "Jenny Liu", "text": "Hana! You're up early. I just got back from my run around Lady Bird Lake."},
+        {"speaker": "Hana Petrov", "text": "You go every morning? I can barely get out of bed before eight."},
+        {"speaker": "Jenny Liu", "text": "Six fifteen, rain or shine. Three miles around the lake — it clears my head before I open the clinic. Being neighbors makes it nice, though. I get to say hi to you on the way out sometimes."},
+        {"speaker": "Hana Petrov", "text": "The perks of sharing a fence, right? Hey, I noticed you've been running more lately. Training for something?"},
+        {"speaker": "Jenny Liu", "text": "Actually, yes! I'm training for the Austin Marathon next February. It'll be my first full marathon. I figured if I start now, I'll have almost a year to build up."},
+        {"speaker": "Hana Petrov", "text": "That's amazing, Jenny. Twenty-six miles! I'm in awe. The most I do is bike to campus on my Cannondale."},
+        {"speaker": "Jenny Liu", "text": "That yellow bike of yours? I see it flying down the street every day. You ride that thing to UT year-round."},
+        {"speaker": "Hana Petrov", "text": "It's faster than the bus and way cheaper than a parking pass. Plus campus parking is a nightmare."},
+        {"speaker": "Jenny Liu", "text": "Smart. Hey, do you want some chrysanthemum tea? I just brewed a pot. We could sit on my porch for a bit."},
+        {"speaker": "Hana Petrov", "text": "I'd love that. I need a break from staring at survey data anyway."},
+        {"speaker": "Jenny Liu", "text": "Thesis stress? Bring your laptop over if you want. Sometimes a change of scenery helps."},
+        {"speaker": "Hana Petrov", "text": "You know what, I might just do that. Thanks, Jenny. Best next-door neighbor ever."}
+      ]
+    },
+    {
+      "session_id": "session_04",
+      "date": "2024-03-17",
+      "participants": ["Ruth Okonkwo", "Jenny Liu"],
+      "setting": "After Sunday service at First United Methodist Church on East 12th Street",
+      "observations_covered": ["ruth_005", "jenny_004", "ruth_020", "jenny_009", "ruth_017"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Beautiful service today, Jenny. Pastor Williams really outdid himself with that sermon on community."},
+        {"speaker": "Jenny Liu", "text": "It was lovely. I always feel recharged after our Sunday mornings here at First United Methodist. You know, the East 12th Street location just feels like home."},
+        {"speaker": "Ruth Okonkwo", "text": "It does. Emeka and I started coming here in eighty-six. Feels like the church has been woven into every chapter of my life."},
+        {"speaker": "Jenny Liu", "text": "Speaking of chapters, how's your memoir coming along?"},
+        {"speaker": "Ruth Okonkwo", "text": "Slowly but surely. I'm working on the section about Lagos in the seventies — the oil boom years. My father worked at the refinery, and the whole city felt electric with possibility. It's hard to capture that energy in words."},
+        {"speaker": "Jenny Liu", "text": "I bet. You should read some of it at book club sometime. We'd all love to hear it."},
+        {"speaker": "Ruth Okonkwo", "text": "Maybe I will. That reminds me — for next month's book club, I was thinking about revisiting 'Things Fall Apart.' It's my favorite book, and I think Hana hasn't read it yet."},
+        {"speaker": "Jenny Liu", "text": "Achebe is wonderful. I'd read it again happily. Oh, by the way, I just finished my yoga teacher training! Two hundred hours at Black Swan Yoga. Got my certificate last week."},
+        {"speaker": "Ruth Okonkwo", "text": "Jenny, congratulations! That's a real achievement. Are you going to teach classes?"},
+        {"speaker": "Jenny Liu", "text": "I'm thinking about offering a free session at the garden pavilion. Maybe combine it with some herbal tea afterward."},
+        {"speaker": "Ruth Okonkwo", "text": "The gardeners would love that. You always find the most wonderful ways to bring people together."},
+        {"speaker": "Jenny Liu", "text": "I learned from the best — you started the whole garden, after all!"}
+      ]
+    },
+    {
+      "session_id": "session_05",
+      "date": "2024-03-23",
+      "participants": ["Ruth Okonkwo", "Hana Petrov"],
+      "setting": "At Ruth's yellow Craftsman bungalow on East 7th Street, preparing for book club",
+      "observations_covered": ["ruth_011", "ruth_012", "hana_012", "jenny_011", "hana_014"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Come in, come in! I'm just setting up the living room for Thursday's book club. Help me move these chairs?"},
+        {"speaker": "Hana Petrov", "text": "Of course. I love this house, Ruth. The Craftsman details are beautiful."},
+        {"speaker": "Ruth Okonkwo", "text": "Thank you, sweetheart. Emeka and I bought this place in 1990 for sixty-seven thousand dollars. Can you imagine? The whole block was different then."},
+        {"speaker": "Hana Petrov", "text": "Sixty-seven thousand! In East Austin, on 7th Street. That's unreal by today's prices."},
+        {"speaker": "Ruth Okonkwo", "text": "The neighborhood has changed a lot, but the bones of this house are still solid. So, first Thursday of every month — you're coming to book club this time, right?"},
+        {"speaker": "Hana Petrov", "text": "Wouldn't miss it. I've been coming every month since September. Jenny's coming too, right?"},
+        {"speaker": "Ruth Okonkwo", "text": "Jenny hasn't missed one in two years. She's our most reliable member after you. I was thinking about suggesting 'Things Fall Apart' for April."},
+        {"speaker": "Hana Petrov", "text": "Oh, I've been wanting to read that! Hey, speaking of good news — I got the research grant I applied for."},
+        {"speaker": "Ruth Okonkwo", "text": "Hana! Tell me everything."},
+        {"speaker": "Hana Petrov", "text": "It's thirty-five hundred dollars from the UT School of Architecture. It'll fund the fieldwork for my thesis — interviews, surveys, all the community engagement stuff."},
+        {"speaker": "Ruth Okonkwo", "text": "I'm so proud of you. Your parents must be thrilled."},
+        {"speaker": "Hana Petrov", "text": "Mom cried. Dad said he always knew his daughter would get paid to talk to people."},
+        {"speaker": "Ruth Okonkwo", "text": "Ha! That sounds like Dimitar. Now help me pick out which tea set to use. Jenny always notices these things."}
+      ]
+    },
+    {
+      "session_id": "session_06",
+      "date": "2024-04-06",
+      "participants": ["Sam Delgado", "Ruth Okonkwo"],
+      "setting": "At the community garden, Sam working on the irrigation system",
+      "observations_covered": ["sam_012", "sam_003", "ruth_015", "sam_002", "ruth_010"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Sam, what's all this PVC and tubing? Are you rebuilding the irrigation again?"},
+        {"speaker": "Sam Delgado", "text": "Just upgrading the drip system. I found some recycled materials at the ReStore on Burleson — got the whole setup for about a hundred and twenty bucks."},
+        {"speaker": "Ruth Okonkwo", "text": "A hundred and twenty! That's incredible. You've always been so resourceful. I suppose growing up in Montopolis teaches you to make the most of what you've got."},
+        {"speaker": "Sam Delgado", "text": "Ha, definitely. Montopolis wasn't exactly flush with gardening budgets. But you know, being the first person in my family to go to college — at UT, getting my math degree in 2018 — it taught me that you don't need fancy to get the job done."},
+        {"speaker": "Ruth Okonkwo", "text": "Your mother must have been so proud. You earned every bit of that degree."},
+        {"speaker": "Sam Delgado", "text": "She still has the diploma framed in her living room. But hey, speaking of resourceful — how are the beehives doing?"},
+        {"speaker": "Ruth Okonkwo", "text": "Thriving! Both hives are active. I taught myself beekeeping back in 2021, and honestly it's been one of the most rewarding things I've done at the garden. The bees help with pollination across everyone's plots."},
+        {"speaker": "Sam Delgado", "text": "I've noticed. My pepper yields have been way up since you brought the bees in. Hey, did you ever hear back about this year's Travis County Fair?"},
+        {"speaker": "Ruth Okonkwo", "text": "Not yet, but I'm entering again. After winning first place for my Cherokee Purples last September, I feel like I have a reputation to defend."},
+        {"speaker": "Sam Delgado", "text": "Back-to-back champion! I'll be your hype man at the fair."},
+        {"speaker": "Ruth Okonkwo", "text": "Deal. Now come over here and show me how this new drip system works. I want to make sure my tomatoes get the royal treatment."}
+      ]
+    },
+    {
+      "session_id": "session_07",
+      "date": "2024-04-13",
+      "participants": ["Jenny Liu", "Hana Petrov"],
+      "setting": "At Jenny's community acupuncture clinic event at the garden pavilion",
+      "observations_covered": ["jenny_010", "jenny_001", "jenny_006", "hana_010", "jenny_003"],
+      "turns": [
+        {"speaker": "Jenny Liu", "text": "Okay, that's patient number twenty-five. Can you hand me another set of needles from the blue case?"},
+        {"speaker": "Hana Petrov", "text": "Here you go. Jenny, this turnout is incredible. There's still a line outside the pavilion."},
+        {"speaker": "Jenny Liu", "text": "I know! I was hoping for maybe fifteen people, but we're already past twenty-five. I think we'll treat close to thirty by the end of the day."},
+        {"speaker": "Hana Petrov", "text": "Your Jade Wellness clinic reputation precedes you. People on Cesar Chavez already love you."},
+        {"speaker": "Jenny Liu", "text": "That's sweet. I've been wanting to do a free community clinic for ages. It took me years to build Jade Wellness, but giving back like this is why I got into acupuncture in the first place."},
+        {"speaker": "Hana Petrov", "text": "Where did you study, again? Somewhere here in Austin?"},
+        {"speaker": "Jenny Liu", "text": "The Academy of Oriental Medicine at Austin. Got my Master of Acupuncture in 2012. It was intense — three years of study. But it changed my life."},
+        {"speaker": "Hana Petrov", "text": "Clearly. Oh, by the way, I set up my bouquet table near the entrance. I've been cutting sunflowers and zinnias from my plot all morning."},
+        {"speaker": "Jenny Liu", "text": "Your flowers are gorgeous! Are you selling them?"},
+        {"speaker": "Hana Petrov", "text": "Eight dollars a bouquet, same as at the SFC Farmers Market. A few people already bought some on their way in."},
+        {"speaker": "Jenny Liu", "text": "Smart. I should do the same with my lavender and chamomile. I've got so much growing in my garden plot right now — echinacea and lemon balm too."},
+        {"speaker": "Hana Petrov", "text": "You could do herbal bouquets! People would eat that up."},
+        {"speaker": "Jenny Liu", "text": "That's actually a brilliant idea. Let me finish up here — I think we'll hit twenty-eight patients by closing. Not bad for a Saturday at the garden!"}
+      ]
+    },
+    {
+      "session_id": "session_08",
+      "date": "2024-04-20",
+      "participants": ["Sam Delgado", "Hana Petrov"],
+      "setting": "At Bennu Coffee, their regular Sunday morning planning session",
+      "observations_covered": ["sam_020", "sam_007", "hana_018", "hana_006", "sam_011"],
+      "turns": [
+        {"speaker": "Hana Petrov", "text": "Sam! Is that a dog under the table?"},
+        {"speaker": "Sam Delgado", "text": "Meet Gol! I adopted him from Austin Pets Alive back in January. He's a beagle mix. Named him Gol because — well, soccer."},
+        {"speaker": "Hana Petrov", "text": "Oh my god, he's adorable. I got a pet too — a gray cat named Banitsa. Adopted her from Austin Animal Center in February."},
+        {"speaker": "Sam Delgado", "text": "Banitsa? Like the Bulgarian pastry?"},
+        {"speaker": "Hana Petrov", "text": "Exactly! She's flaky and layered, just like the real thing. Does Gol like your duplex? I imagine a beagle needs some yard space."},
+        {"speaker": "Sam Delgado", "text": "My place on East 5th is small, but it's only two blocks from the garden, so I take him there all the time. He loves sniffing around the compost bins."},
+        {"speaker": "Hana Petrov", "text": "Ha! Okay, garden business. I pushed some updates to the website and scheduling app this week. Fixed the bug where people couldn't see their plot assignments on mobile."},
+        {"speaker": "Sam Delgado", "text": "Oh nice, you built that whole thing in React and Firebase, right? It's been a game-changer for scheduling."},
+        {"speaker": "Hana Petrov", "text": "Yeah, it was a fun side project. I'm going to add a watering reminder feature next. What else is on the agenda?"},
+        {"speaker": "Sam Delgado", "text": "I need to figure out a Saturday schedule for my tutoring program at Terrazas Branch Library. Some of the neighborhood kids have finals coming up, and I want to add extra sessions."},
+        {"speaker": "Hana Petrov", "text": "That free tutoring program is so great, Sam. How many kids are coming regularly now?"},
+        {"speaker": "Sam Delgado", "text": "About twelve regulars, but a few more trickle in around test time. I just want to make sure they have the support. Nobody had that for me growing up."},
+        {"speaker": "Hana Petrov", "text": "You're making such a difference. Okay, let me pull up the garden schedule and we can sort out the rest."}
+      ]
+    },
+    {
+      "session_id": "session_09",
+      "date": "2024-04-28",
+      "participants": ["Ruth Okonkwo", "Jenny Liu"],
+      "setting": "Walking to their cars after Sunday church service",
+      "observations_covered": ["ruth_016", "jenny_013", "ruth_013", "jenny_015", "ruth_019"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Jenny, do you need a ride? I'm parked right over there — the white RAV4."},
+        {"speaker": "Jenny Liu", "text": "Thanks, Ruth, but I drove today. My blue Tucson's just around the corner. David needed me to pick up the twins after this."},
+        {"speaker": "Ruth Okonkwo", "text": "How are Lily and Rose doing?"},
+        {"speaker": "Jenny Liu", "text": "Busy as always. Hey, I wanted to tell you — Pastor Williams mentioned the Capital Area Food Bank needs volunteers for their summer drive."},
+        {"speaker": "Ruth Okonkwo", "text": "Oh, I've been meaning to reconnect with them. Last year we donated two hundred pounds of produce from the garden. It felt wonderful to see it go to people who needed it."},
+        {"speaker": "Jenny Liu", "text": "That's incredible. I donated some herbal tea blends to their holiday gift basket program back in December. It's such a good organization."},
+        {"speaker": "Ruth Okonkwo", "text": "We should coordinate a garden donation again this fall. Speaking of volunteering, I've got my literacy program at the Austin Public Library on Wednesday afternoon, so I'll be busy midweek."},
+        {"speaker": "Jenny Liu", "text": "Every Wednesday, like clockwork. You really don't stop, do you, Ruth?"},
+        {"speaker": "Ruth Okonkwo", "text": "Retirement doesn't mean resting! The kids at the library need reading support, and it keeps my mind sharp. After thirty-two years as a librarian, I can't exactly stop caring about literacy."},
+        {"speaker": "Jenny Liu", "text": "That's what I love about you. Okay, I need to run. See you at the garden this week?"},
+        {"speaker": "Ruth Okonkwo", "text": "I'll be there Saturday for sure. I'm making pepper soup, as always. Bring the girls — I'll save them some."}
+      ]
+    },
+    {
+      "session_id": "session_10",
+      "date": "2024-05-04",
+      "participants": ["Sam Delgado", "Ruth Okonkwo", "Jenny Liu"],
+      "setting": "At the community garden during a Saturday morning work session",
+      "observations_covered": ["sam_008", "sam_006", "ruth_014", "jenny_016", "sam_016"],
+      "turns": [
+        {"speaker": "Jenny Liu", "text": "Sam! Congratulations! I heard about Teacher of the Year at Travis High!"},
+        {"speaker": "Sam Delgado", "text": "Thanks, Jenny! They announced it Friday at the awards assembly. I'm still kind of in shock."},
+        {"speaker": "Ruth Okonkwo", "text": "Sam, I'm not shocked at all. You teach AP Calc and Algebra II, you coach the girls' soccer team to the district semifinals, and you tutor on weekends. Who else could it be?"},
+        {"speaker": "Sam Delgado", "text": "The soccer season was wild this year. Getting to the district semifinals — the girls worked so hard. I'm really proud of them."},
+        {"speaker": "Jenny Liu", "text": "And didn't you just finish your master's degree too?"},
+        {"speaker": "Sam Delgado", "text": "Yeah, got my M.Ed. from Texas State back in December. It was a long haul doing it while teaching full-time, but worth it."},
+        {"speaker": "Ruth Okonkwo", "text": "A master's degree and Teacher of the Year in the same school year. Sam, you need to slow down and eat some pepper soup. Come, I made a big pot this morning."},
+        {"speaker": "Sam Delgado", "text": "Ruth, your Saturday pepper soup is sacred. I'd never say no."},
+        {"speaker": "Jenny Liu", "text": "Save me a bowl too! I'm heading out soon — I'm teaching a workshop on growing medicinal herbs at the Austin Garden Center this afternoon."},
+        {"speaker": "Ruth Okonkwo", "text": "That's today? Break a leg, Jenny."},
+        {"speaker": "Jenny Liu", "text": "Thanks! I've been prepping slides all week. I'm covering everything from lavender propagation to lemon balm tinctures. Wish me luck!"},
+        {"speaker": "Sam Delgado", "text": "You'll be great. Save us some samples?"},
+        {"speaker": "Jenny Liu", "text": "Always. Okay, pepper soup first, then I'm off."}
+      ]
+    },
+    {
+      "session_id": "session_11",
+      "date": "2024-05-12",
+      "participants": ["Hana Petrov", "Jenny Liu"],
+      "setting": "At Jenny's house, over the fence while Jenny is gardening in her yard",
+      "observations_covered": ["jenny_007", "jenny_008", "hana_007", "hana_008", "jenny_012"],
+      "turns": [
+        {"speaker": "Hana Petrov", "text": "Hey Jenny! I can hear Lily and Rose playing in your backyard. Sounds like a party over there."},
+        {"speaker": "Jenny Liu", "text": "They're practicing for their school talent show. Seventh graders with big dreams — Kealing Middle School won't know what hit them."},
+        {"speaker": "Hana Petrov", "text": "That's adorable. How's David handling the noise?"},
+        {"speaker": "Jenny Liu", "text": "He's at the office. Saturday overtime at Kimley-Horn — they're pushing to finish a bridge design. Structural engineering waits for no one, apparently."},
+        {"speaker": "Hana Petrov", "text": "I get it. My dad's the same way with his garage. Petrov's Garage on East Riverside — he works six days a week. My mom keeps telling him to slow down."},
+        {"speaker": "Jenny Liu", "text": "Your mom is the folk dance teacher, right? At the Bulgarian Cultural Center?"},
+        {"speaker": "Hana Petrov", "text": "That's her! Irina Petrov, teaching Bulgarian folk dance to anyone who'll listen. She tried to get me to perform at the spring recital, but I have two left feet."},
+        {"speaker": "Jenny Liu", "text": "Ha! I'd love to see a Bulgarian folk dance sometime. I keep telling Lily and Rose they should try different cultural dances. Expose them to more than just what they see in Austin."},
+        {"speaker": "Hana Petrov", "text": "Do you ever take them to Houston to visit your mom's restaurant?"},
+        {"speaker": "Jenny Liu", "text": "Oh, all the time. My mother, Mei-Ling, owns Lucky Star in Chinatown. Best dim sum in Houston. She spoils the twins rotten every time we visit."},
+        {"speaker": "Hana Petrov", "text": "I need to go! I've always wanted to try authentic dim sum."},
+        {"speaker": "Jenny Liu", "text": "Next time we drive down, you should come. I'll translate the menu for you — Mandarin, Cantonese, English, I've got you covered. I speak all three fluently."},
+        {"speaker": "Hana Petrov", "text": "Deal! And I'll teach you how to say 'delicious' in Bulgarian in return."}
+      ]
+    },
+    {
+      "session_id": "session_12",
+      "date": "2024-05-25",
+      "participants": ["Ruth Okonkwo", "Hana Petrov"],
+      "setting": "At the community garden, Hana interviewing Ruth for her thesis",
+      "observations_covered": ["ruth_002", "ruth_003", "hana_015", "ruth_007", "hana_002"],
+      "turns": [
+        {"speaker": "Hana Petrov", "text": "Okay Ruth, I'm recording now. For the thesis interview — can you tell me about your background and how you got involved with the garden?"},
+        {"speaker": "Ruth Okonkwo", "text": "Of course. Well, I was born in Lagos, Nigeria, and I moved to Austin in 1985 to attend the University of Texas. I was twenty-four years old with a suitcase and a dream of becoming a librarian."},
+        {"speaker": "Hana Petrov", "text": "And you did become one — at Zavala Elementary, right?"},
+        {"speaker": "Ruth Okonkwo", "text": "Thirty-two years as the school librarian. Retired in 2017. The garden started the year after, partly because I needed something to pour my energy into."},
+        {"speaker": "Hana Petrov", "text": "I can relate to Austin roots. I was born right here — my parents emigrated from Sofia, Bulgaria, in ninety-five. So Austin is the only home I've ever known."},
+        {"speaker": "Ruth Okonkwo", "text": "It's a special city. When Emeka and I settled in East Austin, it was a very different place. He was a civil engineering professor at UT. We built a whole life here."},
+        {"speaker": "Hana Petrov", "text": "I'm so sorry about his passing. When was that?"},
+        {"speaker": "Ruth Okonkwo", "text": "2019. It was sudden — a heart attack. But the garden was already going by then, and this community kept me afloat. The neighbors, the church, all of it."},
+        {"speaker": "Hana Petrov", "text": "That's exactly the kind of resilience my thesis is trying to document. Community spaces as support systems."},
+        {"speaker": "Ruth Okonkwo", "text": "You understand it because you've lived it, Hana. Now tell me, didn't you do some work with the city before graduate school?"},
+        {"speaker": "Hana Petrov", "text": "I interned at the Austin City Planning Department the summer of 2023. I worked on the East Riverside corridor plan. That experience is actually what pushed me to focus my thesis on East Austin."},
+        {"speaker": "Ruth Okonkwo", "text": "East Riverside has changed so much. Good that they had someone who actually knows the area working on it."},
+        {"speaker": "Hana Petrov", "text": "Thank you, Ruth. This interview is gold. I'll transcribe it this weekend."}
+      ]
+    },
+    {
+      "session_id": "session_13",
+      "date": "2024-06-08",
+      "participants": ["Sam Delgado", "Hana Petrov", "Ruth Okonkwo"],
+      "setting": "At the community garden potluck organized by Sam",
+      "observations_covered": ["sam_019", "sam_010", "sam_013", "ruth_018", "hana_016"],
+      "turns": [
+        {"speaker": "Sam Delgado", "text": "I can't believe forty-five people showed up! I was hoping for twenty, maybe thirty."},
+        {"speaker": "Hana Petrov", "text": "Sam, you basically invited the entire neighborhood. What did you expect? Also, those birria tacos are unreal. What's your secret?"},
+        {"speaker": "Sam Delgado", "text": "My grandmother Lupe's recipe. She taught me when I was twelve. Slow-braised beef cheeks, her special chili blend — it's the only dish I cook that I'd put up against a restaurant."},
+        {"speaker": "Ruth Okonkwo", "text": "They're delicious, Sam. Almost as good as my pepper soup. Almost."},
+        {"speaker": "Sam Delgado", "text": "Ha! High praise from you, Ruth. Hey, is that the band setting up over there?"},
+        {"speaker": "Hana Petrov", "text": "Wait, did you get Los Relámpagos to play at the potluck?"},
+        {"speaker": "Sam Delgado", "text": "Well, I play guitar in Los Relámpagos, so I just told the guys to show up. We usually play at Sahara Lounge on East 6th, but a garden gig sounded fun."},
+        {"speaker": "Ruth Okonkwo", "text": "A live Tejano band at our garden potluck! Sam, this is wonderful. I need to call Adaeze and tell her about this — she's always saying East Austin is losing its character."},
+        {"speaker": "Hana Petrov", "text": "Tell your daughter to come visit! Oh, I almost forgot — Sam, I was at Veracruz All Natural this morning for my usual Saturday migas taco, and I ran into three people who said they were coming to the potluck."},
+        {"speaker": "Sam Delgado", "text": "That place is your second home, I swear."},
+        {"speaker": "Ruth Okonkwo", "text": "Sam, before you go play, come try this jollof rice I brought. I made it special for today — Igbo-style. You know I speak Igbo and Yoruba along with English, so I've got recipes from both sides."},
+        {"speaker": "Sam Delgado", "text": "Ruth, you could open a restaurant with your cooking. Okay, let me grab a plate and then I've got to go tune up. This potluck is officially a party!"}
+      ]
+    },
+    {
+      "session_id": "session_14",
+      "date": "2024-06-22",
+      "participants": ["Jenny Liu", "Ruth Okonkwo"],
+      "setting": "At Ruth's house after book club, cleaning up",
+      "observations_covered": ["jenny_002", "jenny_014", "ruth_008", "ruth_009", "jenny_020"],
+      "turns": [
+        {"speaker": "Jenny Liu", "text": "Good discussion tonight. I think 'Things Fall Apart' really resonated with the group."},
+        {"speaker": "Ruth Okonkwo", "text": "It always does. Here, have some of this tea while we clean up. Is this your chrysanthemum blend?"},
+        {"speaker": "Jenny Liu", "text": "Yes! My hand-blended chrysanthemum and goji berry mix. I source the chrysanthemum from a farm in Fujian province — my cousin connects me directly with the grower."},
+        {"speaker": "Ruth Okonkwo", "text": "It's lovely. So tell me, when did you move to Austin again? I always forget the exact year."},
+        {"speaker": "Jenny Liu", "text": "2010. Born and raised in Houston, but David's job brought us here, and I fell in love with East Austin immediately. Opened Jade Wellness two years later."},
+        {"speaker": "Ruth Okonkwo", "text": "Fourteen years already. You've become such a fixture in this community. Remember when you planted that fig tree at the garden entrance?"},
+        {"speaker": "Jenny Liu", "text": "October 2023! That little sapling is fifteen feet tall now. The shade it throws over the picnic area makes the summer potlucks bearable."},
+        {"speaker": "Ruth Okonkwo", "text": "Sam's potluck earlier this month was proof of that. Everyone was sitting under your fig tree eating birria tacos."},
+        {"speaker": "Jenny Liu", "text": "Ha! That was a great day. Hey, how's Adaeze doing? Is she still swamped with cases?"},
+        {"speaker": "Ruth Okonkwo", "text": "Always. Immigration law in Houston is never slow. She's handling three asylum cases right now. And Chidi is buried in code at Dell up in Round Rock. My children work too hard."},
+        {"speaker": "Jenny Liu", "text": "They take after their mother. An immigration lawyer and a software engineer — you and Emeka raised them right."},
+        {"speaker": "Ruth Okonkwo", "text": "Thank you, Jenny. Now let me wrap up some of this food for Lily and Rose. Growing girls need to eat."}
+      ]
+    },
+    {
+      "session_id": "session_15",
+      "date": "2024-07-07",
+      "participants": ["Sam Delgado", "Jenny Liu"],
+      "setting": "At the community garden, both watering their plots in the early morning to beat the Texas heat",
+      "observations_covered": ["sam_015", "sam_009", "sam_001", "jenny_018", "sam_017"],
+      "turns": [
+        {"speaker": "Jenny Liu", "text": "Sam! You're here early. It's not even seven."},
+        {"speaker": "Sam Delgado", "text": "July in Austin — if I don't water before eight, the sun will cook everything. My peppers are already struggling."},
+        {"speaker": "Jenny Liu", "text": "Smart. I did my Lady Bird Lake run at six fifteen, then came straight here. My herbs need morning water in this heat. How's school? Wait, school's out, right?"},
+        {"speaker": "Sam Delgado", "text": "Summer break, thank God. AP Calc and Algebra II all year long takes it out of you. But I've still got summer soccer camp for the girls' team."},
+        {"speaker": "Jenny Liu", "text": "You never stop. David's the same way — his mom always says he needs to rest. Speaking of family, how's your mom doing?"},
+        {"speaker": "Sam Delgado", "text": "She's good. Working hard as always at CommUnityCare on East Cesar Chavez. Being a medical assistant during summer means flu's down but heat exhaustion cases are up."},
+        {"speaker": "Jenny Liu", "text": "Oh, I know that clinic! Some of my patients go there. Tell Elena I said hi."},
+        {"speaker": "Sam Delgado", "text": "Will do. ¿Le digo en español o inglés? Mom prefers Spanish, but she switches back and forth."},
+        {"speaker": "Jenny Liu", "text": "I wish I spoke Spanish! I've got Mandarin, Cantonese, and English, but my Spanish is limited to ordering at taco trucks."},
+        {"speaker": "Sam Delgado", "text": "Ha! Well, growing up bilingual in East Austin was just how it was. Hey, have you met my sister Rosa? She's a nurse at Seton Medical Center. I keep trying to get her to come to the garden."},
+        {"speaker": "Jenny Liu", "text": "A nurse! My mother would approve. She always wanted me to go into traditional medicine. Well, I guess acupuncture counts."},
+        {"speaker": "Sam Delgado", "text": "Counts double, I'd say. Oh, the drip timer just clicked on — let me check the emitters on Ruth's side of the bed."},
+        {"speaker": "Jenny Liu", "text": "I'll finish up here and head out. My nine o'clock patient is coming to the clinic. See you at the garden meeting tomorrow?"},
+        {"speaker": "Sam Delgado", "text": "I'll be there. Stay cool out there, Jenny."}
+      ]
+    },
+    {
+      "session_id": "session_16",
+      "date": "2024-07-20",
+      "participants": ["Hana Petrov", "Sam Delgado"],
+      "setting": "Walking through the community garden after their Sunday coffee meeting",
+      "observations_covered": ["hana_013", "hana_017", "sam_014", "hana_007", "hana_016"],
+      "turns": [
+        {"speaker": "Hana Petrov", "text": "Hey, is that your car? The red Civic?"},
+        {"speaker": "Sam Delgado", "text": "Yep, my trusty 2016 Honda Civic. Got ninety-seven thousand miles on it. She's hanging in there, but I might need to take her to your dad's shop soon. Something's rattling under the hood."},
+        {"speaker": "Hana Petrov", "text": "Bring it to Petrov's Garage on East Riverside! Dad will take care of you. He gives all the garden people a discount."},
+        {"speaker": "Sam Delgado", "text": "For real? I'll swing by this week then. Oh, how was your Habitat for Humanity build yesterday?"},
+        {"speaker": "Hana Petrov", "text": "Exhausting but awesome. Second Saturday of the month, every month. We're framing a house over in Del Valle right now. I love it."},
+        {"speaker": "Sam Delgado", "text": "You do so much community stuff on top of grad school. How do you manage it all?"},
+        {"speaker": "Hana Petrov", "text": "Honestly, I don't know. My Spanish helps sometimes — a lot of the Habitat volunteers are Spanish-speaking, and my intermediate Spanish is enough to get by on a construction site."},
+        {"speaker": "Sam Delgado", "text": "Wait, you speak Spanish? Since when?"},
+        {"speaker": "Hana Petrov", "text": "I'm not fluent like you. It's intermediate — I took it all through high school and college. Plus Bulgarian and English, obviously. Growing up in East Austin, you pick up a lot of Spanish just from the neighborhood."},
+        {"speaker": "Sam Delgado", "text": "Trilingual! Impressive. My sunflowers look great today, by the way. Your plot is really coming together."},
+        {"speaker": "Hana Petrov", "text": "Thanks! I sold ten bouquets at the farmers market yesterday. Oh, I was at Veracruz All Natural for my Saturday migas taco and someone asked if I do wedding flowers. Can you imagine?"},
+        {"speaker": "Sam Delgado", "text": "Hana Petrov: urban planner, flower vendor, wedding florist. The side hustles are multiplying."},
+        {"speaker": "Hana Petrov", "text": "One thing at a time! Let me finish this thesis first."}
+      ]
+    },
+    {
+      "session_id": "session_17",
+      "date": "2024-08-10",
+      "participants": ["Hana Petrov", "Ruth Okonkwo", "Sam Delgado", "Jenny Liu"],
+      "setting": "Community garden mural-painting day organized by Hana",
+      "observations_covered": ["hana_020", "ruth_014", "sam_010", "jenny_006"],
+      "turns": [
+        {"speaker": "Hana Petrov", "text": "Everybody, the artist is here! Maria Torres just pulled up with all her paint supplies. The mural wall is prepped and ready."},
+        {"speaker": "Ruth Okonkwo", "text": "Hana, you really pulled this together beautifully. How big is the mural going to be?"},
+        {"speaker": "Hana Petrov", "text": "Twelve by eight feet. Maria's designing it around the theme of community growth — flowers, vegetables, hands working together. She's a local artist from the Eastside."},
+        {"speaker": "Sam Delgado", "text": "This is awesome. I asked my Los Relámpagos bandmates if they wanted to come help paint, and three of them said yes."},
+        {"speaker": "Jenny Liu", "text": "The more hands the better! I brought some lemon balm lemonade from my garden herbs. And lavender shortbread cookies."},
+        {"speaker": "Ruth Okonkwo", "text": "And I've got my Saturday pepper soup warming on the camp stove over there. We'll need it once people get hungry."},
+        {"speaker": "Sam Delgado", "text": "Ruth's pepper soup and Jenny's herb lemonade — this is the best-catered painting event in Austin history."},
+        {"speaker": "Hana Petrov", "text": "Maria wants volunteers to help with the background colors first. She'll do the detailed work herself. Who's grabbing a brush?"},
+        {"speaker": "Ruth Okonkwo", "text": "I'll take a brush! I might be sixty-three, but I can still paint a wall."},
+        {"speaker": "Jenny Liu", "text": "Count me in too. Let me set down this tray of chamomile and echinacea seedlings I brought for people to take home."},
+        {"speaker": "Hana Petrov", "text": "Perfect. Okay everyone, let's make some art! This mural is going to be the first thing people see when they walk into the garden."}
+      ]
+    },
+    {
+      "session_id": "session_18",
+      "date": "2024-09-14",
+      "participants": ["Ruth Okonkwo", "Sam Delgado"],
+      "setting": "At the community garden, harvesting tomatoes from their shared bed",
+      "observations_covered": ["ruth_006", "sam_004", "ruth_010", "sam_018", "ruth_015"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Look at these Brandywines, Sam. They're perfect. And the Cherokee Purples are even bigger than last year's fair winners."},
+        {"speaker": "Sam Delgado", "text": "You're going to sweep the Travis County Fair again. Last September's first place was just the beginning."},
+        {"speaker": "Ruth Okonkwo", "text": "I've been growing fourteen varieties in our shared bed now, and every single one produced this year. The drip system you built really helped."},
+        {"speaker": "Sam Delgado", "text": "That's the magic of this twenty-by-forty raised bed — plenty of room for your tomatoes and enough sun exposure on the south side."},
+        {"speaker": "Ruth Okonkwo", "text": "The bees helped too. Both my hives have been incredibly active this summer. The pollination has been fantastic across the whole garden."},
+        {"speaker": "Sam Delgado", "text": "Tell me about it — my Carolina Reapers are the biggest they've ever been. Same with the habaneros. I've got more peppers than I know what to do with."},
+        {"speaker": "Ruth Okonkwo", "text": "Make hot sauce! You could sell it at the farmers market alongside Hana's flower bouquets."},
+        {"speaker": "Sam Delgado", "text": "Don't tempt me. Actually, that's not a bad idea. 'Delgado's Death Sauce.' Has a ring to it."},
+        {"speaker": "Ruth Okonkwo", "text": "Ha! Just don't put it in my pepper soup. I like it hot, but Carolina Reaper hot might send me to the hospital."},
+        {"speaker": "Sam Delgado", "text": "Deal. Let me fill up another basket — we should have enough to donate a big batch to the food bank this year."}
+      ]
+    },
+    {
+      "session_id": "session_19",
+      "date": "2024-09-28",
+      "participants": ["Jenny Liu", "Hana Petrov", "Ruth Okonkwo"],
+      "setting": "At Ruth's house during book club, discussing Hana's upcoming conference presentation",
+      "observations_covered": ["hana_019", "hana_001", "hana_003", "jenny_011", "ruth_011"],
+      "turns": [
+        {"speaker": "Ruth Okonkwo", "text": "Before we start tonight's book discussion, can we all congratulate Hana? Tell them your news, sweetheart."},
+        {"speaker": "Hana Petrov", "text": "I got accepted to present at the American Planning Association's Texas Chapter conference in October!"},
+        {"speaker": "Jenny Liu", "text": "Hana! That's incredible! What are you presenting?"},
+        {"speaker": "Hana Petrov", "text": "My green space research — basically a preview of my thesis findings. I'm a second-year master's student presenting alongside practicing planners with decades of experience. I'm terrified."},
+        {"speaker": "Ruth Okonkwo", "text": "Don't you dare be terrified. Your thesis on community-led green spaces as catalysts for neighborhood resilience is important work. Those planners need to hear from someone who actually lives in the community they're studying."},
+        {"speaker": "Jenny Liu", "text": "Ruth's right. I've been coming to this book club on the first Thursday of every month for two years, and in that time I've watched you grow from a nervous grad student into a real researcher."},
+        {"speaker": "Hana Petrov", "text": "You both are going to make me cry. The book club has honestly been one of the best parts of my week. Ruth hosting us here every month — it's exactly the kind of community connection my thesis is about."},
+        {"speaker": "Ruth Okonkwo", "text": "This Eastside Book Club started as just me and two neighbors in 2019. Now we have twelve regulars. Community grows when you give it space."},
+        {"speaker": "Jenny Liu", "text": "That should be a quote in your presentation, Hana. Straight from the co-founder of the garden herself."},
+        {"speaker": "Hana Petrov", "text": "I'm actually going to use our garden as a case study. The survey data, Ruth's interview, the mural day — it all ties together."},
+        {"speaker": "Ruth Okonkwo", "text": "We're proud of you. Now, let's get to the book. Jenny, did you finish this month's selection?"},
+        {"speaker": "Jenny Liu", "text": "Read it twice! Let's discuss."}
+      ]
+    },
+    {
+      "session_id": "session_20",
+      "date": "2024-10-19",
+      "participants": ["Sam Delgado", "Jenny Liu", "Hana Petrov"],
+      "setting": "At Bennu Coffee celebrating Hana's conference presentation, after her return",
+      "observations_covered": ["hana_019", "sam_005", "hana_004", "jenny_019", "hana_011"],
+      "turns": [
+        {"speaker": "Sam Delgado", "text": "To Hana — our very own conference presenter! Bennu Coffee has never seen this much celebration on a Sunday morning."},
+        {"speaker": "Hana Petrov", "text": "You guys didn't have to do this. It's supposed to be our regular planning session, Sam!"},
+        {"speaker": "Sam Delgado", "text": "Our Sunday morning coffee meetings can handle one week of celebration. Tell us everything about the APA Texas conference."},
+        {"speaker": "Hana Petrov", "text": "It was amazing. My session had about sixty people. I presented all the findings from my East Austin green space research, and three different city planners came up afterward asking for my contact info."},
+        {"speaker": "Jenny Liu", "text": "That's networking gold. I'm so proud of you. I biked over here to celebrate — well, I drove actually, but normally I would have run. I'm trying to save my legs for marathon training."},
+        {"speaker": "Hana Petrov", "text": "How's the Austin Marathon training going?"},
+        {"speaker": "Jenny Liu", "text": "I'm up to sixteen miles on my long runs. February is going to come fast, but I think I'll be ready for my first full marathon."},
+        {"speaker": "Sam Delgado", "text": "Jenny running a marathon, Hana presenting at conferences — I need to step up my game. Maybe I'll enter a hot pepper eating contest."},
+        {"speaker": "Hana Petrov", "text": "With those Carolina Reapers you grow, you'd win for sure. Oh, and I biked to the conference center on my yellow Cannondale, by the way. The valet parking guys had no idea what to do with a bicycle."},
+        {"speaker": "Jenny Liu", "text": "Classic Hana. Riding your hybrid bike in professional attire. I love it."},
+        {"speaker": "Sam Delgado", "text": "Okay, let's do some actual garden planning too. We need to talk about fall planting and the end-of-season harvest festival."},
+        {"speaker": "Hana Petrov", "text": "Right, business as usual. I'll pull up the scheduling app. But first — another round of lattes. My treat."},
+        {"speaker": "Jenny Liu", "text": "I'll take an oat milk cortado. Cheers to Hana!"},
+        {"speaker": "Sam Delgado", "text": "Cheers!"}
+      ]
+    }
+  ]
+}

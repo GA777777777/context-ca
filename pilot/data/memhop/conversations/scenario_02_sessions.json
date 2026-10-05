@@ -1,0 +1,407 @@
+{
+  "scenario_id": "tech_startup",
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "date": "2024-03-04 09:15",
+      "participants": ["nadia", "leo"],
+      "setting": "Hallway of their apartment building on Valencia Street, running into each other on the way out",
+      "observations_covered": ["nadia_004", "leo_004", "nadia_006", "leo_010", "nadia_009"],
+      "turns": [
+        {"speaker": "nadia", "text": "Morning, Leo! I just got back from my run along the Embarcadero. Eight K, same as always. Churro was waiting at the door when I came back, howling like I'd abandoned him."},
+        {"speaker": "leo", "text": "Ha, sounds about right. Churro's got separation anxiety down to an art. When did you adopt him again, last October?"},
+        {"speaker": "nadia", "text": "Yeah, from that rescue shelter in Daly City. Best decision ever, even if he does chew my running shoes. Are you heading out with Pixel?"},
+        {"speaker": "leo", "text": "Yep, evening walk at Dolores Park got pushed to morning today. Pixel's been restless since I got home late from the office last night."},
+        {"speaker": "nadia", "text": "I love that we ended up in the same building. Makes it easy to coordinate when there's a late-night production issue."},
+        {"speaker": "leo", "text": "Honestly, being neighbors on Valencia Street is one of the best perks of this whole startup thing. I can just knock on your door instead of Slacking you."},
+        {"speaker": "nadia", "text": "True. Although last time you knocked at 11 PM about a deployment bug, I was already in my pajamas."},
+        {"speaker": "leo", "text": "And you still helped me debug it in fifteen minutes. That's why we make a good team."},
+        {"speaker": "nadia", "text": "Alright, I need to shower and get to the office. See you there?"},
+        {"speaker": "leo", "text": "Yeah, right after Pixel gets his park time. See you in an hour."}
+      ]
+    },
+    {
+      "session_id": "session_02",
+      "date": "2024-03-08 07:05",
+      "participants": ["leo", "marcus"],
+      "setting": "Equinox gym on Market Street, during their morning workout",
+      "observations_covered": ["leo_005", "marcus_004", "marcus_007", "leo_008", "marcus_009"],
+      "turns": [
+        {"speaker": "marcus", "text": "You're three minutes late. I already started warming up on the rowing machine."},
+        {"speaker": "leo", "text": "Sorry, I was dialing in my latest coffee roast before heading out. The Behmor 2000AB Plus is temperamental with Ethiopian beans — you have to watch the first crack like a hawk."},
+        {"speaker": "marcus", "text": "You and your home roasting. I swear you spend more time on coffee than some people spend cooking dinner."},
+        {"speaker": "leo", "text": "Says the guy who spent six hours smoking a brisket last weekend. How's the beer coming, by the way?"},
+        {"speaker": "marcus", "text": "The Grainfather's been running nonstop in my garage. I'm doing a new West Coast IPA batch this weekend. Tweaking the hop schedule from my last brew."},
+        {"speaker": "leo", "text": "Your garage in Temescal is basically a brewery at this point. Let me spot you on bench?"},
+        {"speaker": "marcus", "text": "Yeah, let's do it. I need to be out by 8:15 — I'm picking up Maya for our carpool. Did you drive here?"},
+        {"speaker": "leo", "text": "No, I Ubered. My Subaru's in the shop. Something with the brakes."},
+        {"speaker": "marcus", "text": "My Rivian's out front if you need a ride after. That truck's been rock solid since I got it."},
+        {"speaker": "leo", "text": "The green R1T? I'll take you up on that. Alright, load up the bar, let's go."}
+      ]
+    },
+    {
+      "session_id": "session_03",
+      "date": "2024-03-12 12:30",
+      "participants": ["maya", "priya"],
+      "setting": "Yoga Tree on Hayes Street, chatting after their weekend class",
+      "observations_covered": ["maya_018", "priya_006", "priya_008", "maya_006", "priya_012"],
+      "turns": [
+        {"speaker": "maya", "text": "That pigeon pose at the end almost killed me today. I think my hips are tighter than usual from all the cycling."},
+        {"speaker": "priya", "text": "You're telling me — I walked here from my place in the Inner Sunset through Golden Gate Park, and my calves were already sore before class started."},
+        {"speaker": "maya", "text": "Wait, you walk through the park to get to work too, right? That's such a nice commute."},
+        {"speaker": "priya", "text": "Yeah, it's my favorite part of living in the Inner Sunset. Twenty-five minutes of trees and quiet before the chaos of the office. Hey, are you doing anything after this?"},
+        {"speaker": "maya", "text": "I've got ceramics tonight at the Clayroom on Valencia. It's my Wednesday ritual — I'm working on a new set of ramen bowls."},
+        {"speaker": "priya", "text": "That's so cool. I have my own Wednesday ritual — well, more like a weekend one. I bake sourdough every weekend. My starter is three years old now. I named her Naan."},
+        {"speaker": "maya", "text": "You named your sourdough starter Naan? That's adorable."},
+        {"speaker": "priya", "text": "She's like a pet at this point. I feed her more reliably than some people feed their cats."},
+        {"speaker": "maya", "text": "Don't let my cat Fika hear that — she'd be deeply offended. Should we grab a smoothie before we head out?"},
+        {"speaker": "priya", "text": "Definitely. There's a good place two blocks from here."}
+      ]
+    },
+    {
+      "session_id": "session_04",
+      "date": "2024-03-18 14:00",
+      "participants": ["nadia", "priya"],
+      "setting": "Nadia's office at Caspian Labs in SoMa, one-on-one meeting",
+      "observations_covered": ["nadia_016", "priya_004", "priya_002", "nadia_007", "priya_007"],
+      "turns": [
+        {"speaker": "nadia", "text": "Priya, hard to believe it's been almost four months since you started. I still remember meeting you at that Women in AI conference in Seattle last November."},
+        {"speaker": "priya", "text": "That feels like yesterday. You came up to me after my panel and basically pitched me on Caspian Labs on the spot."},
+        {"speaker": "nadia", "text": "Well, you'd just published that few-shot learning paper at ACL, and your talk about dialogue systems was exactly what we needed. I wasn't going to let MIT's finest slip away."},
+        {"speaker": "priya", "text": "I'm glad you didn't. Finishing my master's at MIT last year and then jumping straight into a startup — it was a leap, but it's been worth it."},
+        {"speaker": "nadia", "text": "You've been crushing it on the recommendation engine. Honestly, the quality of your work reminds me of why I left McKinsey to do this in the first place."},
+        {"speaker": "priya", "text": "The NLP specialization really prepared me for this kind of problem. How did you get the confidence to start Caspian Labs? Going from consulting to founding a company is a big jump."},
+        {"speaker": "nadia", "text": "Honestly? The Y Combinator Demo Day in March 2022 was the point of no return. We pitched, Sequoia gave us the Series A, and suddenly it was real. No going back after that."},
+        {"speaker": "priya", "text": "Sequoia. That's incredible. I want to make sure I'm contributing at that level — what do you want me focused on this quarter?"},
+        {"speaker": "nadia", "text": "The citation extraction model. If we nail that, it becomes the cornerstone of the next product release."},
+        {"speaker": "priya", "text": "I'm on it. I've already got some ideas on the architecture."}
+      ]
+    },
+    {
+      "session_id": "session_05",
+      "date": "2024-03-22 17:45",
+      "participants": ["nadia", "marcus"],
+      "setting": "Caspian Labs office kitchen, end-of-day chat",
+      "observations_covered": ["nadia_001", "marcus_001", "nadia_010", "marcus_002", "nadia_019"],
+      "turns": [
+        {"speaker": "marcus", "text": "Nadia, I just finished the content calendar for Q2. We've come a long way since I joined a year ago in March."},
+        {"speaker": "nadia", "text": "You really have. When I think back to co-founding Caspian Labs in January 2022 with that initial $2.1 million in seed funding, I never imagined we'd have a marketing operation this good."},
+        {"speaker": "marcus", "text": "Well, four years at Wired taught me how to tell a story. Tech journalism is basically marketing with more fact-checking."},
+        {"speaker": "nadia", "text": "That's exactly why I wanted someone with your background. Speaking of stories — I need your help framing something. The Salesforce partnership talks are heating up."},
+        {"speaker": "marcus", "text": "The AI assistant integration? How far along are the negotiations?"},
+        {"speaker": "nadia", "text": "We're in active negotiation. Their VP of product is pushing for an exclusive window, which I'm pushing back on. But if this goes through, it changes everything for us."},
+        {"speaker": "marcus", "text": "I'll start drafting the press materials now so we're ready to move fast. Anything else on your plate?"},
+        {"speaker": "nadia", "text": "I've got my Techstars mentoring session tomorrow. I mentor two women founders every quarter, and one of them just hit a rough fundraising patch. Reminds me of our early days."},
+        {"speaker": "marcus", "text": "You stretch yourself thin sometimes. CEO, mentor, marathon runner..."},
+        {"speaker": "nadia", "text": "It keeps me sane, honestly. Alright, go home. Tell Walter I said hi."},
+        {"speaker": "marcus", "text": "Will do. He's probably chewed through another tennis ball by now."}
+      ]
+    },
+    {
+      "session_id": "session_06",
+      "date": "2024-03-28 10:00",
+      "participants": ["leo", "priya"],
+      "setting": "Caspian Labs engineering area, their Tuesday pair-programming session",
+      "observations_covered": ["leo_020", "priya_005", "leo_009", "leo_011", "priya_009"],
+      "turns": [
+        {"speaker": "leo", "text": "Alright, Tuesday afternoon pair-programming time. Pull up the recommendation engine repo — I want to look at the embedding layer."},
+        {"speaker": "priya", "text": "Already open. I've been thinking about how we can apply a similar approach to the citation extraction model I'm building. I just hit 91% F1 on our internal benchmarks, by the way."},
+        {"speaker": "leo", "text": "Ninety-one percent? That's phenomenal. How does it handle edge cases with ambiguous references?"},
+        {"speaker": "priya", "text": "Still some room to improve there. But the base architecture is solid. What language is the backend service running again?"},
+        {"speaker": "leo", "text": "Go. I use Go for all of Caspian's backend services. It's been my favorite language since I fell in love with goroutines at Berkeley."},
+        {"speaker": "priya", "text": "Right, everything's in Go. That inference pipeline optimization you did in February was impressive — going from 340 milliseconds down to 87. How did you pull that off?"},
+        {"speaker": "leo", "text": "Mostly connection pooling and batching on the AWS side. The old pipeline was making individual inference calls. I just grouped them intelligently."},
+        {"speaker": "priya", "text": "Smart. For the recommendation engine, I think we should try a similar batching approach for the vector lookups."},
+        {"speaker": "leo", "text": "Agreed. Let's prototype it today. You handle the Python model layer, I'll write the Go service wrapper."},
+        {"speaker": "priya", "text": "Perfect division of labor. Let's do it."}
+      ]
+    },
+    {
+      "session_id": "session_07",
+      "date": "2024-04-05 08:30",
+      "participants": ["marcus", "maya"],
+      "setting": "Marcus's Rivian truck during their morning carpool to the SoMa office",
+      "observations_covered": ["maya_004", "marcus_005", "maya_013", "marcus_010", "maya_005"],
+      "turns": [
+        {"speaker": "marcus", "text": "Morning! Walter, get in the back seat. Sorry, Maya, he's extra excited today."},
+        {"speaker": "maya", "text": "I don't mind at all. Walter's the best part of our carpool. Does he really go to the office with you every single day?"},
+        {"speaker": "marcus", "text": "Every day. The golden retriever is basically our unofficial mascot at this point. Nadia says he improves team morale by 200%."},
+        {"speaker": "maya", "text": "He does. I almost got a dog, but my studio on Folsom Street is too small. Fika takes up enough space as it is."},
+        {"speaker": "marcus", "text": "Your cat's a pretty good roommate though, from what you tell me. Did you go to the farmers market this morning?"},
+        {"speaker": "maya", "text": "Of course. Every Saturday on my Bianchi — Ferry Building Farmers Market is my ritual. I picked up some amazing persimmons. But today's Friday, so that was last week's haul I'm still working through."},
+        {"speaker": "marcus", "text": "We should get some of those for the office kitchen. Traffic's looking light today — we'll be in SoMa in twenty minutes."},
+        {"speaker": "maya", "text": "Good. I've got a packed morning. The new onboarding flow mockups are due to Nadia by noon."},
+        {"speaker": "marcus", "text": "She'll love them. Your design work is always on point."},
+        {"speaker": "maya", "text": "Thanks, Marcus. Now tell Walter to stop licking my hand — I need it for Figma."}
+      ]
+    },
+    {
+      "session_id": "session_08",
+      "date": "2024-04-12 19:00",
+      "participants": ["nadia", "leo", "marcus"],
+      "setting": "Pandora Karaoke on Post Street, biweekly team karaoke night",
+      "observations_covered": ["nadia_014", "nadia_012", "leo_015", "marcus_011", "nadia_018"],
+      "turns": [
+        {"speaker": "nadia", "text": "Finally, karaoke Friday! I've been looking forward to this all week. Who's picking the first song?"},
+        {"speaker": "marcus", "text": "I'll go. But first — Nadia, how was the Napa Valley Marathon last weekend?"},
+        {"speaker": "nadia", "text": "Three hours forty-two minutes! A personal best. My legs are still recovering but I'm riding the high."},
+        {"speaker": "marcus", "text": "Nice! I did the Big Sur Marathon the same weekend. Four hours eleven minutes. Not as fast as you, but the views made up for it."},
+        {"speaker": "leo", "text": "You two are insane. I'll stick to volleyball, thanks. Hey Nadia, did you drive here?"},
+        {"speaker": "nadia", "text": "Yeah, the Tesla's parked around the corner. The Model Y barely fits in these downtown spots."},
+        {"speaker": "leo", "text": "Tell me about it. My Outback is wider than it looks. I had to park three blocks away."},
+        {"speaker": "nadia", "text": "We do this every other Friday and you'd think we'd learn to take one car by now. Anyway, I'm singing 'Livin' on a Prayer' first and nobody can stop me."},
+        {"speaker": "marcus", "text": "Classic Nadia. I'm queuing up Stevie Wonder right after you."},
+        {"speaker": "leo", "text": "I'll do my usual — 'Don't Stop Believin'.' It's Pandora Karaoke tradition at this point."},
+        {"speaker": "nadia", "text": "Alright, let's go. The room's booked for two hours. Marcus, order some edamame."}
+      ]
+    },
+    {
+      "session_id": "session_09",
+      "date": "2024-04-19 11:00",
+      "participants": ["maya", "priya"],
+      "setting": "Sightglass Coffee on 7th Street, working remotely together",
+      "observations_covered": ["maya_015", "priya_010", "priya_011", "maya_008", "maya_020"],
+      "turns": [
+        {"speaker": "maya", "text": "I love working from Sightglass. This is my favorite coffee shop for remote work — the light in here is perfect for design."},
+        {"speaker": "priya", "text": "The vibes are great. I'm trying to squeeze in some reading between pull requests. I'm almost at 250 entries in my book tracking database on Notion."},
+        {"speaker": "maya", "text": "Two hundred and fifty books? That's incredible. What are you reading right now?"},
+        {"speaker": "priya", "text": "Re-reading 'Godel, Escher, Bach' by Hofstadter. It's my all-time favorite. Every time I read it I find something new."},
+        {"speaker": "maya", "text": "I've heard of it but never picked it up. I'm more of a visual person — I go through Moleskine sketchbooks instead of novels. I fill one every two months."},
+        {"speaker": "priya", "text": "Physical sketchbooks! That's so analog for a digital designer."},
+        {"speaker": "maya", "text": "I know, but there's something about pen on paper. It's like ceramics for me — the physical medium matters. Actually, a lot of my Figma templates started as sketches."},
+        {"speaker": "priya", "text": "Wait, you publish Figma templates? I didn't know that."},
+        {"speaker": "maya", "text": "Yeah, I've got twelve community templates up. Some of them get thousands of downloads. It's a nice creative outlet outside of work."},
+        {"speaker": "priya", "text": "That's two books a week for me, two sketchbooks a month for you. We're both compulsive documenters."},
+        {"speaker": "maya", "text": "Kindred spirits. Want another oat latte? I'm going up."},
+        {"speaker": "priya", "text": "Yes please. Extra shot."}
+      ]
+    },
+    {
+      "session_id": "session_10",
+      "date": "2024-04-25 14:30",
+      "participants": ["nadia", "maya"],
+      "setting": "Caspian Labs conference room, design review meeting",
+      "observations_covered": ["maya_007", "maya_016", "nadia_005", "maya_002", "nadia_002"],
+      "turns": [
+        {"speaker": "nadia", "text": "Maya, the design sprint workshop you ran last week was phenomenal. Fourteen new feature concepts — that's a record for us."},
+        {"speaker": "maya", "text": "Thanks, Nadia. I adapted the format from a workshop method I learned during my industrial design program at Konstfack in Stockholm."},
+        {"speaker": "nadia", "text": "It shows. Your background in industrial design brings such a different perspective to software UX. It's not something I learned in my MBA at Stanford, that's for sure."},
+        {"speaker": "maya", "text": "And your business sense is something I definitely didn't get at Konstfack. Were you always interested in startups?"},
+        {"speaker": "nadia", "text": "Not initially. I spent three years at McKinsey as a management consultant before I caught the bug. It was Leo who convinced me we should build something instead of advising others."},
+        {"speaker": "maya", "text": "Well, I'm glad you did. Speaking of building — remember when I redesigned the dashboard back in January?"},
+        {"speaker": "nadia", "text": "How could I forget? User engagement jumped 35%. That was the inflection point for our retention metrics."},
+        {"speaker": "maya", "text": "I want to apply the same principles to the new onboarding flow. The design sprint gave us three strong concepts for it."},
+        {"speaker": "nadia", "text": "Walk me through your top pick. I've got thirty minutes before my next call."},
+        {"speaker": "maya", "text": "Sure. Let me pull up the wireframes."}
+      ]
+    },
+    {
+      "session_id": "session_11",
+      "date": "2024-05-03 12:00",
+      "participants": ["leo", "marcus"],
+      "setting": "Mensho Tokyo ramen on Geary Boulevard, lunch break",
+      "observations_covered": ["leo_016", "leo_006", "marcus_016", "leo_002", "marcus_003"],
+      "turns": [
+        {"speaker": "leo", "text": "Man, Mensho Tokyo never disappoints. This is my favorite ramen spot in the city — the tori paitan is unreal."},
+        {"speaker": "marcus", "text": "You dragged me all the way to Geary for ramen, but I'll admit, this is worth it. How did you find this place?"},
+        {"speaker": "leo", "text": "A friend from my Berkeley CS days told me about it right after I graduated in 2017. Been coming ever since."},
+        {"speaker": "marcus", "text": "Berkeley to Caspian Labs — not a bad pipeline. I went to Howard for journalism. Different coasts, different worlds."},
+        {"speaker": "leo", "text": "Where was Howard again?"},
+        {"speaker": "marcus", "text": "D.C. I grew up in Oakland though, so coming back to the Bay was always the plan. What'd you do this weekend?"},
+        {"speaker": "leo", "text": "I finished my custom mechanical keyboard build. Cherry MX Brown switches in a walnut case. The sound profile is chef's kiss."},
+        {"speaker": "marcus", "text": "You built a keyboard from scratch. Of course you did. Meanwhile, I've been trying to write. I'm working on a nonfiction book about the Oakland tech scene."},
+        {"speaker": "leo", "text": "Really? How far along are you?"},
+        {"speaker": "marcus", "text": "About 40,000 words. It's slow going when you're also running marketing for a startup, but I chip away at it on weekends."},
+        {"speaker": "leo", "text": "That's impressive. Let me know if you need any engineer perspectives for the book."},
+        {"speaker": "marcus", "text": "I might take you up on that. You ready to head back? We've got the product sync at 2."}
+      ]
+    },
+    {
+      "session_id": "session_12",
+      "date": "2024-05-10 16:00",
+      "participants": ["priya", "nadia"],
+      "setting": "Walking through SoMa after leaving the office early on a Friday",
+      "observations_covered": ["priya_014", "nadia_013", "priya_003", "nadia_003", "priya_015"],
+      "turns": [
+        {"speaker": "priya", "text": "I keep meaning to tell you — I won the Kaggle Days championship back in February. I finally got the trophy in the mail."},
+        {"speaker": "nadia", "text": "Priya! That's amazing. You should have told me sooner. Competitions like that are huge. I made the Forbes 30 Under 30 list back in 2020 for enterprise tech, and that kind of recognition opens so many doors."},
+        {"speaker": "priya", "text": "Forbes 30 Under 30, wow. You must have been, what, 28?"},
+        {"speaker": "nadia", "text": "Yeah, I was still finding my footing in SF back then. I'd only moved here from Mexico City in August 2018. Everything felt new."},
+        {"speaker": "priya", "text": "I can relate. Moving from Boston to San Francisco last year was a big adjustment for me. I grew up there — my parents still run their Indian grocery store in Cambridge. Sharma's Spice Market."},
+        {"speaker": "nadia", "text": "I love that. Family businesses have such character. Do you miss the East Coast?"},
+        {"speaker": "priya", "text": "Sometimes. I miss my family, but I don't miss the winters. Plus, here I can speak to my parents in Hindi or Tamil whenever I need a taste of home."},
+        {"speaker": "nadia", "text": "That's beautiful. I call my mom in Mexico City at least twice a week. Speaking three languages — English, Spanish, and some Portuguese — helps me stay connected too."},
+        {"speaker": "priya", "text": "You speak Portuguese too?"},
+        {"speaker": "nadia", "text": "Conversational. Picked it up from Brazilian friends at Stanford. Want to grab dinner somewhere?"},
+        {"speaker": "priya", "text": "Sure, lead the way."}
+      ]
+    },
+    {
+      "session_id": "session_13",
+      "date": "2024-05-22 18:30",
+      "participants": ["leo", "maya"],
+      "setting": "Dolores Park, Leo walking Pixel while Maya is cycling past",
+      "observations_covered": ["maya_001", "leo_017", "maya_014", "leo_012", "maya_003"],
+      "turns": [
+        {"speaker": "maya", "text": "Leo! Hey! I was just finishing a training ride and spotted you from across the park."},
+        {"speaker": "leo", "text": "Maya! Small world. I'm out here with Pixel — our evening walk. What are you training for?"},
+        {"speaker": "maya", "text": "The San Francisco Century Ride in September. A hundred miles. I've been building up endurance since I moved here from Stockholm in 2021, but this is the biggest challenge yet."},
+        {"speaker": "leo", "text": "A hundred miles on a bike? That's hardcore. I can barely handle volleyball on Thursdays at Mission Playground."},
+        {"speaker": "maya", "text": "Oh right, you play recreational volleyball! How's the team doing?"},
+        {"speaker": "leo", "text": "We're decent. Lost last week but it was close. Can you believe it's almost been a year since you joined Caspian? You started in June 2023, right?"},
+        {"speaker": "maya", "text": "Almost a year exactly, yeah. Joining as UX designer was the best decision I made after moving to the States. Hey, speaking of time — what are you up to on weekends these days?"},
+        {"speaker": "leo", "text": "I've been spending them on this open-source project — MilvusLite, a vector database. It's eating all my free time. I contribute every weekend."},
+        {"speaker": "maya", "text": "A vector database? That sounds very you. Is it related to work?"},
+        {"speaker": "leo", "text": "Tangentially. It could improve our search infrastructure down the line. But for now it's just a passion project."},
+        {"speaker": "maya", "text": "I get it. My ceramics are my version of that. Alright, I need to cool down before my legs cramp. See you at the office!"},
+        {"speaker": "leo", "text": "See you tomorrow!"}
+      ]
+    },
+    {
+      "session_id": "session_14",
+      "date": "2024-06-07 09:00",
+      "participants": ["marcus", "priya"],
+      "setting": "Caspian Labs office kitchen, morning coffee",
+      "observations_covered": ["marcus_014", "priya_013", "marcus_006", "priya_017", "marcus_015"],
+      "turns": [
+        {"speaker": "marcus", "text": "Morning, Priya. You're in early for a Friday."},
+        {"speaker": "priya", "text": "I've got my Python teaching session at the SF Public Library tomorrow morning, and I want to prep some new exercises tonight. I volunteer as a TA there every Saturday."},
+        {"speaker": "marcus", "text": "That's awesome. I do something similar — I mentor two high school students through Year Up in Oakland. It's the most rewarding thing I do outside of work."},
+        {"speaker": "priya", "text": "It really is. Teaching forces you to understand things at a deeper level. What are your students working on?"},
+        {"speaker": "marcus", "text": "One's interested in marketing, the other wants to do data science. I told the data science kid about you, actually. She was impressed."},
+        {"speaker": "priya", "text": "Send her my way if she wants to chat. Hey, have you seen the blog numbers lately?"},
+        {"speaker": "marcus", "text": "We're on track. I launched the blog last year and we've been growing steadily. If the trend holds, we'll hit 50,000 monthly readers by August."},
+        {"speaker": "priya", "text": "That's incredible growth. I've been doing a side project too — training a personal GPT model on my own journal entries. It's fascinating how it captures writing patterns."},
+        {"speaker": "marcus", "text": "A GPT on your journals? That's either brilliant or terrifying. Probably both. What gave you the idea?"},
+        {"speaker": "priya", "text": "Honestly? A podcast episode. Not your favorite one — what is it, 'How I Built This'?"},
+        {"speaker": "marcus", "text": "Ha, you know me too well. Guy Raz is the best interviewer in the game."},
+        {"speaker": "priya", "text": "I'll give it a listen sometime. Alright, back to the grind."}
+      ]
+    },
+    {
+      "session_id": "session_15",
+      "date": "2024-06-21 13:00",
+      "participants": ["nadia", "leo"],
+      "setting": "Caspian Labs co-founders' weekly sync in Nadia's office",
+      "observations_covered": ["leo_001", "nadia_001", "leo_007", "nadia_015", "leo_013"],
+      "turns": [
+        {"speaker": "nadia", "text": "Okay, co-founder sync. Where are we on the Q3 engineering roadmap?"},
+        {"speaker": "leo", "text": "Ahead of schedule, actually. The team's been firing on all cylinders. Hard to believe we've been at this since we founded Caspian Labs in 2022."},
+        {"speaker": "nadia", "text": "Two and a half years. Sometimes I look at you and still see the guy who pitched me on leaving consulting to build an AI company."},
+        {"speaker": "leo", "text": "And sometimes I still see the McKinsey consultant with the color-coded spreadsheets. We've come a long way. Speaking of the team — I think we need another senior engineer. Someone with production ML experience."},
+        {"speaker": "nadia", "text": "Your TensorFlow experience at Google was rare to find. Two years on that team gave you something you can't teach. We need someone similar."},
+        {"speaker": "leo", "text": "I've been putting out feelers. Actually, remember the PennApps hackathon back in 2016? I got second place with that real-time speech translation app. My partner on that project just left Meta — she might be interested."},
+        {"speaker": "nadia", "text": "Reach out to her. We need people who can build under pressure. I was reading 'The Hard Thing About Hard Things' again last night — Horowitz talks about exactly this kind of hiring moment."},
+        {"speaker": "leo", "text": "Still your favorite book?"},
+        {"speaker": "nadia", "text": "Always. Every chapter feels more relevant as we grow. Okay, what about the infrastructure costs?"},
+        {"speaker": "leo", "text": "Down 30% since the AWS optimization. I'll have the full numbers by Monday."},
+        {"speaker": "nadia", "text": "Good. Send them over. I'll fold them into the board deck."}
+      ]
+    },
+    {
+      "session_id": "session_16",
+      "date": "2024-07-04 14:00",
+      "participants": ["nadia", "marcus", "maya"],
+      "setting": "Golden Gate Park, Caspian Labs July 4th barbecue",
+      "observations_covered": ["marcus_019", "nadia_020", "maya_010", "marcus_012", "nadia_017"],
+      "turns": [
+        {"speaker": "marcus", "text": "Alright, the brisket's been smoking since 5 AM. My signature smoked brisket — twelve hours, low and slow. Who's ready?"},
+        {"speaker": "nadia", "text": "It smells incredible, Marcus. I brought my mole poblano — cooked it last night. It's my grandmother's recipe. I make it every Sunday, but I figured today deserved a special batch."},
+        {"speaker": "maya", "text": "Nadia, you cook mole every Sunday? That's dedication. I can barely manage pasta on weeknights."},
+        {"speaker": "nadia", "text": "It's my way of staying connected to Mexico City. My brother Marco thinks mine is better than abuela's, but don't tell her that."},
+        {"speaker": "marcus", "text": "You have a brother? I don't think you've mentioned him."},
+        {"speaker": "nadia", "text": "Yeah, Marco. He's younger than me — works as an architect in Guadalajara. We talk every week."},
+        {"speaker": "maya", "text": "That's sweet. My brother Erik is in Sweden too — marine biologist at Uppsala. We FaceTime but it's hard with the time zones."},
+        {"speaker": "marcus", "text": "My mom would love this gathering. She's a retired principal from Oakland Unified — she always says the best community building happens around food."},
+        {"speaker": "maya", "text": "She sounds wonderful. Oh, speaking of family — it's Fika's first birthday this month! I adopted her from the SF SPCA last March and she's turned into the neediest cat alive."},
+        {"speaker": "nadia", "text": "We should get her a little party hat. Marcus, cut the brisket — I'm starving."},
+        {"speaker": "marcus", "text": "Coming right up. Plates are on the table."}
+      ]
+    },
+    {
+      "session_id": "session_17",
+      "date": "2024-07-18 16:30",
+      "participants": ["leo", "priya"],
+      "setting": "Caspian Labs break room, after their Tuesday pair-programming session",
+      "observations_covered": ["leo_018", "priya_019", "leo_014", "priya_016", "leo_019"],
+      "turns": [
+        {"speaker": "leo", "text": "Good session today. Hey, before you head out — did you read that new paper from DeepMind on context windows?"},
+        {"speaker": "priya", "text": "Not yet. Is it on your morning reading list?"},
+        {"speaker": "leo", "text": "Yeah, I read a research paper every morning before work and annotate it in Notion. It's the only way I keep up with the field."},
+        {"speaker": "priya", "text": "I should adopt that habit. Right now I just binge papers on weekends. How was your trip to Kyoto, by the way? You went in March, right?"},
+        {"speaker": "leo", "text": "It was wonderful. Two weeks with my grandparents. My obaachan made me promise to visit more often. She's 87 and still tends her garden every morning."},
+        {"speaker": "priya", "text": "That's beautiful. My brother Ravi keeps trying to get me to visit Boston more too. He's a cardiologist at Mass General — works crazy hours but always makes time when I'm there."},
+        {"speaker": "leo", "text": "A cardiologist! That's intense. My sister Yumi has a demanding job too — she's a product manager at Apple in Cupertino. We try to meet up once a month for dinner."},
+        {"speaker": "priya", "text": "Small world — Apple and a startup in the same family. Hey, is it still nice out? I rode my bike today."},
+        {"speaker": "leo", "text": "The red Specialized? Yeah, it's clear. Perfect riding weather."},
+        {"speaker": "priya", "text": "The Allez, yeah. It's my commute bike when the weather cooperates. Alright, I'm heading out. See you at standup tomorrow."},
+        {"speaker": "leo", "text": "See you. Tell Bayes I said... wait, you don't have Bayes yet. Never mind. See you tomorrow."}
+      ]
+    },
+    {
+      "session_id": "session_18",
+      "date": "2024-08-09 18:00",
+      "participants": ["maya", "marcus"],
+      "setting": "Renegade Craft Fair preview event at Fort Mason, Maya showing Marcus around",
+      "observations_covered": ["maya_017", "maya_012", "marcus_008", "maya_009", "marcus_020"],
+      "turns": [
+        {"speaker": "maya", "text": "Marcus, thanks for coming to the preview. The actual fair is next weekend, but I wanted to show you my booth setup."},
+        {"speaker": "marcus", "text": "Of course. I still can't believe you went from industrial design in Stockholm to selling ceramics at craft fairs. You graduated from Konstfack, right?"},
+        {"speaker": "maya", "text": "Yeah, 2019. My dad's a furniture maker in Gothenburg — he's the one who taught me to work with my hands. Ceramics was a natural extension of that."},
+        {"speaker": "marcus", "text": "Well, your bowls are beautiful. How much are you selling them for?"},
+        {"speaker": "maya", "text": "Eighty-five dollars each. I've got three that I think will sell at the fair. They're glazed with this ash technique I've been perfecting."},
+        {"speaker": "marcus", "text": "You should let me feature you on the Caspian blog. 'Startup designer moonlights as ceramic artist' — it's a great story. Speaking of awards, didn't you win something for design?"},
+        {"speaker": "maya", "text": "A Red Dot Design Award in 2020, for a modular standing desk concept. That feels like a lifetime ago."},
+        {"speaker": "marcus", "text": "See? I knew it. We creative types need our outlets. Mine's home brewing — my IPA 'Foghorn' won a silver medal at the Oakland Homebrew Festival last year."},
+        {"speaker": "maya", "text": "Foghorn! That's a perfect name. You should bring some to the fair."},
+        {"speaker": "marcus", "text": "I'll bring a growler. My sister Denise is visiting from D.C. that weekend too — she's a civil rights attorney there. She'd love this scene."},
+        {"speaker": "maya", "text": "Bring her along! The more the merrier. Okay, help me move this display table two inches to the left."},
+        {"speaker": "marcus", "text": "On it."}
+      ]
+    },
+    {
+      "session_id": "session_19",
+      "date": "2024-08-23 10:00",
+      "participants": ["nadia", "priya", "leo"],
+      "setting": "Caspian Labs main conference room, technical planning meeting",
+      "observations_covered": ["nadia_008", "priya_001", "nadia_011", "leo_003", "priya_018"],
+      "turns": [
+        {"speaker": "nadia", "text": "Okay, let's talk about the international expansion. We're starting to get inbound interest from Latin America, and I can handle the Spanish communications myself. I also speak conversational Portuguese, so Brazil is doable too."},
+        {"speaker": "leo", "text": "That's a huge advantage. My parents would love to hear about this — they run Tanaka Gardens, the bonsai nursery back in San Jose. They've always said the best businesses are the ones that can cross borders."},
+        {"speaker": "priya", "text": "I can help with Hindi and Tamil-speaking markets if we ever expand to India. I speak both fluently."},
+        {"speaker": "nadia", "text": "That's good to know, Priya. Since you joined in December, you've consistently surprised me with how much you bring beyond pure data science."},
+        {"speaker": "priya", "text": "Speaking of which — remember those chai masala cookies I brought to the holiday party? They sold out in fifteen minutes. I'm thinking we should do more team food events."},
+        {"speaker": "leo", "text": "Those cookies were incredible. I ate four of them."},
+        {"speaker": "nadia", "text": "My mom would approve. She's a pediatrician at Hospital Infantil de Mexico in Mexico City — she always says food is the best medicine for team bonding."},
+        {"speaker": "leo", "text": "Your mom's a doctor? I had no idea. My parents are just humble bonsai growers from San Jose."},
+        {"speaker": "nadia", "text": "Every family has its own kind of wisdom. Alright, back to the expansion plan. Leo, what's the engineering lift for multi-language support?"},
+        {"speaker": "leo", "text": "Moderate. Give me two sprints and I can have the localization framework ready."},
+        {"speaker": "priya", "text": "I'll start prepping the NLP models for multilingual input. We should prioritize Spanish and Portuguese first."},
+        {"speaker": "nadia", "text": "Agreed. Let's reconvene next week with a concrete timeline."}
+      ]
+    },
+    {
+      "session_id": "session_20",
+      "date": "2024-10-12 17:00",
+      "participants": ["marcus", "nadia", "priya", "maya", "leo"],
+      "setting": "Bespoke Events space in SoMa, after Caspian Labs' first user conference wraps up",
+      "observations_covered": ["marcus_013", "priya_020", "marcus_017", "maya_019", "maya_011", "marcus_018"],
+      "turns": [
+        {"speaker": "marcus", "text": "Three hundred attendees! I can't believe we actually pulled it off. Caspian Labs' first user conference is in the books."},
+        {"speaker": "nadia", "text": "Marcus, you organized this entire thing. Take a bow."},
+        {"speaker": "priya", "text": "The turnout was insane. Oh, and on a personal note — I adopted a rabbit last month! His name is Bayes. He's from the House Rabbit Society."},
+        {"speaker": "maya", "text": "You named your rabbit Bayes? Of course you did. My brother Erik — the marine biologist at Uppsala — would say that's peak scientist behavior."},
+        {"speaker": "priya", "text": "I'll take that as a compliment. Erik's at Uppsala University, right? Do you visit him much?"},
+        {"speaker": "maya", "text": "Once a year when I go back to Sweden. I miss it, but San Francisco's been good to me. I've even been learning Mandarin at a night school in the Richmond District — three languages now. Swedish, English, and basic Mandarin."},
+        {"speaker": "marcus", "text": "Impressive. I've got English and my intermediate French from a semester abroad in Lyon. But three languages is solid. Hey Leo, you're quiet — everything okay?"},
+        {"speaker": "leo", "text": "Just taking it all in. When I graduated from Berkeley CS in 2017, I never imagined I'd be co-running a company with 300 people at our conference."},
+        {"speaker": "marcus", "text": "It is surreal. I'm going to celebrate tomorrow with pickup basketball at Lake Merritt. Anyone want in?"},
+        {"speaker": "leo", "text": "I'll stick with my volleyball, thanks."},
+        {"speaker": "nadia", "text": "And I'll stick with my morning run. But tonight — tonight we celebrate. Drinks are on Caspian Labs."},
+        {"speaker": "priya", "text": "Best boss ever."},
+        {"speaker": "maya", "text": "Agreed. To Caspian Labs!"},
+        {"speaker": "marcus", "text": "To Caspian Labs!"}
+      ]
+    }
+  ]
+}

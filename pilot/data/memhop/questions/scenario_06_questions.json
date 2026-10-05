@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "hospital_staff",
+  "questions": [
+    {
+      "id": "memhop_s06_k1_001",
+      "question": "Where did Priya Chandrasekaran complete her surgical residency?",
+      "answer": "Johns Hopkins Hospital",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Priya Chandrasekaran complete her surgical residency?",
+          "sub_answer": "Johns Hopkins Hospital in Baltimore",
+          "evidence_id": "priya_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_005",
+          "text": "Priya Chandrasekaran completed her surgical residency at Johns Hopkins Hospital in Baltimore in 2018.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s06_k1_002",
+      "question": "What breed is Elaine Whitfield's dog?",
+      "answer": "Bernese Mountain Dog",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What breed is Elaine Whitfield's dog?",
+          "sub_answer": "Bernese Mountain Dog",
+          "evidence_id": "elaine_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_008",
+          "text": "Elaine Whitfield lives in a two-bedroom apartment in Jamaica Plain with Jess and their dog, Moose, a Bernese Mountain Dog.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s06_k1_003",
+      "question": "What is Marcus Chen's chess rating on chess.com?",
+      "answer": "1850",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Marcus Chen's chess rating on chess.com?",
+          "sub_answer": "1850",
+          "evidence_id": "marcus_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_007",
+          "text": "Marcus Chen plays competitive chess and is rated 1850 on chess.com.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s06_k1_004",
+      "question": "What position does Tomás Herrera play on the hospital soccer team?",
+      "answer": "midfielder",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What position does Tomás Herrera play on the hospital soccer team?",
+          "sub_answer": "midfielder",
+          "evidence_id": "tomas_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_008",
+          "text": "Tomás Herrera plays on the hospital's co-ed soccer team, the Mass General Strikers, as a midfielder.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k1_005",
+      "question": "How much grant funding did Nate Calloway secure from the Robert Wood Johnson Foundation?",
+      "answer": "$45,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much grant funding did Nate Calloway secure from the Robert Wood Johnson Foundation?",
+          "sub_answer": "$45,000",
+          "evidence_id": "nate_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_014",
+          "text": "Nate Calloway wrote a grant proposal that secured $45,000 from the Robert Wood Johnson Foundation for a patient navigation program in April 2024.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k1_006",
+      "question": "What languages does Priya Chandrasekaran speak?",
+      "answer": "English, Tamil, and Hindi",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What languages does Priya Chandrasekaran speak?",
+          "sub_answer": "English, Tamil, and Hindi",
+          "evidence_id": "priya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_007",
+          "text": "Priya Chandrasekaran speaks English, Tamil, and Hindi fluently.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s06_k1_007",
+      "question": "What beer style did Elaine Whitfield win a blue ribbon for?",
+      "answer": "oatmeal stout",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What beer style did Elaine Whitfield win a blue ribbon for?",
+          "sub_answer": "oatmeal stout",
+          "evidence_id": "elaine_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_011",
+          "text": "Elaine Whitfield brews her own craft beer and won a blue ribbon for her oatmeal stout at the Jamaica Plain homebrew competition in October 2023.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s06_k1_008",
+      "question": "What is the name of Marcus Chen's sourdough starter?",
+      "answer": "Dough Fieri",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Marcus Chen's sourdough starter?",
+          "sub_answer": "Dough Fieri",
+          "evidence_id": "marcus_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_013",
+          "text": "Marcus Chen bakes sourdough bread every weekend and maintains a 3-year-old starter he named 'Dough Fieri'.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k1_009",
+      "question": "What pet did Tomás Herrera adopt?",
+      "answer": "rescue greyhound named Bolt",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What pet did Tomás Herrera adopt?",
+          "sub_answer": "a rescue greyhound named Bolt",
+          "evidence_id": "tomas_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_015",
+          "text": "Tomás Herrera adopted a rescue greyhound named Bolt from the Greyhound Friends of New England shelter.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s06_k1_010",
+      "question": "What is the name of Nate Calloway's wife?",
+      "answer": "Rachel",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "hospital_staff",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Nate Calloway's wife?",
+          "sub_answer": "Rachel",
+          "evidence_id": "nate_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_007",
+          "text": "Nate Calloway's wife, Rachel, is a librarian at the Boston Public Library's Copley Square branch.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s06_k1_011",
+      "question": "How long has Priya Chandrasekaran been on staff at Massachusetts General Hospital?",
+      "answer": "since 2019",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "When did Priya join Mass General?",
+          "sub_answer": "has been on staff since 2019",
+          "evidence_id": "priya_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_001",
+          "text": "Priya Chandrasekaran is a trauma surgeon at Massachusetts General Hospital and has been on staff since 2019.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s06_k1_012",
+      "question": "What did Priya Chandrasekaran publish a paper on in March 2024?",
+      "answer": "minimally invasive trauma techniques",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What paper did Priya publish?",
+          "sub_answer": "a paper on minimally invasive trauma techniques in the Journal of Trauma and Acute Care Surgery",
+          "evidence_id": "priya_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_006",
+          "text": "Priya Chandrasekaran published a paper on minimally invasive trauma techniques in the Journal of Trauma and Acute Care Surgery in March 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k1_013",
+      "question": "Where does Priya Chandrasekaran's husband Arjun work?",
+      "answer": "Wayfair's Boston headquarters",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Arjun work?",
+          "sub_answer": "Wayfair's Boston headquarters",
+          "evidence_id": "priya_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_008",
+          "text": "Priya Chandrasekaran's husband, Arjun, is a software engineer at Wayfair's Boston headquarters.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k1_014",
+      "question": "What are the names of Priya Chandrasekaran's twin daughters?",
+      "answer": "Meera and Kavya",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What are Priya's daughters' names?",
+          "sub_answer": "Meera and Kavya",
+          "evidence_id": "priya_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_009",
+          "text": "Priya Chandrasekaran has twin daughters, Meera and Kavya, who are 6 years old and attend Brookline public schools.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k1_015",
+      "question": "What is Priya Chandrasekaran's favorite restaurant in Boston?",
+      "answer": "Tatte Bakery & Cafe",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Priya's favorite restaurant?",
+          "sub_answer": "Tatte Bakery & Cafe on Charles Street",
+          "evidence_id": "priya_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_016",
+          "text": "Priya Chandrasekaran's favorite restaurant in Boston is Tatte Bakery & Cafe on Charles Street for their shakshuka.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s06_k1_016",
+      "question": "Where did Elaine Whitfield grow up?",
+      "answer": "dairy farm in Stowe, Vermont",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Elaine grow up?",
+          "sub_answer": "on a dairy farm in Stowe, Vermont",
+          "evidence_id": "elaine_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_002",
+          "text": "Elaine Whitfield grew up on a dairy farm in Stowe, Vermont.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k1_017",
+      "question": "What nursing degree and certification does Elaine Whitfield hold?",
+      "answer": "BSN from University of Vermont and TCRN certification",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What are Elaine's nursing credentials?",
+          "sub_answer": "BSN from University of Vermont in 2014 and TCRN in 2017",
+          "evidence_id": "elaine_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_005",
+          "text": "Elaine Whitfield earned her BSN from the University of Vermont in 2014 and her trauma nursing certification (TCRN) in 2017.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s06_k1_018",
+      "question": "What is the occupation of Elaine Whitfield's partner Jess?",
+      "answer": "high school biology teacher at Boston Latin School",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Jess do?",
+          "sub_answer": "high school biology teacher at Boston Latin School",
+          "evidence_id": "elaine_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_007",
+          "text": "Elaine Whitfield's partner, Jess, is a high school biology teacher at Boston Latin School.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s06_k1_019",
+      "question": "Where did Marcus Chen grow up?",
+      "answer": "San Francisco's Sunset District",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Marcus grow up?",
+          "sub_answer": "San Francisco's Sunset District",
+          "evidence_id": "marcus_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_002",
+          "text": "Marcus Chen grew up in San Francisco's Sunset District and attended Lowell High School.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s06_k1_020",
+      "question": "What restaurant do Marcus Chen's parents own?",
+      "answer": "Jade Garden",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What restaurant do Marcus's parents own?",
+          "sub_answer": "Jade Garden in San Francisco's Richmond District",
+          "evidence_id": "marcus_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_009",
+          "text": "Marcus Chen's parents, Wei and Linda Chen, own a dim sum restaurant called Jade Garden in San Francisco's Richmond District.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k1_021",
+      "question": "Where did Tomás Herrera earn his Doctor of Physical Therapy degree?",
+      "answer": "University of Miami",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Tomás get his DPT?",
+          "sub_answer": "University of Miami in 2021",
+          "evidence_id": "tomas_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_005",
+          "text": "Tomás Herrera earned his Doctor of Physical Therapy degree from the University of Miami in 2021.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s06_k1_022",
+      "question": "Where is Tomás Herrera's family originally from?",
+      "answer": "Bogotá, Colombia",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where is Tomás's family from?",
+          "sub_answer": "Bogotá, Colombia",
+          "evidence_id": "tomas_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_002",
+          "text": "Tomás Herrera grew up in Miami, Florida, and his family is originally from Bogotá, Colombia.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s06_k1_023",
+      "question": "Where did Nate Calloway grow up?",
+      "answer": "Baltimore, Maryland, Hampden neighborhood",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Nate grow up?",
+          "sub_answer": "Baltimore, Maryland, in the Hampden neighborhood",
+          "evidence_id": "nate_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_002",
+          "text": "Nate Calloway grew up in Baltimore, Maryland, in the Hampden neighborhood.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s06_k1_024",
+      "question": "How many guest speakers were featured at the mental health awareness week Nate Calloway organized?",
+      "answer": "8",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many speakers at Nate's event?",
+          "sub_answer": "8 guest speakers in May 2024",
+          "evidence_id": "nate_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_013",
+          "text": "Nate Calloway organized a hospital-wide mental health awareness week in May 2024 featuring 8 guest speakers.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k1_025",
+      "question": "What are the names and ages of Nate Calloway's children?",
+      "answer": "Owen (3 years old) and Lily (5 years",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What are Nate's children's names and ages?",
+          "sub_answer": "3-year-old Owen and 5-year-old Lily",
+          "evidence_id": "nate_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_008",
+          "text": "Nate Calloway has a 3-year-old son named Owen and a 5-year-old daughter named Lily.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s06_k2_001",
+      "question": "What mountain did the nurse who works with Priya Chandrasekaran in the trauma OR summit in January 2024?",
+      "answer": "Mount Washington",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works with Priya Chandrasekaran in the trauma OR?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What mountain did Elaine Whitfield summit in January 2024?",
+          "sub_answer": "Mount Washington via Huntington Ravine",
+          "evidence_id": "elaine_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_014",
+          "text": "Elaine Whitfield ice-climbs every winter and summited Mount Washington via Huntington Ravine in January 2024.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s06_k2_002",
+      "question": "What is the chess rating of the person who eats lunch daily with Elaine Whitfield?",
+      "answer": "1850",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who eats lunch daily with Elaine Whitfield?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Marcus Chen's chess rating?",
+          "sub_answer": "1850",
+          "evidence_id": "marcus_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_007",
+          "text": "Marcus Chen plays competitive chess and is rated 1850 on chess.com.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s06_k2_003",
+      "question": "What certification exam is the person who carpools with Priya Chandrasekaran studying for?",
+      "answer": "Orthopedic Clinical Specialist",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Priya Chandrasekaran?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What certification exam is Tomás Herrera studying for?",
+          "sub_answer": "Orthopedic Clinical Specialist certification",
+          "evidence_id": "tomas_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_016",
+          "text": "Tomás Herrera is studying for the Orthopedic Clinical Specialist certification exam scheduled for February 2025.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s06_k2_004",
+      "question": "What is the occupation of the father of the person who co-leads a support group with Tomás Herrera?",
+      "answer": "retired firefighter",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the occupation of Nate Calloway's father?",
+          "sub_answer": "retired Baltimore City firefighter",
+          "evidence_id": "nate_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_015",
+          "text": "Nate Calloway's father, Earl Calloway, is a retired Baltimore City firefighter.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s06_k2_005",
+      "question": "Where does the pharmacist who trains Nate Calloway's interns on medication literacy practice tai chi?",
+      "answer": "Harvard Yard",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who trains Nate Calloway's interns on medication literacy?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "nate_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Marcus Chen practice tai chi?",
+          "sub_answer": "Harvard Yard every morning at 6 AM",
+          "evidence_id": "marcus_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_011",
+          "text": "Nate Calloway is training social work interns on medication literacy with Marcus Chen as part of a new hospital initiative.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_011",
+          "text": "Marcus Chen practices tai chi in Harvard Yard every morning at 6 AM.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k2_006",
+      "question": "How many units were collected at the blood drive organized by the nurse who works in the trauma OR with Priya Chandrasekaran?",
+      "answer": "145 units",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who works in the trauma OR with Priya Chandrasekaran?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many units were collected at Elaine Whitfield's blood drive?",
+          "sub_answer": "145 units",
+          "evidence_id": "elaine_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_018",
+          "text": "Elaine Whitfield organized a hospital staff blood drive in March 2024 that collected 145 units.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s06_k2_007",
+      "question": "What restaurant is the favorite of the person who carpools with Marcus Chen on Wednesdays and Fridays?",
+      "answer": "Taqueria El Barrio",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus Chen on Wednesdays and Fridays?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Tomás Herrera's favorite restaurant?",
+          "sub_answer": "Taqueria El Barrio in East Boston",
+          "evidence_id": "tomas_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Chen and Tomás Herrera carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "tomas_017",
+          "text": "Tomás Herrera's favorite restaurant in Boston is Taqueria El Barrio in East Boston.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k2_008",
+      "question": "What Boston Marathon time did the social worker who volunteers with Priya Chandrasekaran achieve?",
+      "answer": "3 hours 58 minutes",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which social worker volunteers with Priya Chandrasekaran?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What was Nate Calloway's Boston Marathon time?",
+          "sub_answer": "3 hours 58 minutes",
+          "evidence_id": "nate_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_018",
+          "text": "Nate Calloway ran the Boston Marathon in April 2024 with a time of 3 hours 58 minutes.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k2_009",
+      "question": "What obstacle course race did the person who eats lunch with Marcus Chen complete?",
+      "answer": "Tough Mudder",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who eats lunch with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What obstacle course race did Elaine Whitfield complete?",
+          "sub_answer": "Tough Mudder in Western Massachusetts",
+          "evidence_id": "elaine_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_010",
+          "text": "Elaine Whitfield completed the Tough Mudder obstacle course in Western Massachusetts in September 2023.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s06_k2_010",
+      "question": "What youth team does Priya Chandrasekaran's carpool buddy coach on Saturday mornings?",
+      "answer": "Brookline Bobcats",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Priya Chandrasekaran's carpool buddy?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What youth team does Tomás Herrera coach?",
+          "sub_answer": "Brookline Bobcats",
+          "evidence_id": "tomas_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_020",
+          "text": "Tomás Herrera coaches a youth soccer team called the Brookline Bobcats on Saturday mornings.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k2_011",
+      "question": "What emergency surgery did the surgeon who carpools with Tomás Herrera perform on New Year's Day 2024?",
+      "answer": "9-hour surgery to save a car accident victim",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon carpools with Tomás Herrera?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What emergency surgery did Priya perform on New Year's Day?",
+          "sub_answer": "a 9-hour emergency surgery to save a car accident victim",
+          "evidence_id": "priya_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_010",
+          "text": "Priya Chandrasekaran performed a 9-hour emergency surgery to save a car accident victim on New Year's Day 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s06_k2_012",
+      "question": "Where does the person who co-leads a support group with Tomás Herrera lead mindfulness meditation sessions?",
+      "answer": "hospital chapel",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Nate Calloway lead mindfulness sessions?",
+          "sub_answer": "the chapel, every Friday at noon",
+          "evidence_id": "nate_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_017",
+          "text": "Nate Calloway leads a mindfulness meditation session for hospital staff every Friday at noon in the chapel.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s06_k2_013",
+      "question": "What CPR course does the nurse who works in the trauma OR with Priya Chandrasekaran teach?",
+      "answer": "CPR certification course on the first Monday of",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which nurse works in the trauma OR with Priya?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What CPR course does Elaine teach?",
+          "sub_answer": "CPR certification course on the first Monday of every month",
+          "evidence_id": "elaine_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_009",
+          "text": "Elaine Whitfield teaches a CPR certification course at the hospital on the first Monday of every month.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k2_014",
+      "question": "What is the 10K time of the pharmacist who eats lunch daily with Elaine Whitfield?",
+      "answer": "48 minutes and 12 seconds",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who eats lunch daily with Elaine?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What was Marcus's Boston 10K time?",
+          "sub_answer": "48 minutes and 12 seconds",
+          "evidence_id": "marcus_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_015",
+          "text": "Marcus Chen ran the Boston 10K in June 2024 with a time of 48 minutes and 12 seconds.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k2_015",
+      "question": "What award did the pharmacist who carpools with Tomás Herrera on Wednesdays win in Q2 2024?",
+      "answer": "Employee of the Quarter",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Tomás on Wednesdays?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did Marcus win in Q2 2024?",
+          "sub_answer": "Employee of the Quarter for antibiotic stewardship work",
+          "evidence_id": "marcus_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_020",
+          "text": "Marcus Chen won the hospital's Employee of the Quarter award in Q2 2024 for his antibiotic stewardship work.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k2_016",
+      "question": "Where does the person who volunteers with Priya Chandrasekaran at the homeless program live?",
+      "answer": "three-bedroom house in Somerville",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers with Priya at the homeless program?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Nate live?",
+          "sub_answer": "a three-bedroom house in Somerville",
+          "evidence_id": "nate_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_009",
+          "text": "Nate Calloway lives in a three-bedroom house in Somerville, a 15-minute bike ride from the hospital.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k2_017",
+      "question": "What emergency roadside first aid did the nurse who eats lunch with Marcus Chen deliver on Commonwealth Avenue?",
+      "answer": "first aid to a cyclist hit by a",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which nurse eats lunch with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What roadside first aid did Elaine deliver?",
+          "sub_answer": "emergency first aid to a cyclist hit by a car on Commonwealth Avenue",
+          "evidence_id": "elaine_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_006",
+          "text": "Elaine Whitfield delivered emergency roadside first aid to a cyclist hit by a car on Commonwealth Avenue in April 2024.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k2_018",
+      "question": "What homeless veteran did the social worker who co-leads a support group with Tomás Herrera help with permanent housing?",
+      "answer": "James",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which veteran did Nate help?",
+          "sub_answer": "a homeless veteran named James",
+          "evidence_id": "nate_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_006",
+          "text": "Nate Calloway successfully connected a homeless veteran named James with permanent housing and VA benefits in February 2024 after 6 months of case work.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s06_k2_019",
+      "question": "What car does the nurse who works with the surgeon who won the Physician Excellence Award drive?",
+      "answer": "red 2020 Jeep Wrangler",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Physician Excellence Award?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "priya_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Elaine Whitfield (Priya's OR nurse) drive?",
+          "sub_answer": "a red 2020 Jeep Wrangler",
+          "evidence_id": "elaine_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_015",
+          "text": "Priya Chandrasekaran won the Mass General Physician Excellence Award in June 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_012",
+          "text": "Elaine Whitfield drives a red 2020 Jeep Wrangler.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k2_020",
+      "question": "What conference did the pharmacist who trains interns with Nate Calloway present an antibiotic stewardship study at?",
+      "answer": "ASHP Midyear Conference",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who trains interns with Nate Calloway?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "nate_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What conference did Marcus present at?",
+          "sub_answer": "ASHP Midyear Conference in December 2023",
+          "evidence_id": "marcus_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_011",
+          "text": "Nate Calloway is training social work interns on medication literacy with Marcus Chen as part of a new hospital initiative.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_010",
+          "text": "Marcus Chen completed a research study on antibiotic stewardship that was presented at the ASHP Midyear Conference in December 2023.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k2_021",
+      "question": "What is the occupation of the mother of the physical therapist who carpools with Priya Chandrasekaran?",
+      "answer": "nurse at Jackson Memorial Hospital",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Tomás's mother's occupation?",
+          "sub_answer": "nurse at Jackson Memorial Hospital in Miami",
+          "evidence_id": "tomas_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Herrera's mother, Carmen Herrera, is a nurse at Jackson Memorial Hospital in Miami.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s06_k2_022",
+      "question": "What is the favorite restaurant of the social worker who volunteers with Elaine Whitfield?",
+      "answer": "Oleana in Cambridge",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which social worker volunteers with Elaine Whitfield?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Nate's favorite restaurant?",
+          "sub_answer": "Oleana in Cambridge for their meze platter",
+          "evidence_id": "nate_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "nate_019",
+          "text": "Nate Calloway's favorite restaurant in Boston is Oleana in Cambridge for their meze platter.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k2_023",
+      "question": "What community yoga class did the person who carpools from Brookline with Priya Chandrasekaran teach in summer 2024?",
+      "answer": "free yoga class at Boston Common Frog Pond",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools from Brookline with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What community yoga class did Tomás teach?",
+          "sub_answer": "free yoga class at Boston Common Frog Pond every Sunday May-September 2024",
+          "evidence_id": "tomas_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Herrera taught a free community yoga class at the Boston Common Frog Pond every Sunday morning from May through September 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k2_024",
+      "question": "What certification is the person who volunteers at the homeless program with Priya Chandrasekaran studying for?",
+      "answer": "nurse practitioner certification",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the homeless program with Priya? (nurse)",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What certification is Elaine studying for?",
+          "sub_answer": "nurse practitioner certification, exams December 2024",
+          "evidence_id": "elaine_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_015",
+          "text": "Elaine Whitfield is studying for her nurse practitioner certification, with exams scheduled for December 2024.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k2_025",
+      "question": "What poster did the person who carpools with Marcus Chen on Wednesdays present at the APTA conference?",
+      "answer": "poster on aquatic therapy outcomes",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Marcus on Wednesdays?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What poster did Tomás present at APTA?",
+          "sub_answer": "a poster on aquatic therapy outcomes in San Antonio",
+          "evidence_id": "tomas_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Chen and Tomás Herrera carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "tomas_019",
+          "text": "Tomás Herrera presented a poster on aquatic therapy outcomes at the American Physical Therapy Association conference in San Antonio in June 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s06_k3_001",
+      "question": "What instrument does the person who co-leads a support group with the physical therapist who carpools with Priya Chandrasekaran play?",
+      "answer": "acoustic guitar",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which physical therapist carpools with Priya Chandrasekaran?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What instrument does Nate Calloway play?",
+          "sub_answer": "acoustic guitar",
+          "evidence_id": "nate_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_010",
+          "text": "Nate Calloway plays acoustic guitar and performs at the hospital's annual talent show every December.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s06_k3_002",
+      "question": "Where did the person who eats lunch daily with the nurse who works in the trauma OR with Priya Chandrasekaran earn their pharmacy degree?",
+      "answer": "UCSF School of Pharmacy",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which nurse works in the trauma OR with Priya Chandrasekaran?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who eats lunch daily with Elaine Whitfield?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Marcus Chen earn his pharmacy degree?",
+          "sub_answer": "UCSF School of Pharmacy in 2019",
+          "evidence_id": "marcus_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_005",
+          "text": "Marcus Chen earned his Doctor of Pharmacy degree from UCSF School of Pharmacy in 2019.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k3_003",
+      "question": "What half-Ironman time was achieved by the person who carpools on Wednesdays with the lunch buddy of Elaine Whitfield?",
+      "answer": "5 hours 42 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Elaine Whitfield's lunch buddy?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools on Wednesdays with Marcus Chen?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What was Tomás Herrera's half-Ironman time?",
+          "sub_answer": "5 hours 42 minutes",
+          "evidence_id": "tomas_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Chen and Tomás Herrera carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "tomas_011",
+          "text": "Tomás Herrera completed a half-Ironman triathlon in Providence, Rhode Island in August 2023 with a time of 5 hours 42 minutes.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k3_004",
+      "question": "Where does the person who volunteers with the surgeon who carpools from Brookline with Tomás Herrera live?",
+      "answer": "Somerville",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon carpools from Brookline with Tomás Herrera?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who volunteers with Priya Chandrasekaran?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Nate Calloway live?",
+          "sub_answer": "a three-bedroom house in Somerville",
+          "evidence_id": "nate_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_009",
+          "text": "Nate Calloway lives in a three-bedroom house in Somerville, a 15-minute bike ride from the hospital.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k3_005",
+      "question": "What did the person who trains social work interns with the support group co-leader of Tomás Herrera study in Tokyo?",
+      "answer": "sushi-making",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who trains social work interns with Nate Calloway?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "nate_011"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Marcus Chen study in Tokyo?",
+          "sub_answer": "a sushi-making course at the Tsukiji Cooking School",
+          "evidence_id": "marcus_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_011",
+          "text": "Nate Calloway is training social work interns on medication literacy with Marcus Chen as part of a new hospital initiative.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_018",
+          "text": "Marcus Chen visited Tokyo for two weeks in August 2023 and took a sushi-making course at the Tsukiji Cooking School.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s06_k3_006",
+      "question": "What is the favorite restaurant of the nurse who volunteers at the homeless program with the person who co-leads a support group with Tomás Herrera?",
+      "answer": "El Pelon Taqueria",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse volunteers at the homeless program with Nate Calloway?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Elaine Whitfield's favorite restaurant?",
+          "sub_answer": "El Pelon Taqueria on Peterborough Street",
+          "evidence_id": "elaine_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "elaine_017",
+          "text": "Elaine Whitfield's favorite restaurant in Boston is El Pelon Taqueria on Peterborough Street.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s06_k3_007",
+      "question": "What award did the surgeon who works with the lunch buddy of the pharmacist who carpools with Tomás Herrera win in June 2024?",
+      "answer": "Mass General Physician Excellence Award",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which pharmacist carpools with Tomás Herrera?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Marcus Chen's lunch buddy?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon works with Elaine Whitfield, and what award did they win?",
+          "sub_answer": "Priya Chandrasekaran won the Mass General Physician Excellence Award",
+          "evidence_id": "priya_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "priya_015",
+          "text": "Priya Chandrasekaran won the Mass General Physician Excellence Award in June 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k3_008",
+      "question": "What meditation training did the person who leads a support group with Priya Chandrasekaran's carpool buddy complete?",
+      "answer": "200-hour meditation teacher training",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Priya Chandrasekaran's carpool buddy?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What meditation training did Nate Calloway complete?",
+          "sub_answer": "200-hour meditation teacher training at the Insight Meditation Society in Barre",
+          "evidence_id": "nate_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_012",
+          "text": "Nate Calloway completed a 200-hour meditation teacher training at the Insight Meditation Society in Barre, Massachusetts in 2022.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k3_009",
+      "question": "What emergency surgery did the surgeon who works in the OR with the lunch buddy of the pharmacist who carpools with Tomás Herrera perform on New Year's Day?",
+      "answer": "9-hour surgery to save a car accident victim",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who carpools with Tomás Herrera (Wed/Fri)?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Marcus's lunch buddy?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What surgery did Elaine's OR partner (Priya) do on New Year's Day?",
+          "sub_answer": "9-hour emergency surgery to save a car accident victim",
+          "evidence_id": "priya_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "priya_010",
+          "text": "Priya Chandrasekaran performed a 9-hour emergency surgery to save a car accident victim on New Year's Day 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s06_k3_010",
+      "question": "What languages does the surgeon who carpools with the person who co-leads a support group with the social worker who trains interns with Marcus Chen speak?",
+      "answer": "English, Tamil, and Hindi",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who trains interns with Marcus Chen?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "marcus_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon carpools with Tomás, and what languages?",
+          "sub_answer": "Priya Chandrasekaran speaks English, Tamil, and Hindi",
+          "evidence_id": "priya_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Chen is training Nate Calloway's social work interns on medication literacy as part of a new hospital initiative.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_007",
+          "text": "Priya Chandrasekaran speaks English, Tamil, and Hindi fluently.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k3_011",
+      "question": "What 10K race time did the person who eats lunch with the nurse who volunteers with the social worker who co-leads a support group with Tomás Herrera achieve?",
+      "answer": "48 minutes and 12 seconds",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse volunteers with Nate?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch with Elaine, and what was their 10K time?",
+          "sub_answer": "Marcus Chen, 48 minutes and 12 seconds",
+          "evidence_id": "marcus_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_015",
+          "text": "Marcus Chen ran the Boston 10K in June 2024 with a time of 48 minutes and 12 seconds.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k3_012",
+      "question": "What car does the nurse who works in the trauma OR with the surgeon who carpools with the person who teaches community yoga at Boston Common drive?",
+      "answer": "red 2020 Jeep Wrangler",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who teaches community yoga at Boston Common?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "tomas_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Priya's OR nurse (Elaine) drive?",
+          "sub_answer": "a red 2020 Jeep Wrangler",
+          "evidence_id": "elaine_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Herrera taught a free community yoga class at the Boston Common Frog Pond every Sunday morning from May through September 2024.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "elaine_012",
+          "text": "Elaine Whitfield drives a red 2020 Jeep Wrangler.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k3_013",
+      "question": "What is the favorite restaurant of the social worker who volunteers with the surgeon whose OR colleague organizes a monthly CPR course?",
+      "answer": "Oleana in Cambridge",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organizes a monthly CPR course?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "elaine_009"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Elaine's OR colleague (surgeon)?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which social worker volunteers with Priya, and their restaurant?",
+          "sub_answer": "Nate Calloway, Oleana in Cambridge",
+          "evidence_id": "nate_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_009",
+          "text": "Elaine Whitfield teaches a CPR certification course at the hospital on the first Monday of every month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "nate_019",
+          "text": "Nate Calloway's favorite restaurant in Boston is Oleana in Cambridge for their meze platter.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k3_014",
+      "question": "What research study did the pharmacist who eats lunch with the nurse who was promoted to charge nurse in July 2024 present at the ASHP conference?",
+      "answer": "antibiotic stewardship study",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who was promoted to charge nurse in July 2024?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "elaine_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who eats lunch with Elaine?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Marcus present at ASHP?",
+          "sub_answer": "antibiotic stewardship study at ASHP Midyear Conference",
+          "evidence_id": "marcus_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_020",
+          "text": "Elaine Whitfield was promoted to charge nurse of the trauma unit in July 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_010",
+          "text": "Marcus Chen completed a research study on antibiotic stewardship that was presented at the ASHP Midyear Conference in December 2023.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s06_k3_015",
+      "question": "What is the occupation of the mother of the person who carpools with the surgeon who mentors two surgical residents on Wednesday afternoons?",
+      "answer": "nurse at Jackson Memorial Hospital in Miami",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who mentors two surgical residents on Wednesday afternoons?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "priya_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Tomás's mother's occupation?",
+          "sub_answer": "nurse at Jackson Memorial Hospital in Miami",
+          "evidence_id": "tomas_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_017",
+          "text": "Priya Chandrasekaran mentors two surgical residents and holds office hours on Wednesday afternoons.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_010",
+          "text": "Tomás Herrera's mother, Carmen Herrera, is a nurse at Jackson Memorial Hospital in Miami.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k3_016",
+      "question": "What did the person who jogs along the Charles River and works in the OR with the nurse who eats lunch with Marcus Chen organize for medical students in February 2024?",
+      "answer": "trauma surgery simulation workshop for 30 students",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which nurse eats lunch with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who works in the OR with Elaine?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Priya organize in February 2024?",
+          "sub_answer": "a trauma surgery simulation workshop for 30 medical students",
+          "evidence_id": "priya_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_019",
+          "text": "Priya Chandrasekaran organized a trauma surgery simulation workshop for 30 medical students in February 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s06_k3_017",
+      "question": "What conference in San Antonio did the physical therapist who carpools with the surgeon who volunteers with Nate Calloway present at?",
+      "answer": "American Physical Therapy Association conference",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon volunteers with Nate Calloway?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What conference did Tomás present at in San Antonio?",
+          "sub_answer": "APTA conference in June 2024",
+          "evidence_id": "tomas_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_019",
+          "text": "Tomás Herrera presented a poster on aquatic therapy outcomes at the American Physical Therapy Association conference in San Antonio in June 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s06_k3_018",
+      "question": "What languages does the pharmacist who eats lunch with the nurse who volunteers with the person who earned their MSW from Boston University speak?",
+      "answer": "English and Cantonese fluently, learning Mandarin",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who earned their MSW from Boston University?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse volunteers with Nate?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch with Elaine, and what languages?",
+          "sub_answer": "Marcus Chen speaks English, Cantonese, and is learning Mandarin",
+          "evidence_id": "marcus_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_005",
+          "text": "Nate Calloway earned his MSW from Boston University in 2015.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_014",
+          "text": "Marcus Chen speaks English and Cantonese fluently and is learning Mandarin.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k3_019",
+      "question": "Where did the person who trains for the Boston Marathon and carpools with the person who co-leads a support group with the social worker who wrote a grant proposal travel for Diwali?",
+      "answer": "Chennai",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who wrote a grant proposal?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Tomás and traveled for Diwali?",
+          "sub_answer": "Priya Chandrasekaran traveled to Chennai",
+          "evidence_id": "priya_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_014",
+          "text": "Nate Calloway wrote a grant proposal that secured $45,000 from the Robert Wood Johnson Foundation for a patient navigation program in April 2024.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_018",
+          "text": "Priya Chandrasekaran traveled to Chennai with her family for Diwali in November 2023.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k3_020",
+      "question": "How many cows does the father of the nurse who eats lunch daily with the pharmacist who carpools with the Brookline Bobcats coach operate?",
+      "answer": "85 Holstein cows",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches the Brookline Bobcats?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "tomas_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which pharmacist carpools with Tomás?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch with Marcus, and how many cows does their father have?",
+          "sub_answer": "Elaine Whitfield; father has 85 Holstein cows",
+          "evidence_id": "elaine_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_020",
+          "text": "Tomás Herrera coaches a youth soccer team called the Brookline Bobcats on Saturday mornings.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "elaine_013",
+          "text": "Elaine Whitfield's father, Wayne Whitfield, still operates the family dairy farm in Stowe with 85 Holstein cows.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k4_001",
+      "question": "What bike does the person who co-leads a support group with the physical therapist who carpools on Wednesdays with the lunch buddy of Elaine Whitfield ride to work?",
+      "answer": "black Cannondale Quick 3",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Elaine Whitfield's lunch buddy?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist carpools on Wednesdays with Marcus Chen?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What bike does Nate Calloway ride to work?",
+          "sub_answer": "a black Cannondale Quick 3 hybrid bike",
+          "evidence_id": "nate_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Chen and Tomás Herrera carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_016",
+          "text": "Nate Calloway bikes to work on a black Cannondale Quick 3 hybrid bike.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s06_k4_002",
+      "question": "What award did the surgeon who carpools with the person who co-leads a support group with the social worker who trains interns with Marcus Chen win?",
+      "answer": "Mass General Physician Excellence Award",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which social worker trains interns with Marcus Chen?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "marcus_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate Calloway?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon carpools with Tomás Herrera?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What award did Priya Chandrasekaran win?",
+          "sub_answer": "Mass General Physician Excellence Award in June 2024",
+          "evidence_id": "priya_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Chen is training Nate Calloway's social work interns on medication literacy as part of a new hospital initiative.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_015",
+          "text": "Priya Chandrasekaran won the Mass General Physician Excellence Award in June 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k4_003",
+      "question": "Where did the person who volunteers with the nurse who eats lunch with the pharmacist who carpools with Tomás Herrera on Wednesdays grow up?",
+      "answer": "Chennai, India",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which pharmacist carpools with Tomás Herrera on Wednesdays?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse eats lunch with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who volunteers with Elaine Whitfield?",
+          "sub_answer": "Priya Chandrasekaran (and Nate Calloway)",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Priya Chandrasekaran grow up?",
+          "sub_answer": "Chennai, India",
+          "evidence_id": "priya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_002",
+          "text": "Priya Chandrasekaran grew up in Chennai, India, and moved to the US at age 18 to attend the University of Michigan.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s06_k4_004",
+      "question": "What dry needling certification does the person who carpools with the surgeon whose OR colleague eats lunch daily with Marcus Chen hold?",
+      "answer": "Kinetacore Institute certification",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who eats lunch daily with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon is Elaine Whitfield's OR colleague?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Priya Chandrasekaran?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What dry needling certification does Tomás Herrera hold?",
+          "sub_answer": "Kinetacore Institute certification completed in Atlanta in 2022",
+          "evidence_id": "tomas_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_013",
+          "text": "Tomás Herrera is certified in dry needling and completed his certification at the Kinetacore Institute in Atlanta in 2022.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s06_k4_005",
+      "question": "What folding bike does the person who eats lunch with the nurse who works in the OR with the surgeon who volunteers with Nate Calloway ride?",
+      "answer": "blue Brompton folding bike",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon volunteers with Nate Calloway?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse works in the OR with Priya Chandrasekaran?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch with Elaine Whitfield?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What folding bike does Marcus Chen ride?",
+          "sub_answer": "a blue Brompton folding bike",
+          "evidence_id": "marcus_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_017",
+          "text": "Marcus Chen rides a blue Brompton folding bike to the hospital on days he doesn't carpool.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s06_k4_006",
+      "question": "What patient did the person who co-leads a support group with the social worker who volunteers with the nurse who eats lunch with Marcus Chen help regain the ability to walk?",
+      "answer": "Mr. Kowalski",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which nurse eats lunch with Marcus Chen?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which social worker volunteers with Elaine Whitfield?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-leads a support group with Nate Calloway?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which patient did Tomás Herrera help regain the ability to walk?",
+          "sub_answer": "Mr. Kowalski",
+          "evidence_id": "tomas_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_006",
+          "text": "Tomás Herrera helped a stroke patient named Mr. Kowalski regain the ability to walk independently after 14 weeks of intensive therapy in spring 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s06_k4_007",
+      "question": "What event did the person who jogs along the Charles River and carpools with the person who co-leads a support group with the social worker who trains interns with Marcus Chen organize in February 2024?",
+      "answer": "trauma surgery simulation workshop for 30 medical students",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who trains interns with Marcus Chen?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "marcus_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Priya organize in February 2024?",
+          "sub_answer": "trauma surgery simulation workshop for 30 medical students",
+          "evidence_id": "priya_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Chen is training Nate Calloway's social work interns on medication literacy as part of a new hospital initiative.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_019",
+          "text": "Priya Chandrasekaran organized a trauma surgery simulation workshop for 30 medical students in February 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k4_008",
+      "question": "What is the occupation of the father of the nurse who works in the OR with the surgeon who carpools with the person who co-leads a support group with Nate Calloway?",
+      "answer": "dairy farmer in Stowe",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which nurse works in the OR with Priya?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Elaine's father do?",
+          "sub_answer": "operates the family dairy farm in Stowe with 85 Holstein cows",
+          "evidence_id": "elaine_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_013",
+          "text": "Elaine Whitfield's father, Wayne Whitfield, still operates the family dairy farm in Stowe with 85 Holstein cows.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k4_009",
+      "question": "What event celebration did the person who carpools with the surgeon whose trauma OR colleague eats lunch with the pharmacist who caught a fatal drug interaction attend in January 2024?",
+      "answer": "parents' 35th wedding anniversary in Miami",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who caught a fatal drug interaction?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "marcus_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who eats lunch with Marcus?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Elaine's trauma OR colleague (surgeon)?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who carpools with Priya, and what event?",
+          "sub_answer": "Tomás Herrera attended parents' 35th wedding anniversary in Miami",
+          "evidence_id": "tomas_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_006",
+          "text": "Marcus Chen caught a potentially fatal drug interaction between two prescriptions for an ICU patient in May 2024, preventing a medical error.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "tomas_018",
+          "text": "Tomás Herrera flew home to Miami for his parents' 35th wedding anniversary celebration in January 2024.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k4_010",
+      "question": "Where does the person who eats lunch daily with the nurse who volunteers at the homeless program with the person who co-leads a support group with Tomás Herrera live?",
+      "answer": "one-bedroom apartment in Cambridge near Harvard Square",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse volunteers at the homeless program with Nate?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch daily with Elaine?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where does Marcus live?",
+          "sub_answer": "one-bedroom apartment in Cambridge, near Harvard Square",
+          "evidence_id": "marcus_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_008",
+          "text": "Marcus Chen lives alone in a one-bedroom apartment in Cambridge, a 10-minute walk from Harvard Square.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s06_k4_011",
+      "question": "What paper did the surgeon who carpools with the physical therapist who co-leads a support group with the social worker who trains interns with Marcus Chen publish in March 2024?",
+      "answer": "paper on minimally invasive trauma techniques",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who trains interns with Marcus?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "marcus_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What paper did Priya publish in March 2024?",
+          "sub_answer": "minimally invasive trauma techniques in Journal of Trauma and Acute Care Surgery",
+          "evidence_id": "priya_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_016",
+          "text": "Marcus Chen is training Nate Calloway's social work interns on medication literacy as part of a new hospital initiative.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_006",
+          "text": "Priya Chandrasekaran published a paper on minimally invasive trauma techniques in the Journal of Trauma and Acute Care Surgery in March 2024.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k4_012",
+      "question": "What is the NP certification status of the nurse who works in the OR with the surgeon who volunteers with the social worker who co-leads a support group with Tomás Herrera?",
+      "answer": "studying for nurse practitioner certification, exams December 2024",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon volunteers with Nate?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which nurse works in the OR with Priya?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What certification is Elaine studying for?",
+          "sub_answer": "nurse practitioner certification, exams December 2024",
+          "evidence_id": "elaine_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_015",
+          "text": "Elaine Whitfield is studying for her nurse practitioner certification, with exams scheduled for December 2024.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s06_k4_013",
+      "question": "What sourdough starter name does the person who eats lunch with the nurse who works in the OR with the surgeon who carpools with the Brookline Bobcats coach use?",
+      "answer": "Dough Fieri",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who coaches the Brookline Bobcats?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "tomas_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which nurse works in the OR with Priya?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who eats lunch with Elaine, and their sourdough starter?",
+          "sub_answer": "Marcus Chen, starter named 'Dough Fieri'",
+          "evidence_id": "marcus_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_020",
+          "text": "Tomás Herrera coaches a youth soccer team called the Brookline Bobcats on Saturday mornings.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "marcus_013",
+          "text": "Marcus Chen bakes sourdough bread every weekend and maintains a 3-year-old starter he named 'Dough Fieri'.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k4_014",
+      "question": "What homeless veteran did the social worker who volunteers with the nurse who eats lunch with the pharmacist who caught a drug interaction in the ICU help find housing?",
+      "answer": "James",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who caught a drug interaction in the ICU?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "marcus_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse eats lunch with Marcus?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which social worker volunteers with Elaine?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which veteran did Nate help find housing?",
+          "sub_answer": "a homeless veteran named James",
+          "evidence_id": "nate_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_006",
+          "text": "Marcus Chen caught a potentially fatal drug interaction between two prescriptions for an ICU patient in May 2024, preventing a medical error.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "nate_006",
+          "text": "Nate Calloway successfully connected a homeless veteran named James with permanent housing and VA benefits in February 2024 after 6 months of case work.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k4_015",
+      "question": "What DPT degree did the person who carpools with the surgeon whose OR colleague volunteers with the social worker who leads mindfulness sessions earn?",
+      "answer": "Doctor of Physical Therapy from University of Miami",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who leads mindfulness sessions?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which OR colleague volunteers with Nate?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Elaine's OR surgeon?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who carpools with Priya, and what degree?",
+          "sub_answer": "Tomás Herrera, DPT from University of Miami in 2021",
+          "evidence_id": "tomas_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_017",
+          "text": "Nate Calloway leads a mindfulness meditation session for hospital staff every Friday at noon in the chapel.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "tomas_005",
+          "text": "Tomás Herrera earned his Doctor of Physical Therapy degree from the University of Miami in 2021.",
+          "person_id": "tomas"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s06_k4_016",
+      "question": "What dim sum restaurant do the parents of the pharmacist who carpools on Wednesdays with the person who co-leads a support group with the social worker who volunteers with Priya Chandrasekaran own?",
+      "answer": "Jade Garden in San Francisco's Richmond District",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which social worker volunteers with Priya?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools on Wednesdays with Tomás?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What restaurant do Marcus's parents own?",
+          "sub_answer": "Jade Garden in San Francisco's Richmond District",
+          "evidence_id": "marcus_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_009",
+          "text": "Marcus Chen's parents, Wei and Linda Chen, own a dim sum restaurant called Jade Garden in San Francisco's Richmond District.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k4_017",
+      "question": "Where did the surgeon whose OR colleague eats lunch with the pharmacist who trains interns with the social worker who co-leads a support group with Tomás Herrera grow up?",
+      "answer": "Chennai, India",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who trains interns with Nate?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "nate_011"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who eats lunch with Marcus?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which surgeon is Elaine's OR colleague, and where did they grow up?",
+          "sub_answer": "Priya Chandrasekaran grew up in Chennai, India",
+          "evidence_id": "priya_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_011",
+          "text": "Nate Calloway is training social work interns on medication literacy with Marcus Chen as part of a new hospital initiative.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "priya_002",
+          "text": "Priya Chandrasekaran grew up in Chennai, India, and moved to the US at age 18 to attend the University of Michigan.",
+          "person_id": "priya"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s06_k4_018",
+      "question": "What roadside first aid did the nurse who works in the OR with the surgeon who carpools with the person who co-leads a support group with the social worker who wrote a $45,000 grant deliver?",
+      "answer": "emergency first aid to a cyclist hit by",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who wrote a $45,000 grant?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon carpools with Tomás?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What roadside first aid did Priya's OR nurse (Elaine) deliver?",
+          "sub_answer": "emergency first aid to a cyclist hit by a car on Commonwealth Avenue",
+          "evidence_id": "elaine_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_014",
+          "text": "Nate Calloway wrote a grant proposal that secured $45,000 from the Robert Wood Johnson Foundation for a patient navigation program in April 2024.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "elaine_006",
+          "text": "Elaine Whitfield delivered emergency roadside first aid to a cyclist hit by a car on Commonwealth Avenue in April 2024.",
+          "person_id": "elaine"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s06_k5_001",
+      "question": "The surgeon who carpools from Brookline works in the trauma OR with a nurse — that nurse's daily lunch partner carpools on Wednesdays with a physical therapist who co-leads a support group with someone. Where did that last person earn their MSW?",
+      "answer": "Boston University",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon carpools from Brookline?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse works with Priya Chandrasekaran in the trauma OR?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Elaine Whitfield's daily lunch partner?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which physical therapist carpools on Wednesdays with Marcus Chen?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "marcus_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who co-leads a support group with Tomás Herrera, and where did they earn their MSW?",
+          "sub_answer": "Nate Calloway, Boston University in 2015",
+          "evidence_id": "nate_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_004",
+          "text": "Marcus Chen and Tomás Herrera carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "nate_005",
+          "text": "Nate Calloway earned his MSW from Boston University in 2015.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s06_k5_002",
+      "question": "The social worker who leads mindfulness sessions at the hospital co-leads a support group with a physical therapist — that therapist carpools with a surgeon whose OR colleague eats lunch daily with someone. What restaurant does that person call their favorite?",
+      "answer": "Myers + Chang",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which social worker leads mindfulness sessions at the hospital?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist co-leads a support group with Nate Calloway?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon does Tomás Herrera carpool with?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Priya Chandrasekaran's OR colleague?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who eats lunch daily with Elaine Whitfield, and what is their favorite restaurant?",
+          "sub_answer": "Marcus Chen, Myers + Chang on Washington Street",
+          "evidence_id": "marcus_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_017",
+          "text": "Nate Calloway leads a mindfulness meditation session for hospital staff every Friday at noon in the chapel.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "marcus_019",
+          "text": "Marcus Chen's favorite restaurant in Boston is Myers + Chang on Washington Street.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s06_k5_003",
+      "question": "The pharmacist who caught a fatal drug interaction eats lunch with a nurse whose OR partner carpools with a physical therapist who co-leads a support group with someone — what case study topic did that person present at the NASW conference?",
+      "answer": "trauma-informed social work",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which pharmacist caught a fatal drug interaction?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "marcus_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which nurse does Marcus Chen eat lunch with?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Elaine Whitfield's OR partner?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which physical therapist carpools with Priya Chandrasekaran?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who co-leads a support group with Tomás Herrera, and what topic did they present?",
+          "sub_answer": "Nate Calloway presented on trauma-informed social work",
+          "evidence_id": "nate_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_006",
+          "text": "Marcus Chen caught a potentially fatal drug interaction between two prescriptions for an ICU patient in May 2024, preventing a medical error.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_020",
+          "text": "Nate Calloway presented a case study on trauma-informed social work at the NASW Massachusetts conference in Worcester in October 2023.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k5_004",
+      "question": "Elaine Whitfield works in the trauma OR with a surgeon who carpools with a physical therapist — that therapist co-leads a support group with a social worker who trains interns with someone. What piano program is that last person enrolled in?",
+      "answer": "New England Conservatory continuing education",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "hospital_staff",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon does Elaine Whitfield work with in the trauma OR?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist carpools with Priya Chandrasekaran?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-leads a support group with Tomás Herrera?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who trains interns with Nate Calloway?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "nate_011"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What piano program is Marcus Chen enrolled in?",
+          "sub_answer": "New England Conservatory's continuing education program",
+          "evidence_id": "marcus_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_011",
+          "text": "Nate Calloway is training social work interns on medication literacy with Marcus Chen as part of a new hospital initiative.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "marcus_012",
+          "text": "Marcus Chen is learning to play piano and takes lessons every Sunday at the New England Conservatory's continuing education program.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s06_k5_005",
+      "question": "The person who caught a fatal drug interaction eats lunch with a nurse who works in the OR with a surgeon — that surgeon carpools with a physical therapist who co-leads a support group with someone. What grant amount did that last person secure?",
+      "answer": "$45,000",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who caught a fatal drug interaction?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "marcus_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Marcus eat lunch with?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon does Elaine work with in the OR?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which physical therapist carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who co-leads a support group with Tomás, and what grant?",
+          "sub_answer": "Nate Calloway secured $45,000",
+          "evidence_id": "nate_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_006",
+          "text": "Marcus Chen caught a potentially fatal drug interaction between two prescriptions for an ICU patient in May 2024, preventing a medical error.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_014",
+          "text": "Nate Calloway wrote a grant proposal that secured $45,000 from the Robert Wood Johnson Foundation for a patient navigation program in April 2024.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k5_006",
+      "question": "Tomás Herrera co-leads a support group with a social worker who volunteers with a surgeon and a nurse — that nurse eats lunch with a pharmacist. What cooking class did that pharmacist take in Tokyo?",
+      "answer": "sushi-making course at Tsukiji Cooking School",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Nate volunteer with (nurse)?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is the surgeon Nate volunteers with?",
+          "sub_answer": "Priya Chandrasekaran (also volunteers)",
+          "evidence_id": "priya_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who eats lunch with Elaine?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What cooking class did Marcus take in Tokyo?",
+          "sub_answer": "sushi-making at Tsukiji Cooking School",
+          "evidence_id": "marcus_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_014",
+          "text": "Priya Chandrasekaran volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_018",
+          "text": "Marcus Chen visited Tokyo for two weeks in August 2023 and took a sushi-making course at the Tsukiji Cooking School.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s06_k5_007",
+      "question": "The person who teaches community yoga at Boston Common carpools with a surgeon whose OR colleague volunteers with a social worker — that social worker trains interns with a pharmacist. Where does that pharmacist live?",
+      "answer": "one-bedroom apartment in Cambridge near Harvard Square",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who teaches community yoga at Boston Common?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "tomas_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon does Tomás carpool with?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Priya's OR colleague who volunteers?",
+          "sub_answer": "Elaine Whitfield (volunteers with Nate)",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which social worker does Elaine volunteer with?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who trains interns with Nate, and where do they live?",
+          "sub_answer": "Marcus Chen lives in Cambridge near Harvard Square",
+          "evidence_id": "marcus_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_012",
+          "text": "Tomás Herrera taught a free community yoga class at the Boston Common Frog Pond every Sunday morning from May through September 2024.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "marcus_008",
+          "text": "Marcus Chen lives alone in a one-bedroom apartment in Cambridge, a 10-minute walk from Harvard Square.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s06_k5_008",
+      "question": "The pharmacist who won Employee of the Quarter eats lunch with a nurse whose OR partner carpools with a physical therapist who co-leads a support group with someone — what is that person's wife's job?",
+      "answer": "librarian at the Boston Public Library's Copley Square",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won Employee of the Quarter?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "marcus_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Marcus eat lunch with?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "marcus_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Elaine's OR partner?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which physical therapist carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who co-leads a support group with Tomás, and what does their wife do?",
+          "sub_answer": "Nate Calloway's wife Rachel is a librarian at Boston Public Library Copley Square",
+          "evidence_id": "nate_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "marcus_020",
+          "text": "Marcus Chen won the hospital's Employee of the Quarter award in Q2 2024 for his antibiotic stewardship work.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "marcus_003",
+          "text": "Marcus Chen and Elaine Whitfield eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "marcus"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "nate_007",
+          "text": "Nate Calloway's wife, Rachel, is a librarian at the Boston Public Library's Copley Square branch.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s06_k5_009",
+      "question": "The nurse who was promoted to charge nurse works in the OR with a surgeon who carpools with a physical therapist — that therapist co-leads a support group with a social worker who trains interns with someone. What is that last person's chess rating?",
+      "answer": "1850",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who was promoted to charge nurse?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "elaine_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Elaine work with in the OR?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "elaine_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who carpools with Priya?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who co-leads a support group with Tomás?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "tomas_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who trains interns with Nate, and what's their chess rating?",
+          "sub_answer": "Marcus Chen, rated 1850",
+          "evidence_id": "marcus_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "elaine_020",
+          "text": "Elaine Whitfield was promoted to charge nurse of the trauma unit in July 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "elaine_003",
+          "text": "Elaine Whitfield and Priya Chandrasekaran work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "tomas_004",
+          "text": "Tomás Herrera and Nate Calloway co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_007",
+          "text": "Marcus Chen plays competitive chess and is rated 1850 on chess.com.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s06_k5_010",
+      "question": "Nate Calloway volunteers with a surgeon and a nurse at the homeless program — that surgeon carpools with a physical therapist who also carpools on Wednesdays with a pharmacist. What restaurant do that pharmacist's parents own?",
+      "answer": "Jade Garden",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which surgeon does Nate volunteer with?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "nate_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist does Priya carpool with?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "priya_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which nurse does Nate volunteer with?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "elaine_016"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which pharmacist carpools with Tomás on Wednesdays?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "tomas_014"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What restaurant do Marcus's parents own?",
+          "sub_answer": "Jade Garden in San Francisco's Richmond District",
+          "evidence_id": "marcus_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_004",
+          "text": "Nate Calloway volunteers with Priya Chandrasekaran and Elaine Whitfield at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "priya_003",
+          "text": "Priya Chandrasekaran and Tomás Herrera carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_016",
+          "text": "Elaine Whitfield volunteers with Nate Calloway at the Boston Health Care for the Homeless Program on the second Saturday of each month.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "tomas_014",
+          "text": "Tomás Herrera and Marcus Chen carpool together on Wednesdays and Fridays when Priya has her day off.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "marcus_009",
+          "text": "Marcus Chen's parents, Wei and Linda Chen, own a dim sum restaurant called Jade Garden in San Francisco's Richmond District.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s06_k5_011",
+      "question": "The person who completed a half-Ironman in Providence carpools with a surgeon whose OR colleague eats lunch with a pharmacist — that pharmacist trains medication literacy interns with a social worker. How many children does that social worker have?",
+      "answer": "Owen and Lily",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed a half-Ironman in Providence?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "tomas_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which surgeon does Tomás carpool with?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Priya's OR colleague?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who eats lunch with Elaine?",
+          "sub_answer": "Marcus Chen",
+          "evidence_id": "elaine_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who does Marcus train interns with, and how many children?",
+          "sub_answer": "Nate Calloway has two children, Owen and Lily",
+          "evidence_id": "nate_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomas_011",
+          "text": "Tomás Herrera completed a half-Ironman triathlon in Providence, Rhode Island in August 2023 with a time of 5 hours 42 minutes.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "elaine_004",
+          "text": "Elaine Whitfield and Marcus Chen eat lunch together every day at 12:30 PM in the hospital's third-floor cafeteria.",
+          "person_id": "elaine"
+        },
+        {
+          "obs_id": "nate_008",
+          "text": "Nate Calloway has a 3-year-old son named Owen and a 5-year-old daughter named Lily.",
+          "person_id": "nate"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s06_k5_012",
+      "question": "The social worker who organized mental health awareness week co-leads a support group with a physical therapist who carpools with a surgeon — that surgeon works in the OR with a nurse who eats lunch with someone. What did that last person study in Tokyo?",
+      "answer": "sushi-making course at Tsukiji Cooking School",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized mental health awareness week?",
+          "sub_answer": "Nate Calloway",
+          "evidence_id": "nate_013"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which physical therapist co-leads a support group with Nate?",
+          "sub_answer": "Tomás Herrera",
+          "evidence_id": "nate_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which surgeon does Tomás carpool with?",
+          "sub_answer": "Priya Chandrasekaran",
+          "evidence_id": "tomas_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Which nurse does Priya work with in the OR?",
+          "sub_answer": "Elaine Whitfield",
+          "evidence_id": "priya_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who eats lunch with Elaine, and what did they study in Tokyo?",
+          "sub_answer": "Marcus Chen, sushi-making at Tsukiji Cooking School",
+          "evidence_id": "marcus_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "nate_013",
+          "text": "Nate Calloway organized a hospital-wide mental health awareness week in May 2024 featuring 8 guest speakers.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "nate_003",
+          "text": "Nate Calloway and Tomás Herrera co-lead a weekly support group for patients recovering from orthopedic surgery every Tuesday afternoon.",
+          "person_id": "nate"
+        },
+        {
+          "obs_id": "tomas_003",
+          "text": "Tomás Herrera and Priya Chandrasekaran carpool together from Brookline every weekday in Priya's silver 2022 Volvo XC60.",
+          "person_id": "tomas"
+        },
+        {
+          "obs_id": "priya_004",
+          "text": "Priya Chandrasekaran and Elaine Whitfield work together in the trauma OR and co-managed 47 emergency cases in the first quarter of 2024.",
+          "person_id": "priya"
+        },
+        {
+          "obs_id": "marcus_018",
+          "text": "Marcus Chen visited Tokyo for two weeks in August 2023 and took a sushi-making course at the Tsukiji Cooking School.",
+          "person_id": "marcus"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "hospital_staff",
+      "answerable_after_session": 14
+    }
+  ]
+}

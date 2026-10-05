@@ -1,0 +1,11 @@
+pilot/.env
+pilot/results/usage.jsonl
+pilot/results/ce_cache.pkl
+pilot/results/*.log
+pilot/results/*.err
+__pycache__/
+*.pyc
+tex/*.aux
+tex/*.log
+tex/*.out
+tex/*.toc

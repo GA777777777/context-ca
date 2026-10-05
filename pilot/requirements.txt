@@ -1,0 +1,7 @@
+openai>=1.50
+sentence-transformers>=3.0
+numpy
+tiktoken
+python-dotenv
+# optional, step 2 of the agenda:
+# laya

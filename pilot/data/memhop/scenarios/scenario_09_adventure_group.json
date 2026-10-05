@@ -1,0 +1,149 @@
+{
+  "scenario_id": "adventure_group",
+  "title": "Outdoor Adventure Group",
+  "description": "Four people who do outdoor adventures together in the Pacific Northwest, connected through climbing partnerships, work, a book club, and childhood friendship. Rich in activity details, gear, personal milestones, and trip histories.",
+  "setting": "Seattle, Washington, 2024",
+  "num_people": 4,
+  "num_sessions": 15,
+  "people": [
+    {
+      "person_id": "nora",
+      "name": "Nora Fitzgerald",
+      "age": 29,
+      "role": "Software engineer, lead climber",
+      "profile": "Grew up in Bozeman, Montana. Works at REI's Seattle headquarters on their e-commerce platform. Certified lead climbing instructor. Has summited Mount Rainier twice.",
+      "observations": [
+        {"obs_id": "nora_001", "text": "Nora Fitzgerald works as a senior software engineer at REI's headquarters in Kent, Washington, building their e-commerce recommendation engine.", "category": "STATE"},
+        {"obs_id": "nora_002", "text": "Nora Fitzgerald grew up in Bozeman, Montana, where her parents own a fly-fishing guide service on the Gallatin River.", "category": "PROFILE"},
+        {"obs_id": "nora_003", "text": "Nora Fitzgerald and Sam Osei are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.", "category": "STATE"},
+        {"obs_id": "nora_004", "text": "Nora Fitzgerald summited Mount Rainier via the Disappointment Cleaver route in July 2023 and again via the Emmons Glacier in August 2024.", "category": "EVENT"},
+        {"obs_id": "nora_005", "text": "Nora Fitzgerald is a certified AMGA Single Pitch Instructor and teaches lead climbing courses on weekends at Vertical World.", "category": "STATE"},
+        {"obs_id": "nora_006", "text": "Nora Fitzgerald and Tomás Rivera are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.", "category": "STATE"},
+        {"obs_id": "nora_007", "text": "Nora Fitzgerald drives a green 2020 Subaru Crosstrek with a rooftop cargo box and a 'Climb On' bumper sticker.", "category": "STATE"},
+        {"obs_id": "nora_008", "text": "Nora Fitzgerald completed her first 50-kilometer ultramarathon on the Chuckanut Ridge trail in March 2024 with a time of 6 hours 42 minutes.", "category": "EVENT"},
+        {"obs_id": "nora_009", "text": "Nora Fitzgerald's favorite climbing area is Index Town Wall, a granite crag 50 miles east of Seattle.", "category": "PROFILE"},
+        {"obs_id": "nora_010", "text": "Nora Fitzgerald adopted a border collie named Summit from the Seattle Humane Society in February 2024.", "category": "EVENT"},
+        {"obs_id": "nora_011", "text": "Nora Fitzgerald's older brother Declan is a wildland firefighter based in Missoula, Montana.", "category": "PROFILE"},
+        {"obs_id": "nora_012", "text": "Nora Fitzgerald kayaked the San Juan Islands for five days in June 2024, camping on Jones Island and spotting a pod of orcas near Lime Kiln Point.", "category": "EVENT"},
+        {"obs_id": "nora_013", "text": "Nora Fitzgerald lives in a one-bedroom apartment in the Ballard neighborhood of Seattle, three blocks from the Ballard Locks.", "category": "STATE"},
+        {"obs_id": "nora_014", "text": "Nora Fitzgerald's favorite book is 'The Living Mountain' by Nan Shepherd.", "category": "PROFILE"},
+        {"obs_id": "nora_015", "text": "Nora Fitzgerald is training for a multi-pitch trad climb of the North Ridge of Mount Stuart, scheduled for September 2024.", "category": "STATE"},
+        {"obs_id": "nora_016", "text": "Nora Fitzgerald built a custom gear rack in her apartment entryway that holds 14 pairs of climbing shoes, 8 helmets, and 30 carabiners.", "category": "PROFILE"},
+        {"obs_id": "nora_017", "text": "Nora Fitzgerald taught Sam Osei how to lead belay in October 2023 at Seattle Bouldering Project.", "category": "EVENT"},
+        {"obs_id": "nora_018", "text": "Nora Fitzgerald volunteers for Washington Trails Association trail maintenance days once a month, usually on the Mailbox Peak trail.", "category": "STATE"},
+        {"obs_id": "nora_019", "text": "Nora Fitzgerald sprained her right ankle on a descent from Colchuck Peak in May 2024 and had to use trekking poles for six weeks.", "category": "EVENT"},
+        {"obs_id": "nora_020", "text": "Nora Fitzgerald makes her own dehydrated trail meals and her backpacking pad thai is a group favorite.", "category": "PROFILE"}
+      ]
+    },
+    {
+      "person_id": "sam",
+      "name": "Sam Osei",
+      "age": 32,
+      "role": "Physical therapist, kayaker",
+      "profile": "Born in Accra, Ghana. Moved to Seattle for grad school. Works at a sports medicine clinic. Avid sea kayaker and climber. Has kayaked the entire Inside Passage from Juneau to Seattle.",
+      "observations": [
+        {"obs_id": "sam_001", "text": "Sam Osei works as a physical therapist at Puget Sound Sports Medicine, specializing in climbing and running injuries.", "category": "STATE"},
+        {"obs_id": "sam_002", "text": "Sam Osei was born in Accra, Ghana, and moved to Seattle in 2017 to attend the University of Washington's Doctor of Physical Therapy program.", "category": "PROFILE"},
+        {"obs_id": "sam_003", "text": "Sam Osei and Nora Fitzgerald are climbing partners who climb together at Seattle Bouldering Project every Tuesday and Thursday evening.", "category": "STATE"},
+        {"obs_id": "sam_004", "text": "Sam Osei and Tomás Rivera work together at Puget Sound Sports Medicine, where Tomás is a sports medicine physician.", "category": "STATE"},
+        {"obs_id": "sam_005", "text": "Sam Osei kayaked the 1,200-mile Inside Passage from Juneau, Alaska, to Seattle over 42 days in the summer of 2022.", "category": "EVENT"},
+        {"obs_id": "sam_006", "text": "Sam Osei owns a 17-foot fiberglass sea kayak made by Eddyline Kayaks, painted bright yellow, which he stores in his garage.", "category": "STATE"},
+        {"obs_id": "sam_007", "text": "Sam Osei's mother, Abena, is a pediatrician in Accra, and his father, Kofi, teaches mathematics at the University of Ghana.", "category": "PROFILE"},
+        {"obs_id": "sam_008", "text": "Sam Osei completed the Wilderness First Responder certification course in January 2024.", "category": "EVENT"},
+        {"obs_id": "sam_009", "text": "Sam Osei lives in the Fremont neighborhood of Seattle in a house he shares with two other renters.", "category": "STATE"},
+        {"obs_id": "sam_010", "text": "Sam Osei speaks English, Twi, and basic French.", "category": "PROFILE"},
+        {"obs_id": "sam_011", "text": "Sam Osei led a group kayak trip around Orcas Island in August 2024, guiding three beginners through Obstruction Pass.", "category": "EVENT"},
+        {"obs_id": "sam_012", "text": "Sam Osei's favorite trail for day hikes is the Enchantments Thru-Hike in the Alpine Lakes Wilderness, which he has completed four times.", "category": "PROFILE"},
+        {"obs_id": "sam_013", "text": "Sam Osei drives a blue 2019 Toyota Tacoma with a kayak rack and a Ghana flag sticker on the tailgate.", "category": "STATE"},
+        {"obs_id": "sam_014", "text": "Sam Osei visited his family in Accra for three weeks in December 2023 and climbed Mount Afadja, Ghana's highest peak.", "category": "EVENT"},
+        {"obs_id": "sam_015", "text": "Sam Osei organized a fundraiser paddle-a-thon on Lake Union in April 2024, raising $4,200 for Outdoor Afro Seattle.", "category": "EVENT"},
+        {"obs_id": "sam_016", "text": "Sam Osei's favorite book is 'Endurance' by Alfred Lansing, about Shackleton's Antarctic expedition.", "category": "PROFILE"},
+        {"obs_id": "sam_017", "text": "Sam Osei tore his rotator cuff while bouldering in November 2023 and spent four months in rehabilitation.", "category": "EVENT"},
+        {"obs_id": "sam_018", "text": "Sam Osei cooks Ghanaian jollof rice every Sunday evening and always makes enough for leftovers on Monday.", "category": "PROFILE"},
+        {"obs_id": "sam_019", "text": "Sam Osei is training for a solo kayak crossing of the Strait of Juan de Fuca, a 17-mile open-water paddle.", "category": "STATE"},
+        {"obs_id": "sam_020", "text": "Sam Osei and Jenny Kowalski have been friends since childhood — they grew up on the same street in Accra before Jenny's family moved back to the US.", "category": "PROFILE"}
+      ]
+    },
+    {
+      "person_id": "tomas",
+      "name": "Tomás Rivera",
+      "age": 35,
+      "role": "Sports medicine physician, trail runner",
+      "profile": "Born in Guadalajara, Mexico. Attended medical school at UNAM. Trail running enthusiast who has completed the UTMB. Works at the same clinic as Sam.",
+      "observations": [
+        {"obs_id": "tomas_001", "text": "Tomás Rivera is a sports medicine physician at Puget Sound Sports Medicine, where he works alongside Sam Osei.", "category": "STATE"},
+        {"obs_id": "tomas_002", "text": "Tomás Rivera was born in Guadalajara, Mexico, and attended medical school at UNAM in Mexico City.", "category": "PROFILE"},
+        {"obs_id": "tomas_003", "text": "Tomás Rivera and Sam Osei work together at Puget Sound Sports Medicine.", "category": "STATE"},
+        {"obs_id": "tomas_004", "text": "Tomás Rivera and Nora Fitzgerald are in the same book club that meets the first Sunday of every month at Elliott Bay Book Company.", "category": "STATE"},
+        {"obs_id": "tomas_005", "text": "Tomás Rivera completed the Ultra-Trail du Mont-Blanc (UTMB) in Chamonix, France, in August 2023 with a time of 31 hours 14 minutes.", "category": "EVENT"},
+        {"obs_id": "tomas_006", "text": "Tomás Rivera and Jenny Kowalski are trail running partners who train together on Tiger Mountain trails every Saturday morning.", "category": "STATE"},
+        {"obs_id": "tomas_007", "text": "Tomás Rivera lives in the Capitol Hill neighborhood of Seattle in a two-bedroom condo on Pine Street.", "category": "STATE"},
+        {"obs_id": "tomas_008", "text": "Tomás Rivera's wife, Elena, is a marine biologist at NOAA's Northwest Fisheries Science Center in Montlake.", "category": "PROFILE"},
+        {"obs_id": "tomas_009", "text": "Tomás Rivera speaks Spanish, English, and conversational Portuguese.", "category": "PROFILE"},
+        {"obs_id": "tomas_010", "text": "Tomás Rivera finished second in the Gorge Waterfalls 100K ultramarathon in Oregon in April 2024 with a time of 11 hours 8 minutes.", "category": "EVENT"},
+        {"obs_id": "tomas_011", "text": "Tomás Rivera's father, Ernesto, is a cardiologist in Guadalajara who inspired Tomás to pursue medicine.", "category": "PROFILE"},
+        {"obs_id": "tomas_012", "text": "Tomás Rivera organized a group camping and climbing trip to Smith Rock, Oregon, in October 2024 for the adventure group.", "category": "EVENT"},
+        {"obs_id": "tomas_013", "text": "Tomás Rivera drives a black 2022 Rivian R1T electric truck, which the group uses for gear hauling on adventure trips.", "category": "STATE"},
+        {"obs_id": "tomas_014", "text": "Tomás Rivera's favorite book is 'Born to Run' by Christopher McDougall.", "category": "PROFILE"},
+        {"obs_id": "tomas_015", "text": "Tomás Rivera ran the Seattle Marathon in November 2024 as a pacer for the 3:15 group.", "category": "EVENT"},
+        {"obs_id": "tomas_016", "text": "Tomás Rivera brews his own kombucha in a 5-gallon glass jar on his kitchen counter and brings bottles to every group trip.", "category": "PROFILE"},
+        {"obs_id": "tomas_017", "text": "Tomás Rivera treated Sam Osei's rotator cuff tear in November 2023 and designed the four-month rehab protocol.", "category": "EVENT"},
+        {"obs_id": "tomas_018", "text": "Tomás Rivera spent two weeks volunteering at a rural medical clinic in Oaxaca, Mexico, in March 2024.", "category": "EVENT"},
+        {"obs_id": "tomas_019", "text": "Tomás Rivera is studying for his Certificate of Added Qualification in sports medicine, with the exam scheduled for February 2025.", "category": "STATE"},
+        {"obs_id": "tomas_020", "text": "Tomás Rivera taught the adventure group basic wilderness first aid techniques during a camping trip at Olympic National Park in July 2024.", "category": "EVENT"}
+      ]
+    },
+    {
+      "person_id": "jenny",
+      "name": "Jenny Kowalski",
+      "age": 31,
+      "role": "Park ranger, camping expert",
+      "profile": "Polish-Ghanaian American. Grew up in Accra, Ghana, before her family moved to Portland, Oregon. Park ranger at Mount Rainier National Park. Sam's childhood friend from Accra.",
+      "observations": [
+        {"obs_id": "jenny_001", "text": "Jenny Kowalski works as a park ranger at Mount Rainier National Park, stationed at the Paradise Visitor Center.", "category": "STATE"},
+        {"obs_id": "jenny_002", "text": "Jenny Kowalski's father is Polish-American and her mother is Ghanaian; she grew up in Accra before her family moved to Portland, Oregon, when she was 12.", "category": "PROFILE"},
+        {"obs_id": "jenny_003", "text": "Jenny Kowalski and Sam Osei have been friends since childhood — they grew up on the same street in Accra.", "category": "PROFILE"},
+        {"obs_id": "jenny_004", "text": "Jenny Kowalski and Tomás Rivera are trail running partners who train together on Tiger Mountain trails every Saturday morning.", "category": "STATE"},
+        {"obs_id": "jenny_005", "text": "Jenny Kowalski led 47 guided hikes at Mount Rainier National Park in 2024, the most of any ranger at Paradise.", "category": "EVENT"},
+        {"obs_id": "jenny_006", "text": "Jenny Kowalski earned her Wilderness First Responder certification in 2020 and recertified in 2023.", "category": "PROFILE"},
+        {"obs_id": "jenny_007", "text": "Jenny Kowalski lives in a cabin in Ashford, Washington, 6 miles from the Nisqually entrance to Mount Rainier.", "category": "STATE"},
+        {"obs_id": "jenny_008", "text": "Jenny Kowalski has a rescue husky named Glacier who accompanies her on most hikes.", "category": "STATE"},
+        {"obs_id": "jenny_009", "text": "Jenny Kowalski speaks English, Polish, Twi, and basic French.", "category": "PROFILE"},
+        {"obs_id": "jenny_010", "text": "Jenny Kowalski organized a women's backpacking trip in the Enchantments in September 2024, with a group of 8 hikers over 4 days.", "category": "EVENT"},
+        {"obs_id": "jenny_011", "text": "Jenny Kowalski completed a 30-day solo thru-hike of the Wonderland Trail around Mount Rainier in August 2023.", "category": "EVENT"},
+        {"obs_id": "jenny_012", "text": "Jenny Kowalski's mother, Akosua, runs a fabric import business in Portland that sources textiles from Ghana.", "category": "PROFILE"},
+        {"obs_id": "jenny_013", "text": "Jenny Kowalski drives a tan 2018 Jeep Wrangler with mud tires and a first-aid kit permanently mounted in the back.", "category": "STATE"},
+        {"obs_id": "jenny_014", "text": "Jenny Kowalski taught a Leave No Trace workshop for the adventure group at their campsite in Olympic National Park in July 2024.", "category": "EVENT"},
+        {"obs_id": "jenny_015", "text": "Jenny Kowalski's favorite camping meal is a one-pot lentil dal that she learned from Sam's mother during a visit to Accra.", "category": "PROFILE"},
+        {"obs_id": "jenny_016", "text": "Jenny Kowalski found and reported a previously unmapped seasonal waterfall on the north side of Mount Rainier in June 2024.", "category": "EVENT"},
+        {"obs_id": "jenny_017", "text": "Jenny Kowalski carves wooden hiking stick handles and gave one to each member of the adventure group for Christmas 2023.", "category": "EVENT"},
+        {"obs_id": "jenny_018", "text": "Jenny Kowalski is writing a field guide to wildflowers of Mount Rainier National Park, with her own watercolor illustrations.", "category": "STATE"},
+        {"obs_id": "jenny_019", "text": "Jenny Kowalski and Nora Fitzgerald completed a two-day climb of Mount Adams via the South Spur route in June 2024.", "category": "EVENT"},
+        {"obs_id": "jenny_020", "text": "Jenny Kowalski's favorite book is 'A Sand County Almanac' by Aldo Leopold.", "category": "PROFILE"}
+      ]
+    }
+  ],
+  "relationships": [
+    {"person_a": "nora", "person_b": "sam", "relation": "climbing_partners", "bidirectional": true, "evidence": ["nora_003", "sam_003"]},
+    {"person_a": "sam", "person_b": "tomas", "relation": "work_colleagues", "bidirectional": true, "evidence": ["sam_004", "tomas_003"]},
+    {"person_a": "tomas", "person_b": "jenny", "relation": "trail_running_partners", "bidirectional": true, "evidence": ["tomas_006", "jenny_004"]},
+    {"person_a": "jenny", "person_b": "nora", "relation": "climbing_and_mountaineering_partners", "bidirectional": true, "evidence": ["jenny_019"]},
+    {"person_a": "sam", "person_b": "jenny", "relation": "childhood_friends", "bidirectional": true, "evidence": ["sam_020", "jenny_003"]},
+    {"person_a": "nora", "person_b": "tomas", "relation": "book_club_members", "bidirectional": true, "evidence": ["nora_006", "tomas_004"]}
+  ],
+  "relationship_graph_summary": "Nora—climbing_partner—Sam—work_colleague—Tomás—trail_running_partner—Jenny—mountaineering_partner—Nora (full cycle). Additional: Sam—childhood_friend—Jenny, Nora—book_club—Tomás.",
+  "chain_examples": [
+    {
+      "hops": 5,
+      "chain": ["nora", "sam", "tomas", "jenny", "nora"],
+      "description": "Nora climbs with Sam -> Sam works with Tomás at the clinic -> Tomás trail runs with Jenny -> Jenny climbed Mount Adams with Nora -> Nora teaches at Vertical World",
+      "example_question": "The childhood friend of Nora's climbing partner — what trail does she run on with her trail running partner every Saturday?",
+      "answer": "Jenny Kowalski and Tomás Rivera train together on Tiger Mountain trails every Saturday morning.",
+      "reasoning_steps": [
+        "Nora's climbing partner is Sam Osei (nora_003, sam_003)",
+        "Sam's childhood friend is Jenny Kowalski (sam_020, jenny_003)",
+        "Jenny's trail running partner is Tomás Rivera, and they train on Tiger Mountain trails every Saturday morning (jenny_004, tomas_006)"
+      ]
+    }
+  ]
+}

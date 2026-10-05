@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "parent_group",
+  "questions": [
+    {
+      "id": "memhop_s10_k1_001",
+      "question": "What does Diane Johansson specialize in at Children's Minnesota hospital?",
+      "answer": "childhood asthma and allergies",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Diane Johansson specialize in?",
+          "sub_answer": "childhood asthma and allergies",
+          "evidence_id": "diane_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_001",
+          "text": "Diane Johansson is a pediatrician at Children's Minnesota hospital, specializing in childhood asthma and allergies.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s10_k1_002",
+      "question": "What building did Kevin Washington win an AIA Minnesota Honor Award for designing?",
+      "answer": "Hmong Cultural Center in St. Paul",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What building did Kevin Washington win an AIA Minnesota Honor Award for?",
+          "sub_answer": "Hmong Cultural Center in St. Paul",
+          "evidence_id": "kevin_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_013",
+          "text": "Kevin Washington won an AIA Minnesota Honor Award in 2024 for his design of the new Hmong Cultural Center in St. Paul.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k1_003",
+      "question": "What is the name of Mei-Lin Zhou's husband's dental practice?",
+      "answer": "Linden Hills Family Dental",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Mei-Lin Zhou's husband's dental practice?",
+          "sub_answer": "Linden Hills Family Dental",
+          "evidence_id": "meilin_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_006",
+          "text": "Mei-Lin Zhou's husband James is a dentist with a private practice called Linden Hills Family Dental on 43rd Street.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k1_004",
+      "question": "What is the name of Luis Herrera's restaurant?",
+      "answer": "El Pueblito",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Luis Herrera's restaurant?",
+          "sub_answer": "El Pueblito",
+          "evidence_id": "luis_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_001",
+          "text": "Luis Herrera owns and operates El Pueblito, a Mexican restaurant on Hennepin Avenue in Uptown Minneapolis.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s10_k1_005",
+      "question": "What children's book did Tomoko Hashimoto illustrate?",
+      "answer": "Koi and the Moon",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What children's book did Tomoko Hashimoto illustrate?",
+          "sub_answer": "Koi and the Moon",
+          "evidence_id": "tomoko_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_008",
+          "text": "Tomoko Hashimoto illustrated a children's book called 'Koi and the Moon' that was published by a small Minneapolis press in March 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s10_k1_006",
+      "question": "What subject does Diane Johansson's husband Erik teach?",
+      "answer": "AP U.S. History",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What subject does Diane Johansson's husband Erik teach?",
+          "sub_answer": "AP U.S. History",
+          "evidence_id": "diane_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_006",
+          "text": "Diane Johansson's husband Erik teaches AP U.S. History at Southwest High School in Minneapolis.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k1_007",
+      "question": "What instrument does Kevin Washington's daughter Zoe play?",
+      "answer": "violin",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What instrument does Kevin Washington's daughter Zoe play?",
+          "sub_answer": "violin",
+          "evidence_id": "kevin_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_012",
+          "text": "Kevin Washington's daughter Zoe takes violin lessons at MacPhail Center for Music every Saturday and performed in the spring recital in May 2024.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s10_k1_008",
+      "question": "What word did Mei-Lin Zhou's daughter Lily win the spelling bee with?",
+      "answer": "chrysanthemum",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What word did Mei-Lin Zhou's daughter Lily win the spelling bee with?",
+          "sub_answer": "chrysanthemum",
+          "evidence_id": "meilin_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_018",
+          "text": "Mei-Lin Zhou's daughter Lily won the Burroughs Elementary spelling bee in November 2024 with the word 'chrysanthemum'.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k1_009",
+      "question": "What is the name of Luis Herrera's mariachi band?",
+      "answer": "Los Hermanos del Norte",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Luis Herrera's mariachi band?",
+          "sub_answer": "Los Hermanos del Norte",
+          "evidence_id": "luis_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_019",
+          "text": "Luis Herrera plays guitar in a mariachi band called Los Hermanos del Norte that performs at community events around Minneapolis.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s10_k1_010",
+      "question": "Where does Tomoko Hashimoto's husband Ryan work?",
+      "answer": "Minneapolis Fire Station 28 on Lake Street",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Tomoko Hashimoto's husband Ryan work?",
+          "sub_answer": "Minneapolis Fire Station 28 on Lake Street",
+          "evidence_id": "tomoko_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_006",
+          "text": "Tomoko Hashimoto's husband Ryan is a firefighter at Minneapolis Fire Station 28 on Lake Street.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k2_001",
+      "question": "What car does Diane Johansson's PTA co-chair drive?",
+      "answer": "white 2022 Tesla Model Y",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What car does Kevin Washington drive?",
+          "sub_answer": "white 2022 Tesla Model Y",
+          "evidence_id": "kevin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_010",
+          "text": "Kevin Washington drives a white 2022 Tesla Model Y and charges it at the free station at his office.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k2_002",
+      "question": "What did Kevin Washington's carpool partner cater at the PTA fall gala?",
+      "answer": "tacos al pastor, elote, and churros",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Luis Herrera cater at the PTA fall gala?",
+          "sub_answer": "tacos al pastor, elote, and churros",
+          "evidence_id": "luis_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_012",
+          "text": "Luis Herrera catered the PTA fall gala in November 2024, providing tacos al pastor, elote, and churros for 200 guests.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s10_k2_003",
+      "question": "What is the profession of the husband of Luis Herrera's neighbor on Upton Avenue?",
+      "answer": "firefighter",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Tomoko Hashimoto's husband's profession?",
+          "sub_answer": "firefighter",
+          "evidence_id": "tomoko_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_006",
+          "text": "Tomoko Hashimoto's husband Ryan is a firefighter at Minneapolis Fire Station 28 on Lake Street.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k2_004",
+      "question": "What does Diane Johansson's neighbor on Oliver Avenue do for work?",
+      "answer": "senior product manager at Target Corporation's headquarters",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's neighbor on Oliver Avenue?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Mei-Lin Zhou do for work?",
+          "sub_answer": "senior product manager at Target Corporation's headquarters",
+          "evidence_id": "meilin_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_001",
+          "text": "Mei-Lin Zhou is a senior product manager at Target Corporation's headquarters in downtown Minneapolis, working on their mobile app team.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s10_k2_005",
+      "question": "What marathon time did Tomoko Hashimoto's yoga classmate achieve?",
+      "answer": "3 hours 52 minutes",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What marathon time did Diane Johansson achieve?",
+          "sub_answer": "3 hours 52 minutes",
+          "evidence_id": "diane_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_011",
+          "text": "Diane Johansson ran the Twin Cities Marathon in October 2024 with a time of 3 hours 52 minutes.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k2_006",
+      "question": "What does the mother of Mei-Lin Zhou's library volunteer partner make?",
+      "answer": "kimono",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Mei-Lin Zhou's library volunteer partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Tomoko Hashimoto's mother make?",
+          "sub_answer": "kimono",
+          "evidence_id": "tomoko_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_017",
+          "text": "Tomoko Hashimoto's mother, Sachiko, is a kimono maker in Kyoto who has been practicing the craft for 40 years.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k2_007",
+      "question": "Where did the parent whose daughter Sofia is best friends with Mei-Lin's daughter Lily travel to in April 2024?",
+      "answer": "Puebla",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose daughter Sofia is best friends with Mei-Lin's daughter Lily?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Luis Herrera travel in April 2024?",
+          "sub_answer": "Puebla",
+          "evidence_id": "luis_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_013",
+          "text": "Luis Herrera traveled to Puebla with his family in April 2024 to visit his mother Rosa and attend his nephew's first communion.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s10_k2_008",
+      "question": "What did Diane Johansson's neighbor Mei-Lin Zhou build in front of her house?",
+      "answer": "Little Free Library",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's neighbor on Oliver Avenue?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Mei-Lin Zhou build in front of her house?",
+          "sub_answer": "Little Free Library",
+          "evidence_id": "meilin_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_016",
+          "text": "Mei-Lin Zhou built a Little Free Library in front of her house on Oliver Avenue, stocking it with bilingual English-Mandarin children's books.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k2_009",
+      "question": "What did Luis Herrera's neighbor on Upton Avenue design for the Burroughs yearbook?",
+      "answer": "yearbook cover featuring watercolor portraits of all 22",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Tomoko Hashimoto design for the Burroughs yearbook?",
+          "sub_answer": "yearbook cover featuring watercolor portraits of all 22 teachers",
+          "evidence_id": "tomoko_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_016",
+          "text": "Tomoko Hashimoto designed the Burroughs Elementary 2024 yearbook cover, featuring watercolor portraits of all 22 teachers.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k2_010",
+      "question": "What is the favorite book of the person whose son Marcus is in Diane's daughter Astrid's class?",
+      "answer": "The Death and Life of Great American Cities",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose son Marcus is in the same class as Diane's daughter Astrid?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Kevin Washington's favorite book?",
+          "sub_answer": "The Death and Life of Great American Cities",
+          "evidence_id": "kevin_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_005",
+          "text": "Diane Johansson's daughter Astrid, age 9, is in the same fourth-grade class as Kevin's son Marcus at Burroughs Elementary.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_014",
+          "text": "Kevin Washington's favorite book is 'The Death and Life of Great American Cities' by Jane Jacobs.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k3_001",
+      "question": "How many raised garden beds did the carpool partner of Diane's PTA co-chair build at Burroughs?",
+      "answer": "three",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many raised garden beds did Luis Herrera build at Burroughs?",
+          "sub_answer": "three",
+          "evidence_id": "luis_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_016",
+          "text": "Luis Herrera built three raised garden beds at Burroughs in April 2024 using cedar planks he milled himself.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k3_002",
+      "question": "What children's book did the neighbor of Kevin Washington's carpool partner illustrate?",
+      "answer": "Koi and the Moon",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What children's book did Tomoko Hashimoto illustrate?",
+          "sub_answer": "Koi and the Moon",
+          "evidence_id": "tomoko_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_008",
+          "text": "Tomoko Hashimoto illustrated a children's book called 'Koi and the Moon' that was published by a small Minneapolis press in March 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s10_k3_003",
+      "question": "What is the favorite book of the neighbor of Mei-Lin Zhou's library volunteer partner?",
+      "answer": "Oaxaca: Home Cooking from the Heart of Mexico",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Mei-Lin Zhou's library volunteer partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko Hashimoto's neighbor on Upton Avenue?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "tomoko_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Luis Herrera's favorite cookbook?",
+          "sub_answer": "Oaxaca: Home Cooking from the Heart of Mexico",
+          "evidence_id": "luis_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_005",
+          "text": "Tomoko Hashimoto and Luis Herrera are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_015",
+          "text": "Luis Herrera's favorite cookbook is 'Oaxaca: Home Cooking from the Heart of Mexico' by Bricia Lopez.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k3_004",
+      "question": "What half-marathon time did the library volunteer partner of the neighbor of Luis Herrera achieve?",
+      "answer": "2 hours 5 minutes",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What half-marathon time did Mei-Lin Zhou achieve?",
+          "sub_answer": "2 hours 5 minutes",
+          "evidence_id": "meilin_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_012",
+          "text": "Mei-Lin Zhou completed a half-marathon at Grandma's Marathon in Duluth in June 2024 with a time of 2 hours 5 minutes.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k3_005",
+      "question": "What did the carpool partner of Diane's PTA co-chair donate to the Burroughs free lunch program each week?",
+      "answer": "30 meals",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many meals does Luis Herrera donate to the Burroughs free lunch program per week?",
+          "sub_answer": "30 meals",
+          "evidence_id": "luis_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_020",
+          "text": "Luis Herrera's restaurant El Pueblito donates 30 meals per week to the Burroughs Elementary free lunch program.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s10_k3_006",
+      "question": "What is the favorite book of the PTA co-chair of Tomoko Hashimoto's yoga classmate?",
+      "answer": "The Death and Life of Great American Cities",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Kevin Washington's favorite book?",
+          "sub_answer": "The Death and Life of Great American Cities",
+          "evidence_id": "kevin_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_014",
+          "text": "Kevin Washington's favorite book is 'The Death and Life of Great American Cities' by Jane Jacobs.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k3_007",
+      "question": "What is the wife's job at the parent whose daughter is best friends with the library volunteer partner of Tomoko Hashimoto's daughter?",
+      "answer": "labor and delivery nurse at Abbott Northwestern Hospital",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Whose daughter is best friends with Mei-Lin's daughter Lily?",
+          "sub_answer": "Luis Herrera (daughter Sofia)",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Luis Herrera's wife Maria's job?",
+          "sub_answer": "labor and delivery nurse at Abbott Northwestern Hospital",
+          "evidence_id": "luis_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_007",
+          "text": "Luis Herrera's wife Maria is a labor and delivery nurse at Abbott Northwestern Hospital.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s10_k3_008",
+      "question": "Where did the PTA co-chair of Tomoko Hashimoto's yoga classmate travel to study school architecture?",
+      "answer": "Copenhagen",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Kevin Washington travel to study school architecture?",
+          "sub_answer": "Copenhagen",
+          "evidence_id": "kevin_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_017",
+          "text": "Kevin Washington traveled to Copenhagen in August 2024 to study Danish school architecture and visited six schools in five days.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_001",
+      "question": "What is the favorite book of the neighbor of the carpool partner of Diane's PTA co-chair?",
+      "answer": "The Tale of Genji",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Tomoko Hashimoto's favorite book?",
+          "sub_answer": "The Tale of Genji",
+          "evidence_id": "tomoko_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_014",
+          "text": "Tomoko Hashimoto's favorite book is 'The Tale of Genji' by Murasaki Shikibu.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_002",
+      "question": "What is the favorite book of the library volunteer partner of the neighbor of the carpool partner of Diane's PTA co-chair?",
+      "answer": "Educated",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Mei-Lin Zhou's favorite book?",
+          "sub_answer": "Educated",
+          "evidence_id": "meilin_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "meilin_014",
+          "text": "Mei-Lin Zhou's favorite book is 'Educated' by Tara Westover.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_003",
+      "question": "What bakery do the parents of the yoga classmate of the neighbor of Kevin's carpool partner run?",
+      "answer": "Johansson's",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What bakery do Diane Johansson's parents run?",
+          "sub_answer": "Johansson's",
+          "evidence_id": "diane_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_002",
+          "text": "Diane Johansson grew up in Duluth, Minnesota, where her parents still run a Swedish bakery called Johansson's on Superior Street.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_004",
+      "question": "What grant did the library volunteer partner of the neighbor of the carpool partner of Diane's PTA co-chair secure?",
+      "answer": "$25,000 grant from Target's community fund",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What grant did Mei-Lin Zhou secure?",
+          "sub_answer": "$25,000 grant from Target's community fund",
+          "evidence_id": "meilin_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "meilin_020",
+          "text": "Mei-Lin Zhou led the PTA effort to install a new all-weather track at Burroughs, securing a $25,000 grant from Target's community fund.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s10_k4_005",
+      "question": "What did the PTA co-chair of the yoga classmate of the neighbor of Kevin's carpool partner design at Burroughs?",
+      "answer": "new Burroughs Elementary playground",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Kevin Washington design at Burroughs?",
+          "sub_answer": "new Burroughs Elementary playground",
+          "evidence_id": "kevin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "kevin_008",
+          "text": "Kevin Washington designed the new Burroughs Elementary playground, which was built in summer 2024 using recycled materials.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s10_k4_006",
+      "question": "What does the mother of the carpool partner of the parent whose daughter is best friends with Tomoko Hashimoto's library volunteer partner's daughter do?",
+      "answer": "retired school principal who now tutors neighborhood kids",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Whose daughter is best friends with Mei-Lin's daughter Lily?",
+          "sub_answer": "Luis Herrera (daughter Sofia)",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's carpool partner?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "luis_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Kevin Washington's mother do?",
+          "sub_answer": "retired school principal who now tutors neighborhood kids",
+          "evidence_id": "kevin_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_003",
+          "text": "Luis Herrera and Kevin Washington carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "kevin_009",
+          "text": "Kevin Washington's mother, Gloria, is a retired school principal who now tutors neighborhood kids at the St. Paul Public Library.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s10_k5_001",
+      "question": "What is the mother's profession of the neighbor of the carpool partner of the PTA co-chair of Tomoko Hashimoto's yoga classmate?",
+      "answer": "kimono maker",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko Hashimoto's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Tomoko Hashimoto's mother's profession?",
+          "sub_answer": "kimono maker",
+          "evidence_id": "tomoko_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_017",
+          "text": "Tomoko Hashimoto's mother, Sachiko, is a kimono maker in Kyoto who has been practicing the craft for 40 years.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_002",
+      "question": "Where did the library volunteer partner of the neighbor of the carpool partner of Diane's PTA co-chair travel in July 2024?",
+      "answer": "Shanghai",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Mei-Lin Zhou travel in July 2024?",
+          "sub_answer": "Shanghai",
+          "evidence_id": "meilin_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_011",
+          "text": "Mei-Lin Zhou traveled to Shanghai with Lily in July 2024 to visit her grandmother, who turned 90.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_003",
+      "question": "What does the parent whose child is best friends with the library volunteer partner of the neighbor of the carpool partner of Diane's PTA co-chair's daughter make every morning?",
+      "answer": "fresh tortillas",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane Johansson's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What does Luis Herrera make every morning?",
+          "sub_answer": "fresh tortillas",
+          "evidence_id": "luis_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_017",
+          "text": "Luis Herrera makes fresh tortillas at El Pueblito every morning starting at 5 AM using heirloom corn masa from a farm in Iowa.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_004",
+      "question": "What did the neighbor of the library volunteer partner of the neighbor of Kevin Washington's carpool partner donate to the school library?",
+      "answer": "50 children's books",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin Washington's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis Herrera's neighbor on Upton Avenue?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko Hashimoto's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Mei-Lin Zhou's neighbor on Oliver Avenue?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Diane Johansson donate to the school library?",
+          "sub_answer": "50 children's books",
+          "evidence_id": "diane_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_019",
+          "text": "Diane Johansson donated 50 children's books to the Burroughs school library in memory of her late mother, who was a librarian.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k1_011",
+      "question": "What is Diane Johansson's role at Burroughs Community Elementary School?",
+      "answer": "PTA president for the 2024-2025 school year",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Diane's PTA role?",
+          "sub_answer": "PTA president 2024-2025",
+          "evidence_id": "diane_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_003",
+          "text": "Diane Johansson is the PTA president at Burroughs Community Elementary School in Minneapolis for the 2024-2025 school year.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s10_k1_012",
+      "question": "What sport does Diane Johansson's son Lars play?",
+      "answer": "peewee soccer",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What sport does Lars play?",
+          "sub_answer": "peewee soccer",
+          "evidence_id": "diane_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_007",
+          "text": "Diane Johansson's son Lars, age 6, is in first grade at Burroughs and plays on the school's peewee soccer team.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s10_k1_013",
+      "question": "How many students did Diane Johansson screen at the school-wide health event in October 2024?",
+      "answer": "340 students",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many students screened?",
+          "sub_answer": "340 students",
+          "evidence_id": "diane_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_009",
+          "text": "Diane Johansson organized a school-wide health screening at Burroughs in October 2024, checking 340 students' vision and hearing.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s10_k1_014",
+      "question": "Where did Diane Johansson travel in June 2024 for Midsommar celebrations?",
+      "answer": "Stockholm",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Diane travel for Midsommar?",
+          "sub_answer": "Stockholm",
+          "evidence_id": "diane_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_013",
+          "text": "Diane Johansson traveled to Stockholm with her family in June 2024 to visit her cousin Ingrid and attend Midsommar celebrations.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k1_015",
+      "question": "What does Kevin Washington specialize in as an architect at HGA?",
+      "answer": "sustainable school design",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Kevin specialize in?",
+          "sub_answer": "sustainable school design",
+          "evidence_id": "kevin_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_001",
+          "text": "Kevin Washington is a senior architect at HGA Architects in downtown Minneapolis, specializing in sustainable school design.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s10_k1_016",
+      "question": "How many students are in Kevin Washington's after-school architecture club?",
+      "answer": "12 students",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many in Kevin's club?",
+          "sub_answer": "12 students",
+          "evidence_id": "kevin_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_016",
+          "text": "Kevin Washington runs a free after-school architecture and design club at Burroughs on Thursdays for 12 students.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s10_k1_017",
+      "question": "How many guests attended Kevin Washington's Fourth of July barbecue in 2024?",
+      "answer": "35 guests",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many guests at barbecue?",
+          "sub_answer": "35 guests",
+          "evidence_id": "kevin_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_018",
+          "text": "Kevin Washington's annual backyard barbecue on the Fourth of July has become a tradition for the parent group, with 35 guests in 2024.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s10_k1_018",
+      "question": "What did Mei-Lin Zhou organize at Burroughs in February 2024?",
+      "answer": "Chinese New Year celebration, teaching 120 students to",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Mei-Lin organize in Feb 2024?",
+          "sub_answer": "Chinese New Year celebration",
+          "evidence_id": "meilin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_007",
+          "text": "Mei-Lin Zhou organized a Chinese New Year celebration at Burroughs in February 2024, teaching 120 students to make dumplings.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k1_019",
+      "question": "How many mooncakes did Mei-Lin Zhou bake for the Burroughs Mid-Autumn Festival?",
+      "answer": "200 mooncakes",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many mooncakes?",
+          "sub_answer": "200",
+          "evidence_id": "meilin_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_015",
+          "text": "Mei-Lin Zhou baked 200 mooncakes for the Burroughs Elementary Mid-Autumn Festival celebration in September 2024.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k1_020",
+      "question": "What does Mei-Lin Zhou teach at the Minnesota Chinese Cultural Center on weekends?",
+      "answer": "Mandarin class for children with 15 students",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Mei-Lin teach at the Cultural Center?",
+          "sub_answer": "weekend Mandarin class for children",
+          "evidence_id": "meilin_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_013",
+          "text": "Mei-Lin Zhou teaches a weekend Mandarin class for children at the Minnesota Chinese Cultural Center, with 15 students including Lily.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k1_021",
+      "question": "What award did Luis Herrera's restaurant win from the Minneapolis Star Tribune?",
+      "answer": "Best New Restaurant in 2022",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What award did El Pueblito win?",
+          "sub_answer": "Best New Restaurant 2022",
+          "evidence_id": "luis_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_009",
+          "text": "Luis Herrera won 'Best New Restaurant' from Minneapolis Star Tribune's Taste section in 2022 for El Pueblito.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k1_022",
+      "question": "How many pounds of tomatoes did Luis Herrera's school garden produce in 2024?",
+      "answer": "120 pounds",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How many pounds of tomatoes?",
+          "sub_answer": "120 pounds",
+          "evidence_id": "luis_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_014",
+          "text": "Luis Herrera's school garden produced 120 pounds of tomatoes in 2024, which were used in the school cafeteria.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k1_023",
+      "question": "What did Tomoko Hashimoto complete in June 2024 at Yoga Sol?",
+      "answer": "200-hour yoga teacher training certification",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Tomoko complete at Yoga Sol?",
+          "sub_answer": "200-hour yoga teacher training certification",
+          "evidence_id": "tomoko_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_012",
+          "text": "Tomoko Hashimoto completed her 200-hour yoga teacher training certification at Yoga Sol in Minneapolis in June 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k1_024",
+      "question": "What did Tomoko Hashimoto organize at Burroughs in April 2024?",
+      "answer": "Japanese cultural day teaching 80 students origami and",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Tomoko organize in April 2024?",
+          "sub_answer": "Japanese cultural day",
+          "evidence_id": "tomoko_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_019",
+          "text": "Tomoko Hashimoto organized a Japanese cultural day at Burroughs in April 2024, teaching 80 students origami and calligraphy.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k1_025",
+      "question": "What does Tomoko Hashimoto teach at the Linden Hills Community Center on Saturdays?",
+      "answer": "free kids' art class with 10-15 students per",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "parent_group",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Tomoko teach on Saturdays?",
+          "sub_answer": "free kids' art class",
+          "evidence_id": "tomoko_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_015",
+          "text": "Tomoko Hashimoto teaches a free kids' art class at the Linden Hills Community Center on Saturday afternoons, with 10-15 students per session.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s10_k2_011",
+      "question": "What bakery do the parents of Tomoko Hashimoto's yoga classmate run?",
+      "answer": "Johansson's on Superior Street in Duluth",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What bakery do Diane's parents run?",
+          "sub_answer": "Johansson's on Superior Street",
+          "evidence_id": "diane_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_002",
+          "text": "Diane Johansson grew up in Duluth, Minnesota, where her parents still run a Swedish bakery called Johansson's on Superior Street.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k2_012",
+      "question": "How many students did the PTA president who co-chairs with Kevin Washington screen in October 2024?",
+      "answer": "340 students",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-chairs PTA fundraising with Kevin?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "kevin_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many students did Diane screen?",
+          "sub_answer": "340",
+          "evidence_id": "diane_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_003",
+          "text": "Kevin Washington and Diane Johansson are both on the PTA fundraising committee and co-chaired the fall gala.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "diane_009",
+          "text": "Diane Johansson organized a school-wide health screening at Burroughs in October 2024, checking 340 students' vision and hearing.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k2_013",
+      "question": "How many students are in the after-school architecture club run by Diane Johansson's PTA co-chair?",
+      "answer": "12 students",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many students in Kevin's club?",
+          "sub_answer": "12 students",
+          "evidence_id": "kevin_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_016",
+          "text": "Kevin Washington runs a free after-school architecture and design club at Burroughs on Thursdays for 12 students.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k2_014",
+      "question": "What award did Kevin Washington's carpool partner's restaurant win from the Star Tribune?",
+      "answer": "Best New Restaurant in 2022",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did El Pueblito win?",
+          "sub_answer": "Best New Restaurant 2022",
+          "evidence_id": "luis_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_009",
+          "text": "Luis Herrera won 'Best New Restaurant' from Minneapolis Star Tribune's Taste section in 2022 for El Pueblito.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k2_015",
+      "question": "What yoga certification did Luis Herrera's neighbor on Upton Avenue complete in June 2024?",
+      "answer": "200-hour yoga teacher training certification at Yoga Sol",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Luis's neighbor on Upton?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What yoga cert did Tomoko complete?",
+          "sub_answer": "200-hour yoga teacher training",
+          "evidence_id": "tomoko_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_012",
+          "text": "Tomoko Hashimoto completed her 200-hour yoga teacher training certification at Yoga Sol in Minneapolis in June 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k2_016",
+      "question": "What Chinese New Year event did Tomoko Hashimoto's library volunteer partner organize at Burroughs?",
+      "answer": "Chinese New Year celebration teaching 120 students to",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's library volunteer partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Mei-Lin organize for Chinese New Year?",
+          "sub_answer": "celebration teaching 120 students dumplings",
+          "evidence_id": "meilin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_007",
+          "text": "Mei-Lin Zhou organized a Chinese New Year celebration at Burroughs in February 2024, teaching 120 students to make dumplings.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k2_017",
+      "question": "What did the parent whose daughter Sofia is best friends with Mei-Lin's daughter Lily organize at Burroughs in May 2024?",
+      "answer": "Cinco de Mayo fiesta with a piñata, folk",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose daughter Sofia is Lily's best friend?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Luis organize in May 2024?",
+          "sub_answer": "Cinco de Mayo fiesta",
+          "evidence_id": "luis_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_018",
+          "text": "Luis Herrera organized a Cinco de Mayo fiesta at Burroughs in May 2024, with a piñata, folk dancing, and a taco bar for 300 people.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s10_k2_018",
+      "question": "What did Luis Herrera's neighbor on Upton Avenue design for the Burroughs Elementary logo?",
+      "answer": "logo and branding for El Pueblito",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Luis's neighbor on Upton?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Tomoko design for Luis's restaurant?",
+          "sub_answer": "logo and branding for El Pueblito",
+          "evidence_id": "tomoko_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_010",
+          "text": "Tomoko Hashimoto designed the logo and branding for Luis Herrera's restaurant El Pueblito in 2022.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k2_019",
+      "question": "What does Diane Johansson's neighbor Mei-Lin Zhou play in the Linden Hills Community Orchestra?",
+      "answer": "piano",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Mei-Lin play in the orchestra?",
+          "sub_answer": "piano",
+          "evidence_id": "meilin_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_017",
+          "text": "Mei-Lin Zhou plays piano and performs with the Linden Hills Community Orchestra, which gives two concerts a year at Lake Harriet Bandshell.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k2_020",
+      "question": "Where did Tomoko Hashimoto's yoga classmate travel in June 2024?",
+      "answer": "Stockholm to visit her cousin Ingrid and attend",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Diane travel in June 2024?",
+          "sub_answer": "Stockholm",
+          "evidence_id": "diane_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_013",
+          "text": "Diane Johansson traveled to Stockholm with her family in June 2024 to visit her cousin Ingrid and attend Midsommar celebrations.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k2_021",
+      "question": "What did Kevin Washington's carpool partner build at Burroughs using cedar planks?",
+      "answer": "three raised garden beds",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What did Luis build with cedar planks?",
+          "sub_answer": "three raised garden beds",
+          "evidence_id": "luis_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_016",
+          "text": "Luis Herrera built three raised garden beds at Burroughs in April 2024 using cedar planks he milled himself.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s10_k2_022",
+      "question": "Where did Mei-Lin Zhou's library volunteer partner travel in August 2024?",
+      "answer": "Kyoto to visit her parents and attend the",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Mei-Lin's library volunteer partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Tomoko travel in Aug 2024?",
+          "sub_answer": "Kyoto",
+          "evidence_id": "tomoko_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_013",
+          "text": "Tomoko Hashimoto traveled to Kyoto with Kai in August 2024 to visit her parents and attend the Gion Matsuri festival.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k2_023",
+      "question": "What languages does Diane Johansson's neighbor on Oliver Avenue speak?",
+      "answer": "Mandarin, Shanghainese, and English",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Mei-Lin speak?",
+          "sub_answer": "Mandarin, Shanghainese, and English",
+          "evidence_id": "meilin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_008",
+          "text": "Mei-Lin Zhou speaks Mandarin, Shanghainese, and English fluently.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k2_024",
+      "question": "Where does the person whose son Marcus is in Diane's daughter Astrid's class live?",
+      "answer": "renovated craftsman bungalow on Dupont Avenue South in",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose son Marcus is in Astrid's class?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Kevin live?",
+          "sub_answer": "Dupont Avenue South in Linden Hills",
+          "evidence_id": "kevin_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_005",
+          "text": "Diane Johansson's daughter Astrid, age 9, is in the same fourth-grade class as Kevin's son Marcus at Burroughs Elementary.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_011",
+          "text": "Kevin Washington lives in a renovated craftsman bungalow on Dupont Avenue South in the Linden Hills neighborhood.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s10_k2_025",
+      "question": "What does the parent whose daughter Sofia is best friends with Mei-Lin's daughter teach in Spanish at his restaurant?",
+      "answer": "kids' cooking class",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Whose daughter is Lily's best friend?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Luis teach at El Pueblito?",
+          "sub_answer": "kids' cooking class in Spanish",
+          "evidence_id": "luis_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_010",
+          "text": "Luis Herrera speaks Spanish and English fluently and teaches a kids' cooking class in Spanish at El Pueblito on Saturday mornings.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k3_009",
+      "question": "What award did the parent whose daughter is best friends with the neighbor of Diane Johansson's daughter Lily's classmate's restaurant win?",
+      "answer": "Best New Restaurant in 2022",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Whose daughter is best friends with Mei-Lin's daughter Lily?",
+          "sub_answer": "Luis Herrera (Sofia)",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What award did Luis's restaurant win?",
+          "sub_answer": "Best New Restaurant 2022",
+          "evidence_id": "luis_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_009",
+          "text": "Luis Herrera won 'Best New Restaurant' from Minneapolis Star Tribune's Taste section in 2022 for El Pueblito.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s10_k3_010",
+      "question": "What Japanese cultural event did the library volunteer partner of Diane Johansson's neighbor on Oliver Avenue organize at Burroughs?",
+      "answer": "Japanese cultural day teaching 80 students origami and",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library volunteer partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What Japanese event did Tomoko organize?",
+          "sub_answer": "Japanese cultural day",
+          "evidence_id": "tomoko_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_019",
+          "text": "Tomoko Hashimoto organized a Japanese cultural day at Burroughs in April 2024, teaching 80 students origami and calligraphy.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k3_011",
+      "question": "What did the neighbor of Kevin Washington's carpool partner design for El Pueblito?",
+      "answer": "logo and branding",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor on Upton?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Tomoko design for El Pueblito?",
+          "sub_answer": "logo and branding",
+          "evidence_id": "tomoko_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_010",
+          "text": "Tomoko Hashimoto designed the logo and branding for Luis Herrera's restaurant El Pueblito in 2022.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k3_012",
+      "question": "What yoga certification did the neighbor of Kevin Washington's carpool partner complete in June 2024?",
+      "answer": "200-hour yoga teacher training certification at Yoga Sol",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor on Upton?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What yoga cert did Tomoko complete?",
+          "sub_answer": "200-hour yoga teacher training",
+          "evidence_id": "tomoko_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_012",
+          "text": "Tomoko Hashimoto completed her 200-hour yoga teacher training certification at Yoga Sol in Minneapolis in June 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k3_013",
+      "question": "How many guests attended the Fourth of July barbecue of the PTA co-chair of Tomoko Hashimoto's yoga classmate?",
+      "answer": "35 guests",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many guests at Kevin's barbecue?",
+          "sub_answer": "35 guests",
+          "evidence_id": "kevin_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_018",
+          "text": "Kevin Washington's annual backyard barbecue on the Fourth of July has become a tradition for the parent group, with 35 guests in 2024.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k3_014",
+      "question": "What Cinco de Mayo event did the parent whose daughter is best friends with Tomoko Hashimoto's library volunteer partner's daughter organize?",
+      "answer": "Cinco de Mayo fiesta with a piñata, folk",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Whose daughter is best friends with Mei-Lin's Lily?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "meilin_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Luis organize for Cinco de Mayo?",
+          "sub_answer": "fiesta with piñata, folk dancing, taco bar",
+          "evidence_id": "luis_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_004",
+          "text": "Mei-Lin Zhou's daughter Lily, age 8, is in third grade at Burroughs Elementary and is best friends with Luis's daughter Sofia.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "luis_018",
+          "text": "Luis Herrera organized a Cinco de Mayo fiesta at Burroughs in May 2024, with a piñata, folk dancing, and a taco bar for 300 people.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s10_k3_015",
+      "question": "What cooking class does the carpool partner of Diane Johansson's PTA co-chair teach in Spanish?",
+      "answer": "kids' cooking class at El Pueblito on Saturday",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Luis teach in Spanish?",
+          "sub_answer": "kids' cooking class on Saturday mornings",
+          "evidence_id": "luis_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_010",
+          "text": "Luis Herrera speaks Spanish and English fluently and teaches a kids' cooking class in Spanish at El Pueblito on Saturday mornings.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k3_016",
+      "question": "Where did the neighbor of Kevin Washington's carpool partner travel in August 2024?",
+      "answer": "Kyoto to visit her parents and attend the",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Tomoko travel in Aug 2024?",
+          "sub_answer": "Kyoto",
+          "evidence_id": "tomoko_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_013",
+          "text": "Tomoko Hashimoto traveled to Kyoto with Kai in August 2024 to visit her parents and attend the Gion Matsuri festival.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s10_k3_017",
+      "question": "What does the husband of the neighbor of Tomoko Hashimoto's library volunteer partner teach?",
+      "answer": "AP U.S. History at Southwest High School",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's neighbor on Oliver?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What does Diane's husband Erik teach?",
+          "sub_answer": "AP U.S. History",
+          "evidence_id": "diane_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_006",
+          "text": "Diane Johansson's husband Erik teaches AP U.S. History at Southwest High School in Minneapolis.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k3_018",
+      "question": "How many students are in the architecture club run by the PTA co-chair of the person who takes 6:30 AM yoga at CorePower?",
+      "answer": "12 students",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes 6:30 AM yoga at CorePower?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "diane_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many students in Kevin's club?",
+          "sub_answer": "12 students",
+          "evidence_id": "kevin_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_018",
+          "text": "Diane Johansson and Tomoko Hashimoto take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_016",
+          "text": "Kevin Washington runs a free after-school architecture and design club at Burroughs on Thursdays for 12 students.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k3_019",
+      "question": "What did the library volunteer partner of the person who lives across from Luis Herrera teach 120 students to make?",
+      "answer": "dumplings",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives across from Luis?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Mei-Lin teach 120 students to make?",
+          "sub_answer": "dumplings",
+          "evidence_id": "meilin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_007",
+          "text": "Mei-Lin Zhou organized a Chinese New Year celebration at Burroughs in February 2024, teaching 120 students to make dumplings.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k3_020",
+      "question": "What is the profession of the father of the neighbor of the library volunteer partner of the person who lives across from Luis Herrera?",
+      "answer": "retired physics professor at the University of Minnesota",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives across from Luis?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Mei-Lin's father's profession?",
+          "sub_answer": "retired physics professor",
+          "evidence_id": "meilin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_010",
+          "text": "Mei-Lin Zhou's father, Dr. Wei Zhou, is a retired physics professor at the University of Minnesota.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k4_007",
+      "question": "What yoga certification did the neighbor of the carpool partner of Diane Johansson's PTA co-chair complete?",
+      "answer": "200-hour yoga teacher training certification at Yoga Sol",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor on Upton?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What yoga cert did Tomoko complete?",
+          "sub_answer": "200-hour yoga teacher training",
+          "evidence_id": "tomoko_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_012",
+          "text": "Tomoko Hashimoto completed her 200-hour yoga teacher training certification at Yoga Sol in Minneapolis in June 2024.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_008",
+      "question": "What Japanese cultural event did the neighbor of the carpool partner of Diane Johansson's PTA co-chair organize at Burroughs?",
+      "answer": "Japanese cultural day teaching 80 students origami and",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What Japanese event did Tomoko organize?",
+          "sub_answer": "cultural day with origami and calligraphy",
+          "evidence_id": "tomoko_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_019",
+          "text": "Tomoko Hashimoto organized a Japanese cultural day at Burroughs in April 2024, teaching 80 students origami and calligraphy.",
+          "person_id": "tomoko"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_009",
+      "question": "What does the father of the library volunteer partner of the neighbor of Kevin Washington's carpool partner do?",
+      "answer": "retired physics professor at the University of Minnesota",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Mei-Lin's father do?",
+          "sub_answer": "retired physics professor at UMN",
+          "evidence_id": "meilin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_010",
+          "text": "Mei-Lin Zhou's father, Dr. Wei Zhou, is a retired physics professor at the University of Minnesota.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k4_010",
+      "question": "What languages does the library volunteer partner of the neighbor of Kevin Washington's carpool partner speak?",
+      "answer": "Mandarin, Shanghainese, and English",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What languages does Mei-Lin speak?",
+          "sub_answer": "Mandarin, Shanghainese, and English",
+          "evidence_id": "meilin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_008",
+          "text": "Mei-Lin Zhou speaks Mandarin, Shanghainese, and English fluently.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k4_011",
+      "question": "How many students did the yoga classmate of the neighbor of Kevin Washington's carpool partner screen in October 2024?",
+      "answer": "340 students",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many students did Diane screen?",
+          "sub_answer": "340",
+          "evidence_id": "diane_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_009",
+          "text": "Diane Johansson organized a school-wide health screening at Burroughs in October 2024, checking 340 students' vision and hearing.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s10_k4_012",
+      "question": "Where did the yoga classmate of the neighbor of Kevin Washington's carpool partner travel for Midsommar in June 2024?",
+      "answer": "Stockholm",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Diane travel for Midsommar?",
+          "sub_answer": "Stockholm",
+          "evidence_id": "diane_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_013",
+          "text": "Diane Johansson traveled to Stockholm with her family in June 2024 to visit her cousin Ingrid and attend Midsommar celebrations.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k4_013",
+      "question": "What is the favorite book of the neighbor of the library volunteer partner of Diane Johansson's neighbor on Oliver Avenue?",
+      "answer": "Oaxaca: Home Cooking from the Heart of Mexico",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's neighbor on Upton?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "tomoko_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Luis's favorite cookbook?",
+          "sub_answer": "Oaxaca: Home Cooking from the Heart of Mexico",
+          "evidence_id": "luis_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_005",
+          "text": "Tomoko Hashimoto and Luis Herrera are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_015",
+          "text": "Luis Herrera's favorite cookbook is 'Oaxaca: Home Cooking from the Heart of Mexico' by Bricia Lopez.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k4_014",
+      "question": "How many pounds of tomatoes did the neighbor of the library volunteer partner of the person who organized the Mid-Autumn Festival grow in summer 2024?",
+      "answer": "80 pounds",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized Mid-Autumn Festival?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "meilin_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many pounds of tomatoes in Diane's garden?",
+          "sub_answer": "80 pounds",
+          "evidence_id": "diane_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "meilin_015",
+          "text": "Mei-Lin Zhou baked 200 mooncakes for the Burroughs Elementary Mid-Autumn Festival celebration in September 2024.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_020",
+          "text": "Diane Johansson planted a vegetable garden in her backyard that produced 80 pounds of tomatoes in the summer of 2024.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s10_k4_015",
+      "question": "What Swedish bakery do the parents of the neighbor of the library volunteer partner of the person who lives across from Luis Herrera run?",
+      "answer": "Johansson's on Superior Street in Duluth",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives across from Luis?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Mei-Lin's neighbor on Oliver?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What bakery do Diane's parents run?",
+          "sub_answer": "Johansson's on Superior Street",
+          "evidence_id": "diane_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_002",
+          "text": "Diane Johansson grew up in Duluth, Minnesota, where her parents still run a Swedish bakery called Johansson's on Superior Street.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_016",
+      "question": "What cooking class does the parent whose daughter is best friends with the neighbor of Diane Johansson's daughter's classmate's parent's daughter teach?",
+      "answer": "kids' cooking class in Spanish",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's neighbor on Upton?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "tomoko_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What does Luis teach at his restaurant?",
+          "sub_answer": "kids' cooking class in Spanish",
+          "evidence_id": "luis_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_005",
+          "text": "Tomoko Hashimoto and Luis Herrera are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_010",
+          "text": "Luis Herrera speaks Spanish and English fluently and teaches a kids' cooking class in Spanish at El Pueblito on Saturday mornings.",
+          "person_id": "luis"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s10_k4_017",
+      "question": "Where did the PTA co-chair of the yoga classmate of the person who lives across from Luis Herrera grow up?",
+      "answer": "Rondo neighborhood of St. Paul, Minnesota",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lives across from Luis?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Kevin grow up?",
+          "sub_answer": "Rondo neighborhood of St. Paul",
+          "evidence_id": "kevin_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_002",
+          "text": "Kevin Washington grew up in the Rondo neighborhood of St. Paul, Minnesota.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k4_018",
+      "question": "What is the PTA co-chair of the neighbor of the library volunteer partner of the person who designed the El Pueblito branding's favorite book?",
+      "answer": "Being Mortal",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who designed El Pueblito branding?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "tomoko_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Mei-Lin's neighbor on Oliver?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Diane's favorite book?",
+          "sub_answer": "Being Mortal",
+          "evidence_id": "diane_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "tomoko_010",
+          "text": "Tomoko Hashimoto designed the logo and branding for Luis Herrera's restaurant El Pueblito in 2022.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_014",
+          "text": "Diane Johansson's favorite book is 'Being Mortal' by Atul Gawande.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s10_k5_005",
+      "question": "What languages does the library volunteer partner of the neighbor of the carpool partner of Diane Johansson's PTA co-chair speak?",
+      "answer": "Mandarin, Shanghainese, and English",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What languages does Mei-Lin speak?",
+          "sub_answer": "Mandarin, Shanghainese, and English",
+          "evidence_id": "meilin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_008",
+          "text": "Mei-Lin Zhou speaks Mandarin, Shanghainese, and English fluently.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_006",
+      "question": "What Chinese New Year event did the library volunteer partner of the neighbor of the carpool partner of Diane Johansson's PTA co-chair organize?",
+      "answer": "Chinese New Year celebration teaching 120 students to",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Mei-Lin organize for Chinese New Year?",
+          "sub_answer": "celebration teaching 120 students dumplings",
+          "evidence_id": "meilin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_007",
+          "text": "Mei-Lin Zhou organized a Chinese New Year celebration at Burroughs in February 2024, teaching 120 students to make dumplings.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_007",
+      "question": "What is the profession of the father of the library volunteer partner of the neighbor of the carpool partner of Diane Johansson's PTA co-chair?",
+      "answer": "retired physics professor at the University of Minnesota",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What does Mei-Lin's father do?",
+          "sub_answer": "retired physics professor at UMN",
+          "evidence_id": "meilin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_010",
+          "text": "Mei-Lin Zhou's father, Dr. Wei Zhou, is a retired physics professor at the University of Minnesota.",
+          "person_id": "meilin"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s10_k5_008",
+      "question": "What did the neighbor of the library volunteer partner of the neighbor of Kevin Washington's carpool partner grow in her backyard in summer 2024?",
+      "answer": "80 pounds of tomatoes",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Mei-Lin's neighbor on Oliver?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Diane grow in summer 2024?",
+          "sub_answer": "80 pounds of tomatoes",
+          "evidence_id": "diane_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_020",
+          "text": "Diane Johansson planted a vegetable garden in her backyard that produced 80 pounds of tomatoes in the summer of 2024.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s10_k5_009",
+      "question": "Where did the neighbor of the library volunteer partner of the neighbor of Kevin Washington's carpool partner travel for Midsommar?",
+      "answer": "Stockholm",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's library partner?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "tomoko_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Mei-Lin's neighbor?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "meilin_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Diane travel for Midsommar?",
+          "sub_answer": "Stockholm",
+          "evidence_id": "diane_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_004",
+          "text": "Tomoko Hashimoto and Mei-Lin Zhou volunteer together at the Burroughs Elementary school library every Wednesday afternoon.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "meilin_003",
+          "text": "Mei-Lin Zhou and Diane Johansson are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "diane_013",
+          "text": "Diane Johansson traveled to Stockholm with her family in June 2024 to visit her cousin Ingrid and attend Midsommar celebrations.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s10_k5_010",
+      "question": "Where did the carpool partner of the neighbor of the library volunteer partner of Diane Johansson's neighbor on Oliver Avenue grow up?",
+      "answer": "Rondo neighborhood of St. Paul, Minnesota",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's neighbor on Upton?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "tomoko_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Luis's carpool partner?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "luis_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Kevin grow up?",
+          "sub_answer": "Rondo neighborhood of St. Paul",
+          "evidence_id": "kevin_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_005",
+          "text": "Tomoko Hashimoto and Luis Herrera are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_003",
+          "text": "Luis Herrera and Kevin Washington carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "kevin_002",
+          "text": "Kevin Washington grew up in the Rondo neighborhood of St. Paul, Minnesota.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s10_k5_011",
+      "question": "What award did the carpool partner of the neighbor of the library volunteer partner of Diane Johansson's neighbor on Oliver Avenue win in 2024?",
+      "answer": "AIA Minnesota Honor Award for the Hmong Cultural",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's neighbor on Oliver?",
+          "sub_answer": "Mei-Lin Zhou",
+          "evidence_id": "diane_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Mei-Lin's library partner?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "meilin_005"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Tomoko's neighbor?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "tomoko_005"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Luis's carpool partner?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "luis_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What award did Kevin win?",
+          "sub_answer": "AIA Minnesota Honor Award for Hmong Cultural Center",
+          "evidence_id": "kevin_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_008",
+          "text": "Diane Johansson and Mei-Lin Zhou are neighbors on Oliver Avenue South in the Linden Hills neighborhood, with houses three doors apart.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "meilin_005",
+          "text": "Mei-Lin Zhou and Tomoko Hashimoto volunteer together at the Burroughs Elementary school library every Wednesday afternoon, shelving books and reading to first graders.",
+          "person_id": "meilin"
+        },
+        {
+          "obs_id": "tomoko_005",
+          "text": "Tomoko Hashimoto and Luis Herrera are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "luis_003",
+          "text": "Luis Herrera and Kevin Washington carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "kevin_013",
+          "text": "Kevin Washington won an AIA Minnesota Honor Award in 2024 for his design of the new Hmong Cultural Center in St. Paul.",
+          "person_id": "kevin"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s10_k5_012",
+      "question": "What did the yoga classmate of the neighbor of the carpool partner of Diane Johansson's PTA co-chair donate to the Burroughs school library?",
+      "answer": "50 children's books in memory of her late",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "parent_group",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Diane's PTA co-chair?",
+          "sub_answer": "Kevin Washington",
+          "evidence_id": "diane_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Kevin's carpool partner?",
+          "sub_answer": "Luis Herrera",
+          "evidence_id": "kevin_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Luis's neighbor?",
+          "sub_answer": "Tomoko Hashimoto",
+          "evidence_id": "luis_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Tomoko's yoga classmate?",
+          "sub_answer": "Diane Johansson",
+          "evidence_id": "tomoko_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What did Diane donate to the school library?",
+          "sub_answer": "50 children's books",
+          "evidence_id": "diane_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "diane_004",
+          "text": "Diane Johansson and Kevin Washington are both on the PTA fundraising committee and co-chaired the fall gala that raised $18,000.",
+          "person_id": "diane"
+        },
+        {
+          "obs_id": "kevin_006",
+          "text": "Kevin Washington and Luis Herrera carpool together on Monday, Wednesday, and Friday, alternating who drives to Burroughs.",
+          "person_id": "kevin"
+        },
+        {
+          "obs_id": "luis_006",
+          "text": "Luis Herrera and Tomoko Hashimoto are neighbors on Upton Avenue South, living directly across the street from each other.",
+          "person_id": "luis"
+        },
+        {
+          "obs_id": "tomoko_003",
+          "text": "Tomoko Hashimoto and Diane Johansson take the same 6:30 AM yoga class at CorePower Yoga in Uptown every Monday, Wednesday, and Friday.",
+          "person_id": "tomoko"
+        },
+        {
+          "obs_id": "diane_019",
+          "text": "Diane Johansson donated 50 children's books to the Burroughs school library in memory of her late mother, who was a librarian.",
+          "person_id": "diane"
+        }
+      ],
+      "answerable_after_session": 19
+    }
+  ]
+}

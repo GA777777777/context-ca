@@ -1,0 +1,417 @@
+{
+  "scenario_id": "sports_league",
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "date": "2024-03-05",
+      "participants": ["Omar Hadid", "Kenji Watanabe"],
+      "setting": "Denver Health cafeteria during lunch break",
+      "observations_covered": ["omar_002", "omar_004", "kenji_001", "kenji_004", "omar_017"],
+      "turns": [
+        {"speaker": "Kenji Watanabe", "text": "Hey Omar, I saw your name in the Journal of Emergency Medicine this morning. Congrats on the concussion protocol case study getting published!"},
+        {"speaker": "Omar Hadid", "text": "Thanks, man. Been working on that since last fall. Feels good to finally see it in print. You know how the ER is — we see so many sports concussions and the protocols really needed updating."},
+        {"speaker": "Kenji Watanabe", "text": "I bet. We get plenty of those scans over in diagnostic imaging. Half the time I'm reading MRIs from your ER referrals."},
+        {"speaker": "Omar Hadid", "text": "That's because you're the best radiologist in the building and I trust your reads. How's the morning been in your department?"},
+        {"speaker": "Kenji Watanabe", "text": "Busy, as usual. Three CT scans before ten o'clock. But honestly, I like the pace. Keeps the day moving."},
+        {"speaker": "Omar Hadid", "text": "Same. I got in at seven for my shift and haven't stopped. Twelve-hour days are brutal, but at least the 7 AM to 7 PM shift lets me have some evenings with the kids."},
+        {"speaker": "Kenji Watanabe", "text": "That's the trade-off, right? Speaking of which — are we doing practice tonight, or is it next week that the season starts up?"},
+        {"speaker": "Omar Hadid", "text": "Next Tuesday is our first official practice. I've been drawing up some new plays. You ready to put that shooting touch to work for the Mavericks?"},
+        {"speaker": "Kenji Watanabe", "text": "Always ready. Been putting up shots at the gym on weekends. My three-point game is feeling pretty good right now."},
+        {"speaker": "Omar Hadid", "text": "That's what I like to hear. Alright, I gotta run — just got paged. See you on the court."}
+      ]
+    },
+    {
+      "session_id": "session_02",
+      "date": "2024-03-12",
+      "participants": ["Tessa Brandt", "Omar Hadid"],
+      "setting": "Walking dogs on Dahlia Street in the Park Hill neighborhood",
+      "observations_covered": ["omar_018", "tessa_004", "tessa_012", "omar_012", "tessa_002"],
+      "turns": [
+        {"speaker": "Tessa Brandt", "text": "Hey Omar! Barley, come back here! Sorry, she always bolts when she sees your yard."},
+        {"speaker": "Omar Hadid", "text": "No worries, Barley is always welcome. It's nice living just three houses apart — I swear this stretch of Dahlia Street is the friendliest block in Park Hill."},
+        {"speaker": "Tessa Brandt", "text": "It really is. I still remember when you moved in back in — what was it, 2018?"},
+        {"speaker": "Omar Hadid", "text": "Yeah, 2018. Bought the four-bedroom for $485,000, which seemed like a lot then. Now Layla says we couldn't touch this neighborhood for that price."},
+        {"speaker": "Tessa Brandt", "text": "She's not wrong. Park Hill has blown up. I grew up in the Highlands, and even that neighborhood is unrecognizable now. Born and raised in Denver and sometimes I barely recognize my own city."},
+        {"speaker": "Omar Hadid", "text": "I get it. Dearborn has changed a lot too since I left. But at least the bones of Denver are still great — the mountains, the weather, the people."},
+        {"speaker": "Tessa Brandt", "text": "True. Speaking of which, Barley is desperate for her evening walk. This border collie has more energy than I do after a full day at the brewery."},
+        {"speaker": "Omar Hadid", "text": "She comes to the brewery with you every day, right? Must be nice having a coworker who never complains."},
+        {"speaker": "Tessa Brandt", "text": "She's the employee of the month, every month. Customers love her. Anyway, are you getting the team together soon? I'm itching to play."},
+        {"speaker": "Omar Hadid", "text": "First practice is next Tuesday. I'll send the group text tonight."},
+        {"speaker": "Tessa Brandt", "text": "Perfect. I'll bring Barley to keep score. See you then, neighbor!"}
+      ]
+    },
+    {
+      "session_id": "session_03",
+      "date": "2024-03-19",
+      "participants": ["Darius Coleman", "Kenji Watanabe"],
+      "setting": "Darius's apartment in Five Points during Wednesday night poker",
+      "observations_covered": ["darius_004", "kenji_006", "darius_001", "darius_018", "kenji_009"],
+      "turns": [
+        {"speaker": "Darius Coleman", "text": "Alright, I'll see your twenty and raise you forty. You feeling lucky tonight?"},
+        {"speaker": "Kenji Watanabe", "text": "Not really, but I'll call. I drove all the way from my LoHi place through rush hour traffic for this, so I'm committed."},
+        {"speaker": "Darius Coleman", "text": "That's the spirit. You know, Wednesday night poker at my place has become the one thing I look forward to every week."},
+        {"speaker": "Kenji Watanabe", "text": "Same. Nice setup you've got here, by the way. The soundproofing looks professional. Did you have it done?"},
+        {"speaker": "Darius Coleman", "text": "Nah, I did it all myself. Installed every one of those acoustic foam panels by hand. Spent about fifteen grand total building out Black Anvil Studios, so I had to save where I could."},
+        {"speaker": "Kenji Watanabe", "text": "Wait, fifteen thousand? And you built this entire home recording studio yourself? That's impressive, man."},
+        {"speaker": "Darius Coleman", "text": "All my savings at the time. But it's paid off. Having the studio right here in my Five Points apartment means artists can come to me, no overhead on a commercial space."},
+        {"speaker": "Kenji Watanabe", "text": "Smart move. My loft on Platte Street is great but I could never build anything in there — the HOA would lose their minds. Full house, by the way."},
+        {"speaker": "Darius Coleman", "text": "No way! I had two pair. Alright, you win this round. I'll get you back. You want another beer?"},
+        {"speaker": "Kenji Watanabe", "text": "Absolutely. And deal me in for the next hand — I feel a hot streak coming."},
+        {"speaker": "Darius Coleman", "text": "That's what you said last week right before you lost sixty bucks. But sure, let's go again."}
+      ]
+    },
+    {
+      "session_id": "session_04",
+      "date": "2024-03-23",
+      "participants": ["Tessa Brandt", "Kenji Watanabe"],
+      "setting": "Red Rocks Park, Saturday morning trail running group meetup",
+      "observations_covered": ["tessa_005", "kenji_005", "kenji_012", "tessa_010"],
+      "turns": [
+        {"speaker": "Kenji Watanabe", "text": "Morning! Beautiful sunrise today. Glad we do this every Saturday at seven — you can't beat Red Rocks at dawn."},
+        {"speaker": "Tessa Brandt", "text": "Absolutely. This trail running group is the best part of my week. How are the legs feeling?"},
+        {"speaker": "Kenji Watanabe", "text": "Good, actually. I've been ramping up my training — thinking about doing the Colfax Marathon in May."},
+        {"speaker": "Tessa Brandt", "text": "Oh, nice! What pace are you targeting?"},
+        {"speaker": "Kenji Watanabe", "text": "Hoping for somewhere around three and a half hours, but we'll see. I'm in decent shape after that Grand Canyon Rim-to-Rim hike last October. Did that in 14 hours 20 minutes, and my endurance has been solid ever since."},
+        {"speaker": "Tessa Brandt", "text": "Rim-to-Rim in under fifteen hours? That's legit. I thought I was tough for finishing all 58 fourteeners, but that's a different kind of brutal."},
+        {"speaker": "Kenji Watanabe", "text": "Hold on — you've done all 58 Colorado fourteeners? Every single one?"},
+        {"speaker": "Tessa Brandt", "text": "Yep. Finished the last one, Little Bear Peak, in September. It took me years to work through them all, but that final summit was an incredible feeling."},
+        {"speaker": "Kenji Watanabe", "text": "Little Bear is supposed to be one of the hardest ones. That's amazing, Tessa."},
+        {"speaker": "Tessa Brandt", "text": "It was terrifying, honestly. The Hourglass section had me questioning every life decision I've ever made. But once you're up there, it's all worth it."},
+        {"speaker": "Kenji Watanabe", "text": "I believe it. Okay, the rest of the group is stretching — ready to run?"},
+        {"speaker": "Tessa Brandt", "text": "Let's do it. I'll try not to leave you in the dust."}
+      ]
+    },
+    {
+      "session_id": "session_05",
+      "date": "2024-03-28",
+      "participants": ["Darius Coleman", "Lucia Vega"],
+      "setting": "Cleo Parker Robinson Dance Ensemble studio, before Thursday evening hip-hop class",
+      "observations_covered": ["darius_006", "lucia_004", "lucia_017", "darius_013", "lucia_012"],
+      "turns": [
+        {"speaker": "Lucia Vega", "text": "Darius! You're early for once. Usually I'm warming up alone."},
+        {"speaker": "Darius Coleman", "text": "I know, I know. I'm always running late from the studio. But I had a lighter schedule today so I figured I'd actually stretch properly before class for once."},
+        {"speaker": "Lucia Vega", "text": "Smart. I just finished my yoga teacher training at Kindness Yoga last month — 200 hours — and now I'm obsessed with proper warm-ups."},
+        {"speaker": "Darius Coleman", "text": "Yoga teacher training? That's awesome. So you're teaching yoga AND doing hip-hop dance AND playing basketball? When do you sleep?"},
+        {"speaker": "Lucia Vega", "text": "Says the guy who produces music, DJs, plays basketball, and takes dance class. We're both a little crazy. But this Thursday class at Cleo Parker Robinson is my favorite thing. It keeps me loose."},
+        {"speaker": "Darius Coleman", "text": "Same. Music and movement are so connected for me. I taught myself piano when I was nine on this beat-up secondhand Yamaha my grandmother gave me, and I've been hearing rhythms in everything ever since."},
+        {"speaker": "Lucia Vega", "text": "That's so sweet. Nine years old! My thing was always languages — I speak Spanish and English fluently, and now I'm learning Portuguese on Duolingo. I'm on a 487-day streak and I refuse to break it."},
+        {"speaker": "Darius Coleman", "text": "487 days? That's commitment. I can barely commit to watering my plants."},
+        {"speaker": "Lucia Vega", "text": "Ha! It's the little daily habits. Okay, looks like the instructor is setting up. Ready to dance?"},
+        {"speaker": "Darius Coleman", "text": "Born ready. Let's get it."}
+      ]
+    },
+    {
+      "session_id": "session_06",
+      "date": "2024-04-06",
+      "participants": ["Omar Hadid", "Lucia Vega"],
+      "setting": "Denver Free Clinic, first Saturday of the month volunteering",
+      "observations_covered": ["omar_019", "lucia_005", "lucia_001", "omar_013", "lucia_008"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Lucia, good to see you. Looks like we've got a pretty packed waiting room this morning."},
+        {"speaker": "Lucia Vega", "text": "Yeah, Saturday mornings at the Free Clinic are always busy. But that's why we're here. How's the ER been treating you?"},
+        {"speaker": "Omar Hadid", "text": "Nonstop as usual. But volunteering here on the first Saturday of every month keeps me grounded. It reminds me why I went into medicine."},
+        {"speaker": "Lucia Vega", "text": "I feel the same way about my work at Rocky Mountain Legal Aid. My asylum cases can be heartbreaking, but moments like this — helping people who need it — that's everything."},
+        {"speaker": "Omar Hadid", "text": "Absolutely. Hey, congratulations on the Pro Bono Award, by the way! 47 asylum cases — that's incredible, Lucia."},
+        {"speaker": "Lucia Vega", "text": "Thank you! The Colorado Lawyers Committee ceremony was really lovely. I didn't expect it at all."},
+        {"speaker": "Omar Hadid", "text": "You deserve it. Actually, I had a patient last week who barely spoke English, and my Spanish isn't great — I learned the basics mostly for patient communication. Would you mind being on call for translation sometime if we get stuck?"},
+        {"speaker": "Lucia Vega", "text": "Of course! Spanish is my first language, practically. I'd be happy to help any time."},
+        {"speaker": "Omar Hadid", "text": "You're the best. Alright, we've got patients waiting. I'll take the exam rooms and you handle intake questions?"},
+        {"speaker": "Lucia Vega", "text": "Sounds like a plan. Let's do some good today."}
+      ]
+    },
+    {
+      "session_id": "session_07",
+      "date": "2024-04-09",
+      "participants": ["Tessa Brandt", "Darius Coleman", "Omar Hadid"],
+      "setting": "Summit Line Brewing taproom, post-practice Tuesday happy hour",
+      "observations_covered": ["tessa_011", "tessa_001", "tessa_015", "omar_001", "darius_008"],
+      "turns": [
+        {"speaker": "Tessa Brandt", "text": "Welcome to the new patio, boys! We finished the expansion in January — 40 seats with a straight shot of the mountains. What do you think?"},
+        {"speaker": "Omar Hadid", "text": "Tessa, this is gorgeous. Summit Line keeps getting better. How long has this place been open now — three years?"},
+        {"speaker": "Tessa Brandt", "text": "Opened in October 2021, so about two and a half. RiNo is the perfect spot for it. I love that we can do these Tuesday post-practice happy hours here."},
+        {"speaker": "Darius Coleman", "text": "Best tradition we have, honestly. Nothing beats free beer after Coach Hadid runs us ragged at practice."},
+        {"speaker": "Omar Hadid", "text": "Hey, the Mavericks aren't going to win games on talent alone. We need conditioning. But fair point — Tessa, what's on tap tonight?"},
+        {"speaker": "Tessa Brandt", "text": "Got a new session ale and the usual rotation. Pick your poison."},
+        {"speaker": "Darius Coleman", "text": "I'll take whatever's lightest. I need to be sharp for tomorrow — I've got artists coming to the studio at eight."},
+        {"speaker": "Omar Hadid", "text": "Darius, your handles were incredible tonight. How many assists did you rack up in the scrimmage?"},
+        {"speaker": "Darius Coleman", "text": "I lost count, but I'm feeling good about the point guard spot this season. I want to lead the league in assists. Set myself a goal of at least eight per game."},
+        {"speaker": "Tessa Brandt", "text": "With your court vision, that's totally doable. I just need you to keep feeding me in the post."},
+        {"speaker": "Omar Hadid", "text": "That's the plan. Darius distributes, Tessa scores inside. We're going to have a great season with the Mavericks."},
+        {"speaker": "Darius Coleman", "text": "I'll drink to that. To the Mile High Mavericks!"}
+      ]
+    },
+    {
+      "session_id": "session_08",
+      "date": "2024-04-17",
+      "participants": ["Kenji Watanabe", "Darius Coleman"],
+      "setting": "Darius's apartment during Wednesday poker night",
+      "observations_covered": ["kenji_017", "darius_017", "kenji_014", "darius_012", "kenji_002"],
+      "turns": [
+        {"speaker": "Kenji Watanabe", "text": "Guess what I did last weekend? I adopted a cat. A little gray tabby from the Dumb Friends League. Named her Pixel."},
+        {"speaker": "Darius Coleman", "text": "No way! I've been thinking about getting a dog. Were they easy to work with?"},
+        {"speaker": "Kenji Watanabe", "text": "Super easy. Pixel was just sitting there staring at me through the glass and I knew she was the one. She already owns my LoHi loft."},
+        {"speaker": "Darius Coleman", "text": "That's awesome. I'm going to check out the Denver Animal Shelter soon. I want a dog to keep me company in the studio — it gets lonely producing beats all day."},
+        {"speaker": "Kenji Watanabe", "text": "You should. Animals change everything. Hey, I took some photos of Pixel with my Sony A7R V — want to see?"},
+        {"speaker": "Darius Coleman", "text": "Absolutely. Man, those are sharp. That's the camera you use for your landscape stuff too, right?"},
+        {"speaker": "Kenji Watanabe", "text": "Yeah, same body, but for landscapes I pair it with the 24-70mm f/2.8 GM lens. It's my whole setup. I've been shooting since I was a teenager in Seattle."},
+        {"speaker": "Darius Coleman", "text": "Seattle, right. When did you move out here again?"},
+        {"speaker": "Kenji Watanabe", "text": "2019. Best decision I ever made. Denver's light is incredible for photography. Anyway, your deal. What's the ante tonight?"},
+        {"speaker": "Darius Coleman", "text": "Same as always. Oh hey, before I forget — I'm DJing at the Meadowlark this Saturday if you want to come through. East Colfax. I do every other Saturday night there, under DJ Anvil."},
+        {"speaker": "Kenji Watanabe", "text": "DJ Anvil? That's a solid name. I might swing by. Is it the same kind of stuff you produce at Black Anvil Studios?"},
+        {"speaker": "Darius Coleman", "text": "More danceable, less hip-hop. It's a different vibe. Come check it out. Now let's play some cards."}
+      ]
+    },
+    {
+      "session_id": "session_09",
+      "date": "2024-04-25",
+      "participants": ["Omar Hadid", "Darius Coleman"],
+      "setting": "Omar's house in Park Hill, family dinner",
+      "observations_covered": ["darius_005", "omar_006", "omar_007", "darius_009", "omar_011"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Darius! Come on in. Layla's just finishing up in the kitchen. Noor, come say hi to cousin Darius!"},
+        {"speaker": "Darius Coleman", "text": "Hey, little Noor! You're getting so tall. And where's my man Zain?"},
+        {"speaker": "Omar Hadid", "text": "Zain's napping. The four-year-old energy finally ran out about twenty minutes ago. But Noor's been asking about you all day."},
+        {"speaker": "Darius Coleman", "text": "She's seven now, right? Time flies. Layla was telling my aunt Patricia that Noor's already reading chapter books."},
+        {"speaker": "Omar Hadid", "text": "She is. Takes after her mom. Speaking of, how's Aunt Patricia doing at Manual High?"},
+        {"speaker": "Darius Coleman", "text": "Mom's good. Being principal keeps her busy. She says the students this year are a handful, but she loves it. She still talks about how Layla bringing me to tryouts for the Mavericks was the best thing that happened to me."},
+        {"speaker": "Omar Hadid", "text": "It's worked out great. Having Layla's cousin on the team makes it feel like real family out there on the court."},
+        {"speaker": "Darius Coleman", "text": "It does. Hey, is that your new ride out front? The black Audi?"},
+        {"speaker": "Omar Hadid", "text": "Yeah, picked up the Q7 last year. 2023 model. Needed something bigger with two kids and all their stuff. You still driving the Charger?"},
+        {"speaker": "Darius Coleman", "text": "My midnight blue baby? Always. That Charger's not going anywhere. Alright, what's Layla making? It smells incredible in here."},
+        {"speaker": "Omar Hadid", "text": "She made her kofta. Come on, let's eat before Zain wakes up and chaos breaks out."}
+      ]
+    },
+    {
+      "session_id": "session_10",
+      "date": "2024-05-04",
+      "participants": ["Lucia Vega", "Omar Hadid"],
+      "setting": "Denver Free Clinic, first Saturday volunteering",
+      "observations_covered": ["lucia_010", "lucia_015", "omar_003", "omar_005", "lucia_002"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Hey Lucia. How's the commute from Baker treating you today?"},
+        {"speaker": "Lucia Vega", "text": "Not bad. My apartment on South Broadway is pretty central so I can get most places in fifteen minutes. Loaded up Justice in the Jeep and dropped her at the dog sitter before coming here."},
+        {"speaker": "Omar Hadid", "text": "Justice — the husky, right? She still your Sunday hiking buddy at Waterton Canyon?"},
+        {"speaker": "Lucia Vega", "text": "Every Sunday without fail. It's our thing. I rescued her when I first moved here from El Paso in 2020, and she's been my adventure partner ever since."},
+        {"speaker": "Omar Hadid", "text": "I get it. Moving to a new city is tough. When I came out from Dearborn in 2015 for my residency, I didn't know a soul."},
+        {"speaker": "Lucia Vega", "text": "Where did you do your residency? Was it here at Denver Health?"},
+        {"speaker": "Omar Hadid", "text": "Yeah, Denver Health. Got my M.D. from the University of Michigan in 2013 and came straight to Denver for emergency medicine training. Michigan winters were enough for one lifetime."},
+        {"speaker": "Lucia Vega", "text": "Ha! I did my law degree at UNM in Albuquerque, so I understand wanting to try somewhere new. El Paso to Albuquerque to Denver — each city has been a step forward."},
+        {"speaker": "Omar Hadid", "text": "Denver has a way of collecting people from everywhere. That's what makes this clinic work — we see patients from all kinds of backgrounds. Ready for another busy morning?"},
+        {"speaker": "Lucia Vega", "text": "Always ready. Let's get to it."}
+      ]
+    },
+    {
+      "session_id": "session_11",
+      "date": "2024-05-18",
+      "participants": ["Kenji Watanabe", "Tessa Brandt"],
+      "setting": "Post-run coffee at a cafe near Red Rocks after Saturday morning trail run",
+      "observations_covered": ["kenji_016", "tessa_007", "kenji_007", "tessa_006", "kenji_003"],
+      "turns": [
+        {"speaker": "Tessa Brandt", "text": "So? How did the Colfax Marathon go last week? You never told me your time!"},
+        {"speaker": "Kenji Watanabe", "text": "Three hours 28 minutes! Crushed my target. I'm still recovering though — my quads are shot."},
+        {"speaker": "Tessa Brandt", "text": "That's amazing, Kenji! Sub-3:30 is serious. We need to celebrate. Come by the brewery — first round of Fourteener Fog is on me."},
+        {"speaker": "Kenji Watanabe", "text": "The one that won silver at the Great American Beer Festival?"},
+        {"speaker": "Tessa Brandt", "text": "That's the one. 2023 silver medal. My hazy IPA. I'm still riding that high, honestly. All those years studying food science at Colorado State finally paid off with that recipe."},
+        {"speaker": "Kenji Watanabe", "text": "Food science degree — that's way more useful than what most people study for brewing, right?"},
+        {"speaker": "Tessa Brandt", "text": "It helps with the chemistry side, for sure. What about you — I know you did your M.D. at University of Washington. Did you always want to do radiology?"},
+        {"speaker": "Kenji Watanabe", "text": "Pretty much. I like puzzles, I like images. Actually, speaking of images — I've got a gallery show coming up next month at the Denver Art Society's Globeville space. Landscape photography."},
+        {"speaker": "Tessa Brandt", "text": "Kenji! That's huge! I'm definitely coming to the opening."},
+        {"speaker": "Kenji Watanabe", "text": "Thanks. I've been curating the pieces for months. Some Colorado mountain shots, some desert landscapes from road trips. I'm pretty nervous about it."},
+        {"speaker": "Tessa Brandt", "text": "Don't be. Your work is stunning. I've seen those prints you show me on your phone — they belong in a gallery."},
+        {"speaker": "Kenji Watanabe", "text": "That means a lot. Alright, I need to go soak in an ice bath. Same time next Saturday?"},
+        {"speaker": "Tessa Brandt", "text": "Wouldn't miss it."}
+      ]
+    },
+    {
+      "session_id": "session_12",
+      "date": "2024-05-30",
+      "participants": ["Darius Coleman", "Lucia Vega"],
+      "setting": "Walking out of Cleo Parker Robinson studio after Thursday dance class",
+      "observations_covered": ["darius_007", "lucia_003", "darius_003", "lucia_009", "darius_014"],
+      "turns": [
+        {"speaker": "Lucia Vega", "text": "That choreography tonight was insane. My legs are going to hate me tomorrow in court."},
+        {"speaker": "Darius Coleman", "text": "Right? The instructor is not messing around this month. But hey, movement keeps us sharp. I need it for the creative work — when I'm stuck on a beat, I come here and it just unlocks something."},
+        {"speaker": "Lucia Vega", "text": "I totally get that. Where'd you study music, by the way? I don't think you've ever told me."},
+        {"speaker": "Darius Coleman", "text": "UC Denver. B.A. in Music Industry Studies, class of 2019. Best four years of my life. What about you — I know you're a lawyer, but where'd you go?"},
+        {"speaker": "Lucia Vega", "text": "University of New Mexico School of Law. Graduated in 2020, summa cum laude. My mom cried for about three hours straight at the ceremony."},
+        {"speaker": "Darius Coleman", "text": "Ha! That's the best. How is your mom?"},
+        {"speaker": "Lucia Vega", "text": "She's great. Still in El Paso, running her tamale catering business — Carmen's Cocina. She sends me care packages of tamales every few weeks."},
+        {"speaker": "Darius Coleman", "text": "That's amazing. I need to get on that tamale mailing list. Hey, did I tell you about the Kaia Monroe album? The one I produced?"},
+        {"speaker": "Lucia Vega", "text": "The Denver rapper? I think you mentioned it."},
+        {"speaker": "Darius Coleman", "text": "It just hit 500,000 Spotify streams this month. Twelve tracks and they're all performing. I won Best Producer at the Denver Hip Hop Awards back in November, so this album feels like the next level."},
+        {"speaker": "Lucia Vega", "text": "That's incredible, Darius. You really are building something special with your music."},
+        {"speaker": "Darius Coleman", "text": "Thanks, Lucia. Means a lot. You need a ride home? My Charger's right out front."},
+        {"speaker": "Lucia Vega", "text": "I'm good — my Jeep's around the corner. See you next Thursday!"}
+      ]
+    },
+    {
+      "session_id": "session_13",
+      "date": "2024-06-08",
+      "participants": ["Tessa Brandt", "Lucia Vega", "Kenji Watanabe"],
+      "setting": "Kenji's photography gallery opening at Denver Art Society, Globeville",
+      "observations_covered": ["kenji_020", "tessa_008", "lucia_011", "kenji_013", "tessa_009"],
+      "turns": [
+        {"speaker": "Tessa Brandt", "text": "Kenji, this show is beautiful. These prints are massive. I'm standing in front of this Maroon Bells shot and it feels like I'm back on the trail."},
+        {"speaker": "Kenji Watanabe", "text": "Thanks, Tessa! That one's called 'Maroon Bells at Dawn.' And funny you say that — someone already bought a print of it. Twelve hundred dollars."},
+        {"speaker": "Lucia Vega", "text": "Twelve hundred for a single print? Kenji, you're officially a professional artist now!"},
+        {"speaker": "Kenji Watanabe", "text": "I wouldn't go that far, but it feels pretty surreal. Thanks for coming, both of you. How did you guys get here?"},
+        {"speaker": "Tessa Brandt", "text": "I drove the Bronco. Parked right out on the street. Lucia, did you find parking okay?"},
+        {"speaker": "Lucia Vega", "text": "Yeah, my red Jeep is around the block. Globeville parking isn't bad on a Saturday night. This neighborhood is really cool."},
+        {"speaker": "Kenji Watanabe", "text": "It is. The Denver Art Society has done amazing things with this space. Oh, I should introduce you to my sister — she's visiting from California."},
+        {"speaker": "Lucia Vega", "text": "Your sister's here? I didn't know you had family on the West Coast."},
+        {"speaker": "Kenji Watanabe", "text": "Yeah, Yoko. She's a marine biologist at the Monterey Bay Aquarium. She flew in for the opening."},
+        {"speaker": "Tessa Brandt", "text": "That's so sweet. My dad would have come to something like this — he's an engineer so he appreciates craftsmanship. My father, Klaus, he's retired now but he's the one who helped me build the custom fermentation tanks at the brewery."},
+        {"speaker": "Kenji Watanabe", "text": "Family support makes all the difference. Come on, I'll introduce you to Yoko and we can grab some wine."},
+        {"speaker": "Lucia Vega", "text": "Lead the way. And congratulations again — this is a really special evening."}
+      ]
+    },
+    {
+      "session_id": "session_14",
+      "date": "2024-06-18",
+      "participants": ["Omar Hadid", "Tessa Brandt", "Darius Coleman"],
+      "setting": "Summit Line Brewing taproom, Tuesday post-practice hangout",
+      "observations_covered": ["omar_016", "tessa_020", "darius_015", "omar_008", "tessa_014"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Great practice tonight, guys. The offense is really clicking. Hey Tessa, that new mural on the north wall of the brewery is incredible. When did that go up?"},
+        {"speaker": "Tessa Brandt", "text": "Just finished last week! I partnered with a local artist, Diego Solis. It's 30 feet across — took him about three weeks. You like it?"},
+        {"speaker": "Darius Coleman", "text": "It's fire. Seriously, Tessa, this place keeps leveling up. I told some of the kids at Youth on Record about it and they want to come see it."},
+        {"speaker": "Omar Hadid", "text": "Youth on Record — that's the music mentoring program you volunteer at, right?"},
+        {"speaker": "Darius Coleman", "text": "Yeah, I teach beat production to teenagers there. Some of them are incredibly talented. It reminds me of when I was their age messing around with that old Yamaha keyboard."},
+        {"speaker": "Tessa Brandt", "text": "That's really admirable, Darius. Omar, you should bring these kids to a game sometime. Show them what community looks like."},
+        {"speaker": "Omar Hadid", "text": "I'd love that. I played club ball at Michigan, you know — point guard from 2007 to 2011. Basketball has always been about community for me."},
+        {"speaker": "Tessa Brandt", "text": "Mein Vater sagt immer — sorry, slipping into German. My grandparents spoke German at home and it still comes out sometimes. Anyway, my grandpa always said sports build character."},
+        {"speaker": "Darius Coleman", "text": "Wait, you speak German?"},
+        {"speaker": "Tessa Brandt", "text": "Conversational, yeah. The Brandt family is German through and through. Anyway, Omar, you mentioned last week you'd make your mom's kibbeh for the team dinner at your place?"},
+        {"speaker": "Omar Hadid", "text": "Absolutely. I make my mother Fatima's kibbeh recipe for the post-game dinners — it's become a tradition. How about after our next game? Everyone comes to my place."},
+        {"speaker": "Darius Coleman", "text": "You don't have to ask me twice. Omar's kibbeh is legendary."}
+      ]
+    },
+    {
+      "session_id": "session_15",
+      "date": "2024-06-27",
+      "participants": ["Lucia Vega", "Omar Hadid", "Kenji Watanabe"],
+      "setting": "Denver Health hospital break room during lunch",
+      "observations_covered": ["lucia_020", "kenji_018", "lucia_007", "omar_014", "kenji_010"],
+      "turns": [
+        {"speaker": "Lucia Vega", "text": "Hey, both of you! I was in the neighborhood meeting a client and thought I'd stop by. Did you guys see the Denver Post article about me?"},
+        {"speaker": "Omar Hadid", "text": "The one about young immigration lawyers making a difference? Lucia, I read the whole thing. You're a star."},
+        {"speaker": "Kenji Watanabe", "text": "I saw it too! They featured your photo and everything. You should be really proud."},
+        {"speaker": "Lucia Vega", "text": "Thanks, you guys. It felt kind of surreal. They focused on my background — how I played basketball at El Paso High and was All-District in 2011 and 2012, then went to law school. Like this whole journey from sports kid to attorney."},
+        {"speaker": "Omar Hadid", "text": "That's a great angle. You're proof that athletes can do anything they set their minds to."},
+        {"speaker": "Kenji Watanabe", "text": "Speaking of giving back, I've got my volunteering shift at the Asian Pacific Development Center in Aurora this weekend. Third Saturday of the month, health screenings. It's always a rewarding day."},
+        {"speaker": "Omar Hadid", "text": "That's great, Kenji. Your dad must be proud of all the community work. How's he doing in Seattle?"},
+        {"speaker": "Kenji Watanabe", "text": "Dad's good. Hiroshi's enjoying retirement — twenty years at Boeing as an aerospace engineer and now he just golfs and putters around the house. He's talking about visiting this winter."},
+        {"speaker": "Omar Hadid", "text": "He should come during ski season! I go to Breckenridge every other weekend in winter. Usually hit the blue runs with my daughter Noor. She's getting really good."},
+        {"speaker": "Lucia Vega", "text": "Noor skiing at seven? That's amazing. I've been meaning to learn. Maybe next winter you can give me a lesson."},
+        {"speaker": "Omar Hadid", "text": "Deal. I'll add you to the Breck crew."}
+      ]
+    },
+    {
+      "session_id": "session_16",
+      "date": "2024-07-13",
+      "participants": ["Omar Hadid", "Tessa Brandt", "Lucia Vega", "Darius Coleman", "Kenji Watanabe"],
+      "setting": "Stapleton Recreation Center, charity basketball tournament organized by Omar",
+      "observations_covered": ["omar_009", "tessa_017", "darius_010", "lucia_006", "kenji_008"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Alright team, listen up. Today's charity tournament is for the Denver Rescue Mission. We've got eight teams signed up at the Stapleton Rec Center. Let's represent the Mavericks well."},
+        {"speaker": "Tessa Brandt", "text": "This is such a great thing you organized, Omar. Reminds me of the girls I coach at Girls Inc. on Saturday afternoons — they'd love to see something like this."},
+        {"speaker": "Darius Coleman", "text": "We should invite them next year. Who are we playing first? And where'd I park — I left my knee brace in my Charger. The midnight blue Dodge out front."},
+        {"speaker": "Lucia Vega", "text": "I'll grab it. I'm parked right next to you — red Jeep Wrangler. But hurry, I want to warm up at center. At 6'1\", nobody on these other teams is going to match up with me."},
+        {"speaker": "Kenji Watanabe", "text": "Easy there, tall person. Some of us have to rely on skill instead of height. My three-point shooting is how I contribute — 42% from deep this season."},
+        {"speaker": "Tessa Brandt", "text": "And that's why you're our secret weapon, Kenji. Hit a couple early threes and the defense collapses, which opens up the paint for Lucia and me."},
+        {"speaker": "Omar Hadid", "text": "Exactly. Let's play our game and raise some money for a good cause. I'm hoping we break eight thousand for the Rescue Mission today."},
+        {"speaker": "Darius Coleman", "text": "Let's make it happen, Coach."},
+        {"speaker": "Kenji Watanabe", "text": "Mavericks on three?"},
+        {"speaker": "Omar Hadid", "text": "Mavericks on three. One, two, three —"},
+        {"speaker": "Tessa Brandt", "text": "MAVERICKS!"}
+      ]
+    },
+    {
+      "session_id": "session_17",
+      "date": "2024-07-31",
+      "participants": ["Kenji Watanabe", "Darius Coleman", "Tessa Brandt"],
+      "setting": "Summit Line Brewing patio, Wednesday evening after poker was cancelled",
+      "observations_covered": ["kenji_015", "darius_019", "tessa_016", "kenji_011", "darius_002"],
+      "turns": [
+        {"speaker": "Kenji Watanabe", "text": "Since poker got cancelled tonight, this is a solid backup plan. Nice patio, Tessa."},
+        {"speaker": "Tessa Brandt", "text": "Thanks! Sit anywhere. The mountain views at sunset are incredible from here. What happened with poker?"},
+        {"speaker": "Darius Coleman", "text": "My brother Marcus is in town. He's stationed at Fort Carson — he's a staff sergeant in the Army — so I gave him the apartment for the evening so he could rest. He drove up from Colorado Springs."},
+        {"speaker": "Kenji Watanabe", "text": "That's cool that he's so close. My sister Yoko is all the way out in Monterey. At least you and Marcus can see each other sometimes."},
+        {"speaker": "Darius Coleman", "text": "Yeah, being born and raised in Five Points, I've got deep roots here. My whole family is in Denver. Mom at Manual High, Marcus at Fort Carson when he's not deployed. It's nice."},
+        {"speaker": "Tessa Brandt", "text": "My sister Maren is up in the mountains — she's a ski instructor at Vail. So at least she's in Colorado. We try to get together once a month."},
+        {"speaker": "Kenji Watanabe", "text": "Vail is amazing. I drove my Crosstrek up there last winter for some landscape shots. The gray Subaru handled the snow perfectly."},
+        {"speaker": "Darius Coleman", "text": "A Crosstrek? That's the most Kenji car I can imagine. Practical and reliable."},
+        {"speaker": "Kenji Watanabe", "text": "I'll take that as a compliment. I speak Japanese and English — I'm bilingual — but the language of a good all-wheel-drive vehicle is universal in Colorado."},
+        {"speaker": "Tessa Brandt", "text": "Ha! True. Alright, what are we eating? Should I order some bar snacks or do you want to go somewhere?"},
+        {"speaker": "Darius Coleman", "text": "I could eat. But you know my Sunday spot is Welton Street Cafe — chicken and waffles every week. Hard to beat that."},
+        {"speaker": "Tessa Brandt", "text": "Noted. Let's start with some pretzels and figure it out from there."}
+      ]
+    },
+    {
+      "session_id": "session_18",
+      "date": "2024-08-10",
+      "participants": ["Omar Hadid", "Tessa Brandt", "Lucia Vega", "Darius Coleman", "Kenji Watanabe"],
+      "setting": "Denver Parks & Rec gymnasium, summer league championship game and post-game celebration",
+      "observations_covered": ["omar_015", "tessa_013", "darius_020", "lucia_018"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "WE DID IT! Mile High Mavericks are the Denver Parks & Rec summer league champions! Get over here, everybody!"},
+        {"speaker": "Tessa Brandt", "text": "That was INCREDIBLE! I can't believe I hit three consecutive threes in that second half! Twenty-two points!"},
+        {"speaker": "Darius Coleman", "text": "And I still can't feel my hands from that game-winning three in the semifinal against Cherry Creek. Four seconds left and I just let it fly."},
+        {"speaker": "Lucia Vega", "text": "Darius, that semifinal shot was legendary. And tonight I got my first double-double — 14 points and 12 rebounds! I'm shaking!"},
+        {"speaker": "Kenji Watanabe", "text": "Lucia, you were a monster on the boards tonight. Nobody could stop you in the paint."},
+        {"speaker": "Omar Hadid", "text": "This whole season has been magical. Darius leading the league in assists, Tessa going off for 22 tonight, Lucia with the double-double, Kenji's shooting — I'm so proud of all of you."},
+        {"speaker": "Tessa Brandt", "text": "Coach Omar, this doesn't happen without you. Your game plans were perfect all season."},
+        {"speaker": "Darius Coleman", "text": "Facts. You put us in position to succeed every single game. Where's the trophy?"},
+        {"speaker": "Omar Hadid", "text": "Right here. And don't forget — the charity tournament last month at Stapleton raised $8,200 for the Denver Rescue Mission. This team does more than win games."},
+        {"speaker": "Lucia Vega", "text": "That's what makes us special. We're a family."},
+        {"speaker": "Kenji Watanabe", "text": "Championship dinner at Omar's house? I believe kibbeh was promised."},
+        {"speaker": "Omar Hadid", "text": "Absolutely. Everyone to my place in Park Hill. I'll text Layla to start warming up the oven. Champions eat tonight!"}
+      ]
+    },
+    {
+      "session_id": "session_19",
+      "date": "2024-08-24",
+      "participants": ["Tessa Brandt", "Lucia Vega"],
+      "setting": "Summit Line Brewing taproom, Saturday afternoon after Tessa's Girls Inc. coaching",
+      "observations_covered": ["tessa_018", "tessa_019", "lucia_019", "lucia_014", "tessa_003"],
+      "turns": [
+        {"speaker": "Lucia Vega", "text": "How were the girls today at Girls Inc.?"},
+        {"speaker": "Tessa Brandt", "text": "So good. We worked on layup drills and one of the 12-year-olds is going to be a problem in a few years — she's got such natural instincts. Reminds me of when I played at Colorado State."},
+        {"speaker": "Lucia Vega", "text": "You played college ball? I had no idea!"},
+        {"speaker": "Tessa Brandt", "text": "Power forward for the CSU Rams from 2009 to 2013. Four years of college basketball. It was an incredible experience."},
+        {"speaker": "Lucia Vega", "text": "That explains why you're so dominant on the court. I only played high school ball in El Paso, but my brother Mateo always said I should have tried to play in college."},
+        {"speaker": "Tessa Brandt", "text": "Mateo — he's your brother in El Paso, right?"},
+        {"speaker": "Lucia Vega", "text": "Yeah, he's a firefighter with the El Paso Fire Department. He's the one who taught me how to box out. Anyway, what are you reading these days? I need a new book."},
+        {"speaker": "Tessa Brandt", "text": "I just re-read 'The Overstory' by Richard Powers. It's my all-time favorite. About trees and the people connected to them. It changed how I see the natural world."},
+        {"speaker": "Lucia Vega", "text": "That sounds beautiful. I'm more of a legal thriller person — 'The Lincoln Lawyer' by Michael Connelly is my go-to. But I should branch out. No pun intended."},
+        {"speaker": "Tessa Brandt", "text": "Ha! I'll lend you my copy. Oh — so I signed up for the Leadville Trail 100. The ultramarathon. It's next week."},
+        {"speaker": "Lucia Vega", "text": "Wait, the hundred-mile race in the mountains? Tessa, are you serious?"},
+        {"speaker": "Tessa Brandt", "text": "Dead serious. I've been training all summer. I figure if I can summit all 58 fourteeners, I can survive a hundred miles. I just want to finish under 30 hours."},
+        {"speaker": "Lucia Vega", "text": "You are absolutely insane and I respect it completely. I'll be tracking you online. Promise me you'll text when you finish."},
+        {"speaker": "Tessa Brandt", "text": "Deal."}
+      ]
+    },
+    {
+      "session_id": "session_20",
+      "date": "2024-09-14",
+      "participants": ["Omar Hadid", "Kenji Watanabe", "Lucia Vega", "Darius Coleman", "Tessa Brandt"],
+      "setting": "Denver Central Library, after Lucia's know-your-rights workshop",
+      "observations_covered": ["lucia_013", "omar_020", "darius_016", "kenji_019", "lucia_016", "darius_011", "omar_010"],
+      "turns": [
+        {"speaker": "Omar Hadid", "text": "Lucia, that workshop was phenomenal. A hundred and twenty people showed up! The Latino community really needed this."},
+        {"speaker": "Lucia Vega", "text": "Thank you all for coming. It means the world. I've been planning this know-your-rights workshop for months and to see that many people at the Central Library — it's just overwhelming."},
+        {"speaker": "Kenji Watanabe", "text": "The Q&A section was my favorite part. People had real questions and you had real answers. That's powerful stuff."},
+        {"speaker": "Darius Coleman", "text": "For real. You're making a difference, Lucia. I'm proud of you. Hey, should we go grab food to celebrate?"},
+        {"speaker": "Tessa Brandt", "text": "Yes! I'm starving. I just finished the Leadville 100 last month — 27 hours 14 minutes — and my body has been demanding constant food ever since."},
+        {"speaker": "Omar Hadid", "text": "Under 28 hours? Tessa, that's incredible. I still can't believe you ran a hundred miles. How about we go to Safta? It's my favorite spot in Denver — modern Israeli food at the Source Market Hall."},
+        {"speaker": "Lucia Vega", "text": "I love that area! But I'm always going to lobby for Los Chingones on East Colfax. Their street tacos al pastor are life-changing."},
+        {"speaker": "Darius Coleman", "text": "You know my vote is Welton Street Cafe. Chicken and waffles. Every time."},
+        {"speaker": "Kenji Watanabe", "text": "And I'll always say Uncle on Larimer Street. Best ramen in Denver. But I'm flexible — wherever everyone wants to go."},
+        {"speaker": "Omar Hadid", "text": "Alright, we have four different restaurants. Let's just go to the closest one. My Q7 fits five if we squeeze."},
+        {"speaker": "Darius Coleman", "text": "I drove the Charger too, so we've got two cars. Tessa, Lucia — you guys ride with me?"},
+        {"speaker": "Tessa Brandt", "text": "Sounds good. Safta it is — Omar picked so Omar pays. Just kidding. Let's go celebrate Lucia's incredible work tonight."},
+        {"speaker": "Lucia Vega", "text": "You all are the best friends anyone could ask for. Let's eat!"}
+      ]
+    }
+  ]
+}

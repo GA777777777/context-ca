@@ -1,0 +1,5402 @@
+[
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_001",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1858,
+  "predicted": "Mochi",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_001",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3848,
+  "predicted": "Mochi",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_002",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2161,
+  "predicted": "Crema Coffee.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_002",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4026,
+  "predicted": "Crema Coffee.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_003",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1907,
+  "predicted": "Ghana",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_003",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3751,
+  "predicted": "Ghana",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_004",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2210,
+  "predicted": "3 hours 15 minutes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_004",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4305,
+  "predicted": "3 hours 15 minutes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_005",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2005,
+  "predicted": "Maple",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_005",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3836,
+  "predicted": "Maple",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_006",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1832,
+  "predicted": "Rust",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_006",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3824,
+  "predicted": "Rust",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_007",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1977,
+  "predicted": "The Wavelengths",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_007",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3933,
+  "predicted": "The Wavelengths",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_008",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2002,
+  "predicted": "Tofu",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_008",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3903,
+  "predicted": "Tofu",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_009",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2091,
+  "predicted": "Urban composting systems, specifically closed-loop food-waste programs on university campuses.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_009",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3902,
+  "predicted": "Urban composting systems, specifically closed-loop food-waste programs on university campuses.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_010",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1952,
+  "predicted": "Golden Dragon",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_010",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3889,
+  "predicted": "Golden Dragon",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_001",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1905,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_001",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3756,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_002",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1924,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_002",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3793,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_003",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1990,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_003",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4180,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_004",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2088,
+  "predicted": "Newton",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_004",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4037,
+  "predicted": "Newton",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_005",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1905,
+  "predicted": "The Design of Everyday Things by Don Norman.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_005",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3783,
+  "predicted": "The Design of Everyday Things by Don Norman.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_006",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1920,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_006",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3753,
+  "predicted": "San Diego",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_007",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1933,
+  "predicted": "Beethoven",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_007",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3861,
+  "predicted": "Beethoven",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_008",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2302,
+  "predicted": "Protein-folding research.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_008",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4140,
+  "predicted": "Protein-folding research.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_009",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2053,
+  "predicted": "Kim’s Pastries in Seattle.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_009",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3915,
+  "predicted": "Kim’s Pastries, a bakery in Seattle.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_010",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1901,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_010",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3829,
+  "predicted": "Park’s Pages.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_001",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1862,
+  "predicted": "Piano, drums, and bass guitar.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_001",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3879,
+  "predicted": "Piano, drums, and bass guitar.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_002",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2083,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_002",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3982,
+  "predicted": "The Peace Corps.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_003",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2098,
+  "predicted": "Alice Chen’s Civic.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_003",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4072,
+  "predicted": "A Civic.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_004",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2386,
+  "predicted": "3 hours 15 minutes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_004",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4192,
+  "predicted": "3 hours 15 minutes",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_005",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1916,
+  "predicted": "Alice Chen’s roommate won with a Rust-based sign-language recognition app.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_005",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3982,
+  "predicted": "Alice Chen won first place with a Rust-based sign-language recognition app.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_006",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2054,
+  "predicted": "She is a landscape architect.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_006",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3994,
+  "predicted": "She is a high-school music teacher in San Diego.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_007",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2050,
+  "predicted": "*Braiding Sweetgrass* by Robin Wall Kimmerer.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_007",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3963,
+  "predicted": "The girlfriend of Alice’s roommate, Carol Kim, favors *Mountains Beyond Mountains* by Tracy Kidder.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_008",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1937,
+  "predicted": "English and Igbo; learned French in high school.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_008",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3872,
+  "predicted": "English, Igbo, and conversational French.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_001",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2064,
+  "predicted": "Smith Rock.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_001",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4000,
+  "predicted": "Smith Rock.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_002",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2084,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_002",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3924,
+  "predicted": "Costa Rica",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_003",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2029,
+  "predicted": "High-school music teacher.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_003",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3971,
+  "predicted": "High-school music teacher.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_004",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2238,
+  "predicted": "Eagle Creek Trail.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_004",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4092,
+  "predicted": "Eagle Creek Trail.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_005",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1903,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_005",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3910,
+  "predicted": "EPA funding for a campus garden project.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_006",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2095,
+  "predicted": "Nigerian dishes, especially jollof rice.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_006",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4236,
+  "predicted": "Nigerian dishes.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_001",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2051,
+  "predicted": "AutoMind",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_001",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4115,
+  "predicted": "AutoMind.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_002",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2028,
+  "predicted": "A regional award.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_002",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3803,
+  "predicted": "Bob Martinez’s student short film won a regional award.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_003",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2244,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_003",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4265,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_004",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2047,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_004",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4138,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_011",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1983,
+  "predicted": "14 years old.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_011",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3886,
+  "predicted": "14 years old.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_012",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2062,
+  "predicted": "Tokyo",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_012",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4017,
+  "predicted": "Tokyo",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_013",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1834,
+  "predicted": "*The Design of Everyday Things* by Don Norman.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_013",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3742,
+  "predicted": "*The Design of Everyday Things* by Don Norman.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_014",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2010,
+  "predicted": "Bob Martinez is studying music composition, specializing in film scoring.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_014",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4086,
+  "predicted": "Film scoring.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_015",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2175,
+  "predicted": "Vienna.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_015",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4085,
+  "predicted": "Vienna",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_016",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2030,
+  "predicted": "Hans Zimmer.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_016",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4030,
+  "predicted": "Hans Zimmer",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_017",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1816,
+  "predicted": "The MCAT.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_017",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3709,
+  "predicted": "The MCAT.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_018",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1843,
+  "predicted": "200 donations",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_018",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3689,
+  "predicted": "200 donations",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_019",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2073,
+  "predicted": "Pharmacology professor.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_019",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4115,
+  "predicted": "Pharmacology professor at the University of Chicago.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_020",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2086,
+  "predicted": "Jollof rice.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_020",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3935,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_021",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1944,
+  "predicted": "Zero-Waste Week.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_021",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3739,
+  "predicted": "Zero-Waste Week.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_022",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1914,
+  "predicted": "Watercolor landscapes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_022",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3830,
+  "predicted": "Watercolor landscapes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_023",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1817,
+  "predicted": "Ukulele.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_023",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3760,
+  "predicted": "Ukulele",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_024",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2006,
+  "predicted": "A half-marathon.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_024",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3899,
+  "predicted": "A half-marathon.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_025",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1946,
+  "predicted": "A Civic.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k1_025",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3811,
+  "predicted": "A Civic.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_011",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1872,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_011",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3824,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_012",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1965,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_012",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3846,
+  "predicted": "Bob Martinez volunteers at the High School Coding Workshop on Saturdays.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_013",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2131,
+  "predicted": "Carol Kim won a university community service award.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_013",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4238,
+  "predicted": "Carol Kim won a university community service award.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_014",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2058,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_014",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3928,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_015",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1995,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_015",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3865,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_016",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2278,
+  "predicted": "Lagos.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_016",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4127,
+  "predicted": "Lagos.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_017",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2404,
+  "predicted": "*Braiding Sweetgrass* by Robin Wall Kimmerer.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_017",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4262,
+  "predicted": "*The Emperor of All Maladies* by Siddhartha Mukherjee.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_018",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1941,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_018",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3829,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_019",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1862,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_019",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3830,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_020",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2052,
+  "predicted": "The Spring Music Festival on the quad.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_020",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3930,
+  "predicted": "The Spring Music Festival, the major music event on the quad.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_021",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2045,
+  "predicted": "The Sickle Cell Research 5K Fundraiser.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_021",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3913,
+  "predicted": "The Sickle Cell Research 5K Fundraiser.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_022",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2065,
+  "predicted": "David Okafor drives a red Toyota Corolla.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_022",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3794,
+  "predicted": "David Okafor drives a red Toyota Corolla.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_023",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1930,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_023",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3804,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_024",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2252,
+  "predicted": "Eve Park is planning a trip to Portland with Alice Chen.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_024",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4082,
+  "predicted": "Eve Park’s pottery classmate, Alice Chen, is planning a trip to Portland with Eve Park.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_025",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2090,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k2_025",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3853,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_009",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2032,
+  "predicted": "Nigerian cuisine.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_009",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3978,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_010",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1885,
+  "predicted": "Music tutoring.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_010",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3868,
+  "predicted": "Bob Martinez volunteers as a weekend music tutor.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_011",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2153,
+  "predicted": "Alice Chen is applying to HCI graduate programs at Carnegie Mellon, Georgia Tech, and the University of Washington.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_011",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3980,
+  "predicted": "Alice Chen is applying to HCI graduate programs at Carnegie Mellon, Georgia Tech, and the University of Washington.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_012",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2089,
+  "predicted": "Coding for high-school students.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_012",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3997,
+  "predicted": "Coding for high-school students.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_013",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2092,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_013",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4062,
+  "predicted": "Knitting.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_014",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2010,
+  "predicted": "David Okafor is training for an unspecified athletic event.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_014",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3965,
+  "predicted": "David Okafor is training for an unspecified athletic activity.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_015",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1946,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_015",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3921,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_016",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1921,
+  "predicted": "Spanish, Korean, and English.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_016",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3917,
+  "predicted": "English, Igbo, and conversational French.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_017",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2220,
+  "predicted": "Daniel",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_017",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4149,
+  "predicted": "Daniel",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_018",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2042,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_018",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4086,
+  "predicted": "A grant—the Campus Garden Project received an EPA grant.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_019",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2157,
+  "predicted": "Carol Kim runs 5 kilometers every morning at 6:00 AM.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_019",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4128,
+  "predicted": "He runs 10 kilometers every morning at 6:00 AM.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_020",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2030,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k3_020",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3990,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_007",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1981,
+  "predicted": "English and Igbo; he also learned French and can get by in it.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_007",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3783,
+  "predicted": "English and Igbo; he also learned French.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_008",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2149,
+  "predicted": "Watercolor landscape paintings.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_008",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4071,
+  "predicted": "Watercolor landscape paintings.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_009",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2105,
+  "predicted": "Bob Martinez has a treble-clef tattoo on his wrist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_009",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4045,
+  "predicted": "A treble-clef tattoo on his wrist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_010",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2286,
+  "predicted": "*Braiding Sweetgrass* by Robin Wall Kimmerer.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_010",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4242,
+  "predicted": "Braiding Sweetgrass by Robin Wall Kimmerer",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_011",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2047,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_011",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4075,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_012",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2078,
+  "predicted": "Alice Chen broke her wrist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_012",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4154,
+  "predicted": "Her wrist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_013",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2181,
+  "predicted": "Jollof rice.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_013",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4104,
+  "predicted": "Kimchi jjigae.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_014",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2079,
+  "predicted": "Eve Park volunteers at a community garden near campus every Sunday.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_014",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4196,
+  "predicted": "The community garden.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_015",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2012,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_015",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3918,
+  "predicted": "Ballet class.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_016",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2018,
+  "predicted": "Piano, drums, and bass guitar.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_016",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4076,
+  "predicted": "Piano, drums, and bass guitar.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_017",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1961,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_017",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3926,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_018",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1959,
+  "predicted": "David Okafor coaches a youth track program.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k4_018",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3954,
+  "predicted": "David Okafor coaches a youth track program.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_005",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2270,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_005",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4313,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_006",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2093,
+  "predicted": "Music tutoring.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_006",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4147,
+  "predicted": "The Peace Corps.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_007",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2157,
+  "predicted": "MCAT",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_007",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4130,
+  "predicted": "The MCAT.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_008",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2058,
+  "predicted": "200 donations",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_008",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3919,
+  "predicted": "200 donations",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_009",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 1980,
+  "predicted": "Vienna.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_009",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3871,
+  "predicted": "Vienna.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_010",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2076,
+  "predicted": "Kimchi jjigae",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_010",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3989,
+  "predicted": "Kimchi jjigae",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_011",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2115,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_011",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3936,
+  "predicted": "Alice Chen mentors high school students in a coding workshop every Saturday.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_012",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2134,
+  "predicted": "Portland.",
+  "judge": 1.0
+ },
+ {
+  "sid": 1,
+  "qa_id": "memhop_s01_k5_012",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4081,
+  "predicted": "Portland.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_001",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1654,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_001",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3490,
+  "predicted": "Churro",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_002",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2024,
+  "predicted": "Go",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_002",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3906,
+  "predicted": "Go",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_003",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1965,
+  "predicted": "The Red Dot Design Award.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_003",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3950,
+  "predicted": "Maya Johansson won the 2020 Red Dot Design Award for a modular standing desk concept.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_004",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1837,
+  "predicted": "Walter",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_004",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3780,
+  "predicted": "Walter",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_005",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2183,
+  "predicted": "ACL (the Association for Computational Linguistics conference).",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_005",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4148,
+  "predicted": "The ACL conference.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_006",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1874,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_006",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3819,
+  "predicted": "Pixel",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_007",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1963,
+  "predicted": "“Foghorn,” his IPA.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_007",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3853,
+  "predicted": "“Foghorn,” his IPA.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_008",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2005,
+  "predicted": "Konstfack.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_008",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3745,
+  "predicted": "Konstfack University.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_009",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1891,
+  "predicted": "Naan",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_009",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3824,
+  "predicted": "Naan",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_010",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1698,
+  "predicted": "Caspian Labs",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_010",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3533,
+  "predicted": "Caspian Labs",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_001",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1745,
+  "predicted": "Mensho Tokyo.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_001",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3554,
+  "predicted": "Mensho Tokyo.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_002",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1967,
+  "predicted": "Marcus Bell drives a green Rivian R1T.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_002",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3817,
+  "predicted": "Marcus Bell drives a green Rivian R1T.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_003",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2081,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_003",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4008,
+  "predicted": "The San Francisco Century Ride, a 100-mile cycling event.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_004",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1971,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_004",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3875,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_005",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2095,
+  "predicted": "Fika, a cat.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_005",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3788,
+  "predicted": "A cat named Fika.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_006",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1718,
+  "predicted": "MilvusLite, an open-source vector database.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_006",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3690,
+  "predicted": "MilvusLite, an open-source vector database.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_007",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1987,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_007",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3817,
+  "predicted": "Pixel",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_008",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1904,
+  "predicted": "Civil rights attorney.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_008",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3623,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_009",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1986,
+  "predicted": "Clayroom.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_009",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3822,
+  "predicted": "The Clayroom on Valencia Street.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_010",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2200,
+  "predicted": "The Kaggle Days Championship.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_010",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4028,
+  "predicted": "Priya Sharma won the Kaggle Days Championship.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_001",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1866,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_001",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3891,
+  "predicted": "How I Built This.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_002",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2003,
+  "predicted": "Fika.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_002",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3963,
+  "predicted": "Fika.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_003",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2053,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_003",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3851,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_004",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1945,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_004",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3744,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_005",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2073,
+  "predicted": "4 hours 11 minutes",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_005",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4221,
+  "predicted": "4 hours 11 minutes",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_006",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1922,
+  "predicted": "91% F1",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_006",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3801,
+  "predicted": "91% F1",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_007",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2172,
+  "predicted": "Marcus Bell is writing a book about the Oakland tech scene.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_007",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4105,
+  "predicted": "A nonfiction book about the Oakland tech scene.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_008",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2026,
+  "predicted": "Cardiologist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_008",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3764,
+  "predicted": "Cardiologist.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_001",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2026,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_001",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3986,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_002",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1921,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_002",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3742,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_003",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1969,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_003",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3894,
+  "predicted": "Mole poblano.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_004",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2132,
+  "predicted": "PennApps, in 2016.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_004",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4073,
+  "predicted": "The 2016 PennApps hackathon.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_005",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1755,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_005",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3542,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_006",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2091,
+  "predicted": "Sharma’s Spice Market, an Indian grocery store in Cambridge.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_006",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4036,
+  "predicted": "Sharma’s Spice Market in Cambridge.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_001",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2305,
+  "predicted": "3 hours 42 minutes",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_001",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4290,
+  "predicted": "3 hours 42 minutes",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_002",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 1818,
+  "predicted": "Cherry MX Brown switches",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_002",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3846,
+  "predicted": "Cherry MX Brown switches",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_003",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2199,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_003",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4035,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_004",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2204,
+  "predicted": "Tanaka Gardens.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_004",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4087,
+  "predicted": "Tanaka Gardens",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_011",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1699,
+  "predicted": "Stanford University.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_011",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3469,
+  "predicted": "Stanford University.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_012",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1881,
+  "predicted": "8 kilometers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_012",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3661,
+  "predicted": "8 kilometers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_013",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1776,
+  "predicted": "English, Spanish, and conversational Portuguese.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_013",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3574,
+  "predicted": "English, Spanish, and conversational Portuguese.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_014",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1908,
+  "predicted": "The University of California, Berkeley (computer science), in 2017.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_014",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3699,
+  "predicted": "The University of California, Berkeley.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_015",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2172,
+  "predicted": "He reduced latency from **340 milliseconds to 87 milliseconds**.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_015",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4205,
+  "predicted": "Latency decreased from 340 milliseconds to 87 milliseconds.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_016",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1992,
+  "predicted": "June 2023",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_016",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4033,
+  "predicted": "June 2023",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_017",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2123,
+  "predicted": "35%",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_017",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3895,
+  "predicted": "35%",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_018",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1744,
+  "predicted": "Lake Merritt.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_018",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3877,
+  "predicted": "Lake Merritt.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_019",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2225,
+  "predicted": "50,000 monthly readers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_019",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4271,
+  "predicted": "50,000 monthly readers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_020",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1979,
+  "predicted": "San Francisco Public Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_020",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3783,
+  "predicted": "San Francisco Public Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_021",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2155,
+  "predicted": "Nearly 250 books.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_021",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4018,
+  "predicted": "Nearly 250 books.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_022",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1750,
+  "predicted": "Nadia Reyes drives a Tesla Model Y.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_022",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3519,
+  "predicted": "Tesla Model Y",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_023",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1878,
+  "predicted": "Volleyball.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_023",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3847,
+  "predicted": "Recreational volleyball.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_024",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1669,
+  "predicted": "Mexico City.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_024",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3378,
+  "predicted": "Mexico City.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_025",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 1738,
+  "predicted": "*The Hard Thing About Hard Things* by Ben Horowitz.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k1_025",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 3604,
+  "predicted": "The Hard Thing About Hard Things.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_011",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1700,
+  "predicted": "McKinsey.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_011",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3410,
+  "predicted": "McKinsey.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_012",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1770,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_012",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3545,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_013",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1965,
+  "predicted": "2",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_013",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3760,
+  "predicted": "2",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_014",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1998,
+  "predicted": "Maya Johansson sold ceramics.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_014",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4024,
+  "predicted": "Ceramics.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_015",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1749,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_015",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3846,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_016",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1998,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_016",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3840,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_017",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2014,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_017",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3910,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_018",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2122,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_018",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4055,
+  "predicted": "An inference pipeline.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_019",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1850,
+  "predicted": "Nadia Reyes drives a Tesla Model Y.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_019",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3819,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_020",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1996,
+  "predicted": "Beer.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_020",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3864,
+  "predicted": "An IPA named “Foghorn.”",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_021",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1768,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_021",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3434,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_022",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1869,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_022",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3764,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_023",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1839,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_023",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3705,
+  "predicted": "Volleyball.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_024",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2120,
+  "predicted": "Caspian Labs’ first user conference.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_024",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4138,
+  "predicted": "Caspian Labs’ first user conference, held on 12 October 2024.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_025",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 1871,
+  "predicted": "The Kaggle Days championship.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k2_025",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 3732,
+  "predicted": "Priya Sharma won the Kaggle Days championship.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_009",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2065,
+  "predicted": "Konstfack in Stockholm.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_009",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4087,
+  "predicted": "Konstfack in Stockholm.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_010",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2130,
+  "predicted": "Bianchi bicycle",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_010",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4151,
+  "predicted": "A red Specialized Allez.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_011",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2049,
+  "predicted": "Forbes 30 Under 30 in enterprise tech in 2020.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_011",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3858,
+  "predicted": "Nadia Reyes was named to Forbes’ 30 Under 30 list for enterprise tech in 2020.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_012",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1978,
+  "predicted": "The neighbor mentors two women founders every quarter through Techstars.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_012",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3824,
+  "predicted": "The neighbor mentors two women founders every quarter through Techstars.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_013",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2127,
+  "predicted": "One Moleskine sketchbook.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_013",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4171,
+  "predicted": "One Moleskine sketchbook.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_014",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2153,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_014",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4204,
+  "predicted": "Four chai masala cookies.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_015",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1791,
+  "predicted": "Mission Playground.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_015",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3571,
+  "predicted": "Mission Playground",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_016",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 1947,
+  "predicted": "Subaru Outback",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_016",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3858,
+  "predicted": "Tesla Model Y",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_017",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2060,
+  "predicted": "Marine biologist.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_017",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3830,
+  "predicted": "Marine biologist.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_018",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2198,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_018",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4313,
+  "predicted": "Marcus Bell’s signature smoked brisket.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_019",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2111,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_019",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 3922,
+  "predicted": "Inner Sunset.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_020",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2038,
+  "predicted": "The Behmor 2000AB Plus.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k3_020",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4170,
+  "predicted": "Behmor 2000AB Plus",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_007",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1909,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_007",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3713,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_008",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2023,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_008",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3918,
+  "predicted": "Priya Sharma won the Kaggle Days championship in February 2024.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_009",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2167,
+  "predicted": "The Salesforce AI Assistant integration partnership.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_009",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3988,
+  "predicted": "An AI assistant integration partnership between Salesforce and Caspian Labs.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_010",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2041,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_010",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3803,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_011",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2196,
+  "predicted": "*The Hard Thing About Hard Things*",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_011",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4121,
+  "predicted": "*The Hard Thing About Hard Things*",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_012",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1972,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_012",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4053,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_013",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2077,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_013",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4107,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_014",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1940,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_014",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4046,
+  "predicted": "Maya Johansson cycles to the Ferry Building Farmers Market every Saturday.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_015",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2049,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_015",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4057,
+  "predicted": "A few-shot learning paper.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_016",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1948,
+  "predicted": "A retired principal at Oakland Unified.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_016",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3954,
+  "predicted": "Pediatrician.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_017",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 1835,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_017",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 3839,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_018",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2208,
+  "predicted": "Pandora Karaoke",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k4_018",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4308,
+  "predicted": "Pandora Karaoke.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_005",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2047,
+  "predicted": "San Francisco Public Library",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_005",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3891,
+  "predicted": "San Francisco Public Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_006",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2211,
+  "predicted": "Nearly 250 books.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_006",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4126,
+  "predicted": "Nearly 250 books.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_007",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2119,
+  "predicted": "8 kilometers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_007",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4024,
+  "predicted": "8 kilometers along the Embarcadero.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_008",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2047,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_008",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3867,
+  "predicted": "Hindi and Tamil.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_009",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2195,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_009",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4171,
+  "predicted": "Maya Johansson redesigned the dashboard.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_010",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2058,
+  "predicted": "Boston.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_010",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3962,
+  "predicted": "Boston.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_011",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2170,
+  "predicted": "Lake Merritt.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_011",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3966,
+  "predicted": "Lake Merritt.",
+  "judge": 1.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_012",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 1896,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 2,
+  "qa_id": "memhop_s02_k5_012",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 3767,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_001",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2635,
+  "predicted": "14 varieties.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_001",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4798,
+  "predicted": "14 varieties.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_002",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2387,
+  "predicted": "AP Calculus and Algebra II.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_002",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4590,
+  "predicted": "AP Calculus and Algebra II.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_003",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2165,
+  "predicted": "Jade Wellness",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_003",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4597,
+  "predicted": "Jade Wellness",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_004",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2508,
+  "predicted": "Community-Led Green Spaces as Catalysts for Neighborhood Resilience in East Austin",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_004",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4672,
+  "predicted": "Community-Led Green Spaces as Catalysts for Neighborhood Resilience in East Austin",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_005",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2349,
+  "predicted": "2018",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_005",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4643,
+  "predicted": "2018",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_006",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2563,
+  "predicted": "Los Relámpagos",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_006",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4578,
+  "predicted": "Los Relámpagos",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_007",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2327,
+  "predicted": "Master of Acupuncture.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_007",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4453,
+  "predicted": "Master of Acupuncture.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_008",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2362,
+  "predicted": "A yellow Cannondale bicycle.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_008",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4571,
+  "predicted": "A yellow Cannondale bicycle.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_009",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2307,
+  "predicted": "Civil engineering professor at the University of Texas.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_009",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4499,
+  "predicted": "Civil engineering professor at the University of Texas.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_010",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2909,
+  "predicted": "About $120.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_010",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 5354,
+  "predicted": "Approximately $120.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_011",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2410,
+  "predicted": "2024",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_011",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4470,
+  "predicted": "2024",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_012",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2456,
+  "predicted": "150 residents",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_012",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4635,
+  "predicted": "150 residents",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_013",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2235,
+  "predicted": "Lagos in the 1970s during the oil boom years, including her father’s work at a refinery.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_013",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4464,
+  "predicted": "Lagos in the 1970s during the oil-boom years, including her father’s work at a refinery.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_014",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2743,
+  "predicted": "Lupe",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_014",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 5019,
+  "predicted": "Lupe",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_015",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2780,
+  "predicted": "Chrysanthemum-and-goji-berry tea.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_015",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4925,
+  "predicted": "Chrysanthemum-and-goji-berry tea.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_016",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2206,
+  "predicted": "1995",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_016",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4269,
+  "predicted": "1995",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_017",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2459,
+  "predicted": "Two beehives.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_017",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4706,
+  "predicted": "Two beehives.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_018",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2314,
+  "predicted": "December 2023.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_018",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4641,
+  "predicted": "December 2023.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_019",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2613,
+  "predicted": "6:15 a.m.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_019",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4872,
+  "predicted": "6:15 a.m.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_020",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2573,
+  "predicted": "American Planning Association’s Texas Chapter Conference.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_020",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4749,
+  "predicted": "American Planning Association’s Texas Chapter Conference.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_021",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2756,
+  "predicted": "45 neighbors.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_021",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 5227,
+  "predicted": "45 neighbors.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_022",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2330,
+  "predicted": "A white Toyota RAV4.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_022",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4704,
+  "predicted": "A white Toyota RAV4.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_023",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2703,
+  "predicted": "The Capital Area Food Bank’s Holiday Gift Basket Program.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_023",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 5002,
+  "predicted": "The Capital Area Food Bank’s holiday gift-basket program.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_024",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2593,
+  "predicted": "Maria Torres",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_024",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4816,
+  "predicted": "Maria Torres",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_025",
+  "k": 1,
+  "K": 80,
+  "ctx_tokens": 2496,
+  "predicted": "97,000 miles.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k1_025",
+  "k": 1,
+  "K": 160,
+  "ctx_tokens": 4665,
+  "predicted": "97,000 miles",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_001",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2336,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_001",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4638,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_002",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2733,
+  "predicted": "At the farmers market.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_002",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 5273,
+  "predicted": "At the SFC Farmers Market.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_003",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2248,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_003",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4488,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_004",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2403,
+  "predicted": "First United Methodist Church.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_004",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4512,
+  "predicted": "First United Methodist Church.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_005",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2248,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_005",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4524,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_006",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2440,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_006",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4673,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_007",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2505,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_007",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4635,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_008",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2448,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_008",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4592,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_009",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2169,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_009",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4485,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_010",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2446,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_010",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4693,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_011",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2347,
+  "predicted": "Jenny Liu taught a medicinal-herb workshop.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_011",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4735,
+  "predicted": "A medicinal-herb workshop, covering lavender propagation and lemon balm tinctures.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_012",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2397,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_012",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4673,
+  "predicted": "Jenny Liu drives a blue Tucson.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_013",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2713,
+  "predicted": "Ruth Okonkwo won first place for her Cherokee Purple tomatoes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_013",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 5313,
+  "predicted": "First place for her Cherokee Purple tomatoes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_014",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2377,
+  "predicted": "Black Swan Yoga.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_014",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4564,
+  "predicted": "Black Swan Yoga.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_015",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2448,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_015",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4656,
+  "predicted": "Software engineer at Dell in Round Rock.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_016",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2393,
+  "predicted": "Sam Delgado coached the girls’ soccer team to the district semifinals.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_016",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4682,
+  "predicted": "Travis High.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_017",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2401,
+  "predicted": "Teacher of the Year Award.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_017",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4688,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_018",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2279,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_018",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4605,
+  "predicted": "Jenny Liu drives a blue Hyundai Tucson.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_019",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2465,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_019",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4625,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_020",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2382,
+  "predicted": "Austin Public Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_020",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4569,
+  "predicted": "Austin Public Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_021",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2429,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_021",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4873,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_022",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2475,
+  "predicted": "CommUnityCare on East Cesar Chavez.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_022",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4754,
+  "predicted": "CommUnityCare on East Cesar Chavez.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_023",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2174,
+  "predicted": "Igbo, Yoruba, and English.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_023",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4465,
+  "predicted": "Igbo, Yoruba, and English.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_024",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2704,
+  "predicted": "Travis High.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_024",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 5089,
+  "predicted": "Terrazas Branch Library.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_025",
+  "k": 2,
+  "K": 80,
+  "ctx_tokens": 2284,
+  "predicted": "Jenny Liu speaks Mandarin, Cantonese, and English.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k2_025",
+  "k": 2,
+  "K": 160,
+  "ctx_tokens": 4302,
+  "predicted": "Mandarin, Cantonese, and English.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_001",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2482,
+  "predicted": "Carolina Reaper and habanero peppers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_001",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 5001,
+  "predicted": "Carolina Reaper and habanero peppers.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_002",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2537,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_002",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4854,
+  "predicted": "Gol",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_003",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2887,
+  "predicted": "Cherokee Purple.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_003",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 5452,
+  "predicted": "Cherokee Purple tomatoes.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_004",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2453,
+  "predicted": "Education (Master of Education).",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_004",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4764,
+  "predicted": "Education (M.Ed.).",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_005",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2432,
+  "predicted": "Lavender, chamomile, echinacea, and lemon balm.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_005",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4667,
+  "predicted": "Lavender, chamomile, echinacea, and lemon balm.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_006",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2944,
+  "predicted": "First place.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_006",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 5425,
+  "predicted": "First place.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_007",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2521,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_007",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4618,
+  "predicted": "Houston’s Chinatown.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_008",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2432,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_008",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4779,
+  "predicted": "2010",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_009",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2529,
+  "predicted": "Civil engineering professor.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_009",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4774,
+  "predicted": "Structural engineer at Kimley-Horn.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_010",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2525,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_010",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4922,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_011",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2708,
+  "predicted": "Mathematics degree.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_011",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4990,
+  "predicted": "Mathematics degree.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_012",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2468,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_012",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4807,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_013",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2539,
+  "predicted": "200 pounds",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_013",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4908,
+  "predicted": "200 pounds",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_014",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2558,
+  "predicted": "The Austin City Planning Department.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_014",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4824,
+  "predicted": "Austin City Planning Department",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_015",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2836,
+  "predicted": "Pepper soup.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_015",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 5274,
+  "predicted": "Pepper soup.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_016",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2286,
+  "predicted": "Mandarin, Cantonese, and English, with limited Spanish.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_016",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4398,
+  "predicted": "Bulgarian, English, and intermediate Spanish.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_017",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2184,
+  "predicted": "Ruth Okonkwo speaks Igbo, Yoruba, and English.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_017",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4458,
+  "predicted": "Mandarin, Cantonese, and English, with limited Spanish.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_018",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2380,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_018",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4730,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_019",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2520,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_019",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 4818,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_020",
+  "k": 3,
+  "K": 80,
+  "ctx_tokens": 2500,
+  "predicted": "React and Firebase.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k3_020",
+  "k": 3,
+  "K": 160,
+  "ctx_tokens": 5065,
+  "predicted": "React and Firebase.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_001",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2275,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_001",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4683,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_002",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2577,
+  "predicted": "Approximately 28–30 people.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_002",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5060,
+  "predicted": "About 25 people.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_003",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2520,
+  "predicted": "*Things Fall Apart* by Chinua Achebe.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_003",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4999,
+  "predicted": "Things Fall Apart by Chinua Achebe.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_004",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2597,
+  "predicted": "Lucky Star.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_004",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5053,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_005",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2345,
+  "predicted": "The Austin Marathon.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_005",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4738,
+  "predicted": "The Austin Marathon.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_006",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2165,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_006",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4390,
+  "predicted": "Bulgarian, English, and intermediate Spanish.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_007",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2406,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_007",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4618,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_008",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2452,
+  "predicted": "Lucky Star dim sum restaurant in Houston’s Chinatown.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_008",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4694,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_009",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2834,
+  "predicted": "$67,000",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_009",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5056,
+  "predicted": "$67,000",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_010",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2546,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_010",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4868,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_011",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2703,
+  "predicted": "East 5th Street",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_011",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5031,
+  "predicted": "East 5th Street",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_012",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2457,
+  "predicted": "Habitat for Humanity builds.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_012",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4756,
+  "predicted": "Habitat for Humanity builds.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_013",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2577,
+  "predicted": "Nurse.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_013",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4825,
+  "predicted": "Software engineer at Dell in Round Rock.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_014",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2488,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_014",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4874,
+  "predicted": "Jenny Liu drives a blue Tucson.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_015",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2668,
+  "predicted": "2010",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_015",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 4875,
+  "predicted": "2010",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_016",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2589,
+  "predicted": "Carolina Reaper peppers and habaneros.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_016",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5158,
+  "predicted": "Carolina Reaper peppers and habaneros.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_017",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2779,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_017",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5282,
+  "predicted": "Pepper soup",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_018",
+  "k": 4,
+  "K": 80,
+  "ctx_tokens": 2744,
+  "predicted": "A Master of Education (M.Ed.) from Texas State University.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k4_018",
+  "k": 4,
+  "K": 160,
+  "ctx_tokens": 5007,
+  "predicted": "A Master of Education (M.Ed.) from Texas State University.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_001",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2518,
+  "predicted": "Guitar",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_001",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4791,
+  "predicted": "Guitar",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_002",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2886,
+  "predicted": "200 pounds",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_002",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 5311,
+  "predicted": "200 pounds",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_003",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2519,
+  "predicted": "I don't know",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_003",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4918,
+  "predicted": "Chamomile and echinacea seedlings.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_004",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2408,
+  "predicted": "Banitsa",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_004",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4608,
+  "predicted": "Banitsa",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_005",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2549,
+  "predicted": "Lagos in the 1970s during the oil-boom years.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_005",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 5020,
+  "predicted": "Lagos in the 1970s during the oil-boom years, including her father’s work at a refinery.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_006",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2938,
+  "predicted": "45 people",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_006",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 5178,
+  "predicted": "45 people",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_007",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2733,
+  "predicted": "I don't know.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_007",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 5323,
+  "predicted": "Jenny Liu’s chrysanthemum-and-goji-berry tea.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_008",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2637,
+  "predicted": "Zavala Elementary.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_008",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4938,
+  "predicted": "Zavala Elementary School.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_009",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2423,
+  "predicted": "2",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_009",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4839,
+  "predicted": "2",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_010",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2499,
+  "predicted": "Lily and Rose.",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_010",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4909,
+  "predicted": "Lily and Rose",
+  "judge": 1.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_011",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2565,
+  "predicted": "Teacher of the Year Award.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_011",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 4926,
+  "predicted": "The person received the Teacher of the Year Award at Travis High.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_012",
+  "k": 5,
+  "K": 80,
+  "ctx_tokens": 2717,
+  "predicted": "Medical assistant.",
+  "judge": 0.0
+ },
+ {
+  "sid": 3,
+  "qa_id": "memhop_s03_k5_012",
+  "k": 5,
+  "K": 160,
+  "ctx_tokens": 5185,
+  "predicted": "Medical assistant.",
+  "judge": 0.0
+ }
+]

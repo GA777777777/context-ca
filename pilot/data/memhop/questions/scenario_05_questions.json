@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "music_conservatory",
+  "questions": [
+    {
+      "id": "memhop_s05_k1_001",
+      "question": "Where did Harper Reeves grow up?",
+      "answer": "Lexington, Kentucky",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Harper Reeves grow up?",
+          "sub_answer": "on a 120-acre tobacco farm outside Lexington, Kentucky",
+          "evidence_id": "harper_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_001",
+          "text": "Harper Reeves grew up on a 120-acre tobacco farm outside Lexington, Kentucky.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s05_k1_002",
+      "question": "What prize did Leo Nakamura win in February 2024?",
+      "answer": "Nashville Jazz Guitar Competition",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What prize did Leo Nakamura win in February 2024?",
+          "sub_answer": "Nashville Jazz Guitar Competition",
+          "evidence_id": "leo_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_005",
+          "text": "Leo Nakamura won the Nashville Jazz Guitar Competition in February 2024, earning a $2,500 scholarship.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s05_k1_003",
+      "question": "What EP did Sienna Ortiz release on Spotify?",
+      "answer": "Sangre y Sol",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What EP did Sienna Ortiz release on Spotify?",
+          "sub_answer": "Sangre y Sol",
+          "evidence_id": "sienna_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_005",
+          "text": "Sienna Ortiz released a three-song Tejano-R&B EP called 'Sangre y Sol' on Spotify in September 2023, which has over 85,000 streams.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s05_k1_004",
+      "question": "What is Devin Cross's DJ and artist name?",
+      "answer": "DVNX",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Devin Cross's artist name?",
+          "sub_answer": "DVNX",
+          "evidence_id": "devin_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_004",
+          "text": "Devin Cross produces electronic and hip-hop music under the artist name 'DVNX'.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s05_k1_005",
+      "question": "What instrument did Harper Reeves's grandmother give her?",
+      "answer": "quarter-size fiddle",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What instrument did Harper Reeves's grandmother give her?",
+          "sub_answer": "a quarter-size fiddle",
+          "evidence_id": "harper_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_002",
+          "text": "Harper Reeves started playing violin at age 5 after her grandmother gave her a quarter-size fiddle.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s05_k1_006",
+      "question": "Where does Leo Nakamura work part-time as a session guitarist?",
+      "answer": "Blackbird Studio",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Leo Nakamura work part-time as a session guitarist?",
+          "sub_answer": "Blackbird Studio",
+          "evidence_id": "leo_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_007",
+          "text": "Leo Nakamura works part-time three evenings a week as a session guitarist at Blackbird Studio.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s05_k1_007",
+      "question": "What is Sienna Ortiz's vocal range?",
+      "answer": "E3 to G#5",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Sienna Ortiz's vocal range?",
+          "sub_answer": "E3 to G#5",
+          "evidence_id": "sienna_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_010",
+          "text": "Sienna Ortiz's vocal range spans from E3 to G#5.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s05_k1_008",
+      "question": "What vintage synthesizer does Devin Cross own?",
+      "answer": "Roland Juno-106",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What vintage synthesizer does Devin Cross own?",
+          "sub_answer": "Roland Juno-106",
+          "evidence_id": "devin_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_013",
+          "text": "Devin Cross taught himself to play synthesizer and owns a vintage Roland Juno-106.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k1_009",
+      "question": "What competition did Harper Reeves win in Galax, Virginia?",
+      "answer": "Appalachian Fiddle Championship",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What competition did Harper Reeves win in Galax, Virginia?",
+          "sub_answer": "Appalachian Fiddle Championship",
+          "evidence_id": "harper_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k1_010",
+      "question": "What short film did Leo Nakamura compose the score for?",
+      "answer": "Tidepool",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "music_conservatory",
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What short film did Leo Nakamura compose the score for?",
+          "sub_answer": "Tidepool",
+          "evidence_id": "leo_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_015",
+          "text": "Leo Nakamura composed the score for a short film called 'Tidepool' that screened at the Nashville Film Festival in April 2024.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s05_k1_011",
+      "question": "What job does Harper Reeves's mother have?",
+      "answer": "elementary school music teacher",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What job does Harper Reeves's mother have?",
+          "sub_answer": "teaches elementary school music in Lexington",
+          "evidence_id": "harper_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_008",
+          "text": "Harper Reeves's mother, June Reeves, teaches elementary school music in Lexington.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k1_012",
+      "question": "What car does Harper Reeves drive?",
+      "answer": "green 2015 Subaru Outback",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What car does Harper Reeves drive?",
+          "sub_answer": "a green 2015 Subaru Outback",
+          "evidence_id": "harper_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_009",
+          "text": "Harper Reeves drives a green 2015 Subaru Outback with a 'Keep Kentucky Wild' bumper sticker.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s05_k1_013",
+      "question": "Where did Harper Reeves perform as part of a student showcase in March 2024?",
+      "answer": "Grand Ole Opry",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Harper Reeves perform in March 2024?",
+          "sub_answer": "the Grand Ole Opry",
+          "evidence_id": "harper_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_010",
+          "text": "Harper Reeves performed at the Grand Ole Opry as part of a student showcase in March 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s05_k1_014",
+      "question": "Besides violin, what other instruments can Harper Reeves play?",
+      "answer": "mandolin and banjo",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What instruments can Harper Reeves play?",
+          "sub_answer": "violin, mandolin, and banjo",
+          "evidence_id": "harper_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_011",
+          "text": "Harper Reeves can play violin, mandolin, and banjo.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k1_015",
+      "question": "Where did Harper Reeves record her demo EP in January 2024?",
+      "answer": "Sound Emporium Studios",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Harper Reeves record her demo EP?",
+          "sub_answer": "Sound Emporium Studios",
+          "evidence_id": "harper_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_012",
+          "text": "Harper Reeves recorded a demo EP with three original bluegrass songs at Sound Emporium Studios in January 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s05_k1_016",
+      "question": "Where does Harper Reeves volunteer every Saturday?",
+      "answer": "Nashville Rescue Mission",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Harper Reeves volunteer?",
+          "sub_answer": "the Nashville Rescue Mission, teaching violin to kids",
+          "evidence_id": "harper_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_014",
+          "text": "Harper Reeves volunteers every Saturday teaching violin to kids at the Nashville Rescue Mission.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k1_017",
+      "question": "What is Harper Reeves's favorite restaurant in Nashville?",
+      "answer": "Hattie B's Hot Chicken",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Harper Reeves's favorite restaurant?",
+          "sub_answer": "Hattie B's Hot Chicken on 19th Avenue",
+          "evidence_id": "harper_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_018",
+          "text": "Harper Reeves's favorite restaurant in Nashville is Hattie B's Hot Chicken on 19th Avenue.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s05_k1_018",
+      "question": "What is the occupation of Leo Nakamura's father?",
+      "answer": "marine biologist",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the occupation of Leo Nakamura's father?",
+          "sub_answer": "marine biologist at the University of Hawaii",
+          "evidence_id": "leo_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_008",
+          "text": "Leo Nakamura's father, Ken Nakamura, is a marine biologist at the University of Hawaii.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k1_019",
+      "question": "What languages does Leo Nakamura speak?",
+      "answer": "English and Japanese",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What languages does Leo Nakamura speak?",
+          "sub_answer": "English and Japanese",
+          "evidence_id": "leo_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_009",
+          "text": "Leo Nakamura speaks English and Japanese fluently.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k1_020",
+      "question": "Who is Leo Nakamura's favorite guitarist?",
+      "answer": "Pat Metheny",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's favorite guitarist?",
+          "sub_answer": "Pat Metheny",
+          "evidence_id": "leo_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_012",
+          "text": "Leo Nakamura's favorite guitarist is Pat Metheny.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s05_k1_021",
+      "question": "Where did Sienna Ortiz grow up?",
+      "answer": "San Antonio, Texas",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Sienna Ortiz grow up?",
+          "sub_answer": "San Antonio, Texas",
+          "evidence_id": "sienna_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_001",
+          "text": "Sienna Ortiz grew up in San Antonio, Texas, and started singing in her church choir at age 7.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 4
+    },
+    {
+      "id": "memhop_s05_k1_022",
+      "question": "What languages does Sienna Ortiz speak?",
+      "answer": "English and Spanish",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What languages does Sienna Ortiz speak?",
+          "sub_answer": "English and Spanish",
+          "evidence_id": "sienna_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_006",
+          "text": "Sienna Ortiz speaks English and Spanish fluently.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k1_023",
+      "question": "Where did Devin Cross grow up?",
+      "answer": "Atlanta, Georgia",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Devin Cross grow up?",
+          "sub_answer": "Atlanta, Georgia",
+          "evidence_id": "devin_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_001",
+          "text": "Devin Cross grew up in Atlanta, Georgia, and started producing beats on FL Studio at age 14.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s05_k1_024",
+      "question": "What place did Devin Cross win at the Red Bull Music 3Style DJ competition?",
+      "answer": "second place",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What place did Devin Cross win at the Red Bull 3Style?",
+          "sub_answer": "second place in Nashville in January 2024",
+          "evidence_id": "devin_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_009",
+          "text": "Devin Cross won second place at the Red Bull Music 3Style DJ competition in Nashville in January 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k1_025",
+      "question": "What is Devin Cross's favorite restaurant in Nashville?",
+      "answer": "Prince's Hot Chicken Shack",
+      "k": 1,
+      "question_type": "direct",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Devin Cross's favorite restaurant?",
+          "sub_answer": "Prince's Hot Chicken Shack on Ewing Drive",
+          "evidence_id": "devin_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_020",
+          "text": "Devin Cross's favorite restaurant in Nashville is Prince's Hot Chicken Shack on Ewing Drive.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s05_k2_001",
+      "question": "What is the favorite musician of Leo Nakamura's duet partner?",
+      "answer": "Alison Krauss",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's favorite musician?",
+          "sub_answer": "Alison Krauss",
+          "evidence_id": "harper_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_013",
+          "text": "Harper Reeves's favorite musician is Alison Krauss.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k2_002",
+      "question": "Where does Harper Reeves's roommate work on weekends?",
+      "answer": "School of Rock Nashville",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Sienna Ortiz work on weekends?",
+          "sub_answer": "School of Rock Nashville on West End Avenue",
+          "evidence_id": "sienna_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_009",
+          "text": "Sienna Ortiz works weekends as a vocal coach at School of Rock Nashville on West End Avenue.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s05_k2_003",
+      "question": "What is the favorite producer of Sienna Ortiz's songwriting collaborator?",
+      "answer": "Kaytranada",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sienna Ortiz's songwriting collaborator?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Devin Cross's favorite producer?",
+          "sub_answer": "Kaytranada",
+          "evidence_id": "devin_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_012",
+          "text": "Devin Cross's favorite producer is Kaytranada.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k2_004",
+      "question": "What car does the person who teaches Devin Cross jazz chord voicings ride to campus?",
+      "answer": "Honda CB300R motorcycle",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who teaches Devin Cross jazz chord voicings?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Leo Nakamura ride to campus?",
+          "sub_answer": "a black 2021 Honda CB300R motorcycle",
+          "evidence_id": "leo_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_019",
+          "text": "Devin Cross learned basic jazz chord voicings from Leo Nakamura during their weekly Tuesday practice sessions.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_016",
+          "text": "Leo Nakamura rides a black 2021 Honda CB300R motorcycle to campus.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k2_005",
+      "question": "What role did Harper Reeves's roommate play in the conservatory's spring musical?",
+      "answer": "lead soprano",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What role did Sienna Ortiz play in the spring musical?",
+          "sub_answer": "lead soprano in West Side Story",
+          "evidence_id": "sienna_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_012",
+          "text": "Sienna Ortiz was chosen as the lead soprano in the conservatory's spring production of 'West Side Story' in April 2024.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s05_k2_006",
+      "question": "What is the name of the concept album being written by Harper Reeves's band mate in Copper Ridge?",
+      "answer": "Trade Winds",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's band mate in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What concept album is Leo Nakamura writing?",
+          "sub_answer": "Trade Winds",
+          "evidence_id": "leo_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_017",
+          "text": "Leo Nakamura is writing a 12-song concept album about growing up in Hawaii, tentatively titled 'Trade Winds'.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k2_007",
+      "question": "What is the occupation of the father of Leo Nakamura's songwriting classmate?",
+      "answer": "entertainment lawyer",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the occupation of Devin Cross's parent?",
+          "sub_answer": "entertainment lawyer in Atlanta",
+          "evidence_id": "devin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_008",
+          "text": "Devin Cross's mother, Patricia Cross, is an entertainment lawyer in Atlanta.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s05_k2_008",
+      "question": "What pet did the person who shares a teacher with Harper Reeves adopt?",
+      "answer": "tabby cat named Coda",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a teacher with Harper Reeves?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What pet did Sienna Ortiz adopt?",
+          "sub_answer": "a tabby cat named Coda",
+          "evidence_id": "sienna_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_018",
+          "text": "Sienna Ortiz fostered and then adopted a tabby cat named Coda from the Nashville Humane Association.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k2_009",
+      "question": "Where did the lead guitarist of Copper Ridge grow up?",
+      "answer": "Honolulu, Hawaii",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Leo Nakamura grow up?",
+          "sub_answer": "Honolulu, Hawaii",
+          "evidence_id": "leo_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_001",
+          "text": "Leo Nakamura grew up in Honolulu, Hawaii, and learned to play guitar at age 12 by watching YouTube tutorials.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s05_k2_010",
+      "question": "What internship was the person who collaborated with Harper Reeves on an experimental track applying for?",
+      "answer": "Splice internship",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who collaborated with Harper Reeves on an experimental track?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "devin_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What internship is Devin Cross applying for?",
+          "sub_answer": "Splice internship for summer 2025",
+          "evidence_id": "devin_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_015",
+          "text": "Devin Cross and Harper Reeves collaborated on an experimental track blending bluegrass fiddle with electronic beats in June 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_018",
+          "text": "Devin Cross is applying for an internship at Splice, the music production platform, for summer 2025.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k2_011",
+      "question": "What exercise does the duet partner of Leo Nakamura do every morning along the Shelby Bottoms Greenway?",
+      "answer": "runs 3 miles",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What exercise does Harper Reeves do every morning?",
+          "sub_answer": "runs 3 miles along the Shelby Bottoms Greenway",
+          "evidence_id": "harper_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_020",
+          "text": "Harper Reeves runs 3 miles every morning along the Shelby Bottoms Greenway before classes.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s05_k2_012",
+      "question": "What injury did the fiddler in Copper Ridge sustain at Fall Creek Falls?",
+      "answer": "sprained left wrist",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays fiddle in Copper Ridge?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What injury did Harper Reeves sustain at Fall Creek Falls?",
+          "sub_answer": "sprained her left wrist",
+          "evidence_id": "harper_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_015",
+          "text": "Harper Reeves sprained her left wrist during a hiking trip to Fall Creek Falls in October 2023 and couldn't play for three weeks.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k2_013",
+      "question": "What country album artist did the person who performs with Harper Reeves at the Bluebird Cafe record tracks for?",
+      "answer": "Marla Bridges",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performs with Harper Reeves at the Bluebird Cafe?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which country artist did Leo Nakamura record tracks for?",
+          "sub_answer": "Marla Bridges at Blackbird Studio",
+          "evidence_id": "leo_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_010",
+          "text": "Leo Nakamura recorded guitar tracks for a country album by singer Marla Bridges at Blackbird Studio in November 2023.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k2_014",
+      "question": "What surfing competition did the lead guitarist of Copper Ridge compete in?",
+      "answer": "Waikiki Classic",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What surfing competition did Leo Nakamura compete in?",
+          "sub_answer": "the Waikiki Classic amateur competition in 2022",
+          "evidence_id": "leo_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_014",
+          "text": "Leo Nakamura surfs whenever he visits his family in Honolulu and competed in the Waikiki Classic amateur competition in 2022.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k2_015",
+      "question": "What does the father of Harper Reeves's roommate do for a living?",
+      "answer": "manages a car dealership",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What does Sienna Ortiz's father do?",
+          "sub_answer": "manages a car dealership in San Antonio",
+          "evidence_id": "sienna_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_014",
+          "text": "Sienna Ortiz's father, Miguel Ortiz, manages a car dealership in San Antonio.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k2_016",
+      "question": "What accompaniment instruments does the person who studies under Professor Soto alongside Harper Reeves play?",
+      "answer": "acoustic guitar and piano",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who studies under Professor Soto alongside Harper Reeves?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What accompaniment instruments does Sienna Ortiz play?",
+          "sub_answer": "acoustic guitar and piano",
+          "evidence_id": "sienna_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_011",
+          "text": "Sienna Ortiz plays acoustic guitar and piano as accompaniment instruments.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k2_017",
+      "question": "How many student performers were featured at the Latin Music Night organized by Leo Nakamura's duet partner's roommate?",
+      "answer": "12",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the roommate of Leo Nakamura's duet partner (Harper)?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many performers were at Sienna Ortiz's Latin Music Night?",
+          "sub_answer": "12 student performers",
+          "evidence_id": "sienna_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_020",
+          "text": "Sienna Ortiz organized a Latin Music Night at the conservatory in November 2023 that featured 12 student performers.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k2_018",
+      "question": "What residency program is the person who shares a teacher with Sienna Ortiz applying for?",
+      "answer": "Kennedy Center Artist-in-Residence",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a teacher with Harper Reeves? (from Sienna's POV)",
+          "sub_answer": "Sienna Ortiz applies to Kennedy Center",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What residency is Sienna Ortiz applying for?",
+          "sub_answer": "Artist-in-Residence program at the Kennedy Center",
+          "evidence_id": "sienna_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_017",
+          "text": "Sienna Ortiz is applying to the Artist-in-Residence program at the Kennedy Center for fall 2025.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k2_019",
+      "question": "How many SoundCloud plays did the remix by the person who is in a songwriting class with Leo Nakamura get?",
+      "answer": "500,000",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is in a songwriting class with Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many SoundCloud plays did Devin Cross's remix get?",
+          "sub_answer": "500,000 plays",
+          "evidence_id": "devin_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_011",
+          "text": "Devin Cross produced a remix for Atlanta rapper Kilo Watts that got 500,000 plays on SoundCloud in March 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k2_020",
+      "question": "What music trade show did the person who co-wrote 'Neon Dust' with Sienna Ortiz attend in April 2024?",
+      "answer": "NAMM",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-wrote 'Neon Dust' with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What music trade show did Devin Cross attend?",
+          "sub_answer": "NAMM in Anaheim, California",
+          "evidence_id": "devin_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_014",
+          "text": "Devin Cross attended the NAMM music trade show in Anaheim, California in April 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k2_021",
+      "question": "What equipment worth $8,000 did Leo Nakamura's songwriting classmate build a home studio with?",
+      "answer": "Universal Audio Apollo interface and Yamaha HS8 monitors",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What equipment is in Devin Cross's home studio?",
+          "sub_answer": "Universal Audio Apollo and Yamaha HS8 monitors",
+          "evidence_id": "devin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_007",
+          "text": "Devin Cross built a home studio in his apartment using $8,000 worth of equipment including a Universal Audio Apollo interface and Yamaha HS8 monitors.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s05_k2_022",
+      "question": "How many freshman producers does the person who collaborated on an experimental track with Harper Reeves mentor?",
+      "answer": "two",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who collaborated on an experimental track with Harper Reeves?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "devin_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many freshman producers does Devin Cross mentor?",
+          "sub_answer": "two",
+          "evidence_id": "devin_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_015",
+          "text": "Devin Cross and Harper Reeves collaborated on an experimental track blending bluegrass fiddle with electronic beats in June 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_016",
+          "text": "Devin Cross mentors two freshman producers in the conservatory's peer coaching program.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k2_023",
+      "question": "What solo jazz performance venue did the person who performs at the Bluebird Cafe with Harper Reeves play at in May 2024?",
+      "answer": "Nashville Jazz Workshop on 4th Avenue",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performs at the Bluebird Cafe with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Leo Nakamura perform a solo jazz set in May 2024?",
+          "sub_answer": "Nashville Jazz Workshop on 4th Avenue",
+          "evidence_id": "leo_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_013",
+          "text": "Leo Nakamura performed a solo jazz set at the Nashville Jazz Workshop on 4th Avenue in May 2024.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k2_024",
+      "question": "What is the favorite restaurant of the person who shares a room with the winner of the Appalachian Fiddle Championship?",
+      "answer": "Mas Tacos Por Favor",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Appalachian Fiddle Championship?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the favorite restaurant of Harper Reeves's roommate Sienna Ortiz?",
+          "sub_answer": "Mas Tacos Por Favor on Dickerson Pike",
+          "evidence_id": "sienna_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_019",
+          "text": "Sienna Ortiz's favorite restaurant in Nashville is Mas Tacos Por Favor on Dickerson Pike.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k2_025",
+      "question": "Where does Harper Reeves's duet partner live?",
+      "answer": "studio apartment on Music Row",
+      "k": 2,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Leo Nakamura live?",
+          "sub_answer": "a studio apartment on Music Row",
+          "evidence_id": "leo_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_011",
+          "text": "Leo Nakamura lives alone in a studio apartment on Music Row near the conservatory.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k3_001",
+      "question": "What is the favorite producer of the person who is in a songwriting class with Harper Reeves's duet partner?",
+      "answer": "Kaytranada",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in a songwriting class with Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Devin Cross's favorite producer?",
+          "sub_answer": "Kaytranada",
+          "evidence_id": "devin_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_012",
+          "text": "Devin Cross's favorite producer is Kaytranada.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s05_k3_002",
+      "question": "What is the favorite singer of the roommate of the fiddler in Copper Ridge?",
+      "answer": "Selena Quintanilla",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays fiddle in Copper Ridge?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sienna Ortiz's favorite singer?",
+          "sub_answer": "Selena Quintanilla",
+          "evidence_id": "sienna_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_013",
+          "text": "Sienna Ortiz's favorite singer is Selena Quintanilla.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s05_k3_003",
+      "question": "What car does the person who co-wrote 'Neon Dust' with the student of Professor Soto drive?",
+      "answer": "matte black Tesla Model 3",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which student does Professor Soto teach (besides Harper)?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote 'Neon Dust' with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Devin Cross drive?",
+          "sub_answer": "a matte black 2022 Tesla Model 3",
+          "evidence_id": "devin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_010",
+          "text": "Devin Cross drives a matte black 2022 Tesla Model 3.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k3_004",
+      "question": "Where does the songwriting classmate of the person who performs at the Bluebird Cafe with Harper Reeves DJ every Thursday?",
+      "answer": "The Basement East",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performs at the Bluebird Cafe with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Devin Cross DJ every Thursday?",
+          "sub_answer": "The Basement East on Woodland Street",
+          "evidence_id": "devin_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_006",
+          "text": "Devin Cross DJs every Thursday night at The Basement East on Woodland Street under the name DVNX.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k3_005",
+      "question": "What record label internship was offered to the duet partner of the person who won the Appalachian Fiddle Championship?",
+      "answer": "Blue Note Records",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Appalachian Fiddle Championship?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What record label internship was Leo Nakamura offered?",
+          "sub_answer": "Blue Note Records in New York",
+          "evidence_id": "leo_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_020",
+          "text": "Leo Nakamura was offered an internship at Blue Note Records in New York starting January 2025.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k3_006",
+      "question": "What did the grandmother of the roommate of the person who organized a benefit concert at the Station Inn do professionally?",
+      "answer": "semi-professional Tejano singer",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized a benefit concert at the Station Inn?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What did Sienna Ortiz's grandmother do professionally?",
+          "sub_answer": "semi-professional Tejano singer in Corpus Christi",
+          "evidence_id": "sienna_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_019",
+          "text": "Harper Reeves organized a benefit concert at the Station Inn that raised $4,200 for the Nashville flood relief fund in April 2024.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_007",
+          "text": "Sienna Ortiz's grandmother, Rosa Ortiz, was a semi-professional Tejano singer in Corpus Christi in the 1970s.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s05_k3_007",
+      "question": "How many copies did the instrumental album by the person enrolled in the same songwriting workshop as the lead guitarist of Copper Ridge sell?",
+      "answer": "340 copies",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is enrolled in the same songwriting workshop as Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many copies did Devin Cross's instrumental album sell?",
+          "sub_answer": "340 copies",
+          "evidence_id": "devin_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_005",
+          "text": "Devin Cross released a 10-track instrumental album called 'Signal Path' on Bandcamp in July 2023 that sold 340 copies.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k3_008",
+      "question": "What residency is the person who takes lessons from the same professor as Sienna Ortiz applying for?",
+      "answer": "Tanglewood Music Center",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Sienna Ortiz's voice teacher?",
+          "sub_answer": "Professor Miriam Soto",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who else takes lessons from Professor Miriam Soto?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What residency is Harper Reeves applying for?",
+          "sub_answer": "Tanglewood Music Center for summer 2025",
+          "evidence_id": "harper_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_016",
+          "text": "Harper Reeves is applying for a residency at the Tanglewood Music Center for summer 2025.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k3_009",
+      "question": "What exercise routine does the person who plays in a band with the songwriting classmate of Sienna Ortiz's co-writer follow every morning?",
+      "answer": "runs 3 miles along the Shelby Bottoms Greenway",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Devin Cross's songwriting classmate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who plays in a band with Leo Nakamura, and what is their exercise?",
+          "sub_answer": "3 miles along Shelby Bottoms Greenway",
+          "evidence_id": "harper_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "harper_020",
+          "text": "Harper Reeves runs 3 miles every morning along the Shelby Bottoms Greenway before classes.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k3_010",
+      "question": "What languages does the person who is in a songwriting class with the collaborator on Harper Reeves's experimental track speak?",
+      "answer": "English and Japanese",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who collaborated with Harper Reeves on an experimental track?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "devin_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in a songwriting class with Devin Cross?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does Leo Nakamura speak?",
+          "sub_answer": "English and Japanese",
+          "evidence_id": "leo_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_015",
+          "text": "Devin Cross and Harper Reeves collaborated on an experimental track blending bluegrass fiddle with electronic beats in June 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_009",
+          "text": "Leo Nakamura speaks English and Japanese fluently.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k3_011",
+      "question": "Where does the father of the duet partner of the fiddler in Copper Ridge work?",
+      "answer": "University of Hawaii",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays fiddle in Copper Ridge?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Leo Nakamura's father work?",
+          "sub_answer": "University of Hawaii",
+          "evidence_id": "leo_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_008",
+          "text": "Leo Nakamura's father, Ken Nakamura, is a marine biologist at the University of Hawaii.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k3_012",
+      "question": "Where did the person who teaches jazz to the co-writer of the vocalist who sang at a Nashville Predators game record tracks for a country artist?",
+      "answer": "Blackbird Studio",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who sang at a Nashville Predators game?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who teaches Devin Cross jazz, and where did they record?",
+          "sub_answer": "Leo Nakamura recorded at Blackbird Studio",
+          "evidence_id": "leo_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_008",
+          "text": "Sienna Ortiz performed the national anthem at a Nashville Predators hockey game in February 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "leo_010",
+          "text": "Leo Nakamura recorded guitar tracks for a country album by singer Marla Bridges at Blackbird Studio in November 2023.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k3_013",
+      "question": "What demo EP did the person who rooms with the vocalist who co-wrote 'Neon Dust' record in January 2024?",
+      "answer": "three original bluegrass songs",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which vocalist co-wrote 'Neon Dust'?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What EP did Harper Reeves record in January 2024?",
+          "sub_answer": "Demo EP at Sound Emporium Studios",
+          "evidence_id": "harper_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_012",
+          "text": "Harper Reeves recorded a demo EP with three original bluegrass songs at Sound Emporium Studios in January 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k3_014",
+      "question": "What remix did the songwriting classmate of the guitarist who performs at the Bluebird Cafe with Harper Reeves produce that went viral?",
+      "answer": "remix for Atlanta rapper Kilo Watts",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performs at the Bluebird Cafe with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What remix did Devin Cross produce?",
+          "sub_answer": "Remix for Kilo Watts, 500K SoundCloud plays",
+          "evidence_id": "devin_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_011",
+          "text": "Devin Cross produced a remix for Atlanta rapper Kilo Watts that got 500,000 plays on SoundCloud in March 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k3_015",
+      "question": "What is the favorite restaurant of the person who rooms with the violinist who is in a band with the lead guitarist of Copper Ridge?",
+      "answer": "Mas Tacos Por Favor",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the violinist in a band with Leo? (Harper). Who rooms with Harper?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Sienna Ortiz's favorite restaurant?",
+          "sub_answer": "Mas Tacos Por Favor on Dickerson Pike",
+          "evidence_id": "sienna_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_019",
+          "text": "Sienna Ortiz's favorite restaurant in Nashville is Mas Tacos Por Favor on Dickerson Pike.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s05_k3_016",
+      "question": "What residency is the student of the professor who teaches the roommate of Leo Nakamura's songwriting classmate's co-writer applying for?",
+      "answer": "Kennedy Center Artist-in-Residence",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote a song with Devin Cross?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What residency is Sienna Ortiz applying for?",
+          "sub_answer": "Artist-in-Residence at the Kennedy Center",
+          "evidence_id": "sienna_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_017",
+          "text": "Sienna Ortiz is applying to the Artist-in-Residence program at the Kennedy Center for fall 2025.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k3_017",
+      "question": "Where does the person who learns jazz voicings from the duet partner of Harper Reeves DJ every Thursday?",
+      "answer": "The Basement East on Woodland Street",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who learns jazz voicings from Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Devin Cross DJ every Thursday?",
+          "sub_answer": "The Basement East on Woodland Street",
+          "evidence_id": "devin_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_018",
+          "text": "Leo Nakamura taught Devin Cross basic jazz chord voicings during their weekly Tuesday practice sessions.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_006",
+          "text": "Devin Cross DJs every Thursday night at The Basement East on Woodland Street under the name DVNX.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k3_018",
+      "question": "What benefit concert venue is associated with the person who shares Professor Soto with the co-writer of the songwriting classmate of the Copper Ridge lead guitarist?",
+      "answer": "Station Inn",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares Professor Soto with someone?",
+          "sub_answer": "Harper Reeves shares Professor Soto with Sienna Ortiz",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What benefit concert did Harper Reeves organize?",
+          "sub_answer": "Benefit concert at Station Inn, raised $4,200",
+          "evidence_id": "harper_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_019",
+          "text": "Harper Reeves organized a benefit concert at the Station Inn that raised $4,200 for the Nashville flood relief fund in April 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s05_k3_019",
+      "question": "What car does the person who is in a songwriting workshop with the guitarist who taught Devin Cross jazz chords drive?",
+      "answer": "matte black Tesla Model 3",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who taught Devin Cross jazz chords?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in a songwriting workshop with Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What car does Devin Cross drive?",
+          "sub_answer": "a matte black 2022 Tesla Model 3",
+          "evidence_id": "devin_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_019",
+          "text": "Devin Cross learned basic jazz chord voicings from Leo Nakamura during their weekly Tuesday practice sessions.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_010",
+          "text": "Devin Cross drives a matte black 2022 Tesla Model 3.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k3_020",
+      "question": "What volunteer work does the person who rooms with the student of Professor Soto who sings Tejano-R&B do on Saturdays?",
+      "answer": "teaching violin to kids at the Nashville Rescue",
+      "k": 3,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which student of Professor Soto sings Tejano-R&B?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who rooms with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What volunteer work does Harper Reeves do on Saturdays?",
+          "sub_answer": "Teaching violin at Nashville Rescue Mission",
+          "evidence_id": "harper_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_014",
+          "text": "Harper Reeves volunteers every Saturday teaching violin to kids at the Nashville Rescue Mission.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k4_001",
+      "question": "What sport does the younger brother of the person who co-wrote a song with the roommate of Leo Nakamura's duet partner play?",
+      "answer": "basketball",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What sport does Devin Cross's younger brother play?",
+          "sub_answer": "basketball at Georgia State University",
+          "evidence_id": "devin_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_017",
+          "text": "Devin Cross has a younger brother named Marcus who plays basketball at Georgia State University.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k4_002",
+      "question": "What is the favorite restaurant of the person who teaches jazz voicings to the co-writer of a song with Harper Reeves's roommate?",
+      "answer": "International Market on Nolensville Pike",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who teaches Devin Cross jazz voicings?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Leo Nakamura's favorite restaurant?",
+          "sub_answer": "Nolensville Pike's International Market",
+          "evidence_id": "leo_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_019",
+          "text": "Devin Cross learned basic jazz chord voicings from Leo Nakamura during their weekly Tuesday practice sessions.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_019",
+          "text": "Leo Nakamura's favorite restaurant in Nashville is Nolensville Pike's International Market for its poke bowls.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s05_k4_003",
+      "question": "What primary instrument does the person in a band with the violinist who rooms with the co-writer of 'Neon Dust' play?",
+      "answer": "1965 Gibson ES-335 guitar",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-wrote 'Neon Dust'?",
+          "sub_answer": "Sienna Ortiz (and Devin Cross)",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sienna Ortiz's roommate (a violinist)?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is in a band with Harper Reeves?",
+          "sub_answer": "Leo Nakamura (Copper Ridge)",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Leo Nakamura's primary instrument?",
+          "sub_answer": "a 1965 Gibson ES-335",
+          "evidence_id": "leo_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_006",
+          "text": "Leo Nakamura's primary instrument is a 1965 Gibson ES-335 that his uncle gave him as a high school graduation gift.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k4_004",
+      "question": "What album is the songwriting classmate of the lead guitarist who performs with the winner of the Appalachian Fiddle Championship releasing on Bandcamp?",
+      "answer": "Signal Path",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Appalachian Fiddle Championship?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the lead guitarist that performs with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What album did Devin Cross release on Bandcamp?",
+          "sub_answer": "Signal Path",
+          "evidence_id": "devin_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_005",
+          "text": "Devin Cross released a 10-track instrumental album called 'Signal Path' on Bandcamp in July 2023 that sold 340 copies.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s05_k4_005",
+      "question": "What national anthem performance venue is associated with the person who studies under the same professor as the duet partner of Copper Ridge's lead guitarist?",
+      "answer": "Nashville Predators hockey game",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who studies under the same professor as Harper Reeves?",
+          "sub_answer": "Sienna Ortiz (under Professor Miriam Soto)",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Sienna Ortiz perform the national anthem?",
+          "sub_answer": "Nashville Predators hockey game",
+          "evidence_id": "sienna_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_008",
+          "text": "Sienna Ortiz performed the national anthem at a Nashville Predators hockey game in February 2024.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k4_006",
+      "question": "What GoFundMe amount was raised by the person who takes lessons from the same professor as the fiddler whose band mate takes a songwriting workshop with Devin Cross?",
+      "answer": "$6,800",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who takes a songwriting workshop with Devin Cross?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Nakamura's band mate (fiddler)?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes lessons from the same professor as Harper Reeves?",
+          "sub_answer": "Sienna Ortiz (Professor Soto)",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How much did Sienna Ortiz raise on GoFundMe?",
+          "sub_answer": "$6,800",
+          "evidence_id": "sienna_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_015",
+          "text": "Sienna Ortiz ran a GoFundMe campaign that raised $6,800 to fund studio time for her debut full-length album.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k4_007",
+      "question": "Where did the person who taught jazz voicings to the co-writer of the roommate of the winner of the Appalachian Fiddle Championship record a country album?",
+      "answer": "Blackbird Studio",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Appalachian Fiddle Championship?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who taught Devin Cross jazz voicings, and where did they record?",
+          "sub_answer": "Leo Nakamura recorded at Blackbird Studio",
+          "evidence_id": "leo_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "leo_010",
+          "text": "Leo Nakamura recorded guitar tracks for a country album by singer Marla Bridges at Blackbird Studio in November 2023.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s05_k4_008",
+      "question": "What surfing competition did the guitarist in Copper Ridge who performs at the Bluebird Cafe with the roommate of the co-writer of 'Neon Dust' compete in?",
+      "answer": "Waikiki Classic",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-wrote 'Neon Dust'?",
+          "sub_answer": "Sienna Ortiz (and Devin Cross)",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who performs at the Bluebird Cafe with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What surfing competition did Leo Nakamura compete in?",
+          "sub_answer": "the Waikiki Classic amateur competition",
+          "evidence_id": "leo_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_014",
+          "text": "Leo Nakamura surfs whenever he visits his family in Honolulu and competed in the Waikiki Classic amateur competition in 2022.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s05_k4_009",
+      "question": "What instruments (besides violin) can the person who shares Professor Soto with the vocalist who co-wrote a song with Leo Nakamura's songwriting classmate play?",
+      "answer": "mandolin and banjo",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which vocalist co-wrote a song with Devin Cross?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares Professor Soto with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What instruments besides violin can Harper Reeves play?",
+          "sub_answer": "mandolin and banjo",
+          "evidence_id": "harper_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_011",
+          "text": "Harper Reeves can play violin, mandolin, and banjo.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k4_010",
+      "question": "What music trade show did the person who co-wrote a song with the roommate of the duet partner of Copper Ridge's lead guitarist attend in Anaheim?",
+      "answer": "NAMM",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz, and what trade show?",
+          "sub_answer": "Devin Cross attended NAMM in Anaheim",
+          "evidence_id": "devin_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "devin_014",
+          "text": "Devin Cross attended the NAMM music trade show in Anaheim, California in April 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s05_k4_011",
+      "question": "What home studio interface does the person who is in a songwriting class with the guitarist who plays at the Bluebird Cafe with the roommate of the lead soprano in 'West Side Story' use?",
+      "answer": "Universal Audio Apollo",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who was the lead soprano in West Side Story?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who plays at the Bluebird Cafe with Harper Reeves?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is in a songwriting class with Leo, and what studio interface?",
+          "sub_answer": "Devin Cross uses a Universal Audio Apollo interface",
+          "evidence_id": "devin_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_012",
+          "text": "Sienna Ortiz was chosen as the lead soprano in the conservatory's spring production of 'West Side Story' in April 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "devin_007",
+          "text": "Devin Cross built a home studio in his apartment using $8,000 worth of equipment including a Universal Audio Apollo interface and Yamaha HS8 monitors.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s05_k4_012",
+      "question": "Where did the person whose band mate's songwriting classmate co-wrote 'Neon Dust' with someone perform as part of a student showcase?",
+      "answer": "Grand Ole Opry",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-wrote 'Neon Dust' with someone?",
+          "sub_answer": "Devin Cross co-wrote with Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Devin Cross's songwriting classmate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo Nakamura's band mate?",
+          "sub_answer": "Harper Reeves (Copper Ridge)",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Harper Reeves perform at a student showcase?",
+          "sub_answer": "the Grand Ole Opry in March 2024",
+          "evidence_id": "harper_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_010",
+          "text": "Harper Reeves performed at the Grand Ole Opry as part of a student showcase in March 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k4_013",
+      "question": "What is the favorite guitarist of the person who taught jazz chords to the co-writer of the student who shares Professor Soto with Harper Reeves?",
+      "answer": "Pat Metheny",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares Professor Soto with Harper Reeves?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote a song with Sienna Ortiz?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who taught Devin Cross jazz chords?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_019"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Leo Nakamura's favorite guitarist?",
+          "sub_answer": "Pat Metheny",
+          "evidence_id": "leo_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_019",
+          "text": "Devin Cross learned basic jazz chord voicings from Leo Nakamura during their weekly Tuesday practice sessions.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_012",
+          "text": "Leo Nakamura's favorite guitarist is Pat Metheny.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k4_014",
+      "question": "What is the favorite restaurant of the roommate of the person who is in a band with the guitarist whose songwriting classmate won second place at the Red Bull 3Style?",
+      "answer": "Mas Tacos Por Favor",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won second place at Red Bull 3Style?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "devin_009"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Devin Cross's songwriting classmate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is in a band with Leo Nakamura?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is the favorite restaurant of Harper's roommate?",
+          "sub_answer": "Sienna Ortiz's favorite is Mas Tacos Por Favor",
+          "evidence_id": "sienna_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_009",
+          "text": "Devin Cross won second place at the Red Bull Music 3Style DJ competition in Nashville in January 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "sienna_019",
+          "text": "Sienna Ortiz's favorite restaurant in Nashville is Mas Tacos Por Favor on Dickerson Pike.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s05_k4_015",
+      "question": "What EP did the roommate of the person who takes voice lessons from the same professor as the duet partner of Leo Nakamura record at Sound Emporium Studios?",
+      "answer": "demo EP with three original bluegrass songs",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's duet partner?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who takes voice lessons from the same professor as Harper Reeves?",
+          "sub_answer": "Sienna Ortiz (Professor Soto)",
+          "evidence_id": "harper_007"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What EP did Harper Reeves record?",
+          "sub_answer": "Demo EP at Sound Emporium Studios",
+          "evidence_id": "harper_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_007",
+          "text": "Harper Reeves is taking private lessons from Professor Miriam Soto, who also teaches Sienna Ortiz.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_012",
+          "text": "Harper Reeves recorded a demo EP with three original bluegrass songs at Sound Emporium Studios in January 2024.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s05_k4_016",
+      "question": "What SoundCloud remix did the person who takes songwriting with the guitarist in the band with the volunteer at the Nashville Rescue Mission produce?",
+      "answer": "remix for Kilo Watts with 500,000 plays",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who volunteers at the Nashville Rescue Mission?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the guitarist in Harper's band?",
+          "sub_answer": "Leo Nakamura (Copper Ridge)",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who takes songwriting with Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What SoundCloud remix did Devin Cross produce?",
+          "sub_answer": "Remix for Kilo Watts, 500K plays",
+          "evidence_id": "devin_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_014",
+          "text": "Harper Reeves volunteers every Saturday teaching violin to kids at the Nashville Rescue Mission.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_011",
+          "text": "Devin Cross produced a remix for Atlanta rapper Kilo Watts that got 500,000 plays on SoundCloud in March 2024.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k4_017",
+      "question": "What accompaniment instruments does the person who organized Latin Music Night and co-wrote with the songwriting classmate of the band mate of the person who recorded a demo EP play?",
+      "answer": "acoustic guitar and piano",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who recorded a demo EP?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper's band mate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who co-wrote with Devin Cross and plays accompaniment?",
+          "sub_answer": "Sienna Ortiz plays acoustic guitar and piano",
+          "evidence_id": "sienna_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_012",
+          "text": "Harper Reeves recorded a demo EP with three original bluegrass songs at Sound Emporium Studios in January 2024.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "sienna_011",
+          "text": "Sienna Ortiz plays acoustic guitar and piano as accompaniment instruments.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k4_018",
+      "question": "Where did the person who shares an apartment with the student of Professor Soto who co-wrote 'Neon Dust' with Leo Nakamura's songwriting classmate sprain her wrist?",
+      "answer": "Fall Creek Falls",
+      "k": 4,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-wrote 'Neon Dust' with Devin Cross?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares an apartment with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Harper Reeves sprain her wrist?",
+          "sub_answer": "Fall Creek Falls in October 2023",
+          "evidence_id": "harper_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_015",
+          "text": "Harper Reeves sprained her left wrist during a hiking trip to Fall Creek Falls in October 2023 and couldn't play for three weeks.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k5_001",
+      "question": "Harper Reeves's duet partner is in a songwriting class with someone who co-wrote a prize-winning song with another person — where does that last person practice yoga every morning?",
+      "answer": "Hot Yoga Nashville on 12th Avenue",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper Reeves's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is in a songwriting class with Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who did Devin Cross co-write a prize-winning song with?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where does Sienna Ortiz practice yoga every morning?",
+          "sub_answer": "Hot Yoga Nashville studio on 12th Avenue",
+          "evidence_id": "sienna_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_016",
+          "text": "Sienna Ortiz practices yoga every morning at 6:30 AM at the Hot Yoga Nashville studio on 12th Avenue.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k5_002",
+      "question": "The fiddler in Copper Ridge has a roommate who co-wrote a song with someone — that person's songwriting classmate was offered an internship at which record label?",
+      "answer": "Blue Note Records",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays fiddle in Copper Ridge?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper Reeves's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who did Sienna Ortiz co-write a song with?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Devin Cross's songwriting classmate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What record label internship was Leo Nakamura offered?",
+          "sub_answer": "Blue Note Records",
+          "evidence_id": "leo_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_020",
+          "text": "Leo Nakamura was offered an internship at Blue Note Records in New York starting January 2025.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s05_k5_003",
+      "question": "The person who learned jazz chords from Leo Nakamura co-wrote a song with someone whose roommate won a fiddle championship — what make of violin does that champion own?",
+      "answer": "Karl Hofner violin",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who learned jazz chords from Leo Nakamura?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who did Devin Cross co-write a song with?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What fiddle championship did Harper Reeves win?",
+          "sub_answer": "Appalachian Fiddle Championship",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What make of violin does Harper Reeves own?",
+          "sub_answer": "a 1920s German-made Karl Hofner violin",
+          "evidence_id": "harper_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_018",
+          "text": "Leo Nakamura taught Devin Cross basic jazz chord voicings during their weekly Tuesday practice sessions.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_017",
+          "text": "Harper Reeves owns a 1920s German-made Karl Hofner violin that belonged to her great-grandfather.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k5_004",
+      "question": "The vocalist who performed at a Nashville Predators game shares a teacher with someone whose band mate's songwriting classmate has a mother in what profession?",
+      "answer": "entertainment lawyer",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "music_conservatory",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performed at a Nashville Predators game?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a teacher with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Harper Reeves's band mate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Leo Nakamura's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Devin Cross's mother's profession?",
+          "sub_answer": "entertainment lawyer",
+          "evidence_id": "devin_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_008",
+          "text": "Sienna Ortiz performed the national anthem at a Nashville Predators hockey game in February 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_008",
+          "text": "Devin Cross's mother, Patricia Cross, is an entertainment lawyer in Atlanta.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k5_005",
+      "question": "The lead guitarist of Copper Ridge is in a songwriting class with someone who co-wrote a song with a vocalist — that vocalist shares a teacher with a violinist. Where does that violinist volunteer every Saturday?",
+      "answer": "Nashville Rescue Mission",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who plays lead guitar in Copper Ridge?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Leo's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who did Devin Cross co-write a song with?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a teacher with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves (Professor Soto)",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where does Harper Reeves volunteer every Saturday?",
+          "sub_answer": "Nashville Rescue Mission",
+          "evidence_id": "harper_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_003",
+          "text": "Leo Nakamura plays lead guitar in a folk-rock band called Copper Ridge with Harper Reeves.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_014",
+          "text": "Harper Reeves volunteers every Saturday teaching violin to kids at the Nashville Rescue Mission.",
+          "person_id": "harper"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s05_k5_006",
+      "question": "The person who won the Appalachian Fiddle Championship has a duet partner whose songwriting classmate collaborated on an experimental track with someone — that person's roommate released an EP on Spotify called what?",
+      "answer": "Sangre y Sol",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Appalachian Fiddle Championship?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_005"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper's duet partner?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Leo's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who did Devin collaborate on an experimental track with?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "devin_015"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Harper's roommate, and what EP did they release?",
+          "sub_answer": "Sienna Ortiz released 'Sangre y Sol'",
+          "evidence_id": "sienna_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_005",
+          "text": "Harper Reeves won first place in the Appalachian Fiddle Championship in Galax, Virginia in August 2023.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_003",
+          "text": "Harper Reeves and Leo Nakamura are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_015",
+          "text": "Devin Cross and Harper Reeves collaborated on an experimental track blending bluegrass fiddle with electronic beats in June 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_005",
+          "text": "Sienna Ortiz released a three-song Tejano-R&B EP called 'Sangre y Sol' on Spotify in September 2023, which has over 85,000 streams.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s05_k5_007",
+      "question": "The vocalist who performed at a Predators game shares a professor with someone whose band mate's songwriting classmate DJs under what artist name?",
+      "answer": "DVNX",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who performed at a Nashville Predators game?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "sienna_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a professor with Sienna Ortiz?",
+          "sub_answer": "Harper Reeves (Professor Soto)",
+          "evidence_id": "sienna_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Harper's band mate?",
+          "sub_answer": "Leo Nakamura (Copper Ridge)",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Leo's songwriting classmate?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Devin Cross's DJ name?",
+          "sub_answer": "DVNX",
+          "evidence_id": "devin_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "sienna_008",
+          "text": "Sienna Ortiz performed the national anthem at a Nashville Predators hockey game in February 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_003",
+          "text": "Sienna Ortiz takes private voice lessons from Professor Miriam Soto, who also teaches Harper Reeves.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_004",
+          "text": "Leo Nakamura and Devin Cross are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_004",
+          "text": "Devin Cross produces electronic and hip-hop music under the artist name 'DVNX'.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s05_k5_008",
+      "question": "The person who records at Blackbird Studio performs at the Bluebird Cafe with someone whose roommate co-wrote a song with a producer — where did that producer grow up?",
+      "answer": "Atlanta, Georgia",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who records at Blackbird Studio?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Leo perform at the Bluebird Cafe with?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Harper's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who did Sienna co-write a song with?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Devin Cross grow up?",
+          "sub_answer": "Atlanta, Georgia",
+          "evidence_id": "devin_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_007",
+          "text": "Leo Nakamura works part-time three evenings a week as a session guitarist at Blackbird Studio.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_001",
+          "text": "Devin Cross grew up in Atlanta, Georgia, and started producing beats on FL Studio at age 14.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k5_009",
+      "question": "The person who mentors freshman producers co-wrote a song with someone whose roommate is in a band with a guitarist — that guitarist's favorite restaurant is what?",
+      "answer": "International Market on Nolensville Pike",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who mentors freshman producers?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "devin_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who did Devin co-write a song with?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Sienna's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is in a band with Harper?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Leo's favorite restaurant?",
+          "sub_answer": "Nolensville Pike's International Market",
+          "evidence_id": "leo_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "devin_016",
+          "text": "Devin Cross mentors two freshman producers in the conservatory's peer coaching program.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_019",
+          "text": "Leo Nakamura's favorite restaurant in Nashville is Nolensville Pike's International Market for its poke bowls.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s05_k5_010",
+      "question": "The roommate of the person who organized a benefit concert at the Station Inn co-wrote 'Neon Dust' with someone whose songwriting classmate taught jazz to a producer — what is that classmate's favorite restaurant?",
+      "answer": "International Market on Nolensville Pike",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who organized a benefit concert at the Station Inn?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "harper_019"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Harper's roommate?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who did Sienna co-write 'Neon Dust' with?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Devin's songwriting classmate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "devin_002"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Leo Nakamura's favorite restaurant?",
+          "sub_answer": "Nolensville Pike's International Market",
+          "evidence_id": "leo_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_019",
+          "text": "Harper Reeves organized a benefit concert at the Station Inn that raised $4,200 for the Nashville flood relief fund in April 2024.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_002",
+          "text": "Devin Cross and Leo Nakamura are enrolled in the same Advanced Songwriting Workshop taught by Professor Alan Michaels.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "leo_019",
+          "text": "Leo Nakamura's favorite restaurant in Nashville is Nolensville Pike's International Market for its poke bowls.",
+          "person_id": "leo"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s05_k5_011",
+      "question": "The session guitarist at Blackbird Studio performs with someone whose roommate studies under Professor Soto alongside someone who co-wrote a song with a producer — what vintage synth does that producer own?",
+      "answer": "Roland Juno-106",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the session guitarist at Blackbird Studio?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "leo_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Leo perform with?",
+          "sub_answer": "Harper Reeves (duet partner)",
+          "evidence_id": "leo_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Harper's roommate who studies under Professor Soto?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "harper_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who did Sienna co-write a song with?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "sienna_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What vintage synth does Devin Cross own?",
+          "sub_answer": "Roland Juno-106",
+          "evidence_id": "devin_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "leo_007",
+          "text": "Leo Nakamura works part-time three evenings a week as a session guitarist at Blackbird Studio.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "leo_002",
+          "text": "Leo Nakamura and Harper Reeves are duet partners and perform together every Friday at the Bluebird Cafe.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "harper_004",
+          "text": "Harper Reeves is a roommate of Sienna Ortiz at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "sienna_004",
+          "text": "Sienna Ortiz and Devin Cross co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "devin_013",
+          "text": "Devin Cross taught himself to play synthesizer and owns a vintage Roland Juno-106.",
+          "person_id": "devin"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s05_k5_012",
+      "question": "Harper Reeves's band mate teaches jazz to someone who co-wrote a prize-winning song with a vocalist — that vocalist's favorite singer is who?",
+      "answer": "Selena Quintanilla",
+      "k": 5,
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Harper's band mate?",
+          "sub_answer": "Leo Nakamura",
+          "evidence_id": "harper_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who does Leo teach jazz to?",
+          "sub_answer": "Devin Cross",
+          "evidence_id": "leo_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who did Devin co-write a song with?",
+          "sub_answer": "Sienna Ortiz",
+          "evidence_id": "devin_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Sienna Ortiz's roommate?",
+          "sub_answer": "Harper Reeves",
+          "evidence_id": "sienna_002"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Sienna Ortiz's favorite singer?",
+          "sub_answer": "Selena Quintanilla",
+          "evidence_id": "sienna_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "harper_006",
+          "text": "Harper Reeves plays fiddle in a folk-rock band called Copper Ridge with Leo Nakamura and two other students.",
+          "person_id": "harper"
+        },
+        {
+          "obs_id": "leo_018",
+          "text": "Leo Nakamura taught Devin Cross basic jazz chord voicings during their weekly Tuesday practice sessions.",
+          "person_id": "leo"
+        },
+        {
+          "obs_id": "devin_003",
+          "text": "Devin Cross and Sienna Ortiz co-wrote a song called 'Neon Dust' that won the conservatory's annual songwriting prize in May 2024.",
+          "person_id": "devin"
+        },
+        {
+          "obs_id": "sienna_002",
+          "text": "Sienna Ortiz is a roommate of Harper Reeves at the Belmont Place Apartments on 16th Avenue South.",
+          "person_id": "sienna"
+        },
+        {
+          "obs_id": "sienna_013",
+          "text": "Sienna Ortiz's favorite singer is Selena Quintanilla.",
+          "person_id": "sienna"
+        }
+      ],
+      "answerable": true,
+      "scenario_id": "music_conservatory",
+      "answerable_after_session": 13
+    }
+  ]
+}

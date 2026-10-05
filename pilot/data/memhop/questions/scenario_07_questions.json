@@ -1,0 +1,4342 @@
+{
+  "scenario_id": "art_collective",
+  "questions": [
+    {
+      "id": "memhop_s07_k1_001",
+      "question": "Where did Maren Solberg earn her MFA?",
+      "answer": "Rhode Island School of Design",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Maren Solberg earn her MFA?",
+          "sub_answer": "Rhode Island School of Design",
+          "evidence_id": "maren_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_005",
+          "text": "Maren Solberg earned her MFA in painting from the Rhode Island School of Design in 2018.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k1_002",
+      "question": "What camera does Zara Osei primarily shoot with?",
+      "answer": "Mamiya 7 II",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What camera does Zara Osei primarily use?",
+          "sub_answer": "Mamiya 7 II",
+          "evidence_id": "zara_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_007",
+          "text": "Zara Osei shoots primarily on a Mamiya 7 II medium format film camera.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k1_003",
+      "question": "Who is Jun Takeda's favorite sculptor?",
+      "answer": "Richard Serra",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jun Takeda's favorite sculptor?",
+          "sub_answer": "Richard Serra",
+          "evidence_id": "jun_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_013",
+          "text": "Jun Takeda's favorite sculptor is Richard Serra.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k1_004",
+      "question": "What is the name of Ines Varga's signature glaze?",
+      "answer": "Paprika",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Ines Varga's signature glaze?",
+          "sub_answer": "Paprika",
+          "evidence_id": "ines_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_006",
+          "text": "Ines Varga formulates her own ceramic glazes and developed a signature copper-red reduction glaze she calls 'Paprika'.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 3
+    },
+    {
+      "id": "memhop_s07_k1_005",
+      "question": "How much was the Joan Mitchell Foundation grant that Maren Solberg received?",
+      "answer": "$15,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much was the Joan Mitchell Foundation grant Maren Solberg received?",
+          "sub_answer": "$15,000",
+          "evidence_id": "maren_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_010",
+          "text": "Maren Solberg was awarded a $15,000 grant from the Joan Mitchell Foundation in January 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s07_k1_006",
+      "question": "What museum did Jun Takeda visit on Naoshima Island in December 2023?",
+      "answer": "Chichu Art Museum",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What museum did Jun Takeda visit on Naoshima Island?",
+          "sub_answer": "Chichu Art Museum",
+          "evidence_id": "jun_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_017",
+          "text": "Jun Takeda traveled to Naoshima Island in Japan in December 2023 to visit the Chichu Art Museum and Benesse House.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k1_007",
+      "question": "Where does Zara Osei teach documentary photography?",
+      "answer": "Bronx Documentary Center",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Zara Osei teach documentary photography?",
+          "sub_answer": "Bronx Documentary Center",
+          "evidence_id": "zara_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_014",
+          "text": "Zara Osei teaches a documentary photography course at the Bronx Documentary Center on 151st Street on Thursday evenings.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k1_008",
+      "question": "What is the occupation of Ines Varga's mother Katalin?",
+      "answer": "university professor",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Ines Varga's mother Katalin do?",
+          "sub_answer": "Teaches Hungarian language and literature at Case Western Reserve University",
+          "evidence_id": "ines_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_013",
+          "text": "Ines Varga's mother, Katalin Varga, teaches Hungarian language and literature at Case Western Reserve University in Cleveland.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k1_009",
+      "question": "What is the name of Zara Osei's ongoing photography project?",
+      "answer": "Diaspora Kitchen",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is the name of Zara Osei's ongoing project?",
+          "sub_answer": "Diaspora Kitchen",
+          "evidence_id": "zara_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_010",
+          "text": "Zara Osei's ongoing project 'Diaspora Kitchen' documents the cooking traditions of 40 immigrant families across all five boroughs of New York.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k1_010",
+      "question": "How much did Jun Takeda earn for his Meridian Labs lobby commission?",
+      "answer": "$12,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much did Jun Takeda earn for his Meridian Labs commission?",
+          "sub_answer": "$12,000",
+          "evidence_id": "jun_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_010",
+          "text": "Jun Takeda completed a commissioned sculpture for the lobby of a tech company called Meridian Labs in the Flatiron District for $12,000 in August 2024.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k1_011",
+      "question": "Where did Maren Solberg grow up?",
+      "answer": "Minneapolis, Minnesota",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Maren Solberg grow up?",
+          "sub_answer": "Minneapolis, Minnesota",
+          "evidence_id": "maren_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_001",
+          "text": "Maren Solberg grew up in Minneapolis, Minnesota, and her parents emigrated from Bergen, Norway in 1988.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k1_012",
+      "question": "What studio number does Jun Takeda rent at the Gowanus Arts Building?",
+      "answer": "Studio 4B",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What studio does Jun Takeda rent?",
+          "sub_answer": "Studio 4B",
+          "evidence_id": "jun_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_002",
+          "text": "Jun Takeda rents Studio 4B at the Gowanus Arts Building on 3rd Avenue in Brooklyn, directly next to Maren Solberg.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 1
+    },
+    {
+      "id": "memhop_s07_k1_013",
+      "question": "Where does Zara Osei live?",
+      "answer": "Crown Heights on Nostrand Avenue",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Zara Osei live?",
+          "sub_answer": "Crown Heights on Nostrand Avenue",
+          "evidence_id": "zara_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_011",
+          "text": "Zara Osei lives in a rent-stabilized apartment in Crown Heights on Nostrand Avenue.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k1_014",
+      "question": "What is the occupation of Maren Solberg's father Erik?",
+      "answer": "carpenter",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Maren Solberg's father Erik do?",
+          "sub_answer": "carpenter who builds custom furniture",
+          "evidence_id": "maren_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_009",
+          "text": "Maren Solberg's father, Erik Solberg, is a carpenter who builds custom furniture in Minneapolis.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k1_015",
+      "question": "Where does Ines Varga teach hand-building ceramics?",
+      "answer": "92nd Street Y",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where does Ines Varga teach ceramics?",
+          "sub_answer": "92nd Street Y in Manhattan",
+          "evidence_id": "ines_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_016",
+          "text": "Ines Varga teaches a hand-building ceramics class on Tuesday evenings at the 92nd Street Y in Manhattan.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k1_016",
+      "question": "What is the name of the painting Maren Solberg sold to a private collector?",
+      "answer": "Fjord Memory",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What painting did Maren Solberg sell to a private collector?",
+          "sub_answer": "Fjord Memory",
+          "evidence_id": "maren_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_011",
+          "text": "Maren Solberg sold a large-scale oil painting titled 'Fjord Memory' to a private collector for $8,500 in June 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s07_k1_017",
+      "question": "Where did Jun Takeda grow up?",
+      "answer": "Portland, Oregon",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Jun Takeda grow up?",
+          "sub_answer": "Portland, Oregon",
+          "evidence_id": "jun_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_001",
+          "text": "Jun Takeda grew up in Portland, Oregon, and moved to New York in 2019 after graduating from the Pacific Northwest College of Art.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s07_k1_018",
+      "question": "What is Zara Osei's mother's occupation?",
+      "answer": "registered nurse",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What does Zara Osei's mother Abena do?",
+          "sub_answer": "registered nurse at Montefiore Medical Center",
+          "evidence_id": "zara_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_013",
+          "text": "Zara Osei's mother, Abena Osei, is a registered nurse at Montefiore Medical Center in the Bronx.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k1_019",
+      "question": "Where did Ines Varga grow up?",
+      "answer": "Cleveland, Ohio",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where did Ines Varga grow up?",
+          "sub_answer": "Cleveland, Ohio, in the Tremont neighborhood",
+          "evidence_id": "ines_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_001",
+          "text": "Ines Varga grew up in Cleveland, Ohio, in the Tremont neighborhood, and her parents emigrated from Budapest, Hungary in 1993.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k1_020",
+      "question": "What welding workshop does Jun Takeda teach at the Gowanus Arts Building?",
+      "answer": "introductory welding workshop on the first Saturday of",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What workshop does Jun Takeda teach at the Gowanus Arts Building?",
+          "sub_answer": "introductory welding workshop on the first Saturday of each month",
+          "evidence_id": "jun_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_015",
+          "text": "Jun Takeda teaches an introductory welding workshop at the Gowanus Arts Building on the first Saturday of each month.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s07_k1_021",
+      "question": "Where is Zara Osei's upcoming exhibition at the Aperture Foundation gallery?",
+      "answer": "Chelsea",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Where is the Aperture Foundation gallery that will show Zara Osei's work?",
+          "sub_answer": "Chelsea",
+          "evidence_id": "zara_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_020",
+          "text": "Zara Osei was invited to exhibit 20 prints from 'Diaspora Kitchen' at the Aperture Foundation gallery in Chelsea, opening in November 2024.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k1_022",
+      "question": "What is Ines Varga building on the rooftop of the Gowanus Arts Building?",
+      "answer": "custom outdoor wood-fired kiln",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Ines Varga building on the rooftop?",
+          "sub_answer": "custom outdoor wood-fired kiln",
+          "evidence_id": "ines_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_020",
+          "text": "Ines Varga is building a custom outdoor wood-fired kiln on the rooftop of the Gowanus Arts Building, expected to be completed by December 2024.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k1_023",
+      "question": "What did Maren Solberg study at the Munch Museum in Oslo?",
+      "answer": "Edvard Munch's techniques",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What did Maren Solberg study in Oslo?",
+          "sub_answer": "Edvard Munch's techniques",
+          "evidence_id": "maren_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_015",
+          "text": "Maren Solberg traveled to Oslo for two weeks in July 2023 to study Edvard Munch's techniques at the Munch Museum.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s07_k1_024",
+      "question": "What is Jun Takeda building for a group show at Pioneer Works?",
+      "answer": "kinetic wind sculptures made from salvaged copper pipe",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "What is Jun Takeda building for Pioneer Works?",
+          "sub_answer": "kinetic wind sculptures made from salvaged copper pipe",
+          "evidence_id": "jun_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_020",
+          "text": "Jun Takeda is building a series of kinetic wind sculptures made from salvaged copper pipe for a group show at Pioneer Works in Red Hook.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k1_025",
+      "question": "How much did the W. Eugene Smith Memorial Fund Grant that Zara Osei won amount to?",
+      "answer": "$40,000",
+      "answerable": true,
+      "k": 1,
+      "scenario_id": "art_collective",
+      "question_type": "direct_lookup",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "How much was the W. Eugene Smith Grant Zara Osei won?",
+          "sub_answer": "$40,000",
+          "evidence_id": "zara_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_012",
+          "text": "Zara Osei won the W. Eugene Smith Memorial Fund Grant of $40,000 in October 2023 for her 'Diaspora Kitchen' project.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k2_001",
+      "question": "What primary medium does Maren Solberg's studio neighbor work with?",
+      "answer": "reclaimed industrial metal",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What medium does Jun Takeda work with?",
+          "sub_answer": "reclaimed industrial metal",
+          "evidence_id": "jun_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_005",
+          "text": "Jun Takeda welds sculptures from reclaimed industrial metal, primarily sourced from the Gowanus scrapyards.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 2
+    },
+    {
+      "id": "memhop_s07_k2_002",
+      "question": "Where did the co-curator of the 'Thresholds' exhibition with Maren Solberg grow up?",
+      "answer": "Morrisania, the Bronx",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Zara Osei grow up?",
+          "sub_answer": "Morrisania, the Bronx",
+          "evidence_id": "zara_001"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_001",
+          "text": "Zara Osei grew up in the Morrisania neighborhood of the Bronx, and her parents immigrated from Accra, Ghana in 1990.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k2_003",
+      "question": "What exhibition did Ines Varga's darkroom partner co-curate with Maren Solberg?",
+      "answer": "Thresholds",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What exhibition did Zara Osei co-curate with Maren Solberg?",
+          "sub_answer": "Thresholds",
+          "evidence_id": "zara_003"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s07_k2_004",
+      "question": "What martial art does the person who built Ines Varga's welding table practice?",
+      "answer": "kendo",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who built Ines Varga's custom welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What martial art does Jun Takeda practice?",
+          "sub_answer": "kendo",
+          "evidence_id": "jun_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_011",
+          "text": "Jun Takeda practices kendo at the Brooklyn Kendo Club on Flatbush Avenue every Wednesday and Saturday evening.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k2_005",
+      "question": "What is the occupation of the father of Maren Solberg's studio neighbor?",
+      "answer": "architect",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is the occupation of Jun Takeda's father?",
+          "sub_answer": "architect at ZGF Architects",
+          "evidence_id": "jun_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_006",
+          "text": "Jun Takeda's father, Hiroshi Takeda, is an architect at ZGF Architects in Portland.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k2_006",
+      "question": "Who is the favorite photographer of the artist who shares a darkroom with Ines Varga?",
+      "answer": "Gordon Parks",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's favorite photographer?",
+          "sub_answer": "Gordon Parks",
+          "evidence_id": "zara_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_016",
+          "text": "Zara Osei's favorite photographer is Gordon Parks.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k2_007",
+      "question": "Where does the artist who lends oil painting supplies to Ines Varga teach weekend workshops?",
+      "answer": "Brooklyn Art Center",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who lends oil painting supplies to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Maren Solberg teach weekend workshops?",
+          "sub_answer": "Brooklyn Art Center on Atlantic Avenue",
+          "evidence_id": "maren_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_014",
+          "text": "Maren Solberg teaches a weekend oil painting workshop at the Brooklyn Art Center on Atlantic Avenue.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 12
+    },
+    {
+      "id": "memhop_s07_k2_008",
+      "question": "What fellowship was the 'Fire and Form' co-exhibitor of Ines Varga selected for?",
+      "answer": "Socrates Sculpture Park fellowship",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who exhibited with Ines Varga in 'Fire and Form'?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What fellowship was Jun Takeda selected for?",
+          "sub_answer": "Socrates Sculpture Park emerging artist fellowship",
+          "evidence_id": "jun_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_003",
+          "text": "Ines Varga and Jun Takeda exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_008",
+          "text": "Jun Takeda was selected for the Socrates Sculpture Park emerging artist fellowship and installed a 12-foot welded steel piece there in May 2024.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k2_009",
+      "question": "What languages does the person who co-curated 'Thresholds' with Maren Solberg speak?",
+      "answer": "English, Twi, and French",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Zara Osei speak?",
+          "sub_answer": "English, Twi, and French",
+          "evidence_id": "zara_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_009",
+          "text": "Zara Osei speaks English, Twi, and French fluently.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k2_010",
+      "question": "Where did the artist who exhibited with Jun Takeda at Greenpoint Gallery study wood-fired kiln techniques?",
+      "answer": "Shigaraki, Japan",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who exhibited with Jun Takeda at the Greenpoint Gallery?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Ines Varga study wood-fired kiln techniques?",
+          "sub_answer": "Shigaraki, Japan",
+          "evidence_id": "ines_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_018",
+          "text": "Ines Varga traveled to Shigaraki, Japan in August 2023 to study traditional wood-fired kiln techniques at the Shigaraki Ceramic Cultural Park.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k2_011",
+      "question": "What vehicle does the sculptor who has adjacent studios with the artist from Minneapolis drive?",
+      "answer": "white 2017 Ford Transit cargo van",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who has adjacent studios with Maren Solberg (from Minneapolis)?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What vehicle does Jun Takeda drive?",
+          "sub_answer": "white 2017 Ford Transit cargo van",
+          "evidence_id": "jun_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_016",
+          "text": "Jun Takeda drives a white 2017 Ford Transit cargo van he uses to transport sculptures to exhibitions.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k2_012",
+      "question": "What country did Zara Osei's darkroom partner travel to in August 2023?",
+      "answer": "Japan",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Ines Varga travel in August 2023?",
+          "sub_answer": "Japan (Shigaraki)",
+          "evidence_id": "ines_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_018",
+          "text": "Ines Varga traveled to Shigaraki, Japan in August 2023 to study traditional wood-fired kiln techniques at the Shigaraki Ceramic Cultural Park.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k2_013",
+      "question": "What award did the person who shares materials with Maren Solberg win from the American Craft Council?",
+      "answer": "$3,000 craft innovation award",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who does Maren Solberg share materials with?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "maren_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What award did Ines Varga win from the American Craft Council?",
+          "sub_answer": "$3,000 craft innovation award for her Paprika glaze",
+          "evidence_id": "ines_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_018",
+          "text": "Maren Solberg lends her oil painting supplies to Ines Varga, who uses oil-based glazes on her ceramic pieces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "ines_017",
+          "text": "Ines Varga won a $3,000 craft innovation award from the American Craft Council in November 2023 for her 'Paprika' glaze formula.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s07_k2_014",
+      "question": "What is the favorite restaurant of the exhibition partner who co-curated 'Thresholds' with the artist from Bergen, Norway?",
+      "answer": "Peppa's Jerk Chicken",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg (from Bergen, Norway)?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Zara Osei's favorite restaurant?",
+          "sub_answer": "Peppa's Jerk Chicken",
+          "evidence_id": "zara_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_019",
+          "text": "Zara Osei's favorite restaurant in Brooklyn is Peppa's Jerk Chicken on Flatbush Avenue.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k2_015",
+      "question": "What is the commute time of the photographer who shares a darkroom with the ceramicist from Cleveland?",
+      "answer": "20-minute commute",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a darkroom with Ines Varga (from Cleveland)?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Zara Osei's commute time?",
+          "sub_answer": "20 minutes by G train",
+          "evidence_id": "zara_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_017",
+          "text": "Zara Osei takes the G train from Crown Heights to the Gowanus studio, a 20-minute commute.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k2_016",
+      "question": "Where did the person who also studied under Professor Claudia Venn travel in January 2024?",
+      "answer": "Accra, Ghana",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who else studied under Professor Claudia Venn (besides Maren)?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where did Zara Osei travel in January 2024?",
+          "sub_answer": "Accra, Ghana",
+          "evidence_id": "zara_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_007",
+          "text": "Maren Solberg studied under Professor Claudia Venn at RISD, who also mentored Zara Osei during a summer workshop.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_015",
+          "text": "Zara Osei traveled to Accra, Ghana for three weeks in January 2024 to photograph her extended family for the 'Diaspora Kitchen' series.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s07_k2_017",
+      "question": "How much does the ceramicist who exhibited with Maren Solberg's studio neighbor average in Saturday sales at the Brooklyn Flea?",
+      "answer": "$800",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who exhibited with Jun Takeda (Maren's studio neighbor)?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How much does Ines Varga average in Saturday sales?",
+          "sub_answer": "$800",
+          "evidence_id": "ines_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_012",
+          "text": "Ines Varga sells functional pottery — mugs, bowls, and plates — at the Brooklyn Flea Market in Dumbo on weekends, averaging $800 in sales per Saturday.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k2_018",
+      "question": "What brand of paint does the person who supplies oil-based glazes to the ceramicist from Budapest buy in bulk?",
+      "answer": "Williamsburg",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who supplies oil-based glazes to Ines Varga (from Budapest)?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What brand does Maren Solberg buy in bulk?",
+          "sub_answer": "Williamsburg brand paints",
+          "evidence_id": "maren_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_008",
+          "text": "Maren Solberg's primary medium is oil paint, and she buys her Williamsburg brand paints in bulk from New York Central Art Supply.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s07_k2_019",
+      "question": "Where does the person who studied under Professor Venn alongside Maren Solberg live?",
+      "answer": "Crown Heights on Nostrand Avenue",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who studied under Professor Venn alongside Maren?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Where does Zara Osei live?",
+          "sub_answer": "Crown Heights on Nostrand Avenue",
+          "evidence_id": "zara_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_006",
+          "text": "Zara Osei studied under Professor Claudia Venn during a summer intensive at RISD in 2017, the same mentor who taught Maren Solberg.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_011",
+          "text": "Zara Osei lives in a rent-stabilized apartment in Crown Heights on Nostrand Avenue.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k2_020",
+      "question": "What residency was the exhibition partner of the sculptor from Portland selected for?",
+      "answer": "Archie Bray Foundation",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who exhibited with Jun Takeda (from Portland)?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What residency was Ines Varga selected for?",
+          "sub_answer": "Archie Bray Foundation in Helena, Montana",
+          "evidence_id": "ines_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_010",
+          "text": "Ines Varga was selected for the Ceramic Arts Residency at the Archie Bray Foundation in Helena, Montana for summer 2025.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k2_021",
+      "question": "How many participants attended the community photo walk organized by Maren Solberg's 'Thresholds' co-curator?",
+      "answer": "35",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "How many participants attended Zara Osei's photo walk?",
+          "sub_answer": "35",
+          "evidence_id": "zara_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_018",
+          "text": "Zara Osei organized a community photo walk through Prospect Park in May 2024 that attracted 35 participants.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k2_022",
+      "question": "What languages does the sculptor who shares a wall-mounted tool rack with the RISD graduate speak?",
+      "answer": "English and Japanese",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a wall-mounted tool rack with Maren Solberg (RISD graduate)?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What languages does Jun Takeda speak?",
+          "sub_answer": "English and Japanese",
+          "evidence_id": "jun_007"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_007",
+          "text": "Jun Takeda speaks English and Japanese fluently.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k2_023",
+      "question": "What is the favorite restaurant of the person who gifted a welding table to the ceramicist from Cleveland?",
+      "answer": "Okonomi",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who gifted a welding table to Ines Varga (from Cleveland)?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Jun Takeda's favorite restaurant?",
+          "sub_answer": "Okonomi on Metropolitan Avenue",
+          "evidence_id": "jun_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_019",
+          "text": "Jun Takeda's favorite restaurant in Brooklyn is Okonomi on Metropolitan Avenue for their traditional Japanese breakfast.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k2_024",
+      "question": "What MFA program did the artist who shares materials with the person who received a craft innovation award attend?",
+      "answer": "Alfred University",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who received the craft innovation award from the American Craft Council?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "ines_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What MFA program did Ines Varga attend?",
+          "sub_answer": "Alfred University",
+          "evidence_id": "ines_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_017",
+          "text": "Ines Varga won a $3,000 craft innovation award from the American Craft Council in November 2023 for her 'Paprika' glaze formula.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_005",
+          "text": "Ines Varga earned her BFA in ceramics from the Cleveland Institute of Art in 2019 and an MFA from Alfred University in 2022.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s07_k2_025",
+      "question": "What is the favorite restaurant of the person who supplies oil paints to the Alfred University MFA graduate?",
+      "answer": "Sahadi's",
+      "answerable": true,
+      "k": 2,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who supplies oil paints to Ines Varga (Alfred University MFA)?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "What is Maren Solberg's favorite restaurant?",
+          "sub_answer": "Sahadi's on Atlantic Avenue",
+          "evidence_id": "maren_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_019",
+          "text": "Maren Solberg's favorite restaurant in Brooklyn is Sahadi's on Atlantic Avenue for their hummus plate.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k3_001",
+      "question": "Who is the favorite ceramic artist of the person who exhibited with Maren Solberg's studio neighbor?",
+      "answer": "Peter Voulkos",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ines Varga's favorite ceramic artist?",
+          "sub_answer": "Peter Voulkos",
+          "evidence_id": "ines_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_015",
+          "text": "Ines Varga's favorite ceramic artist is Peter Voulkos.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k3_002",
+      "question": "Where did the darkroom partner of Jun Takeda's exhibition partner publish a photo essay in June 2024?",
+      "answer": "The New Yorker",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Zara Osei publish a photo essay in June 2024?",
+          "sub_answer": "The New Yorker",
+          "evidence_id": "zara_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_008",
+          "text": "Zara Osei published a photo essay on Ghanaian immigrant families in Flatbush in The New Yorker's photo issue in June 2024.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s07_k3_003",
+      "question": "What country did the person who shares a darkroom with Maren Solberg's exhibition partner travel to in August 2023?",
+      "answer": "Japan",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's exhibition partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What country did Ines Varga travel to in August 2023?",
+          "sub_answer": "Japan",
+          "evidence_id": "ines_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_018",
+          "text": "Ines Varga traveled to Shigaraki, Japan in August 2023 to study traditional wood-fired kiln techniques at the Shigaraki Ceramic Cultural Park.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k3_004",
+      "question": "What is the favorite restaurant of the artist who co-curated an exhibition with the person who shares materials with Ines Varga?",
+      "answer": "Peppa's Jerk Chicken",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares materials with Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-curated an exhibition with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Zara Osei's favorite restaurant?",
+          "sub_answer": "Peppa's Jerk Chicken",
+          "evidence_id": "zara_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_018",
+          "text": "Maren Solberg lends her oil painting supplies to Ines Varga, who uses oil-based glazes on her ceramic pieces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_019",
+          "text": "Zara Osei's favorite restaurant in Brooklyn is Peppa's Jerk Chicken on Flatbush Avenue.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k3_005",
+      "question": "Where does the exhibition partner of Maren Solberg's studio neighbor sell pottery on weekends?",
+      "answer": "Brooklyn Flea Market in Dumbo",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Ines Varga sell pottery on weekends?",
+          "sub_answer": "Brooklyn Flea Market in Dumbo",
+          "evidence_id": "ines_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_012",
+          "text": "Ines Varga sells functional pottery — mugs, bowls, and plates — at the Brooklyn Flea Market in Dumbo on weekends, averaging $800 in sales per Saturday.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k3_006",
+      "question": "What grant did the co-curator of the exhibition with the person who supplies oil paints to Ines Varga win in October 2023?",
+      "answer": "W. Eugene Smith Grant",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who supplies oil paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-curated an exhibition with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What grant did Zara Osei win in October 2023?",
+          "sub_answer": "W. Eugene Smith Memorial Fund Grant",
+          "evidence_id": "zara_012"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_012",
+          "text": "Zara Osei won the W. Eugene Smith Memorial Fund Grant of $40,000 in October 2023 for her 'Diaspora Kitchen' project.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k3_007",
+      "question": "What vehicle does the person who gifted a welding table to Zara Osei's darkroom partner drive?",
+      "answer": "white Ford Transit van",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What vehicle does Jun Takeda drive?",
+          "sub_answer": "white 2017 Ford Transit cargo van",
+          "evidence_id": "jun_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_016",
+          "text": "Jun Takeda drives a white 2017 Ford Transit cargo van he uses to transport sculptures to exhibitions.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k3_008",
+      "question": "Where does the studio neighbor of the artist who co-curated 'Thresholds' with Zara Osei live?",
+      "answer": "Knickerbocker Avenue, Bushwick",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Jun Takeda live?",
+          "sub_answer": "Knickerbocker Avenue in Bushwick",
+          "evidence_id": "jun_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_009",
+          "text": "Jun Takeda lives in a loft apartment in Bushwick on Knickerbocker Avenue that doubles as overflow workspace.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k3_009",
+      "question": "What languages does the ceramicist who exhibited with the sculptor who shares a tool rack with Maren Solberg speak?",
+      "answer": "English and Hungarian",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who shares a tool rack with Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which ceramicist exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What languages does Ines Varga speak?",
+          "sub_answer": "English and Hungarian",
+          "evidence_id": "ines_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_009",
+          "text": "Ines Varga speaks English and Hungarian fluently.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k3_010",
+      "question": "What is the favorite restaurant of the sculptor who gifted a welding table to the darkroom partner of the photographer from the Bronx?",
+      "answer": "Okonomi",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the photographer from the Bronx?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is the favorite restaurant of the sculptor (Jun Takeda) who gifted Ines Varga a welding table?",
+          "sub_answer": "Okonomi",
+          "evidence_id": "jun_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_019",
+          "text": "Jun Takeda's favorite restaurant in Brooklyn is Okonomi on Metropolitan Avenue for their traditional Japanese breakfast.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k3_011",
+      "question": "Where does the mother of the photographer who shares a darkroom with the 'Fire and Form' co-exhibitor of Jun Takeda work?",
+      "answer": "Montefiore Medical Center",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-exhibited with Jun Takeda in 'Fire and Form'?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Zara Osei's mother work?",
+          "sub_answer": "Montefiore Medical Center",
+          "evidence_id": "zara_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_013",
+          "text": "Zara Osei's mother, Abena Osei, is a registered nurse at Montefiore Medical Center in the Bronx.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k3_012",
+      "question": "What is the name of the partner of the artist who lends supplies to the ceramicist who exhibited with Zara Osei's darkroom companion's 'Thresholds' co-curator's studio neighbor?",
+      "answer": "Kai",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who exhibited with Jun Takeda at Greenpoint Gallery?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who supplies materials to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is the name of Maren Solberg's partner?",
+          "sub_answer": "Kai",
+          "evidence_id": "maren_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_013",
+          "text": "Maren Solberg lives in a third-floor walkup apartment on Dean Street in Boerum Hill with her partner, Kai.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k3_013",
+      "question": "What award did the sculptor who shares a tool rack with the artist who studied under Professor Venn with Zara Osei win from the Brooklyn Arts Council?",
+      "answer": "$5,000 emerging artist prize",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who studied under Professor Venn with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_007"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a tool rack with Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What award did Jun Takeda win from the Brooklyn Arts Council?",
+          "sub_answer": "$5,000 emerging artist prize",
+          "evidence_id": "jun_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_007",
+          "text": "Maren Solberg studied under Professor Claudia Venn at RISD, who also mentored Zara Osei during a summer workshop.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_018",
+          "text": "Jun Takeda won a $5,000 emerging artist prize from the Brooklyn Arts Council in September 2023.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s07_k3_014",
+      "question": "What is the favorite restaurant of the ceramicist who shares a darkroom with the exhibition partner of the sculptor who lives in Bushwick?",
+      "answer": "Frankel's Delicatessen",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which sculptor lives in Bushwick?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_009"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What is Ines Varga's favorite restaurant?",
+          "sub_answer": "Frankel's Delicatessen",
+          "evidence_id": "ines_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_009",
+          "text": "Jun Takeda lives in a loft apartment in Bushwick on Knickerbocker Avenue that doubles as overflow workspace.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_019",
+          "text": "Ines Varga's favorite restaurant in Brooklyn is Frankel's Delicatessen on Greenpoint Avenue for their pastrami sandwich.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k3_015",
+      "question": "What street does the artist who supplies paints to the ceramicist who fired a piece in Maine live on?",
+      "answer": "Dean Street",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which ceramicist fired a piece in Maine?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "ines_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who supplies paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What street does Maren Solberg live on?",
+          "sub_answer": "Dean Street in Boerum Hill",
+          "evidence_id": "maren_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_008",
+          "text": "Ines Varga fired a 4-foot ceramic column in a wood-fired anagama kiln at the Watershed Center for the Ceramic Arts in Maine in September 2023.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_013",
+          "text": "Maren Solberg lives in a third-floor walkup apartment on Dean Street in Boerum Hill with her partner, Kai.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k3_016",
+      "question": "What BFA program did the sculptor who shares a wall-mounted tool rack with the artist who co-curated 'Thresholds' with the W. Eugene Smith Grant winner attend?",
+      "answer": "Pacific Northwest College of Art",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the W. Eugene Smith Grant?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What BFA program did Jun Takeda (who shares a tool rack with Maren) attend?",
+          "sub_answer": "Pacific Northwest College of Art",
+          "evidence_id": "jun_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_012",
+          "text": "Zara Osei won the W. Eugene Smith Memorial Fund Grant of $40,000 in October 2023 for her 'Diaspora Kitchen' project.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "jun_014",
+          "text": "Jun Takeda earned his BFA in sculpture from the Pacific Northwest College of Art in 2019.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k3_017",
+      "question": "What size mural did the person who teaches workshops at the Brooklyn Art Center and shares materials with the person who exhibited with the Socrates Sculpture Park fellow complete?",
+      "answer": "40-foot mural",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who received the Socrates Sculpture Park fellowship?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "What size mural did Maren Solberg (who shares materials with Ines) complete?",
+          "sub_answer": "40-foot mural of the Brooklyn waterfront",
+          "evidence_id": "maren_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_008",
+          "text": "Jun Takeda was selected for the Socrates Sculpture Park emerging artist fellowship and installed a 12-foot welded steel piece there in May 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_006",
+          "text": "Maren Solberg completed a 40-foot mural of the Brooklyn waterfront on the side of a warehouse on Van Brunt Street in Red Hook in March 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k3_018",
+      "question": "Where did the darkroom partner of the exhibition partner of Maren Solberg's studio neighbor earn her MFA?",
+      "answer": "International Center of Photography",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where did Zara Osei (Ines's darkroom partner) earn her MFA?",
+          "sub_answer": "International Center of Photography",
+          "evidence_id": "zara_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_005",
+          "text": "Zara Osei earned her MFA in photography from the International Center of Photography in 2020.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k3_019",
+      "question": "Where does the person who shares materials with the 'Fire and Form' co-exhibitor of the sculptor who practices kendo live?",
+      "answer": "Gowanus, five minutes from the studio",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which sculptor practices kendo?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-exhibited with Jun Takeda in 'Fire and Form'?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Where does Ines Varga (who receives materials from Maren) live?",
+          "sub_answer": "converted warehouse apartment in Gowanus",
+          "evidence_id": "ines_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_011",
+          "text": "Jun Takeda practices kendo at the Brooklyn Kendo Club on Flatbush Avenue every Wednesday and Saturday evening.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_011",
+          "text": "Ines Varga lives in a converted warehouse apartment in Gowanus, a five-minute walk from the studio building.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 11
+    },
+    {
+      "id": "memhop_s07_k3_020",
+      "question": "How many prints will the photographer who shares a darkroom with the ceramicist who received a welding table from Maren Solberg's studio neighbor exhibit at Aperture Foundation?",
+      "answer": "20",
+      "answerable": true,
+      "k": 3,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Which ceramicist received a welding table from Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_012"
+        },
+        {
+          "hop": 3,
+          "sub_question": "How many prints will Zara Osei (Ines's darkroom partner) exhibit at Aperture Foundation?",
+          "sub_answer": "20",
+          "evidence_id": "zara_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_012",
+          "text": "Jun Takeda built a custom welding table for Ines Varga's kiln room as a birthday gift in March 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "zara_020",
+          "text": "Zara Osei was invited to exhibit 20 prints from 'Diaspora Kitchen' at the Aperture Foundation gallery in Chelsea, opening in November 2024.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k4_001",
+      "question": "What is the favorite restaurant of the darkroom partner of the exhibition partner of Maren Solberg's studio neighbor?",
+      "answer": "Peppa's Jerk Chicken",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Zara Osei's favorite restaurant?",
+          "sub_answer": "Peppa's Jerk Chicken",
+          "evidence_id": "zara_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_019",
+          "text": "Zara Osei's favorite restaurant in Brooklyn is Peppa's Jerk Chicken on Flatbush Avenue.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k4_002",
+      "question": "How many participants attended the community photo walk organized by the darkroom partner of the person who exhibited with Maren Solberg's studio neighbor?",
+      "answer": "35",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How many participants attended Zara Osei's community photo walk?",
+          "sub_answer": "35",
+          "evidence_id": "zara_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_018",
+          "text": "Zara Osei organized a community photo walk through Prospect Park in May 2024 that attracted 35 participants.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k4_003",
+      "question": "What award did the person who gifted a welding table to the darkroom partner of Maren Solberg's 'Thresholds' co-curator win from the Brooklyn Arts Council?",
+      "answer": "$5,000 emerging artist prize",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What award did Jun Takeda win from the Brooklyn Arts Council?",
+          "sub_answer": "$5,000 emerging artist prize",
+          "evidence_id": "jun_018"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_018",
+          "text": "Jun Takeda won a $5,000 emerging artist prize from the Brooklyn Arts Council in September 2023.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 5
+    },
+    {
+      "id": "memhop_s07_k4_004",
+      "question": "What gallery will show the solo exhibition of the artist who supplies paints to the exhibition partner of the sculptor who received a Socrates Sculpture Park fellowship?",
+      "answer": "Minus Space gallery in Dumbo",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who received the Socrates Sculpture Park fellowship?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where is Maren Solberg's upcoming solo show?",
+          "sub_answer": "Minus Space gallery in Dumbo",
+          "evidence_id": "maren_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_008",
+          "text": "Jun Takeda was selected for the Socrates Sculpture Park emerging artist fellowship and installed a 12-foot welded steel piece there in May 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_020",
+          "text": "Maren Solberg is preparing a solo show of 12 new paintings for the Minus Space gallery in Dumbo, opening in October 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k4_005",
+      "question": "What is the favorite museum of the artist who supplies oil paints to the person who exhibited with the sculptor living on Knickerbocker Avenue?",
+      "answer": "Dia Beacon",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which sculptor lives on Knickerbocker Avenue?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_009"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies oil paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Maren Solberg's favorite museum?",
+          "sub_answer": "Dia Beacon",
+          "evidence_id": "maren_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_009",
+          "text": "Jun Takeda lives in a loft apartment in Bushwick on Knickerbocker Avenue that doubles as overflow workspace.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_017",
+          "text": "Maren Solberg's favorite museum in New York is the Dia Beacon for its large-scale installations.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k4_006",
+      "question": "What is the name of the painting sold by the artist who supplies materials to the ceramicist who shares a darkroom with the Aperture Foundation exhibitor?",
+      "answer": "Fjord Memory",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is exhibiting at the Aperture Foundation?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_020"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies materials to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is the name of the painting Maren Solberg sold?",
+          "sub_answer": "Fjord Memory",
+          "evidence_id": "maren_011"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_020",
+          "text": "Zara Osei was invited to exhibit 20 prints from 'Diaspora Kitchen' at the Aperture Foundation gallery in Chelsea, opening in November 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_011",
+          "text": "Maren Solberg sold a large-scale oil painting titled 'Fjord Memory' to a private collector for $8,500 in June 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k4_007",
+      "question": "Where did the person who shares a darkroom with the exhibition partner of the sculptor adjacent to the muralist who completed the Red Hook warehouse mural earn her MFA?",
+      "answer": "International Center of Photography",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed the Red Hook warehouse mural?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the sculptor adjacent to Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Zara Osei (Ines's darkroom partner) earn her MFA?",
+          "sub_answer": "International Center of Photography",
+          "evidence_id": "zara_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_006",
+          "text": "Maren Solberg completed a 40-foot mural of the Brooklyn waterfront on the side of a warehouse on Van Brunt Street in Red Hook in March 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "zara_005",
+          "text": "Zara Osei earned her MFA in photography from the International Center of Photography in 2020.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k4_008",
+      "question": "What country did the photographer who co-curated 'Thresholds' with the studio neighbor of the sculptor who gifted a welding table to the ceramicist from Budapest travel to in January 2024?",
+      "answer": "Ghana",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which ceramicist is from Budapest?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "ines_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jun Takeda's studio neighbor?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "jun_002"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Zara Osei (who co-curated 'Thresholds' with Maren) travel in January 2024?",
+          "sub_answer": "Ghana (Accra)",
+          "evidence_id": "zara_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_001",
+          "text": "Ines Varga grew up in Cleveland, Ohio, in the Tremont neighborhood, and her parents emigrated from Budapest, Hungary in 1993.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_002",
+          "text": "Jun Takeda rents Studio 4B at the Gowanus Arts Building on 3rd Avenue in Brooklyn, directly next to Maren Solberg.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "zara_015",
+          "text": "Zara Osei traveled to Accra, Ghana for three weeks in January 2024 to photograph her extended family for the 'Diaspora Kitchen' series.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k4_009",
+      "question": "What craft innovation award did the exhibition partner of the sculptor who shares a tool rack with the co-curator of 'Thresholds' with the W. Eugene Smith Grant winner receive?",
+      "answer": "$3,000 from the American Craft Council",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the W. Eugene Smith Grant?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a tool rack with Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What award did Ines Varga (Jun's exhibition partner) receive?",
+          "sub_answer": "$3,000 craft innovation award from the American Craft Council",
+          "evidence_id": "ines_017"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_012",
+          "text": "Zara Osei won the W. Eugene Smith Memorial Fund Grant of $40,000 in October 2023 for her 'Diaspora Kitchen' project.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "ines_017",
+          "text": "Ines Varga won a $3,000 craft innovation award from the American Craft Council in November 2023 for her 'Paprika' glaze formula.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k4_010",
+      "question": "How much was the commissioned sculpture for the lobby that the person who gifted a welding table to the darkroom partner of the co-curator of 'Thresholds' with Maren Solberg completed?",
+      "answer": "$12,000",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "How much was Jun Takeda's commissioned sculpture for Meridian Labs?",
+          "sub_answer": "$12,000",
+          "evidence_id": "jun_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_010",
+          "text": "Jun Takeda completed a commissioned sculpture for the lobby of a tech company called Meridian Labs in the Flatiron District for $12,000 in August 2024.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k4_011",
+      "question": "Where does the person who supplies paints to the ceramicist who shares a print station with the photographer who won the W. Eugene Smith Grant buy her paints?",
+      "answer": "New York Central Art Supply",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the W. Eugene Smith Grant?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_012"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a print station with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where does Maren Solberg buy her paints?",
+          "sub_answer": "New York Central Art Supply",
+          "evidence_id": "maren_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_012",
+          "text": "Zara Osei won the W. Eugene Smith Memorial Fund Grant of $40,000 in October 2023 for her 'Diaspora Kitchen' project.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_008",
+          "text": "Maren Solberg's primary medium is oil paint, and she buys her Williamsburg brand paints in bulk from New York Central Art Supply.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 18
+    },
+    {
+      "id": "memhop_s07_k4_012",
+      "question": "Where did the ceramicist who fired a piece at Watershed Center and shares a darkroom with the co-curator of 'Thresholds' with the artist who completed the Red Hook mural earn her BFA?",
+      "answer": "Cleveland Institute of Art",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who completed the Red Hook mural?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where did Ines Varga earn her BFA?",
+          "sub_answer": "Cleveland Institute of Art",
+          "evidence_id": "ines_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_006",
+          "text": "Maren Solberg completed a 40-foot mural of the Brooklyn waterfront on the side of a warehouse on Van Brunt Street in Red Hook in March 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_005",
+          "text": "Ines Varga earned her BFA in ceramics from the Cleveland Institute of Art in 2019 and an MFA from Alfred University in 2022.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 6
+    },
+    {
+      "id": "memhop_s07_k4_013",
+      "question": "What kinetic sculptures is the sculptor who gifted a welding table to the darkroom partner of the photographer who traveled to Accra for 'Diaspora Kitchen' building for Pioneer Works?",
+      "answer": "kinetic wind sculptures made from salvaged copper pipe",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who traveled to Accra for 'Diaspora Kitchen'?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What is Jun Takeda building for Pioneer Works?",
+          "sub_answer": "kinetic wind sculptures from salvaged copper pipe",
+          "evidence_id": "jun_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_015",
+          "text": "Zara Osei traveled to Accra, Ghana for three weeks in January 2024 to photograph her extended family for the 'Diaspora Kitchen' series.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_020",
+          "text": "Jun Takeda is building a series of kinetic wind sculptures made from salvaged copper pipe for a group show at Pioneer Works in Red Hook.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k4_014",
+      "question": "What is the favorite ceramic artist of the person who exhibited with the sculptor who teaches welding workshops at the building where the 'Thresholds' co-curator rents Studio 4C?",
+      "answer": "Peter Voulkos",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who rents Studio 4C?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_002"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who teaches welding workshops at the Gowanus Arts Building?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_015"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Ines Varga's favorite ceramic artist?",
+          "sub_answer": "Peter Voulkos",
+          "evidence_id": "ines_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_002",
+          "text": "Zara Osei rents Studio 4C at the Gowanus Arts Building on 3rd Avenue in Brooklyn.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "jun_015",
+          "text": "Jun Takeda teaches an introductory welding workshop at the Gowanus Arts Building on the first Saturday of each month.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_015",
+          "text": "Ines Varga's favorite ceramic artist is Peter Voulkos.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k4_015",
+      "question": "What street does the supplier of oil paints to the exhibition partner of the sculptor who received the Brooklyn Arts Council prize and lives in Bushwick live on?",
+      "answer": "Dean Street",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Brooklyn Arts Council prize and lives in Bushwick?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_018"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies oil paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What street does Maren Solberg live on?",
+          "sub_answer": "Dean Street in Boerum Hill",
+          "evidence_id": "maren_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_018",
+          "text": "Jun Takeda won a $5,000 emerging artist prize from the Brooklyn Arts Council in September 2023.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_013",
+          "text": "Maren Solberg lives in a third-floor walkup apartment on Dean Street in Boerum Hill with her partner, Kai.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k4_016",
+      "question": "What 12-foot piece did the sculptor who gifted a welding table to the ceramicist who shares a darkroom with the photographer mentored by Professor Venn install at Socrates Sculpture Park?",
+      "answer": "12-foot welded steel piece",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which photographer was mentored by Professor Venn?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_006"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What did Jun Takeda install at Socrates Sculpture Park?",
+          "sub_answer": "12-foot welded steel piece",
+          "evidence_id": "jun_008"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_006",
+          "text": "Zara Osei studied under Professor Claudia Venn during a summer intensive at RISD in 2017, the same mentor who taught Maren Solberg.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "jun_008",
+          "text": "Jun Takeda was selected for the Socrates Sculpture Park emerging artist fellowship and installed a 12-foot welded steel piece there in May 2024.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 9
+    },
+    {
+      "id": "memhop_s07_k4_017",
+      "question": "Where does the photographer who shares a darkroom with the ceramicist who exhibited with the studio neighbor of the Joan Mitchell Foundation grant winner teach?",
+      "answer": "Bronx Documentary Center",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the Joan Mitchell Foundation grant?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who exhibited with Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Where does Zara Osei (Ines's darkroom partner) teach?",
+          "sub_answer": "Bronx Documentary Center",
+          "evidence_id": "zara_014"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_010",
+          "text": "Maren Solberg was awarded a $15,000 grant from the Joan Mitchell Foundation in January 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "zara_014",
+          "text": "Zara Osei teaches a documentary photography course at the Bronx Documentary Center on 151st Street on Thursday evenings.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 16
+    },
+    {
+      "id": "memhop_s07_k4_018",
+      "question": "What studio does the ceramicist whose darkroom partner photographed in Accra and who receives materials from the artist who rides a Bianchi bike rent?",
+      "answer": "Studio 4D",
+      "answerable": true,
+      "k": 4,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who rides a Bianchi bike?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_016"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who receives materials from Maren Solberg?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "maren_018"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "What studio does Ines Varga rent?",
+          "sub_answer": "Studio 4D",
+          "evidence_id": "ines_002"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_016",
+          "text": "Maren Solberg rides a turquoise Bianchi road bike to her studio every day.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_018",
+          "text": "Maren Solberg lends her oil painting supplies to Ines Varga, who uses oil-based glazes on her ceramic pieces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_002",
+          "text": "Ines Varga rents Studio 4D at the Gowanus Arts Building on 3rd Avenue in Brooklyn.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k5_001",
+      "question": "Maren Solberg's studio neighbor exhibited at the Greenpoint Gallery with a ceramicist who shares a darkroom with someone — where did that person co-curate the 'Thresholds' exhibition?",
+      "answer": "BRIC Arts Media gallery",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who did Jun Takeda exhibit with at the Greenpoint Gallery?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who did Zara Osei co-curate 'Thresholds' with?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where was the 'Thresholds' exhibition held?",
+          "sub_answer": "BRIC Arts Media gallery in Fort Greene",
+          "evidence_id": "maren_004"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s07_k5_002",
+      "question": "What bike does the exhibition partner of the photographer who shares a darkroom with the 'Fire and Form' co-exhibitor of the sculptor who practices kendo ride?",
+      "answer": "turquoise Bianchi road bike",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Which sculptor practices kendo?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_011"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-exhibited with Jun Takeda in 'Fire and Form'?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Zara Osei's exhibition partner?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What bike does Maren Solberg ride?",
+          "sub_answer": "turquoise Bianchi road bike",
+          "evidence_id": "maren_016"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_011",
+          "text": "Jun Takeda practices kendo at the Brooklyn Kendo Club on Flatbush Avenue every Wednesday and Saturday evening.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_016",
+          "text": "Maren Solberg rides a turquoise Bianchi road bike to her studio every day.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 10
+    },
+    {
+      "id": "memhop_s07_k5_003",
+      "question": "What residency was the person who shares a darkroom with the co-curator of 'Thresholds' with the studio neighbor of the Socrates Sculpture Park fellow selected for?",
+      "answer": "Archie Bray Foundation",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who received the Socrates Sculpture Park fellowship?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_008"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's studio neighbor?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "jun_002"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-curated 'Thresholds' with Maren Solberg?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a darkroom with Zara Osei?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What residency was Ines Varga selected for?",
+          "sub_answer": "Archie Bray Foundation in Helena, Montana",
+          "evidence_id": "ines_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_008",
+          "text": "Jun Takeda was selected for the Socrates Sculpture Park emerging artist fellowship and installed a 12-foot welded steel piece there in May 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_002",
+          "text": "Jun Takeda rents Studio 4B at the Gowanus Arts Building on 3rd Avenue in Brooklyn, directly next to Maren Solberg.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_010",
+          "text": "Ines Varga was selected for the Ceramic Arts Residency at the Archie Bray Foundation in Helena, Montana for summer 2025.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 19
+    },
+    {
+      "id": "memhop_s07_k5_004",
+      "question": "What Norwegian city did the artist who supplies materials to the ceramicist who received a welding table from the sculptor whose studio neighbor co-curated 'Thresholds' with Zara Osei travel to in 2023?",
+      "answer": "Oslo",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which ceramicist received a welding table from Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_012"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who supplies materials to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_018"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What Norwegian city did Maren Solberg travel to in 2023?",
+          "sub_answer": "Oslo",
+          "evidence_id": "maren_015"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_012",
+          "text": "Jun Takeda built a custom welding table for Ines Varga's kiln room as a birthday gift in March 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "maren_018",
+          "text": "Maren Solberg lends her oil painting supplies to Ines Varga, who uses oil-based glazes on her ceramic pieces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_015",
+          "text": "Maren Solberg traveled to Oslo for two weeks in July 2023 to study Edvard Munch's techniques at the Munch Museum.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s07_k5_005",
+      "question": "How much did the sculptor who is adjacent to the co-curator of 'Thresholds' with the photographer who shares a darkroom with the ceramicist who won the American Craft Council award earn for his Meridian Labs commission?",
+      "answer": "$12,000",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the American Craft Council award?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "ines_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is adjacent to Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "How much did Jun Takeda earn for his Meridian Labs commission?",
+          "sub_answer": "$12,000",
+          "evidence_id": "jun_010"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_017",
+          "text": "Ines Varga won a $3,000 craft innovation award from the American Craft Council in November 2023 for her 'Paprika' glaze formula.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_010",
+          "text": "Jun Takeda completed a commissioned sculpture for the lobby of a tech company called Meridian Labs in the Flatiron District for $12,000 in August 2024.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 17
+    },
+    {
+      "id": "memhop_s07_k5_006",
+      "question": "What is the favorite restaurant of the supplier of paints to the exhibition partner of the sculptor who gifted a welding table to the darkroom partner of the photographer from the Bronx?",
+      "answer": "Sahadi's",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the photographer from the Bronx?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "zara_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Zara Osei's darkroom partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "zara_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who gifted Ines Varga a welding table?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "ines_014"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga — but who supplies paints to Ines?",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Maren Solberg's favorite restaurant?",
+          "sub_answer": "Sahadi's on Atlantic Avenue",
+          "evidence_id": "maren_019"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "zara_001",
+          "text": "Zara Osei grew up in the Morrisania neighborhood of the Bronx, and her parents immigrated from Accra, Ghana in 1990.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "zara_004",
+          "text": "Zara Osei and Ines Varga share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "ines_014",
+          "text": "Ines Varga received a custom welding table for her kiln room from Jun Takeda as a birthday gift in March 2024.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_019",
+          "text": "Maren Solberg's favorite restaurant in Brooklyn is Sahadi's on Atlantic Avenue for their hummus plate.",
+          "person_id": "maren"
+        }
+      ],
+      "answerable_after_session": 13
+    },
+    {
+      "id": "memhop_s07_k5_007",
+      "question": "Where did the darkroom partner of the exhibition partner of the studio neighbor of the artist who earned a grant from the Joan Mitchell Foundation and co-curated 'Thresholds' earn her MFA?",
+      "answer": "International Center of Photography",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who earned the Joan Mitchell Foundation grant?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_010"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where did Zara Osei earn her MFA?",
+          "sub_answer": "International Center of Photography",
+          "evidence_id": "zara_005"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_010",
+          "text": "Maren Solberg was awarded a $15,000 grant from the Joan Mitchell Foundation in January 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_005",
+          "text": "Zara Osei earned her MFA in photography from the International Center of Photography in 2020.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 8
+    },
+    {
+      "id": "memhop_s07_k5_008",
+      "question": "What is the name of the son of the architect who is the father of the sculptor who shares a tool rack with the co-curator of 'Thresholds' with the photographer whose darkroom partner won the American Craft Council award?",
+      "answer": "Jun Takeda",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who won the American Craft Council award?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "ines_017"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who co-curated 'Thresholds' with Zara Osei?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "zara_003"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a tool rack with Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Who is Jun Takeda's father?",
+          "sub_answer": "Hiroshi Takeda, an architect at ZGF Architects in Portland",
+          "evidence_id": "jun_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "ines_017",
+          "text": "Ines Varga won a $3,000 craft innovation award from the American Craft Council in November 2023 for her 'Paprika' glaze formula.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_003",
+          "text": "Zara Osei and Maren Solberg co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "zara"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_006",
+          "text": "Jun Takeda's father, Hiroshi Takeda, is an architect at ZGF Architects in Portland.",
+          "person_id": "jun"
+        }
+      ],
+      "answerable_after_session": 14
+    },
+    {
+      "id": "memhop_s07_k5_009",
+      "question": "What gallery will host the Aperture Foundation show for the photographer who shares a darkroom with the exhibition partner of the sculptor adjacent to the muralist who studied Munch in Oslo?",
+      "answer": "Aperture Foundation gallery in Chelsea",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who studied Munch in Oslo?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is the sculptor adjacent to Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where is Zara Osei's Aperture Foundation show?",
+          "sub_answer": "Aperture Foundation gallery in Chelsea",
+          "evidence_id": "zara_020"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_015",
+          "text": "Maren Solberg traveled to Oslo for two weeks in July 2023 to study Edvard Munch's techniques at the Munch Museum.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_020",
+          "text": "Zara Osei was invited to exhibit 20 prints from 'Diaspora Kitchen' at the Aperture Foundation gallery in Chelsea, opening in November 2024.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 20
+    },
+    {
+      "id": "memhop_s07_k5_010",
+      "question": "What is the signature glaze of the ceramicist who shares a darkroom with the exhibition partner of the sculptor who received a welding table gift from Maren Solberg's studio neighbor's exhibition partner?",
+      "answer": "Paprika",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is Maren Solberg's studio neighbor?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is Jun Takeda's exhibition partner?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who received a welding table from Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_012"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who shares a darkroom with Ines Varga?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What is Ines Varga's signature glaze?",
+          "sub_answer": "Paprika",
+          "evidence_id": "ines_006"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_012",
+          "text": "Jun Takeda built a custom welding table for Ines Varga's kiln room as a birthday gift in March 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "ines_006",
+          "text": "Ines Varga formulates her own ceramic glazes and developed a signature copper-red reduction glaze she calls 'Paprika'.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 7
+    },
+    {
+      "id": "memhop_s07_k5_011",
+      "question": "What languages does the darkroom partner of the ceramicist who received a birthday gift from the sculptor adjacent to the artist who studied at the Munch Museum and shares materials with the ceramicist speak?",
+      "answer": "English, Twi, and French",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who studied at the Munch Museum?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "maren_015"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who is adjacent to Maren Solberg?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "maren_003"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Which ceramicist received a birthday gift from Jun Takeda?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_012"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Ines Varga's darkroom partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "ines_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "What languages does Zara Osei speak?",
+          "sub_answer": "English, Twi, and French",
+          "evidence_id": "zara_009"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "maren_015",
+          "text": "Maren Solberg traveled to Oslo for two weeks in July 2023 to study Edvard Munch's techniques at the Munch Museum.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "maren_003",
+          "text": "Maren Solberg and Jun Takeda have adjacent studios at the Gowanus Arts Building and share a wall-mounted tool rack between their spaces.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "jun_012",
+          "text": "Jun Takeda built a custom welding table for Ines Varga's kiln room as a birthday gift in March 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_004",
+          "text": "Ines Varga and Zara Osei share a darkroom and print station on the 3rd floor of the Gowanus Arts Building.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "zara_009",
+          "text": "Zara Osei speaks English, Twi, and French fluently.",
+          "person_id": "zara"
+        }
+      ],
+      "answerable_after_session": 15
+    },
+    {
+      "id": "memhop_s07_k5_012",
+      "question": "Where does the mother of the ceramicist who shares a darkroom with the exhibition partner of the artist who supplies paints to the 'Fire and Form' co-exhibitor of the sculptor from Portland teach?",
+      "answer": "Case Western Reserve University",
+      "answerable": true,
+      "k": 5,
+      "scenario_id": "art_collective",
+      "question_type": "bridge",
+      "decomposition": [
+        {
+          "hop": 1,
+          "sub_question": "Who is the sculptor from Portland?",
+          "sub_answer": "Jun Takeda",
+          "evidence_id": "jun_001"
+        },
+        {
+          "hop": 2,
+          "sub_question": "Who co-exhibited with Jun Takeda in 'Fire and Form'?",
+          "sub_answer": "Ines Varga",
+          "evidence_id": "jun_004"
+        },
+        {
+          "hop": 3,
+          "sub_question": "Who supplies paints to Ines Varga?",
+          "sub_answer": "Maren Solberg",
+          "evidence_id": "ines_007"
+        },
+        {
+          "hop": 4,
+          "sub_question": "Who is Maren Solberg's exhibition partner?",
+          "sub_answer": "Zara Osei",
+          "evidence_id": "maren_004"
+        },
+        {
+          "hop": 5,
+          "sub_question": "Where does Ines Varga's mother (who shares a darkroom with Zara) teach?",
+          "sub_answer": "Case Western Reserve University",
+          "evidence_id": "ines_013"
+        }
+      ],
+      "evidence": [
+        {
+          "obs_id": "jun_001",
+          "text": "Jun Takeda grew up in Portland, Oregon, and moved to New York in 2019 after graduating from the Pacific Northwest College of Art.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "jun_004",
+          "text": "Jun Takeda and Ines Varga exhibited together in a two-person show called 'Fire and Form' at the Greenpoint Gallery in February 2024.",
+          "person_id": "jun"
+        },
+        {
+          "obs_id": "ines_007",
+          "text": "Ines Varga uses oil-based glazes that she purchases from Maren Solberg, who buys them in bulk.",
+          "person_id": "ines"
+        },
+        {
+          "obs_id": "maren_004",
+          "text": "Maren Solberg and Zara Osei co-curated an exhibition called 'Thresholds' at the BRIC Arts Media gallery in Fort Greene in April 2024.",
+          "person_id": "maren"
+        },
+        {
+          "obs_id": "ines_013",
+          "text": "Ines Varga's mother, Katalin Varga, teaches Hungarian language and literature at Case Western Reserve University in Cleveland.",
+          "person_id": "ines"
+        }
+      ],
+      "answerable_after_session": 14
+    }
+  ]
+}
