@@ -1,6 +1,6 @@
 # Context as a Cellular Automaton: A Survey of Local-Rule Memory and Context Management for LLM Agents
 
-*Version 1 (October 2026). Code, data mirror and per-question results: https://github.com/GA777777777/context-ca*
+*Version 1 (October 2026). DOI: 10.5281/zenodo.23176958. Code, data mirror and per-question results: https://github.com/GA777777777/context-ca*
 
 ## Abstract
 

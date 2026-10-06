@@ -2,7 +2,7 @@
 
 Code, data and results for
 
-> Gong ZhengQin. *Context as a Cellular Automaton: A Survey of Local-Rule Memory and Context Management for LLM Agents.* arXiv, 2026.
+> Gong ZhengQin. *Context as a Cellular Automaton: A Survey of Local-Rule Memory and Context Management for LLM Agents.* 2026. Zenodo, v1: https://doi.org/10.5281/zenodo.23176958 (all versions: https://doi.org/10.5281/zenodo.23176957). arXiv version pending endorsement.
 
 The paper reads LLM-agent memory systems as local-rule dynamical processes on a graph of memory
 units (a Context-CA) and tests, on MemHop, whether iterated neighbourhood expansion beats one-shot
