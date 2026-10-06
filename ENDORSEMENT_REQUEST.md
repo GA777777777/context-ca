@@ -30,11 +30,25 @@ Thank you for considering it.
 Gong ZhengQin
 zhengqingong@gmail.com
 
-## Candidates cited in the paper (verify qualification on arXiv before writing)
-- Bernal Jiménez Gutiérrez / Yu Su (HippoRAG, HippoRAG 2; OSU) — many cs.CL papers
-- Yiheng Shu (HippoRAG co-author)
-- Prateek Chhikara (Mem0)
-- Zirui Guo / Chao Huang (LightRAG; HKU)
-- Jiang et al. (SYNAPSE, arXiv:2601.02744)
-- Menglin Xia / Xuchao Zhang (Memora; Microsoft Research)
-- Shengtong Zhu (ProGraph) — probably NOT qualified: only one cs arXiv paper
+## Qualified candidates (checked via arXiv API on 2026-10-06: cs.* papers 3 months–5 years old)
+
+Send to 3–5 of these, separately; the "hook" is the sentence to adapt in the email. Emails are on the first page of their papers.
+
+| who | cs papers | why them (hook) |
+|---|---|---|
+| Bernal Jiménez Gutiérrez (OSU) | 10 | HippoRAG / HippoRAG 2 are mapped as linear-diffusion Context-CAs (Sec. 3.2, 4.2) and used as the comparison in the pilot |
+| Yiheng Shu (OSU) | 10 | same, HippoRAG co-author |
+| Prateek Chhikara (Mem0) | 11 | Mem0 is the atomic-fact reference system; Exp 1b re-creates a Mem0-style store |
+| Menglin Xia (Microsoft Research) | 14 | Memora is discussed as the closest existing system to a trained transition rule (Sec. 3.2, 4.4) |
+| Zirui Guo (HKU, LightRAG) | 15 | LightRAG cited as graph-system write path |
+| Wujiang Xu (A-MEM) | 34 | A-MEM mapped as the developmental write-path automaton (Sec. 3.2) |
+| Liyan Tang (UT Austin, MiniCheck) | 10 | MiniCheck proposed as the verifier-class contradiction rule (Sec. 4.5, 5.4) |
+| Adyasha Maharana (LoCoMo) | 8 | LoCoMo benchmark discussed throughout |
+| Ha Trinh (Microsoft Research, GraphRAG) | 6 | GraphRAG community hierarchy mapped in Sec. 3.2 |
+
+Senior authors with very many papers (Yu Su, Chao Huang, Yongfeng Zhang, Greg Durrett, Xuchao Zhang) also qualify but answer cold email less often; first authors / postdocs are the better bet.
+
+Not qualified: Darren Edge (2 cs papers in window), Shengtong Zhu (1).
+
+## Fallback for a timestamp today
+Upload tex/main.pdf to https://zenodo.org (no endorsement; gives a DOI immediately). The arXiv version can follow; cite the Zenodo DOI in the arXiv comments if useful.
